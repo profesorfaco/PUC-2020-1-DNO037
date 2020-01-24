@@ -79,13 +79,19 @@ Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contien
 
 - [YIGnDZVAC](https://editor.p5js.org/profesorfaco/sketches/YIGnDZVAC): una variable conteniendo un objeto XML que resulta de la lectura de un [XML en línea](https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/sudamerica.xml).
 
-#### Para practicar
+#### Referencias
 
-- [Awesome JSON Datasets - A curated list of awesome JSON datasets that don't require authentication](https://github.com/jdorfman/awesome-json-datasets#awesome-json-datasets-)
+- [{ } myjson - A simple JSON store for your web or mobile app](http://myjson.com/)
 
-- [Cámara de Diputados - Estadísticas y documentos](https://www.camara.cl/camara/camara_estadisticas.aspx)
+- [A collection of small corpuses of interesting data for the creation of bots and similar stuff](https://github.com/dariusk/corpora)
 
-- [USGS - GeoJSON Summary](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
+- [crossorigin.me, the free CORS proxy for everyone!](https://corsproxy.github.io/)
+
+- [JSONLint - The JSON Validator](https://jsonlint.com/)
+
+- [Open Notify - Open APIs From Space](http://open-notify.org/)
+
+- [USGS - GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
 
 - - - - - - - 
