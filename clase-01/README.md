@@ -1,8 +1,8 @@
-# Diseño y Nuevos Medios v2020 → Clase 01
- 
-### Miércoles 11 de marzo
+## Diseño y Nuevos Medios v10
 
-#### 1. Github
+### Clase 01 → Miércoles 11 de marzo, 2020
+
+#### Github
 
 Es una plataforma de desarrollo colaborativo que utiliza el sistema de control de versiones [Git](https://git-scm.com/). Con el trabajo en repositorios, se puede llevar registro de cambios en archivos compartidos, para coordinar el trabajo entre varias personas.
 
@@ -14,7 +14,7 @@ Una vez creada la cuenta, es necesario crear un primer repositorio con GitHub:
 
 - Si en tu repositorio de GitHub subes un sitio web, con su correspondiente documento `index.html`, bien puedes hacer que este sitio quede publicado en la Web, en una dirección a la que cualquier persona podría acceder. Esto lo puedes hacer si es que aprovechas el servicio de [Github Pages](https://help.github.com/articles/what-is-github-pages/). 
 
-#### 2. Editor de p5.js
+#### Editor de p5.js
 
 p5.js es una biblioteca de JavaScript. Se deriva de Processing, y se propone como una completa reformulación a su forma pero no a su fondo: El fondo de Processing es educar en programación, para ello, toma la forma de un lenguaje para la programación gráfica que se basa en Java (un lenguaje de programación distinto de JavaScript). 
 
@@ -23,7 +23,7 @@ Para usar Processing no necesitas saber Java, pero lo vas aprendiendo en la medi
 De la misma manera, para comenzar a usar p5.js no necesitas saber JavaScript. Vamos a usar su [editor](https://editor.p5js.org/), sus referencias y un libro para comenzar a acercarnos a ese lenguaje y reconocer su diferencia con otros que también tenemos que usar en el desarrollo web.
 
 
-#### 3. Coding (descripción v/s programación)
+#### Coding (descripción v/s programación)
 
 Cuando trabajamos con código fuente podemos describir o programar. HTML y CSS no son lenguajes de programación. [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript), [Phyton](https://www.python.org/), [Ruby](https://www.ruby-lang.org/es/), [PHP](http://php.net/) sí lo son. Con estos últimos se pueden escribir programas informáticos.
 
