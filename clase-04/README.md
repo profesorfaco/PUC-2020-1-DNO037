@@ -1,6 +1,6 @@
-# Diseño y Nuevos Medios v2020 → Clase 4  
+# Diseño UC / Diseño y Nuevos Medios  
 
-### Miércoles 27 de marzo
+### Clase 4 → Miércoles 27 de marzo, 2020
 
 #### Recapitulando en JS
 
