@@ -1,6 +1,6 @@
 ## Diseño y Nuevos Medios v10 
 
-### Clase 05 → Miércoles 8 de abril, 2020
+### Clase 06 → Miércoles 8 de abril, 2020
 
 #### HTML
 
