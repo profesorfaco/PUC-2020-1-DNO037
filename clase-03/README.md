@@ -1,8 +1,8 @@
-# Diseño y Nuevos Medios v2020 → Clase 3  
+## Diseño y Nuevos Medios v10
 
-### Miércoles 25 de marzo
+### Clase 3 → Miércoles 25 de marzo, 2020
 
-## Tipos de datos
+#### Tipos de datos
 
 Si compartiera con ustedes el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
 
@@ -30,14 +30,13 @@ Podrán notar que en el tipo de dato numérico y booleano no se usaron comillas,
 
 Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en [C++](https://es.wikipedia.org/wiki/C%2B%2B) para **declarar que una variable que almacenará cierto [tipo de dato](https://beginnersbook.com/2017/08/cpp-data-types/)**. 
 
-**En el contexto computacional, una variable debe entenderse como un espacio en la memoria del computador donde se almacenará un dato que puede variar en la ejecución del programa del que sea parte.** 
-
+**En el contexto computacional, una variable debe entenderse como un espacio en la memoria del computador donde se almacenará un dato que puede variar en la ejecución del programa del que sea parte.**
 
 - - - - - - - - - - - - - - - - -
 
-## Datos en JS
+#### Datos en JS
 
-**En programación, los datos puede ser contenidos en las variables. En [JavaScript](https://es.wikipedia.org/wiki/JavaScript) las variables se pueden crear con una única palabra reservada,`var`**:
+**En programación, los datos puede ser contenidos en las variables. En JS las variables se pueden crear con una única palabra reservada,`var`**:
 
 ```
 var a = 18261884;
@@ -72,7 +71,7 @@ Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contien
 
 - [EraL9UErk](https://editor.p5js.org/profesorfaco/sketches/EraL9UErk): una variable conteniendo un ensamblaje.
 
-- **Tomaremos un descanso y luego volveremos al [editor en línea de p5.js](https://editor.p5js.org/), para revisar tres formatos para el intercambio de datos: [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas), [JSON](https://www.json.org/json-es.html) y [XML](https://developer.mozilla.org/es/docs/Introducci%C3%B3n_a_XML)**:
+- **Ahora agreguemos un nivel de posibilidades, revisand tres formatos para el intercambio de datos: [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas), [JSON](https://www.json.org/json-es.html) y [XML](https://developer.mozilla.org/es/docs/Introducci%C3%B3n_a_XML) que pueden ser asignados como contenidos de variables**:
 
 - [JYt_9R75T](https://editor.p5js.org/profesorfaco/sketches/JYt_9R75T): una variable conteniendo un objeto p5.Table que resulta de la lectura de un [CSV en línea](https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/sudamerica.csv).
 
@@ -80,21 +79,11 @@ Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contien
 
 - [YIGnDZVAC](https://editor.p5js.org/profesorfaco/sketches/YIGnDZVAC): una variable conteniendo un objeto XML que resulta de la lectura de un [XML en línea](https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/sudamerica.xml).
 
-### Para practicar
-
-**Más datos y APIs:**
+#### Para practicar
 
 - [Awesome JSON Datasets - A curated list of awesome JSON datasets that don't require authentication](https://github.com/jdorfman/awesome-json-datasets#awesome-json-datasets-)
 
 - [Cámara de Diputados - Estadísticas y documentos](https://www.camara.cl/camara/camara_estadisticas.aspx)
-
-- [Catálogo de Datos - Gobierno Digital de Chile](https://beta.datos.gob.cl/search/)
-
-- [Corpora - A collection of small corpuses of interesting data for the creation of bots and similar stuff](https://github.com/dariusk/corpora/tree/master/data)
-
-- [Datasets - Data.gov](https://catalog.data.gov/dataset?res_format=JSON)
-
-- [Datos del curso - obtenidos de sus respuestas al formulario](https://api.myjson.com/bins/90osg)
 
 - [USGS - GeoJSON Summary](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
