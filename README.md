@@ -30,7 +30,7 @@ La nota final del optativo resulta del promedio entre 6 calificaciones:
 
 Se proyecta la siguiente organización de las clases durante el semestre:
 
-[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + [p5.js Web Editor](https://editor.p5js.org/)
+[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding
 
 [Clase 02 → Miércoles 18 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02) → JS
 
