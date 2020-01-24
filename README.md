@@ -30,23 +30,23 @@ La nota final del optativo resulta del promedio entre 6 calificaciones:
 
 Se proyecta la siguiente organización de las clases durante el semestre:
 
-[Clase 1 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + [p5.js Web Editor](https://editor.p5js.org/)
+[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + [p5.js Web Editor](https://editor.p5js.org/)
 
-[Clase 2 → Miércoles 18 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02) → JS
+[Clase 02 → Miércoles 18 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02) → JS
 
-[Clase 3 → Miércoles 25 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03) → JS
+[Clase 03 → Miércoles 25 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03) → JS
 
-[Clase 4 → Miércoles 1 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04) → JS
+[Clase 04 → Miércoles 1 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04) → JS
 
-**[Clase 5 → Miércoles 8 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05) → Evaluación**
+**[Clase 05 → Miércoles 8 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05) → Evaluación**
 
-[Clase 6 → Miércoles 15 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) → HTML
+[Clase 06 → Miércoles 15 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) → HTML
 
-[Clase 7 → Miércoles 22 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-07) → HTML + CSS
+[Clase 07 → Miércoles 22 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-07) → HTML + CSS
 
-[Clase 8 → Miércoles 29 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-08) → HTML + CSS
+[Clase 08 → Miércoles 29 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-08) → HTML + CSS
 
-**[Clase 9 → Miércoles 6 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-09) → Evaluación**
+**[Clase 09 → Miércoles 6 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-09) → Evaluación**
 
 [Clase 10 → Miércoles 13 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-10) → CSS
 
@@ -81,6 +81,6 @@ Clase 15 → Miércoles 17 de junio → Trabajo final 1/3
 
 #### Referencias en línea
 
-- Coding Train de Daniel Shiffman
+- [The Coding Train - YouTube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 - https://p5js.org/es/reference/
 - https://developer.mozilla.org/es/docs/Learn
