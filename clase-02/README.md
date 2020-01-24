@@ -1,8 +1,8 @@
-# Diseño y Nuevos Medios v2020 → Clase 02  
+## Diseño y Nuevos Medios v10 
 
-### Miércoles 18 de marzo
+### Clase 02 → Miércoles 18 de marzo, 2020
 
-#### 1. p5.js
+#### p5.js
 
 [Copy/paste](https://p5js.org/es/) p5.js es una biblioteca de JavaScript para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! p5.js es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
 
@@ -20,8 +20,7 @@ function draw(){
 }
 ```
 
-
-#### 2. DOM
+#### DOM
 
 [DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. A través del DOM, los programas escritos en JS pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web. Por ejemplo:
 
@@ -35,7 +34,7 @@ En este ejemplo accedemos a la representación del documento para obtener el ele
 
 Modificar la representación de una página web es como "photoshopear" una imagen. Si capturaste 3 elementos y con Photoshop agregas un cuarto, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. Lo que modificas es lo representado. No se puede alterar lo presentado.
 
-#### 3. Variables
+#### Variables
 
 En programación, una variable está formada por un espacio en el sistema de almacenaje (memoria principal del computador) y un identificador asociado a dicho espacio. Este espacio contendrá una cantidad conocida o desconocida de datos, que pueden ir variando en la medida que el programa se ejecuta (y esta es la razón del nombre). 
 
