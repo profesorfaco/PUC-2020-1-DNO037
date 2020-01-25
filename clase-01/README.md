@@ -14,7 +14,7 @@ Una vez creada la cuenta, es necesario crear un primer repositorio con GitHub:
 
 - Si en tu repositorio de GitHub subes un sitio web, con su correspondiente documento `index.html`, bien puedes hacer que este sitio quede publicado en la Web, en una dirección a la que cualquier persona podría acceder. Esto lo puedes hacer si es que aprovechas el servicio de [Github Pages](https://help.github.com/articles/what-is-github-pages/). 
 
-#### Editor de p5.js
+#### p5.js Web Editor
 
 p5.js es una biblioteca de JavaScript. Se deriva de Processing, y se propone como una completa reformulación a su forma pero no a su fondo: El fondo de Processing es educar en programación, para ello, toma la forma de un lenguaje para la programación gráfica que se basa en Java (un lenguaje de programación distinto de JavaScript). 
 
