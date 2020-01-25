@@ -2,7 +2,7 @@
 
 ### Pontificia Universidad Católica de Chile
 
-Diseño y Nuevos Medios es un Optativo de Profundización (OPR) en Diseño, a cargo de [Felipe Cortez](http://profesor.faco.cl/). Este OPR:
+#### Diseño y Nuevos Medios es un Optativo de Profundización (OPR) en Diseño, a cargo de [Felipe Cortez](http://profesor.faco.cl/). Este OPR:
 
 - forma parte del [Certificado Académico Interdisciplinario en Desarrollo de Productos y Servicios Digitales](http://formaciongeneral.uc.cl/certificados-academicos/interdisciplinarios/725-desarrollo-de-productos-y-servicios-digitales);
 
@@ -12,7 +12,7 @@ Diseño y Nuevos Medios es un Optativo de Profundización (OPR) en Diseño, a ca
 
 - exige la constante ejercitación y publicación de resultados en GitHub.
 
-La nota final del optativo resulta del promedio entre:  
+##### La nota final de esta versión del OPR resultará del promedio entre:  
 
 - 1 nota por puntaje total acumulado clase a clase;
 
@@ -26,9 +26,9 @@ La nota final del optativo resulta del promedio entre:
 
 - 1 nota por resultado de trabajo final.
 
-**Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.** 
+##### Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
 
-Se proyecta la siguiente organización de las clases durante el semestre:
+Se proyecta la siguiente organización de las clases durante el primer semestre del año 2020:
 
 [Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding
 
