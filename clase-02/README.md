@@ -86,15 +86,7 @@ function draw(){
 
 #### Referencias
 
-- [Fundamentos de JavaScript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-
-- [JavaScript for Beginner](http://xahlee.info/js/js_basics_index.html)
-
 - [JavaScript para Gatos](https://jsparagatos.com/)
-
-- [JavaScript Tutorial](https://www.w3schools.com/js/)
-
-- [Programación en JavaScript/Variables](https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_JavaScript/Variables)
 
 - - - - - - - 
 
