@@ -26,7 +26,7 @@ La nota final del optativo resulta del promedio entre 6 calificaciones:
 
 - 1 nota por resultado de trabajo final.
 
-**Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, un sitio web profesional o un prototipo avanzado de aplicación web.** 
+**Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.** 
 
 Se proyecta la siguiente organización de las clases durante el semestre:
 
