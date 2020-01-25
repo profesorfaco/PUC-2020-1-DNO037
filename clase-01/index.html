@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Esto es un comentario en HTML -->
+    <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <style>
+    	/* Esto es un comentario en CSS */
+        html, body { 
+        	margin: 0; 
+        	padding: 0; 
+        	min-height: 400%; 
+        	width: 100%; 
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+    	// Esto es un comentario de una línea en JS
+        var coso;
+        var x;
+        var y;
+
+        function setup() {
+            coso = createCanvas(windowWidth, windowHeight);
+            coso.position(0, 0);
+            coso.style('z-index', '-1');
+            coso.style('position', 'fixed');
+        	noStroke();
+        }
+
+        function draw() {
+            background(220);
+            x = window.innerWidth;
+            y = window.scrollY;
+            ellipse(width/2, height/2, y, y);
+            if (x <= y){
+            	textAlign(CENTER);
+            	text('LLEGAMOS',width/2, height/2)
+            }
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, windowHeight);
+        }
+
+        // Referencia 1 - https://www.youtube.com/watch?v=OIfEHD3KqCg
+        // Referencia 2 - https://developer.mozilla.org/es/docs/Web/API/Window/innerWidth
+        // Referencia 3 - https://developer.mozilla.org/es/docs/Web/API/Window/scrollY
+
+    </script>
+</body>
+
+</html>
