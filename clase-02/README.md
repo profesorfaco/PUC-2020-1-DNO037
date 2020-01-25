@@ -24,17 +24,21 @@ function draw(){
 
 #### DOM
 
-[DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. A través del DOM, los programas escritos en JS pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web. Por ejemplo:
+[DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. A través del DOM, los programas escritos en JS pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web.
+
+Con el DOM puedes cambiar una página así como cuando cambias una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto "photoshopénadolo", en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. Por lo mismo, podría haber inconcruencias al "ver código fuente de la página", como imagen original, y al examinar los elementos en la misma, una vez "photoshopeada".
+
+En uno de los primeros pasos que puedes dar con p5.js, ya está manipulando el DOM: Para agregar un canvas en la página, con las dimensiones que tú decidas para su ancho y alto en pixeles, escribes:
 
 ```
-<script>
-  document.getElementById("unique").style.color="#FF0000";
-</script>
+function setup(){
+  createCanvas(800,600);
+}
+
+function draw(){
+  //colocas acá lo que necesitas dibujar una y otra vez
+}
 ```
-
-En este ejemplo accedemos a la representación del documento para obtener el elemento de identidad `unique`. Este elemento será modificado con un cambio de estilo: Su color visto pasará a ser rojo.  
-
-Modificar la representación de una página web es como "photoshopear" una imagen. Si capturaste 3 elementos y con Photoshop agregas un cuarto, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. Lo que modificas es lo representado. No se puede alterar lo presentado.
 
 #### Variables
 
@@ -48,23 +52,34 @@ Respecto del **nombre de la variable** habría que indicar tres cosas: (1) no co
 
 Para la **asignación** de un valor se utiliza un signo igual **=**, lo que no debes confundir con un doble signo igual **==**, que es un operador utilizado para comprobar la igualdad, pero jamás para asignar un valor.
 
-Además de tener variables a las que se le asigna un valor numeral, entero o decimal (ej: `var a = 1;`), y variables a las que se les asigna una cadena de caracteres o *string* (ej: `var a = "uno";`), podemos tener una variable a la que se le asigna un arreglo o *array* `var a = ["uno", 2, "tres",4, "cinco"];`. Luego, dentro del arreglo, tenemos distintas posiciones partiendo del cero. Podemos obtener el valor en primera posición (uno) cuando escribimos `a[0]`.
-
-También podemos tener una variable a la que se le asigna un "object" como contenido: `var a = {uno:"gato", dos:"perro", tres:"tortuga", cuatro:"iguana"};`. En este caso, podemos pedir los contenidos del objeto *por su nombre*. Podemos obtener el valor "gato" cuando pedimos `a.uno`
-
-Luego podemos comenzar a mezclar:
+Así, por ejemplo, podría escribir:
 
 ```
-var a = [ { name: "Sergey Prokopyev", craft: "ISS" }, { name: "Alexander Gerst", craft: "ISS" }];
+
+var x = 800;
+var y = 600;
+
+function setup(){
+  createCanvas(x,y);
+}
+
+function draw(){
+  //colocas acá lo que necesitas dibujar una y otra vez
+}
 ```
 
-En este caso, si quisiera obtener el nombre "Sergey Prokopyek", tendría que ir por `a[0].name` o `a[0]["name"]`, porque se trata de un arreglo (`[…]`), que contiene objetos (`[{…},{…},{…}]`). Y si volvemos sobre la [manipulación del DOM](#2-dom), podríamos hacer que tal nombre aparezca en la representación de la página, indicando: 
+O bien:
+
+var p = [800,600]
 
 ```
-<script>
-  var a = [ { name: "Sergey Prokopyev", craft: "ISS" }, { name: "Alexander Gerst", craft: "ISS" }];
-  document.getElementById("unique").innerHTML = a[0].name;
-</script>
+function setup(){
+  createCanvas(p[0],p[1]);
+}
+
+function draw(){
+  //colocas acá lo que necesitas dibujar una y otra vez
+}
 ```
 
 - - - - - - -
