@@ -86,3 +86,4 @@ Clase 15 → Miércoles 17 de junio → Trabajo final 1/3
 - [The Coding Train - YouTube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 - https://p5js.org/es/reference/
 - https://developer.mozilla.org/es/docs/Learn
+- Se agregarán más referencias en cada clase.
