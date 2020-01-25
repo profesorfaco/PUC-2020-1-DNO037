@@ -4,4 +4,4 @@
 
 #### Definir trabajo final, recordando que: 
 
-> "Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, un sitio web profesional o un prototipo avanzado de aplicación web."
+> Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
