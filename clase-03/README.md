@@ -87,12 +87,15 @@ Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contien
 
 - [crossorigin.me, the free CORS proxy for everyone!](https://corsproxy.github.io/)
 
+- [Fundamentos de JavaScript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+- [JavaScript for Beginner](http://xahlee.info/js/js_basics_index.html)
+
 - [JSONLint - The JSON Validator](https://jsonlint.com/)
 
 - [Open Notify - Open APIs From Space](http://open-notify.org/)
 
 - [USGS - GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
-
 
 - - - - - - - 
 
