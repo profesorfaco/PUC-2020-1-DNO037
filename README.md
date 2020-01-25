@@ -14,7 +14,7 @@ Diseño y Nuevos Medios es un Optativo de Profundización (OPR) en Diseño, a ca
 
 La nota final del optativo resulta del promedio entre:  
 
-- 1 nota por puntaje acumulado clase a clase;
+- 1 nota por puntaje total acumulado clase a clase;
 
 - 1 nota por evaluación parcial del miércoles 1 de abril, 2020;
 
