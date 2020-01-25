@@ -63,4 +63,4 @@ Entre las recién referidas, la clase más interesante es la de columnas (`class
 
 - - - - - - - 
 
-###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2019/tree/gh-pages/clase-12)
+###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-12)
