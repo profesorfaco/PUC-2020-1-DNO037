@@ -70,9 +70,9 @@ function draw(){
 
 O bien:
 
+```
 var p = [800,600]
 
-```
 function setup(){
   createCanvas(p[0],p[1]);
 }
