@@ -12,7 +12,7 @@ Diseño y Nuevos Medios es un Optativo de Profundización (OPR) en Diseño, a ca
 
 - exige la constante ejercitación y publicación de resultados en GitHub.
 
-La nota final del optativo resulta del promedio entre 6 calificaciones:  
+La nota final del optativo resulta del promedio entre:  
 
 - 1 nota por puntaje acumulado clase a clase;
 
