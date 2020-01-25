@@ -14,17 +14,17 @@
 
 ##### La nota final de esta versión del OPR resultará del promedio entre:  
 
-- 1 nota por puntaje total acumulado clase a clase;
+- una nota por puntaje total acumulado clase a clase;
 
-- 1 nota por evaluación parcial del miércoles 1 de abril, 2020;
+- una nota por evaluación parcial del miércoles 1 de abril, 2020;
 
-- 1 nota por evaluación parcial del miércoles 6 de mayo, 2020;
+- una nota por evaluación parcial del miércoles 6 de mayo, 2020;
 
-- 1 nota por evaluación parcial del miércoles 10 de junio, 2020;
+- una nota por evaluación parcial del miércoles 10 de junio, 2020;
 
-- 1 nota por avance en trabajo final; y
+- una nota por avance en trabajo final; y
 
-- 1 nota por resultado de trabajo final.
+- una nota por resultado de trabajo final.
 
 ##### Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
 
