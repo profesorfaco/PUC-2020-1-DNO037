@@ -46,6 +46,8 @@ El listado está organizado según preferencia; prefiera el primero, si no puede
 
 - [Daniel Shiffman explica en YouTube como configurar una GitHub Page](https://youtu.be/bFVtrlyH-kc)
 
+- [Daniel Shiffman explica en YouTube como usar el Editor Web p5.js](https://youtu.be/MXs1cOlidWs)
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02)
