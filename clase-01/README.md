@@ -76,7 +76,7 @@ El listado está organizado según preferencia; prefiera el primero, si no puede
 |	20	| PILAR SAAVEDRA		| —											|
 |	21	| LISA SAEZ 			| lisandrea5.github.io/Clase-01/			|
 |	22	| DAVID SÁNCHEZ			| https://david1336.github.io/clase-o1/		|
-|	23	| CECILIA SOTO			| https://github.com/cecysoto/clase-01		|
+|	23	| CECILIA SOTO			| https://cecysoto.github.io/clase-01/		|
 |	24	| MARÍA ELISA VALDÉS	| —											|
 |	25	| FRANCISCA VIAL 		| —											|
 |	26	| MARIA JOSE VILLASANTE	| https://mjvillasante.github.io/clase-01/	| 
