@@ -56,8 +56,8 @@ El listado está organizado según preferencia; prefiera el primero, si no puede
 |:-----:|:----------------------|:------------------------------------------|
 |	1	| CAMILA AZÓCAR 		| https://camiazocar.github.io/clase-01 	|
 |	2	| MARÍA PAZ CONCHA		| https://mpconcha.github.io/clase-01/		|
-|	3	| OLGA F. VIO			| https://fmpurcell.github.io/clase-01/		|
-|	4	| TRINIDAD GONZÁLEZ		| https://mrivas29.github.io/clase-01/		|
+|	3	| OLGA F. VIO			| https://caracolga.github.io/holap/  |
+|	4	| TRINIDAD GONZÁLEZ		| https://trinidadgonzlez.github.io/clase-1/	|
 |	5	| MATÍAS HAGEN			| —											|
 |	6	| MARÍA FRANCISCA HEPP	| https://franhepp.github.io/clase-01/		|
 |	7	| MARIA ELIANA INFANTE	| https://maritainfante.github.io/clase-01/	| 	
@@ -74,7 +74,7 @@ El listado está organizado según preferencia; prefiera el primero, si no puede
 |	18	| FRANCISCA PURCELL		| https://fmpurcell.github.io/clase-01/		|
 |	19	| MARTINA RIVAS			| https://mrivas29.github.io/clase-01/		|
 |	20	| PILAR SAAVEDRA		| —											|
-|	21	| LISA SAEZ 			| lisandrea5.github.io/Clase-01/			|
+|	21	| LISA SAEZ 			| https://lisandrea5.github.io/Clase-01/			|
 |	22	| DAVID SÁNCHEZ			| https://david1336.github.io/clase-o1/		|
 |	23	| CECILIA SOTO			| https://cecysoto.github.io/clase-01/		|
 |	24	| MARÍA ELISA VALDÉS	| —											|
