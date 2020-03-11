@@ -50,7 +50,9 @@ El listado está organizado según preferencia; prefiera el primero, si no puede
 
 - - - - - - - 
 
-#### Ejercicios
+#### Ejercicio
+
+El resultado para el ejercicio de la primera clase tiene que ser similar a lo que se encuentra en https://profesorfaco.github.io/dno037-2020/clase-01/
 
 | No.   | Nombre				| GitHub Page    	  						|
 |:-----:|:----------------------|:------------------------------------------|
