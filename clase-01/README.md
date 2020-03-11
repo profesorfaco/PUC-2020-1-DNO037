@@ -50,4 +50,38 @@ El listado está organizado según preferencia; prefiera el primero, si no puede
 
 - - - - - - - 
 
+#### Ejercicios
+
+| No.   | Nombre				| GitHub Page    	  						|
+|:-----:|:----------------------|:------------------------------------------|
+|	1	| CAMILA AZÓCAR 		| https://camiazocar.github.io/clase-01 	|
+|	2	| MARÍA PAZ CONCHA		| https://mpconcha.github.io/clase-01/		|
+|	3	| OLGA F. VIO			| https://fmpurcell.github.io/clase-01/		|
+|	4	| TRINIDAD GONZÁLEZ		| https://mrivas29.github.io/clase-01/		|
+|	5	| MATÍAS HAGEN			| —											|
+|	6	| MARÍA FRANCISCA HEPP	| https://franhepp.github.io/clase-01/		|
+|	7	| MARIA ELIANA INFANTE	| https://maritainfante.github.io/clase-01/	| 	
+|	8	| MAGDALENA LABARCA		| https://maidalw.github.io/clase-01/		|
+|	9	| ELSA MORA				|—											|
+|	10	| VANESSA MÜLLER		| https://vymuller.github.io/clase-01/		|
+|	11	| JANA MÜLLER			| —											|
+|	12	| MURIEL MUÑOZ			| https://murimu.github.io/clase-01/		|
+|	13	| MARÍA TRINIDAD 		| —											|
+|	14	| ROSARIO OLIVARES		| https://rosarioof.github.io/clase-01/		|
+|	15	| AMPARO ORTÚZAR		| https://aortuzar.github.io/clase-01/		|
+|	16	| VALERIA PARRAGUEZ		| https://valeriaparraguezojeda.github.io/clase1/	|
+|	17	| FRANCISCO PEZOA		| https://panshios.github.io/clase-01/		|
+|	18	| FRANCISCA PURCELL		| https://fmpurcell.github.io/clase-01/		|
+|	19	| MARTINA RIVAS			| https://mrivas29.github.io/clase-01/		|
+|	20	| PILAR SAAVEDRA		| —											|
+|	21	| LISA SAEZ 			| lisandrea5.github.io/Clase-01/			|
+|	22	| DAVID SÁNCHEZ			| https://david1336.github.io/clase-o1/		|
+|	23	| CECILIA SOTO			| https://github.com/cecysoto/clase-01		|
+|	24	| MARÍA ELISA VALDÉS	| —											|
+|	25	| FRANCISCA VIAL 		| —											|
+|	26	| MARIA JOSE VILLASANTE	| https://mjvillasante.github.io/clase-01/	| 
+
+
+- - - - - - - 
+
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02)
