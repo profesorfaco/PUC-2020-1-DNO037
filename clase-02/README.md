@@ -57,7 +57,7 @@ Pon atención a las instrucciones de los comentarios que dejé en lo que estás 
 
 Cuando esté todo copiado y pegado, guarda los cambios (usar teclas `cmd` + `S` en Mac; `Ctrl` + `S` en PC). 
 
-Si abres en tu navegador (Chrome o Firefox) este nuevo `index.html`, verás algo muy parecido a lo pudiste ver [al finalizar la clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio).
+Si abres en tu navegador (Chrome o Firefox) este nuevo `index.html`, verás algo muy parecido a lo que pudiste ver [al finalizar la clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio) (deja tu nombre y apellido reales, y, si quieres, agregar un "uwu" al `title`).
 
 - - - - - - - - - - - - - - - - - - - - - - - -
 
