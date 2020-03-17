@@ -127,53 +127,15 @@ Después de guardar los cambios en el `index.html` recién editado, vuelve a rev
 
 Como usamos [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName), obtenemos, en teoría, un arreglo de todos los elementos [h1](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/Elementos_títulos) del documento. Pero de ese arreglo necesitamos solo el primer elemento, por eso usamos [el cero entre paréntesis cuadrado](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array). A ello, como *photoshopeando*, le adjuntamos (append) los caracteres que tenemos entre paréntesis y comillas. 
 
-#### Variables
+Recién nos salimos de la biblioteca de p5.js, pero nos mantuvimos en JavaScript; volviendo a la analogía cocinera: Fue como ponernos creativos y exceder el plato semipreparado, con un ingrediente fresco. Por eso la referencia para [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName) apuntaba a un lugar distinto de [las referencias de p5.js](https://p5js.org/es/reference/).
 
-En programación, una variable está formada por un espacio en el sistema de almacenaje (memoria principal del computador) y un identificador asociado a dicho espacio. Este espacio contendrá una cantidad conocida o desconocida de datos, que pueden ir variando en la medida que el programa se ejecuta (y esta es la razón del nombre). 
+Esta salida nos exige revisar un par de cosas: 
 
-En lenguajes de programación de propósito general, tales como [C++](https://es.wikipedia.org/wiki/C%2B%2B) o [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)), o en derivados como [Processing](https://processing.org/), las variables se crean escribiendo el **tipo de dato, espacio, nombre de la variable, asignación, valor y fin de la instrucción con punto y coma**, como en `int a = 3;`, `float b = 3.14;`, `String c = "Pi";`.
+- la página [JavaScript para Gatos](https://jsparagatos.com/), llegando hasta el subtítulo "Callbacks", sin incluirlo. O sea, llega hasta: "…estás haciendo **estructuras de datos**, como legos!"
 
-**Pero en la creación de variables en JS se omite la declaración del tipo de dato: Para todo evento [se puede utilizar `var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements#Declarations), lo que implica escribir *var*, espacio, nombre de la variable, asignación, valor y fin de la instrucción con punto y coma**, como en `var a = 3;`, `var b = 3.14;`, `var c = "Pi";`.
+- los apéndices A, B y C en el libro "Introducción a p5.js", referido más arriba. Estos apéndices están entre págs. 221 - 227  
 
-Respecto del **nombre de la variable** habría que indicar tres cosas: (1) no corresponde iniciarlas con números, (2) no se puede usar espacios, tildes ni acentos, y (3) corresponde evitar el uso de [palabras reservadas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Palabras_Reservadas) por el lenguaje de programación en uso.
-
-Para la **asignación** de un valor se utiliza un signo igual **=**, lo que no debes confundir con un doble signo igual **==**, que es un operador utilizado para comprobar la igualdad, pero jamás para asignar un valor.
-
-Así, por ejemplo, podría escribir:
-
-```
-
-var x = 800;
-var y = 600;
-
-function setup(){
-  createCanvas(x,y);
-}
-
-function draw(){
-  //colocas acá lo que necesitas dibujar una y otra vez
-}
-```
-
-O bien:
-
-```
-var p = [800,600]
-
-function setup(){
-  createCanvas(p[0],p[1]);
-}
-
-function draw(){
-  //colocas acá lo que necesitas dibujar una y otra vez
-}
-```
-
-- - - - - - -
-
-#### Referencias
-
-- [JavaScript para Gatos](https://jsparagatos.com/)
+Una vez completada tales lecturas, envía un correo para que yo te envíe la base del ejercicio que debes dejar en línea dentro del repositorio correspondiente a la segunda clase. 
 
 - - - - - - - 
 
