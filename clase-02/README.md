@@ -85,7 +85,7 @@ function draw(){
 
 #### DOM
 
-[DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. A través del DOM, los programas escritos en JavaScript pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web.
+[DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web**.
 
 Con el DOM puedes cambiar una página así como cuando cambias una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. Por lo mismo, podría haber inconcruencias al "ver código fuente de la página", como imagen original, y al examinar los elementos en la misma, una vez *photoshopeada*.
 
@@ -106,13 +106,9 @@ Pero inspeccionado los elementos del mismo `index.html`, te encontrarás con un 
 </html>
 ```
 
-Para revisar el código fuente basta con un "click de botón derecho" sobre la ventana del navegador. Para inspeccionar elementos es necesario escabar un poco más:
+Para ver el código fuente en tu navegador, debes hacer un "click de botón derecho" sobre la ventana y seleccionar la opción "Ver el código fuente de la página". Para inspeccionar elementos en Chrome debes seleccionar la opción de "Inspeccionar" y en Firefox debes seleccionar la opción de "Inspeccionar elemento". Cuando ves el código fuente de la página se abre una nueva ventana, que te muestra lo mismo que puedes ver en tu editor de código, pero cuando inspeccionas elementos se divide la misma página del navegador, mostrándose opciones más avanzadas.
 
-- En Chrome de MAC: `cmd` + `alt` + `I` // En PC cambiar tecla `cmd` por `Ctrl` 
-
-- En Firefox de MAC: `cmd` + `alt` + `I` // En PC cambiar tecla `cmd` por `Ctrl`  
-
-Agreguemos algo más a esta diferencia entre código fuente y DOM. 
+**Ahora agreguemos algo más a esta diferencia entre código fuente y DOM.** 
 
 Dentro de la función setup, agreguemos una segunda línea, sin alterar nada del resto: 
 
