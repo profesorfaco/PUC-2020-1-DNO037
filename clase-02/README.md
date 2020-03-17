@@ -2,6 +2,67 @@
 
 ### Clase 02 → Miércoles 18 de marzo, 2020
 
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+#### Primeras instrucciones:
+
+Para la clase de hoy, es necesario tener instalado en su computador uno de los siguientes editores de código: 
+
+- [Atom.io](https://atom.io/)
+
+- [Sublime Text](https://www.sublimetext.com/)
+
+- [Brakets](http://brackets.io/)
+
+El listado está organizado para que prefieras el primero, si no lo puedes conseguir, anda por el segundo; en caso que el primero y segundo fallen, anda por el tercero.
+
+Es muy recomendable usar uno de los siguientes navegadores web: 
+
+- Chrome
+
+- Firefox
+
+También resulta muy necesario que desactives los traductores automáticos; ya te habrás dado cuenta que el *coding* se hace en *english*, por lo que la traducción automática (y forzada) al español puede perjudicarte.
+
+La primera actividad consiste en tomar el trabajo hecho la semana recién pasada, para juntar, en un único documento, aquello que estaba repartido entre `index.html`, `estilo.css` y `sketch.js`.
+
+Puedes crear un nuevo documento en tu editor de código (usar teclas `cmd` + `N` en Mac; `Ctrl` + `N` en PC) y guardarlo como `index.html`. Luego copia y pegar lo que sigue:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <style>
+    
+    	/* copiar y pegar aquí todo el contenido del documento style.css */
+    
+    </style>
+    <title>MI SEGUNDA PÁGINA</title>
+  </head>
+  <body>
+      <h1>Nombre Apellido</h1>
+      <script>
+
+      	// copiar y pegar aquí todo el contenido del documento sketch.js
+      
+      </script>
+  </body>
+</html>
+``` 
+
+Pon atención a las instrucciones de los comentarios que dejé en lo que estás copiando y pegando; estamos aprovechando que en el lenguaje HTML existen unas etiquetas o *tags* que dan la posibilidad de escribir, ahí mismo, en otros lenguajes o dialectos. Entre `<style>…</style>` se puede escribir en lenguaje CSS (que es un lenguaje de descripción) y entre `<script>…</script>` se puede escribir en lenguaje JS (que es un lenguaje de programación)
+
+Cuando esté todo copiado y pegado, guarda los cambios (usar teclas `cmd` + `S` en Mac; `Ctrl` + `S` en PC). 
+
+Si abres en tu navegador (Chrome o Firefox) este nuevo `index.html`, verás algo muy parecido a lo pudiste ver [al finalizar la clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio).
+
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+**En lo que continúa nos vamos a fijar en lo que queda dentro de** `<script>…</script>`, porque en ese espacio vamos a introducirnos a JavaScript. Pero recuerda la analogía: Vamos a aprender a programar mediante bibliotecas de JavaScript que es como aprender a cocinar mediante platos semipreparados.
+
 #### p5.js
 
 Un [copy/paste](https://p5js.org/es/):
@@ -24,47 +85,34 @@ function draw(){
 
 #### DOM
 
-[DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. A través del DOM, los programas escritos en JS pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web.
+[DOM es Document Object Model](https://www.w3schools.com/js/js_htmldom.asp), Modelo en Objetos para la Representación de Documentos. A través del DOM, los programas escritos en JavaScript pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web.
 
-Con el DOM puedes cambiar una página así como cuando cambias una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto "photoshopénadolo", en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. Por lo mismo, podría haber inconcruencias al "ver código fuente de la página", como imagen original, y al examinar los elementos en la misma, una vez "photoshopeada".
+Con el DOM puedes cambiar una página así como cuando cambias una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. Por lo mismo, podría haber inconcruencias al "ver código fuente de la página", como imagen original, y al examinar los elementos en la misma, una vez *photoshopeada*.
 
-En uno de los primeros pasos que puedes dar con p5.js, ya está manipulando el DOM: Para agregar un canvas en la página, con las dimensiones que tú decidas para su ancho y alto en pixeles, escribes:
-
-```
-function setup(){
-  createCanvas(800,600);
-}
-
-function draw(){
-  //colocas acá lo que necesitas dibujar una y otra vez
-}
-```
-
-Viendo el código fuente del `index.html` que se trabajó la clase recién pasada, encontrarán con una sección similar a esta:
+Viendo el código fuente del `index.html` que creaste hace algunos minutos, encontrarás un cierre como el que sigue:
 
 ```
-<body>
-	<h1>Nombre Apellido</h1>
-	<script src="sketch.js"></script>
+</script>
 </body>
+</html>
 ```
 
-Pero inspeccionado los elementos del mismo `index.html` se encontrarán con un injerto al final de la misma sección:
+Pero inspeccionado los elementos del mismo `index.html`, te encontrarás con un "cuarto elemento *photoshopeado*":
 
 ```
-<body>
-	<h1>Nombre Apellido</h1>
-	<script src="sketch.js"></script>
-	<canvas id="defaultCanvas0" class="p5Canvas" width="1250" height="650" style="width: 1250px; height: 650px;"></canvas>
+</script>
+<canvas id="defaultCanvas0" class="p5Canvas" width="1250" height="650" style="width: 1250px; height: 650px;"></canvas>
 </body>
+</html>
 ```
-Para revisar el código fuente basta con un "click de botón derecho" sobre la ventana del navegador. Para inspeccionar elementos es necesario escabar un poco más. Un *shortcut* de varias teclas presionadas al mismo tiempo:
 
-- En Chrome de MAC: cmd + alt + i // En PC cambiar tecla cmd por Ctrl 
+Para revisar el código fuente basta con un "click de botón derecho" sobre la ventana del navegador. Para inspeccionar elementos es necesario escabar un poco más:
 
-- En Firefox de MAC: cmd + alt + i // En PC cambiar tecla cmd por Ctrl  
+- En Chrome de MAC: `cmd` + `alt` + `I` // En PC cambiar tecla `cmd` por `Ctrl` 
 
-Otros navegadores pueden complicarnos (sobre todo Safari), por eso limitaremos las opciones a Firefox y Chrome.
+- En Firefox de MAC: `cmd` + `alt` + `I` // En PC cambiar tecla `cmd` por `Ctrl`  
+
+
 
 #### Variables
 
