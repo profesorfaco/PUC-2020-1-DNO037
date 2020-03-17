@@ -121,9 +121,9 @@ function setup() {
 }
 ```
 
-Después de guardar los cambios en el `index.html` recién editado, vuelve a revisarlo en tu navegadores. Puedes refrescar la página si es que no la habías cerrado (`cmd` + `R` o `Ctrl` + `R`). Fíjate en tu nombre.
+Después de guardar los cambios en el `index.html` recién editado, vuelve a revisarlo en tu navegador. Puedes refrescar la página si es que no lo habías cerrado (`cmd` + `R` o `Ctrl` + `R`). Fíjate en tu nombre.
 
-Como usamos [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName), obtenemos, en teoría, un arreglo de todos los elementos [h1](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/Elementos_títulos) del documento. Luego, de ese arreglo necesitamos solo el primer elemento, por eso usamos [el cero entre paréntesis cuadrado](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array). A ello, como *photoshopeando*, le adjuntamos (append) los caracteres que tenemos entre paréntesis y comillas. 
+Como usamos [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName), obtenemos, en teoría, un arreglo de todos los elementos [h1](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/Elementos_títulos) del documento. Pero de ese arreglo necesitamos solo el primer elemento, por eso usamos [el cero entre paréntesis cuadrado](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array). A ello, como *photoshopeando*, le adjuntamos (append) los caracteres que tenemos entre paréntesis y comillas. 
 
 #### Variables
 
