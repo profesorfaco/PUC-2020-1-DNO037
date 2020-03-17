@@ -112,7 +112,9 @@ Para revisar el código fuente basta con un "click de botón derecho" sobre la v
 
 - En Firefox de MAC: `cmd` + `alt` + `I` // En PC cambiar tecla `cmd` por `Ctrl`  
 
-Agreguemos algo más a esta diferencia entre código fuente y DOM. Dentro de la función setup, agreguemos una segunda línea, sin alterar nada del resto: 
+Agreguemos algo más a esta diferencia entre código fuente y DOM. 
+
+Dentro de la función setup, agreguemos una segunda línea, sin alterar nada del resto: 
 
 ```
 function setup() {
