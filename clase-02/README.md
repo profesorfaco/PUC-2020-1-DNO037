@@ -64,7 +64,7 @@ Para revisar el código fuente basta con un "click de botón derecho" sobre la v
 
 - En Firefox de MAC: cmd + alt + i // En PC cambiar tecla cmd por Ctrl  
 
-Otros navegadores pueden complicarnos (sobre todo Safari), por eso limitaremos las opciones Firefox y Chrome.
+Otros navegadores pueden complicarnos (sobre todo Safari), por eso limitaremos las opciones a Firefox y Chrome.
 
 #### Variables
 
