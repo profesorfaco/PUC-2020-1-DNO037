@@ -40,6 +40,32 @@ function draw(){
 }
 ```
 
+Viendo el código fuente del `index.html` que se trabajó la clase recién pasada, encontrarán con una sección similar a esta:
+
+```
+<body>
+	<h1>Nombre Apellido</h1>
+	<script src="sketch.js"></script>
+</body>
+```
+
+Pero inspeccionado los elementos del mismo `index.html` se encontrarán con un injerto al final de la misma sección:
+
+```
+<body>
+	<h1>Nombre Apellido</h1>
+	<script src="sketch.js"></script>
+	<canvas id="defaultCanvas0" class="p5Canvas" width="1250" height="650" style="width: 1250px; height: 650px;"></canvas>
+</body>
+```
+Para revisar el código fuente basta con un "click de botón derecho" sobre la ventana del navegador. Para inspeccionar elementos es necesario escabar un poco más. Un *shortcut* de varias teclas presionadas al mismo tiempo:
+
+- En Chrome de MAC: cmd + alt + i // En PC cambiar tecla cmd por Ctrl 
+
+- En Firefox de MAC: cmd + alt + i // En PC cambiar tecla cmd por Ctrl  
+
+Otros navegadores pueden complicarnos (sobre todo Safari), por eso limitaremos las opciones Firefox y Chrome.
+
 #### Variables
 
 En programación, una variable está formada por un espacio en el sistema de almacenaje (memoria principal del computador) y un identificador asociado a dicho espacio. Este espacio contendrá una cantidad conocida o desconocida de datos, que pueden ir variando en la medida que el programa se ejecuta (y esta es la razón del nombre). 
