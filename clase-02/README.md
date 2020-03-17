@@ -112,7 +112,18 @@ Para revisar el código fuente basta con un "click de botón derecho" sobre la v
 
 - En Firefox de MAC: `cmd` + `alt` + `I` // En PC cambiar tecla `cmd` por `Ctrl`  
 
+Agreguemos algo más a esta diferencia entre código fuente y DOM. Dentro de la función setup, agreguemos una segunda línea, sin alterar nada del resto: 
 
+```
+function setup() {
+    createCanvas(windowWidth, windowHeight);
+    document.getElementsByTagName("h1")[0].append(" en cuarentena");
+}
+```
+
+Después de guardar los cambios en el `index.html` recién editado, vuelve a revisarlo en tu navegadores. Puedes refrescar la página si es que no la habías cerrado (`cmd` + `R` o `Ctrl` + `R`). Fíjate en tu nombre.
+
+Como usamos [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName), obtenemos, en teoría, un arreglo de todos los elementos [h1](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/Elementos_títulos) del documento. Luego, de ese arreglo necesitamos solo el primer elemento, por eso usamos [el cero entre paréntesis cuadrado](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array). A ello, como *photoshopeando*, le adjuntamos (append) los caracteres que tenemos entre paréntesis y comillas. 
 
 #### Variables
 
