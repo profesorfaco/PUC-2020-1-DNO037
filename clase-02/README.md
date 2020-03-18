@@ -139,14 +139,14 @@ Una vez completada tales lecturas, envía un correo para que yo te envíe la bas
 
 El resultado para el ejercicio de la segunda clase tiene que ser similar a lo que se encuentra en https://profesorfaco.github.io/dno037-2020/clase-02/
 
-| No.   | Nombre					| GitHub Page    	  								|
+| No.   | Nombre				          	| GitHub Page    	  		                						|
 |:-----:|:--------------------------|:--------------------------------------------------|
 |	1	| CAMILA AZÓCAR 			| https://camiazocar.github.io/Clase-02/ 			|
 |	2	| MARÍA PAZ CONCHA			| https://mpconcha.github.io/clase-02/				|
 |	3	| OLGA F. VIO				| https://caracolga.github.io/clase02/				|
 |	4	| TRINIDAD GONZÁLEZ			| Pendiente											|
 |	5	| MATÍAS HAGEN				| https://matihagene.github.io/clase-02/			|
-|	6	| MARÍA FRANCISCA HEPP		| Pendiente											|
+|	6	| MARÍA FRANCISCA HEPP		| https://franhepp.github.io/clase-02/									|
 |	7	| MARIA ELIANA INFANTE		| https://maritainfante.github.io/clase-02/			|
 |	8	| MAGDALENA LABARCA			| https://maidalw.github.io/clase-02/				|
 |	9	| ELSA MORA					| https://etmora2.github.io/clase.02/				|
