@@ -24,7 +24,7 @@ Es muy recomendable usar uno de los siguientes navegadores web:
 
 También resulta muy necesario que desactives los traductores automáticos; ya te habrás dado cuenta que el *coding* se hace en *english*, por lo que la traducción automática (y forzada) al español puede perjudicarte.
 
-La primera actividad consiste en tomar el trabajo hecho la semana recién pasada, para juntar, en un único documento, aquello que estaba repartido entre `index.html`, `estilo.css` y `sketch.js`.
+La primera actividad consiste en tomar el trabajo hecho la semana recién pasada, **para juntar, en un único documento**, aquello que estaba repartido entre `index.html`, `estilo.css` y `sketch.js`.
 
 Puedes crear un nuevo documento en tu editor de código (usar teclas `cmd` + `N` en Mac; `Ctrl` + `N` en PC) y guardarlo como `index.html`. Luego copia y pega lo que sigue:
 
