@@ -166,7 +166,7 @@ El resultado para el ejercicio de la segunda clase tiene que ser similar a lo qu
 |	23	| CECILIA SOTO				| https://cecysoto.github.io/clase-02/				|
 |	24	| MARÍA ELISA VALDÉS		| —													|
 |	25	| FRANCISCA VIAL 			| —													|
-|	26	| MARIA JOSE VILLASANTE		| –													| 
+|	26	| MARIA JOSE VILLASANTE		| —													| 
 
 - - - - - - - 
 
