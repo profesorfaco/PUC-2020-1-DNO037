@@ -6,7 +6,7 @@
 
 #### Primeras instrucciones:
 
-Para la clase de hoy, es necesario tener instalado en su computador uno de los siguientes editores de código: 
+Para la clase de hoy, es necesario tener instalado en tu computador uno de los siguientes editores de código: 
 
 - [Atom.io](https://atom.io/)
 
@@ -26,7 +26,7 @@ También resulta muy necesario que desactives los traductores automáticos; ya t
 
 La primera actividad consiste en tomar el trabajo hecho la semana recién pasada, para juntar, en un único documento, aquello que estaba repartido entre `index.html`, `estilo.css` y `sketch.js`.
 
-Puedes crear un nuevo documento en tu editor de código (usar teclas `cmd` + `N` en Mac; `Ctrl` + `N` en PC) y guardarlo como `index.html`. Luego copia y pegar lo que sigue:
+Puedes crear un nuevo documento en tu editor de código (usar teclas `cmd` + `N` en Mac; `Ctrl` + `N` en PC) y guardarlo como `index.html`. Luego copia y pega lo que sigue:
 
 ```
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ Pon atención a las instrucciones de los comentarios que dejé en lo que estás 
 
 Cuando esté todo copiado y pegado, guarda los cambios (usar teclas `cmd` + `S` en Mac; `Ctrl` + `S` en PC). 
 
-Si abres en tu navegador (Chrome o Firefox) este nuevo `index.html`, verás algo muy parecido a lo que pudiste ver [al finalizar la clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio) (deja tu nombre y apellido reales, y, si quieres, agregar un "uwu" al `title`).
+Si abres en tu navegador (Chrome o Firefox) este nuevo `index.html`, verás algo muy parecido a lo que pudiste ver [al finalizar la clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio) (deja tu nombre y apellido reales, y, si quieres, agrega un uwu, ewe u otra cosa al `title`).
 
 - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -110,7 +110,7 @@ Para ver el código fuente en tu navegador, debes hacer un "click de botón dere
 
 **Ahora agreguemos algo más a esta diferencia entre código fuente y DOM.** 
 
-Dentro de la función setup, agreguemos una segunda línea, sin alterar nada del resto: 
+Dentro de la función setup, agreguemos una segunda línea, sin alterar el resto: 
 
 ```
 function setup() {
@@ -121,7 +121,7 @@ function setup() {
 
 Después de guardar los cambios en el `index.html` recién editado, vuelve a revisarlo en tu navegador. Puedes refrescar la página si es que no lo habías cerrado (`cmd` + `R` o `Ctrl` + `R`). Fíjate en tu nombre.
 
-Como usamos [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName), obtenemos, en teoría, un arreglo de todos los elementos [h1](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/Elementos_títulos) del documento. Pero de ese arreglo necesitamos solo el primer elemento, por eso usamos [el cero entre paréntesis cuadrado](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array). A ello, como *photoshopeando*, le adjuntamos (append) los caracteres que tenemos entre paréntesis y comillas. 
+Como usamos [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName), obtenemos, en teoría, un [arreglo](https://developer.mozilla.org/es/docs/Glossary/Arreglos) de todos los elementos [h1](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/Elementos_títulos) del documento. Pero de ese arreglo necesitamos solo el primer elemento, por eso usamos [el cero entre paréntesis cuadrado](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array). A ello, como *photoshopeando*, le adjuntamos ([append](https://developer.mozilla.org/es/docs/Web/API/ParentNode/append)) los caracteres que tenemos entre paréntesis y comillas. 
 
 Recién nos salimos de la biblioteca de p5.js, pero nos mantuvimos en JavaScript; volviendo a la analogía cocinera: Fue como ponernos creativos y exceder el plato semipreparado, con un ingrediente fresco. Por eso la referencia para [document.getElementsByTagName](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByTagName) apuntaba a un lugar distinto de [las referencias de p5.js](https://p5js.org/es/reference/).
 
