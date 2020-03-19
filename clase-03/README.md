@@ -77,17 +77,61 @@ Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópie
 
 Así como vamos avanzando, bien podrían intentar resolver cómo obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
 
-¿Pero qué pasa si quiero que `h` me muestre todos los `children`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que dar un paso a otro subtítulo. 
+¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que programar una consulta, y para revisarla conviene avanzar un subtítulo. 
 
 ### Ciclos y condiciones
 
+Pimero, desde una perspectiva lógica, tendría que pedir cada elemento de cada arreglo `children`, tantas veces como elementos tenga pero recordando que la primera posición es 0. 
 
+Pero partamos en algo más simple: Si tengo `var frutas = ["manzana","pera","durazno","limón"]` tengo que pedir `frutas[0]`, `frutas[1]`, `frutas[2]` y `frutas[3]`. O sea, voy a partir por cero y llegar como máximo al total de elementos menos uno; eran tres elementos, pero llegué a dos.
 
-Para mayor comprensión de estos asunto, convendría revisar:
+Para automatizar la solicitud de cada fruta se podría utilizar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach). Otra opción es crear un ciclo utilizando el [ciclo `for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for). La segunda opción se podría ver así:
 
-- 
+```
+var frutas = ["manzana","pera","durazno","limón"];
 
-- 
+for (let x = 0; x < frutas.length; x++){
+  console.log(frutas[x]);
+}
+```
+
+Favor copia y pega las líneas de código de arriba en Consola de JavaScript de tu Navegador y presiona la tecla `Enter`. Lo que ocurre es que mientras `x` es menor que 4 se cumple un ciclo que incrementa su valor en 1 (eso es lo que significa `x++`), siendo primero frutas[0], que es el valor inicial de `x`, luego frutas[1], siguido de frutas[2], después frutas[3] y hasta ahí no más porque se cumple la condición 3 < 4.
+
+Pero digamos que quiero solamente frutas que tengan una letra e, bien podría encargar una consulta por esa condición, si acaso incluye ese caracter. En este caso, podrían probar copiando y pegando lo que sigue en la Consola:
+
+```
+var frutas = ["manzana","pera","durazno","limón"];
+
+for (let x = 0; x < frutas.length; x++){
+  if(frutas[x].includes("e")){
+  	console.log(frutas[x]);
+  }
+}
+```
+
+Recién utilizamos la condición [if()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) dentro del ciclo for(). O sea, igualmente pasa por frutas[0], …[1], …[2] y …[3], pero solo se imprime en la consola la "pera", que es la que cumple con la condición de incluir una "e".
+
+Con el ciclo for() y la condición if() ya presentadas, podemos volver al desafío que teníamos en un principio, la de la variable `h`.
+
+Así como podemos poner una condición dentro de un ciclo, podemos poner un ciclo dentro de ciclo. 
+
+```
+var h = [
+  {mom:"Luann", dad:"Kirk", children:["Milhouse"]}, 
+  {mom:"Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"]},
+  {mom: "Manjula", dad: "Apu", children:["Poonam","Sashi","Pria","Uma","Anoop","Sandeep","Nabendu","Gheet"]}
+];
+
+for (let x = 0; x < h.length; x++){
+	for (let y = 0; y < h[x].children.length; y++){
+		console.log(h[x].children[y]);
+	}	
+}
+```
+
+¡Prueba el código en la consola!
+
+- - - - - - - - - -
 
 Una vez terminada las lecturas, favor selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
 
@@ -95,6 +139,7 @@ Revisa si el país seleccionado está incluido, con su nombre en inglés, entre 
 
 Anota el nombre del país tal y como aparezca en el JSON recién referido. Envía un correo indicando ese nombre y como respuseta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio para clase-03
 
+- - - - - - - -
 
 #### Referencias
 
