@@ -144,7 +144,7 @@ El resultado para el ejercicio de la segunda clase tiene que ser similar a lo qu
 |	1	| CAMILA AZÓCAR 			| https://camiazocar.github.io/Clase-02/ 			|
 |	2	| MARÍA PAZ CONCHA			| https://mpconcha.github.io/clase-02/				|
 |	3	| OLGA F. VIO				| https://caracolga.github.io/clase02/				|
-|	4	| TRINIDAD GONZÁLEZ			| Pendiente											|
+|	4	| TRINIDAD GONZÁLEZ			| https://trinidadgonzlez.github.io/clase-02/   |
 |	5	| MATÍAS HAGEN				| https://matihagene.github.io/clase-02/			|
 |	6	| MARÍA FRANCISCA HEPP		| https://franhepp.github.io/clase-02/									|
 |	7	| MARIA ELIANA INFANTE		| https://maritainfante.github.io/clase-02/			|
