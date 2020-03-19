@@ -109,11 +109,11 @@ for (let x = 0; x < frutas.length; x++){
 }
 ```
 
-Recién utilizamos la condición [if()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) dentro del ciclo for(). O sea, igualmente pasa por frutas[0], …[1], …[2] y …[3], pero solo se imprime en la consola la "pera", que es la que cumple con la condición de incluir una "e".
+Recién utilizamos la condición [`if()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) dentro del ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for). O sea, igualmente pasa por frutas[0], …[1], …[2] y …[3], pero solo se imprime en la consola la "pera", que es la que cumple con la condición de incluir una "e".
 
-Con el ciclo for() y la condición if() ya presentadas, podemos volver al desafío que teníamos en un principio, la de la variable `h`.
+**Con el ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) y la condición [`if()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) ya presentadas, podemos volver al desafío que teníamos en un principio, de consultar por todos los `children` en la variable `h`.**
 
-Así como podemos poner una condición dentro de un ciclo, podemos poner un ciclo dentro de ciclo. 
+Así como podemos poner una condición dentro de un ciclo, podemos poner un ciclo dentro de otro: 
 
 ```
 var h = [
