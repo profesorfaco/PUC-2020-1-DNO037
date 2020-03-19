@@ -50,34 +50,29 @@ var d = "Falso como beso de Judas";
 var e = ["Pedro", "Juan", "Santiago", "Santiago el Menor", "Felipe", "Bartolomé", "Judas Tadeo", "Simón", "Andrés", "Mateo", "Tomás", "Judas Iscariote"];
 
 var f = { mom: "Luann", dad:"Kirk", children:"Milhouse"};
+
+var g = { mom: "Marge", dad:"Kirk", children:["Bart", "Liza", "Maggie"]};
+
+
 ```
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f`que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas.
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f`que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. La `g` las mezcla. 
 
+### Ciclos y condiciones
 
-- **Aprovechemos el [editor en línea de p5.js](https://editor.p5js.org/), para poner esto en práctica**:
+Pendiente…
+Para mayor comprensión de estos asunto, convendría revisar:
 
-- [wCJrC97zb](https://editor.p5js.org/profesorfaco/sketches/wCJrC97zb): una variable conteniendo un número.
+- 
 
-- [Jxux74Irs](https://editor.p5js.org/profesorfaco/sketches/Jxux74Irs): una variable conteniendo un número que incrementa.
+- 
 
-- [K21IBXOzj](https://editor.p5js.org/profesorfaco/sketches/K21IBXOzj): una variable conteniendo dos números que se suman.
+Una vez terminada las lecturas, favor selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
 
-- [_EoptWEIC](https://editor.p5js.org/profesorfaco/sketches/_EoptWEIC): una variable conteniendo dos [strings](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String) que se concatenan.
+Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de https://pomber.github.io/covid19/timeseries.json - Por ejemplo, Japan - Deja que se cargue completamente antes de buscar el nombre (puede demorar). Prefiere usar cmd + F o Crtl + F para facilitarte la búsqueda.
 
-- [b8o79kL3k](https://editor.p5js.org/profesorfaco/sketches/b8o79kL3k): una variable conteniendo un [array](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array).
+Anota el nombre del país tal y como aparezca en el JSON recién referido. Envía un correo indicando ese nombre y como respuseta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio para clase-03
 
-- [mvI9d1djc](https://editor.p5js.org/profesorfaco/sketches/mvI9d1djc): una variable conteniendo un [objeto](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Basics).
-
-- [EraL9UErk](https://editor.p5js.org/profesorfaco/sketches/EraL9UErk): una variable conteniendo un ensamblaje.
-
-- **Ahora agreguemos un nivel de posibilidades, revisand tres formatos para el intercambio de datos: [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas), [JSON](https://www.json.org/json-es.html) y [XML](https://developer.mozilla.org/es/docs/Introducci%C3%B3n_a_XML) que pueden ser asignados como contenidos de variables**:
-
-- [JYt_9R75T](https://editor.p5js.org/profesorfaco/sketches/JYt_9R75T): una variable conteniendo un objeto p5.Table que resulta de la lectura de un [CSV en línea](https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/sudamerica.csv).
-
-- [XJSJcAKfh](https://editor.p5js.org/profesorfaco/sketches/XJSJcAKfh): una variable conteniendo un objeto o arreglo que resulta de la lectura de un [JSON en línea](https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/sudamerica.json), sea como objeto o arreglo.
-
-- [YIGnDZVAC](https://editor.p5js.org/profesorfaco/sketches/YIGnDZVAC): una variable conteniendo un objeto XML que resulta de la lectura de un [XML en línea](https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/sudamerica.xml).
 
 #### Referencias
 
