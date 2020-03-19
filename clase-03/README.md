@@ -36,7 +36,9 @@ Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en [C
 
 #### Datos en JS
 
-**En programación, los datos puede ser contenidos en las variables. En JS las variables se pueden crear con una única palabra reservada,`var`**:
+**En programación, los datos puede ser contenidos en las variables. En JS las variables se pueden crear con una única palabra reservada,`var`**.
+
+Y digo que se **pueden** crear con `var`, porque no necesariamente se deben crear con `var`. Para entender la diferencia, favor consulten el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable: 
 
 ```
 var a = 18261884;
@@ -45,23 +47,42 @@ var b = 24,15267252;
 
 var c = false;
 
-var d = "Falso como beso de Judas";
+var d = "Fake News";
 
-var e = ["Pedro", "Juan", "Santiago", "Santiago el Menor", "Felipe", "Bartolomé", "Judas Tadeo", "Simón", "Andrés", "Mateo", "Tomás", "Judas Iscariote"];
+var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
 
-var f = { mom: "Luann", dad:"Kirk", children:"Milhouse" };
+var f = {mom:"Luann Van Houten", dad:"Kirk Van Houten", children:"Milhouse Van Houten"};
 
-var g = { mom: "Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"] };
+var g = {mom:"Marge Simpson", dad:"Homer Simpson", children:["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]};
 
-var h = [{ mom: "Luann", dad:"Kirk", children:"Milhouse" }, { mom: "Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"] }];
+var h = [
+  {mom:"Luann", dad:"Kirk", children:["Milhouse"]}, 
+  {mom:"Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"]},
+  {mom: "Manjula", dad: "Apu", children:["Poonam","Sashi","Pria","Uma","Anoop","Sandeep","Nabendu","Gheet"]}
+];
 
 ```
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f`que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. Las `g` y `h` son mezclas posibles. 
+**Lo que cambia viene después del signo igual, que en este caso está asignando valor a cada variable.** 
+
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. Las variables `g` y `h` son mezclas posibles; la varible `g` ofrece un elemento cuyo tercer par, de índice `children`, es un arreglo. Mientras que la variable `h` es un arreglo que contiene tres objetos. 
+
+Si necesito el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente; o sea, ustedes dicen `a` y ya tienen 18261884. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+
+Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si digiese `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces debes recordar que la primera posición es cero, no uno.
+
+Saltemos a la variable `f`. Digamos que necesitamos escribir en la Consola de JavaScript de su navegador que `Kirk Van Houten dibujó la dignidad`. Tendría que escribir `f.dad + " dibujó la dignidad"`. Si quieren hacer la prueba, antes de escribir la instrucción, copien y peguen la variable `f`. 
+
+Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el índice `children`.
+
+Así como vamos avanzando, bien podrían intentar resolver cómo obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
+
+¿Pero qué pasa si quiero que `h` me muestre todos los `children`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que dar un paso a otro subtítulo. 
 
 ### Ciclos y condiciones
 
-Pendiente…
+
+
 Para mayor comprensión de estos asunto, convendría revisar:
 
 - 
