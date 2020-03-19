@@ -49,14 +49,15 @@ var d = "Falso como beso de Judas";
 
 var e = ["Pedro", "Juan", "Santiago", "Santiago el Menor", "Felipe", "Bartolomé", "Judas Tadeo", "Simón", "Andrés", "Mateo", "Tomás", "Judas Iscariote"];
 
-var f = { mom: "Luann", dad:"Kirk", children:"Milhouse"};
+var f = { mom: "Luann", dad:"Kirk", children:"Milhouse" };
 
-var g = { mom: "Marge", dad:"Kirk", children:["Bart", "Liza", "Maggie"]};
+var g = { mom: "Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"] };
 
+var h = [{ mom: "Luann", dad:"Kirk", children:"Milhouse" }, { mom: "Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"] }];
 
 ```
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f`que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. La `g` las mezcla. 
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f`que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. Las `g` y `h` son mezclas posibles. 
 
 ### Ciclos y condiciones
 
