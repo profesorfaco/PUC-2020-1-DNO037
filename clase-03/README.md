@@ -83,9 +83,9 @@ Así como avanzando, bien podrían intentar resolver cómo obtener `Pria` de la 
 
 Pimero, desde una perspectiva lógica, tendría que pedir cada elemento de cada arreglo `children`, tantas veces como elementos tenga pero recordando que la primera posición es 0. 
 
-Pero partamos en algo más simple: Si tengo `var frutas = ["manzana","pera","durazno","limón"]` tengo que pedir `frutas[0]`, `frutas[1]`, `frutas[2]` y `frutas[3]`. O sea, voy a partir por cero y llegar como máximo al total de elementos menos uno; eran tres elementos, pero llegué a dos.
+Pero partamos en algo más simple: Si tengo `var frutas = ["manzana","pera","durazno","limón"]` tengo que pedir `frutas[0]`, `frutas[1]`, `frutas[2]` y `frutas[3]`. O sea, voy a partir por cero y llegar como máximo al total de elementos menos uno; eran tres elementos, pero llegué a dos (y para lo que sigue recuerda: 2 < 3).
 
-Para automatizar la solicitud de cada fruta se podría utilizar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach). Otra opción es crear un ciclo utilizando el [ciclo `for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for). La segunda opción se podría ver así:
+Para automatizar la solicitud de cada fruta se podría utilizar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach). Otra opción es crear un ciclo utilizando el [ciclo `for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for), aprovechando la (propiedad `lenght`)[https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length]. La segunda opción se podría ver así:
 
 ```
 var frutas = ["manzana","pera","durazno","limón"];
