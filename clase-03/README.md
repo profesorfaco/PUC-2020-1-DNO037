@@ -65,17 +65,17 @@ var h = [
 
 **Lo que cambia viene después del signo igual, que en este caso está asignando valor a cada variable.** 
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. Las variables `g` y `h` son mezclas posibles; la varible `g` ofrece un elemento cuyo tercer par, de índice `children`, es un arreglo. Mientras que la variable `h` es un arreglo que contiene tres objetos. 
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares separados por comas. Las variables `g` y `h` son mezclas de las anteriores; la varible `g` ofrece un elemento cuyo tercer par, de índice `children`, es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos. 
 
 Si necesito el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente; o sea, ustedes dicen `a` y ya tienen 18261884. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
-Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si digiese `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces debes recordar que la primera posición es cero, no uno.
+Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribo `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces **debes recordar que la primera posición es cero, no uno**.
 
-Saltemos a la variable `f`. Digamos que necesitamos escribir en la Consola de JavaScript de su navegador que `Kirk Van Houten dibujó la dignidad`. Tendría que escribir `f.dad + " dibujó la dignidad"`. Si quieren hacer la prueba, antes de escribir la instrucción, copien y peguen la variable `f`. 
+Pasemos a la variable `f`. Digamos que necesitamos escribir en la Consola de JavaScript de su navegador que `Kirk Van Houten dibujó la dignidad`. Tendría que escribir `f.dad + " dibujó la dignidad"`. Si quieren hacer la prueba, antes de escribir la instrucción, copien y peguen la variable `f`. 
 
 Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el índice `children`.
 
-Así como vamos avanzando, bien podrían intentar resolver cómo obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
+Así como avanzando, bien podrían intentar resolver cómo obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
 
 ¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que programar una consulta, y para revisarla conviene avanzar un subtítulo. 
 
@@ -109,7 +109,7 @@ for (let x = 0; x < frutas.length; x++){
 }
 ```
 
-Recién utilizamos la condición [`if()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) dentro del ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for). O sea, igualmente pasa por frutas[0], …[1], …[2] y …[3], pero solo se imprime en la consola la "pera", que es la que cumple con la condición de incluir una "e".
+Recién utilizamos la condición [`if()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) dentro del ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for). O sea, igualmente pasa por frutas[0], …[1], …[2] y …[3], pero solo se imprime la "pera", que es la fruta que cumple con la condición de incluir una "e".
 
 **Con el ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) y la condición [`if()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) ya presentadas, podemos volver al desafío que teníamos en un principio, de consultar por todos los `children` en la variable `h`.**
 
