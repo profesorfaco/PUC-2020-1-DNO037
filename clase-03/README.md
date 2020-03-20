@@ -200,35 +200,46 @@ JSON está constituído por dos estructuras (1) Una colección de pares de nombr
    }
 ]
 ```
-**La diferencia: En JSON el nombre, del par nombre/valor, va entre comillas.**
+**La diferencia ya la pudiste haber notado: El nombre, del par nombre/valor, va entre comillas en JSON.**
+
+Así como podemos compartir datos en bruto usando JSON, también podemos encontrarlos, para después utilizarlos en nuestro sitios y aplicaciones. 
+
+Así nos podemos enterar de quiénes son los humanos más a salvo del COVID-19, porque están en este momento en la ISS (International Space Station): http://api.open-notify.org/astros.json - Y enterarnos por dónde va pasando por la misma ISS: http://api.open-notify.org/iss-now.json - Ahora dale actualizar a esta última página y ve cómo cambian los números (porque va avanzando en su rotación al planeta)
+
+Si quieres ver de mejor manera los JSON recién referidos, te recomiendo instalar una extensión en tu navegador. En Chrome puedes instalar [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es), otra opciones son JSON View y JSON Viewer.
+
+Después de instalada la extensión, puedes volver a ver las páginas de arriba. Con ese cambio, puedes asomarte a datos en bruto con mayor extensión, como los que utilizaremos para el ejercicio de hoy: 
+
+- Los Casos confirmados de coronavirus alrededor del mundo: https://pomber.github.io/covid19/timeseries.json
+
+- Un mes de registro de temblores +4.5M alrededor del mundo: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson
+
+**¿Ahora cómo tomo eso que está en JSON para poder utilizarlo en [p5.js](https://p5js.org/es/)?** La respuesta es corta:
+
+```
+var i;
+
+function preload(){
+	i = loadJSON("https://......................");	
+}
+
+//Con esto ya tienes los datos en bruto dentro de una variable que se llama `i`, que fue declarada a nivel global.
+```
+
+Dentro de la función [preload()](https://p5js.org/es/reference/#/p5/preload) utiliza [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON)
+
+Si tienes dudas hasta este punto, puedes volver al libro de "Introducción a p5.js". Todo lo que necesitas saber se encuentra entre páginas 198 y 206.
 
 - - - - - - - - - -
 
-Una vez terminada las lecturas, favor selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
+#### Ejercicio
+
+Si llegaste hasta este punto es porque ya revisaste todo lo anterior, y ya puedes selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
 
 Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de https://pomber.github.io/covid19/timeseries.json - Por ejemplo, Japan - Deja que se cargue completamente antes de buscar el nombre (puede demorar). Prefiere usar cmd + F o Crtl + F para facilitarte la búsqueda.
 
-Anota el nombre del país tal y como aparezca en el JSON recién referido. Envía un correo indicando ese nombre y como respuseta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio para clase-03
+Anota el nombre del país tal y como aparezca en el JSON recién referido. Envía un correo indicando ese nombre y como respuesta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio para clase-03 antes de las 12.50 hrs. de hoy, miércoles 25 de marzo de 2020. 
 
-- - - - - - - -
-
-#### Referencias
-
-- [{ } myjson - A simple JSON store for your web or mobile app](http://myjson.com/)
-
-- [A collection of small corpuses of interesting data for the creation of bots and similar stuff](https://github.com/dariusk/corpora)
-
-- [crossorigin.me, the free CORS proxy for everyone!](https://corsproxy.github.io/)
-
-- [Fundamentos de JavaScript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-
-- [JavaScript for Beginner](http://xahlee.info/js/js_basics_index.html)
-
-- [JSONLint - The JSON Validator](https://jsonlint.com/)
-
-- [Open Notify - Open APIs From Space](http://open-notify.org/)
-
-- [USGS - GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
 - - - - - - - 
 
