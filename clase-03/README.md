@@ -234,7 +234,7 @@ Si tienes dudas hasta este punto, puedes volver al libro de "Introducción a p5.
 
 #### Ejercicio
 
-Si llegaste hasta este punto es porque ya revisaste todo lo anterior, y ya puedes selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
+Si llegaste hasta este punto es porque ya revisaste todo lo anterior, y ya puedes seleccionar un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
 
 Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de https://pomber.github.io/covid19/timeseries.json - Por ejemplo, Japan - Deja que se cargue completamente antes de buscar el nombre (puede demorar). Prefiere usar cmd + F o Crtl + F para facilitarte la búsqueda.
 
