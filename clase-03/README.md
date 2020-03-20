@@ -164,7 +164,7 @@ Partamos con un copy/paste de https://www.json.org/json-es.html
 
 >JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. 
 
-JSON está constituído por dos estructuras (1) Una colección de pares de nombre/valor y (2) una lista ordenada de valores. Se parece tanto al modo que escribimos objetos en JavaScript que habría que mirar con atención lo que sigue para no confundirlo con el contenido de la variable `h`, que vimos más arriba. Lo que sigue se podría guardar de modo indepediente y compartido en línea como un `h.json`:
+JSON está constituído por dos estructuras (1) Una colección de pares de nombre/valor y (2) una lista ordenada de valores. Se parece tanto al modo que escribimos objetos en JavaScript que habría que mirar con atención lo que sigue para no confundirlo con el contenido de la variable `h`, que vimos más arriba. Lo que sigue podría guardarse de modo indepediente para [luego ser compartido en línea](https://api.myjson.com/bins/p1zik):
 
 ```
 [
