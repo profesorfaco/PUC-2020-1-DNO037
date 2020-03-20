@@ -129,7 +129,77 @@ for (let x = 0; x < h.length; x++){
 }
 ```
 
-¡Prueba el código en la consola!
+¡Prueba el código en la Consola de JavaScript de tu Navegador!
+
+Y dentro de un ciclo tú puedes programar la modificación de una variable. No simplemente modificarla en su valor, con operaciones matemáticas en cada vuelta del ciclo. Bien se puede modificar un arreglo sumándole elementos. O sea, podemos llenar un arreglo dentro de un ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) con el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push). Y si prefieres las cosas ordenadas, fuera del ciclo, puedes usar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort). 
+
+A continuación vamos a crear un arreglo de nombre `chiquillada`; parte vacío pero corresponde agregar el paréntesis cuadrado para que el computador entienda que se trata de un arreglo. En `chiquillada` vamos a guardar cada `children` de `h`, mezclando al Van Houten, los Simpson y los Nahasapeemapetilon, para luego ordenarlos alfabéticamente:
+
+```
+var h = [
+  {mom:"Luann", dad:"Kirk", children:["Milhouse"]}, 
+  {mom:"Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"]},
+  {mom: "Manjula", dad: "Apu", children:["Poonam","Sashi","Pria","Uma","Anoop","Sandeep","Nabendu","Gheet"]}
+];
+
+var chiquillada = [];
+
+for (let x = 0; x < h.length; x++){
+	for (let y = 0; y < h[x].children.length; y++){
+		chiquillada.push(h[x].children[y]);
+	}	
+}
+
+chiquillada.sort();
+console.log(chiquillada);
+```
+
+La inquietud a la que me gustaría empujarte ahora es la siguiente: ¿Cómo puedo hacer para tener más datos, crear con conocidos una variable `i` que contenga a todas las familias de Los Simpson y poder consultarla sin tener que copiar y pegarla en todas partes? Y la respuesta que le vamos a dar a tal inquietud exige el último subtítulo de la clase de hoy.
+
+> Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve sobre al libro de "Introducción a P5.js": Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición"). 
+
+#### JSON
+
+Partamos con un copy/paste de https://www.json.org/json-es.html
+
+>JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. 
+
+JSON está constituído por dos estructuras (1) Una colección de pares de nombre/valor y (2) una lista ordenada de valores. Se parece tanto al modo que escribimos objetos en JavaScript que habría que mirar con atención lo que sigue para no confundirlo con el contenido de la variable `h`, que vimos más arriba. Lo que sigue se podría guardar de modo indepediente y compartirlo formato de texto sencillo para el intercambio de datos:
+
+```
+[
+   {
+      "mom":"Luann",
+      "dad":"Kirk",
+      "children":[
+         "Milhouse"
+      ]
+   },
+   {
+      "mom":"Marge",
+      "dad":"Homer",
+      "children":[
+         "Bart",
+         "Lisa",
+         "Maggie"
+      ]
+   },
+   {
+      "mom":"Manjula",
+      "dad":"Apu",
+      "children":[
+         "Poonam",
+         "Sashi",
+         "Pria",
+         "Uma",
+         "Anoop",
+         "Sandeep",
+         "Nabendu",
+         "Gheet"
+      ]
+   }
+]
+```
 
 - - - - - - - - - -
 
