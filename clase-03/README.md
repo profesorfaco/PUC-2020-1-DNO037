@@ -200,6 +200,7 @@ JSON está constituído por dos estructuras (1) Una colección de pares de nombr
    }
 ]
 ```
+**La diferencia: En JSON el nombre, del par nombre/valor, va entre comillas.**
 
 - - - - - - - - - -
 
