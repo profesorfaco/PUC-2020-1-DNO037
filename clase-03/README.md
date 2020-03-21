@@ -34,7 +34,7 @@ Si compartiera con ustedes el número 18261884, sin contexto alguno, resultaría
 
 Entendiendo cómo funciona una tabla, ustedes cuentan con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
 
-Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato por el segundo, obtenemos [la densidad de la población](https://es.wikipedia.org/wiki/Densidad_de_población) en Chile. El resultado de aquella división es 24,15267252.
+Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
 
 Los números 18261884 y 24,15267252 tienen una diferencia que corresponde señalar al momento de disponerlos para su tratamiento en computación: 
 
@@ -50,11 +50,11 @@ A estos dos tipos de datos numéricos, podemos agregar otros tipos de datos:
 
 Podrán notar que en el tipo de dato numérico y booleano no se usaron comillas, pero en el caso del caracter sí se utiliza. 
 
-Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en [C++](https://es.wikipedia.org/wiki/C%2B%2B) para **declarar que una variable que almacenará cierto [tipo de dato](https://beginnersbook.com/2017/08/cpp-data-types/)**. 
+Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en C++ para **declarar que una variable que almacenará cierto tipo de dato**. 
 
 **En el contexto computacional, una variable debe entenderse como un espacio en la memoria del computador donde se almacenará un dato que puede variar en la ejecución del programa del que sea parte.**
 
-#### Datos en JS
+#### Datos en JavaScript
 
 **En JavaScript las variables se pueden crear con una única palabra reservada,`var`**. Y digo que se **pueden** crear con `var` porque no necesariamente se deben crear con `var`. Para entender la diferencia, favor consulten el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable: 
 
@@ -103,7 +103,7 @@ Pimero, desde una perspectiva lógica, tendría que pedir cada elemento de cada 
 
 Pero partamos en algo más simple: Si tengo `var frutas = ["manzana","pera","durazno","limón"]` tengo que pedir `frutas[0]`, `frutas[1]`, `frutas[2]` y `frutas[3]`. O sea, voy a partir por cero y llegar como máximo al total de elementos menos uno; eran tres elementos, pero llegué a dos (y para lo que sigue recuerda: 2 < 3).
 
-Para automatizar la solicitud de cada fruta se podría utilizar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach). Otra opción es crear un ciclo utilizando el [ciclo `for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for), aprovechando la [propiedad `lenght`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length). La segunda opción se podría ver así:
+Para automatizar la solicitud de cada fruta se podría utilizar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach). Otra opción es programar un [ciclo `for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for), aprovechando la [propiedad `lenght`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length). La segunda opción se podría ver así:
 
 ```
 var frutas = ["manzana","pera","durazno","limón"];
@@ -115,7 +115,7 @@ for (let x = 0; x < frutas.length; x++){
 
 Favor copia y pega las líneas de código de arriba en Consola de JavaScript de tu Navegador y presiona la tecla `Enter`. Lo que ocurre es que mientras `x` es menor que 4 se cumple un ciclo que incrementa su valor en 1 (eso es lo que significa `x++`), siendo primero frutas[0], que es el valor inicial de `x`, luego frutas[1], siguido de frutas[2], después frutas[3] y hasta ahí no más porque se cumple la condición 3 < 4.
 
-Pero digamos que quiero solamente frutas que tengan una letra e, bien podría encargar una consulta por esa condición, si acaso incluye ese caracter. En este caso, podrían probar copiando y pegando lo que sigue en la Consola:
+Pero digamos que quiero solamente frutas que tengan una letra "e" en su nombre; bien podría encargar una consulta por esa condición, si acaso incluye ese caracter. En este caso, podrían probar copiando y pegando lo que sigue en la Consola:
 
 ```
 var frutas = ["manzana","pera","durazno","limón"];
@@ -151,7 +151,7 @@ for (let x = 0; x < h.length; x++){
 
 Y dentro de un ciclo tú puedes programar la modificación de una variable. No simplemente modificarla en su valor, con operaciones matemáticas en cada vuelta del ciclo. Bien se puede modificar un arreglo sumándole elementos. O sea, podemos llenar un arreglo dentro de un ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) con el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push). Y si prefieres las cosas ordenadas, fuera del ciclo, puedes usar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort). 
 
-A continuación vamos a crear un arreglo de nombre `chiquillada`; parte vacío pero corresponde agregar el paréntesis cuadrado para que el computador entienda que se trata de un arreglo. En `chiquillada` vamos a guardar cada `children` de `h`, mezclando al Van Houten, los Simpson y los Nahasapeemapetilon, para luego ordenarlos alfabéticamente:
+A continuación vamos a crear un arreglo de nombre `chiquillada`; parte vacío pero corresponde agregar el paréntesis cuadrado para que el computador entienda que se trata de un arreglo. En `chiquillada` vamos a guardar cada `children` de `h`, mezclando Van Houten, Simpson y Nahasapeemapetilon, para luego ordenarlos alfabéticamente:
 
 ```
 var h = [
@@ -172,7 +172,7 @@ chiquillada.sort();
 console.log(chiquillada);
 ```
 
-La inquietud a la que me gustaría empujarte ahora es la siguiente: ¿Cómo puedo hacer para tener más datos, crear con conocidos una variable `i` que contenga a todas las familias de Los Simpson y poder consultarla sin tener que copiar y pegarla en todas partes? Y la respuesta que le vamos a dar a tal inquietud exige el último subtítulo de la clase de hoy.
+La inquietud a la que me gustaría empujarte es la siguiente: ¿Cómo puedo hacer para tener más datos, crear con conocidos una variable `i` que contenga a todas las familias de Los Simpson y poder consultarla sin tener que copiar y pegarla en todas partes? Y la respuesta que le vamos a dar a tal inquietud exige el último subtítulo de la clase de hoy.
 
 **Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve sobre al libro de "Introducción a P5.js"**: Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición"). 
 
@@ -232,16 +232,16 @@ Después de instalada la extensión, puedes volver a ver las páginas de arriba.
 
 - Un mes de registro de temblores +4.5M alrededor del mundo: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson
 
-**¿Ahora cómo tomo eso que está en JSON para poder utilizarlo en [p5.js](https://p5js.org/es/)?** La respuesta es corta:
+**¿Ahora cómo tomo lo que está en el JSON de los casos confirmados de coronavirus para poder utilizarlo en [p5.js](https://p5js.org/es/)?** La respuesta es corta:
 
 ```
-var i;
+var data;
 
 function preload(){
-	i = loadJSON("https://......................");	
+	data = loadJSON("https://pomber.github.io/covid19/timeseries.json");	
 }
 
-//Con esto ya tienes los datos en bruto dentro de una variable que se llama `i`, que fue declarada a nivel global.
+//Con esto ya tienes lo que necesitas dentro de una variable que se llama `data`, que fue declarada a nivel global.
 ```
 
 Dentro de la función [preload()](https://p5js.org/es/reference/#/p5/preload) utiliza [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON)
