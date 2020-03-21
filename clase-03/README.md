@@ -240,7 +240,7 @@ La respuesta: Hay que parsearlo. Y para no quedar en el mismo lugar, aprovechemo
 
 > Bueno primeramente "parsear" es un verbo que nos hemos inventado por que somos bien flojos para decir "analizar sintacticamente", parser viene del inglés […] y […] es una actividad que consiste en el análisis de texto para determinar si cumple o no reglas o patrones y en base a esto tomar alguna determinación.
 
-Como estamos trabajando con [p5.js](https://p5js.org/es/), esto lo simplificaremos al nivel de identificar la dirección de un JSON en línea, procurando que parta con \https\, para luego usar [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON) dentro de la función [preload()](https://p5js.org/es/reference/#/p5/preload):
+Como estamos trabajando con [p5.js](https://p5js.org/es/), esto lo simplificaremos al nivel de identificar la dirección de un JSON en línea, procurando que parta con `https` (con [S de seguro](https://es.wikipedia.org/wiki/Protocolo_seguro_de_transferencia_de_hipertexto)), para luego usar [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON) dentro de la función [preload()](https://p5js.org/es/reference/#/p5/preload):
 
 ```
 var data;
@@ -249,7 +249,7 @@ function preload(){
 	data = loadJSON("https://api.myjson.com/bins/p1zik");	
 }
 
-//Con esto ya tienes lo que necesitas dentro de una variable que se llama `data`, que fue declarada a nivel global.
+//Listo, a la variable global data se le asignaron los valores del JSON, al modo que corresponde a JavaScript.
 ```
 
 En el ejemplo de arriba estoy usando un servicio que permite a cualquiera dejar en línea sus propios JSON: http://myjson.com/
