@@ -22,9 +22,9 @@ Existen [muchas bibliotecas de JavaScript](https://www.javascripting.com/). Hemo
 
 Lo que haremos en esta clase será explorar la posibilidad de mezclar [p5.js](https://p5js.org/es/) con otro par de bibliotecas de JavaScript:
 
-- [Chart.js](https://www.chartjs.org/): Simple, clean and engaging HTML5 based JavaScript charts.
+- [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
 
-- [Leaflet.js](https://leafletjs.com/): The leading open-source JavaScript library for mobile-friendly interactive maps.
+- [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
 
 Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados; un programador con delirio de [Chef Gordon Ramsay](https://youtu.be/GMMRw3Ryki0) podría insultarnos por hacer esto. Pero sus insultos NO nos afectarán porque estamos comenzando a programar en la medida de lo útil para nuestra carrera (que no es ingeniería en programación, ni gastronomía internacional si queremos mantener la analogía).
 
