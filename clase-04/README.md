@@ -26,7 +26,7 @@ Lo que haremos en esta clase será explorar la posibilidad de mezclar [p5.js](ht
 
 - [Leaflet.js](https://leafletjs.com/): The leading open-source JavaScript library for mobile-friendly interactive maps.
 
-Si volvemos a la analogía cocinera: Será como mezclar platos preparados. Un programador con delirio de [Chef Gordon Ramsay](https://youtu.be/GMMRw3Ryki0) podría insultarnos por hacer esto. Pero sus insultos NO nos afectarán porque estamos comenzando a programar en la medida de lo útil para nuestra carrera (que no es ingeniería en programación, ni gastronomía internacional si se que quiere mantener la analogía).
+Si volvemos a la analogía cocinera: Será como mezclar platos preparados. Un programador con delirio de [Chef Gordon Ramsay](https://youtu.be/GMMRw3Ryki0) podría insultarnos por hacer esto. Pero sus insultos NO nos afectarán porque estamos comenzando a programar en la medida de lo útil para nuestra carrera (que no es ingeniería en programación, ni gastronomía internacional si queremos mantener la analogía).
 
 - **En la mezcla de [p5.js](https://p5js.org/es/reference/) y [Chart.js](https://www.chartjs.org/docs/latest/) obtendremos un [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/)** que compara tres países en el aumento de casos confirmados de coronavirus durante el mes de marzo, según datos de https://pomber.github.io/covid19/timeseries.json  
 
