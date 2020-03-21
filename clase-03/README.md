@@ -182,7 +182,7 @@ console.log(chiquillada);
 
 La respuesta que le vamos a dar a tal inquietud exige avanzar al último subtítulo de la clase de hoy.
 
-**Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve sobre al libro de "Introducción a P5.js"**: Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición").
+**Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve al libro de "Introducción a P5.js"**: Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición").
 
 #### JSON
 
