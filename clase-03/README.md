@@ -14,7 +14,7 @@ También se considera que, con ayuda de JavaScript para Gatos, pudieron explorar
 
 - **Chrome**: `Ctrl` + `Shift` + `J` si están en PC o `cmd` + `alt` + `J` si están en Mac
 
-- **Mozilla Firefox**: `Crtl + `Shift` + `K` si están en PC o `cmd` + `alt` + `K` si están en Mac 
+- **Mozilla Firefox**: `Crtl` + `Shift` + `K` si están en PC o `cmd` + `alt` + `K` si están en Mac 
 
 Para la clase de hoy se necesitará una lectura atenta, consultas a todos los vínculos que dejé entre el texto, y el uso de la Consola de JavaScript en sus navegadores. Después es esto tendrán que usar editor de código, para completar un ejercicio que se tendrá que publicar en GitHub Pages, tal como se ha hecho al finalizar las dos clases anteriores:
 
