@@ -182,7 +182,7 @@ Partamos con un copy/paste de https://www.json.org/json-es.html
 
 >JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. 
 
-JSON está constituído por dos estructuras (1) Una colección de pares de nombre/valor y (2) una lista ordenada de valores. Se parece tanto al modo que escribimos objetos en JavaScript que habría que mirar con atención lo que sigue para no confundirlo con el contenido de la variable `h`, que vimos más arriba. Lo que sigue podría guardarse de modo indepediente para [luego ser compartido en línea](https://api.myjson.com/bins/p1zik):
+JSON está constituído por dos estructuras (1) Una colección de pares de nombre:valor y (2) una lista ordenada de valores. Se parece tanto al modo que escribimos objetos en JavaScript que habría que mirar con atención lo que sigue para no confundirlo con el contenido de la variable `h`, que vimos más arriba. Lo que sigue podría guardarse de modo indepediente para [luego ser compartido en línea](https://api.myjson.com/bins/p1zik):
 
 ```
 [
@@ -218,7 +218,7 @@ JSON está constituído por dos estructuras (1) Una colección de pares de nombr
    }
 ]
 ```
-**La diferencia ya la pudiste haber notado: El nombre, del par nombre/valor, va entre comillas en JSON.**
+**La diferencia ya la pudiste haber notado: El nombre, del par nombre:valor, va entre comillas en JSON.**
 
 Así como podemos compartir datos en bruto usando JSON, también podemos encontrarlos, para después utilizarlos en nuestro sitios y aplicaciones. 
 
@@ -232,19 +232,27 @@ Después de instalada la extensión, puedes volver a ver las páginas de arriba.
 
 - Un mes de registro de temblores +4.5M alrededor del mundo: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson
 
-**¿Ahora cómo tomo lo que está en el JSON de los casos confirmados de coronavirus para poder utilizarlo en [p5.js](https://p5js.org/es/)?** La respuesta es corta:
+Lo que hace simple leer un JSON es el par nombre:valor. En cada par tenemos algo muy parecido a aquello con lo que iniciamos la clase: Un número 18261884, por si solo, no sirve de mucho, sí nos sirve cuando sabemos que se trata de la población de Chile.
+
+**¿Ahora cómo tomo lo que está en un JSON para poder utilizarlo en programación con JavaScript?** ¡Hay comillas que sobran y ya tengo claro que basta un signo equivocado para que nada funcione!
+
+La respuesta: Hay que parsearlo. Y para no quedar en el mismo lugar, aprovechemos la explicación de [Iván Rico](https://groups.google.com/forum/#!topic/phplatinoamerica/nBe6PQm-VVY):
+
+> Bueno primeramente "parsear" es un verbo que nos hemos inventado por que somos bien flojos para decir "analizar sintacticamente", parser viene del inglés […] y […] es una actividad que consiste en el análisis de texto para determinar si cumple o no reglas o patrones y en base a esto tomar alguna determinación.
+
+Como estamos trabajando con [p5.js](https://p5js.org/es/), esto lo simplificaremos al nivel de identificar la dirección de un JSON en línea, procurando que parta con \https\, para luego usar [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON) dentro de la función [preload()](https://p5js.org/es/reference/#/p5/preload):
 
 ```
 var data;
 
 function preload(){
-	data = loadJSON("https://pomber.github.io/covid19/timeseries.json");	
+	data = loadJSON("https://api.myjson.com/bins/p1zik");	
 }
 
 //Con esto ya tienes lo que necesitas dentro de una variable que se llama `data`, que fue declarada a nivel global.
 ```
 
-Dentro de la función [preload()](https://p5js.org/es/reference/#/p5/preload) utiliza [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON)
+En el ejemplo de arriba estoy usando un servicio que permite a cualquiera dejar en línea sus propios JSON: http://myjson.com/
 
 Si tienes dudas hasta este punto, puedes volver al libro de "Introducción a p5.js". Todo lo que necesitas saber se encuentra entre páginas 198 y 206.
 
