@@ -4,19 +4,19 @@
 
 #### Primeras instrucciones
 
-Esta clase parte considerando que ya han revisado:
+Esta clase parte considerando que ya pudiste revisar:
 
 - la [página JavaScript para Gatos](https://jsparagatos.com/), llegando hasta el subtítulo "Callbacks", sin incluirlo. O sea, llegando hasta: "…estás haciendo estructuras de datos, como legos!"; y
 
 - los apéndices A, B y C en el libro "Introducción a p5.js". Estos apéndices están entre páginas 221 y 227.
 
-También se considera que, con ayuda de JavaScript para Gatos, pudieron explorar la Consola de JavaScript de sus navegadores (Chrome o Firefox); en lo que siga, si necesitas acceder mediante atajo de teclado a tal consola, pueden usar: 
+También se considera que, con ayuda de JavaScript para Gatos, pudiste jugar con la Consola de JavaScript de tu navegador (Chrome o Firefox); en lo que siga, si necesitas acceder mediante atajo de teclado a tal consola, puedes usar: 
 
 - **Chrome**: `Ctrl` + `Shift` + `J` si están en PC o `cmd` + `alt` + `J` si están en Mac
 
 - **Mozilla Firefox**: `Crtl` + `Shift` + `K` si están en PC o `cmd` + `alt` + `K` si están en Mac 
 
-Para la clase de hoy se necesitará una lectura atenta, consultas a todos los vínculos que dejé entre el texto, y el uso de la Consola de JavaScript en sus navegadores. Después es esto tendrán que usar editor de código, para completar un ejercicio que se tendrá que publicar en GitHub Pages, tal como se ha hecho al finalizar las dos clases anteriores:
+Para la clase de hoy se necesitará una lectura atenta del presente README.md, consultas a todos los vínculos incluidos, y el uso de la Consola de JavaScript. Después es esto tendrás que usar editor de código para completar un ejercicio que se tendrá que publicar en GitHub Pages, tal como se ha hecho al finalizar las dos clases anteriores:
 
 - Clase 01 → https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio 
 
@@ -26,35 +26,37 @@ Para la clase de hoy se necesitará una lectura atenta, consultas a todos los v�
 
 #### Tipos de datos
 
-Si compartiera con ustedes el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
+Si compartiera el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|
 | Chile     | 18261884         | 756102         |
 
-Entendiendo cómo funciona una tabla, ustedes cuentan con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
+Entendiendo cómo funciona una tabla, tú cuentas con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
 
 Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
 
-Los números 18261884 y 24,15267252 tienen una diferencia que corresponde señalar al momento de disponerlos para su tratamiento en computación: 
+Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apuntar:
 
-- **18261884** es un número entero, un `int` (del inglés *integer*) en varios lenguajes de programación.
+- **18261884** es un número entero, un `int` (del inglés *integer*).
 
-- **24,15267252** es un número de coma flotante, un `float` (del inglés *floating point number*) en varios lenguajes de programación.
+- **24,15267252** es un número de coma flotante, un `float` (del inglés *floating point number*; y no se olviden de esta diferencia, lo que para nosotros es coma, *for them* es punto, y el *coding* se hace en *english*).
 
-A estos dos tipos de datos numéricos, podemos agregar otros tipos de datos: 
+A estos dos tipos de datos numéricos, podemos agregar: 
 
 - **true** o **false** como las dos opciones posibles de un [tipo de dato lógico](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico) (bool: *boolean*)
 
 - **"A"** como un carácter (char: *character*)
 
-Podrán notar que en el tipo de dato numérico y booleano no se usaron comillas, pero en el caso del caracter sí se utiliza. 
+Podrás notar que en el tipo de dato numérico y booleano no utilicé comillas, pero en el caso del caracter sí las usé. 
 
-Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en lenguajes de programación clásicos para **declarar que una variable que almacenará cierto tipo de dato**. 
+Menciono `int`, `bool`, `char` y `float` porque son palabras reservadas en lenguajes de programación clásicos para **declarar que una variable que almacenará cierto tipo de dato**. 
 
 #### Datos en JavaScript
 
-**En JavaScript las variables se pueden crear con una única palabra reservada,`var`**. Y digo que se **pueden** crear con `var` porque no necesariamente se deben crear con `var`. Para entender la diferencia, favor consulten el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable: 
+**En JavaScript las variables se pueden crear con una única palabra reservada,`var`**. Y digo que se **pueden** crear con `var` porque no necesariamente se deben crear con `var`. Para entender la diferencia, favor consulten el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+
+Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable (como sí se hace en el lenguaje Java, que es la base de Processing). O sea, en JavaScript y en sus bibliotecas hacemos esto:
 
 ```
 var a = 18261884;
@@ -63,7 +65,7 @@ var b = 24,15267252;
 
 var c = false;
 
-var d = "Fake News";
+var d = "Marge in Chains";
 
 var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
 
@@ -79,9 +81,15 @@ var h = [
 
 ```
 
-**Lo que cambia viene después del signo igual, que en este caso está asignando valor a cada variable.** 
+**Lo que cambia viene después del signo igual `=`, que en este caso está asignando valor a cada variable.** 
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre:valor. Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par que tiene un valor que es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos.
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
+
+La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
+
+La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre:valor. 
+
+Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par que tiene un valor que es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos.
 
 Si necesito el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente; o sea, ustedes dicen `a` y ya tienen 18261884. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
@@ -89,15 +97,15 @@ Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solic
 
 Pasemos a la variable `f`. Digamos que necesitamos escribir en la Consola de JavaScript de su navegador que `Kirk Van Houten dibujó la dignidad`. Tendría que escribir `f.dad + " dibujó la dignidad"`. Si quieren hacer la prueba, antes de escribir la instrucción, copien y peguen la variable `f`. 
 
-Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el índice `children`.
+Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el par de nombre `children`.
 
-Así como avanzando, bien podrían intentar resolver cómo obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
+Ahora bien podrían intentar obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
 
 ¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que programar una consulta, y para revisarla conviene avanzar un subtítulo. 
 
 ### Ciclos y condiciones
 
-Pimero, desde una perspectiva lógica, tendría que pedir cada elemento de cada arreglo `children`, tantas veces como elementos tenga pero recordando que la primera posición es 0. 
+Pimero, desde una perspectiva lógica, tendría que pedir cada elemento de cada arreglo en par de nombre `children`, tantas veces como elementos tenga pero recordando que la primera posición es 0. 
 
 Pero partamos en algo más simple: Si tengo `var frutas = ["manzana","pera","durazno","limón"]` tengo que pedir `frutas[0]`, `frutas[1]`, `frutas[2]` y `frutas[3]`. O sea, voy a partir por cero y llegar como máximo al total de elementos menos uno; eran tres elementos, pero llegué a dos (y para lo que sigue recuerda: 2 < 3).
 
@@ -111,7 +119,7 @@ for (let x = 0; x < frutas.length; x++){
 }
 ```
 
-Favor copia y pega las líneas de código de arriba en Consola de JavaScript de tu Navegador y presiona la tecla `Enter`. Lo que ocurre es que mientras `x` es menor que 4 se cumple un ciclo que incrementa su valor en 1 (eso es lo que significa `x++`), siendo primero frutas[0], que es el valor inicial de `x`, luego frutas[1], siguido de frutas[2], después frutas[3] y hasta ahí no más porque se cumple la condición 3 < 4.
+Favor copia y pega las líneas de código de arriba en Consola de JavaScript de tu Navegador y presiona la tecla `Enter`. Lo que ocurre es que mientras `x` es menor que 4 se cumple un ciclo que incrementa su valor en 1 (eso es lo que significa `x++`), siendo primero frutas[0], que es el valor inicial de `x`, luego frutas[1], seguido de frutas[2], después frutas[3] y hasta ahí no más llegamos porque se cumple la condición 3 < 4.
 
 Pero digamos que quiero solamente frutas que tengan una letra "e" en su nombre; bien podría encargar una consulta por esa condición, si acaso incluye ese caracter. En este caso, podrían probar copiando y pegando lo que sigue en la Consola:
 
@@ -147,7 +155,7 @@ for (let x = 0; x < h.length; x++){
 
 ¡Prueba el código en la Consola de JavaScript de tu Navegador!
 
-Y dentro de un ciclo tú puedes programar la modificación de una variable. No simplemente modificarla en su valor, con operaciones matemáticas en cada vuelta del ciclo. Bien se puede modificar un arreglo sumándole elementos. O sea, podemos llenar un arreglo dentro de un ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) con el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push). Y si prefieres las cosas ordenadas, fuera del ciclo, puedes usar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort). 
+Y dentro de un ciclo tú puedes programar la modificación de una variable. No simplemente modificarla en su valor, con operaciones matemáticas en cada vuelta del ciclo. Bien se puede modificar un arreglo sumándole elementos; podemos llenar un arreglo dentro de un ciclo [`for()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) con el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push). Y si prefieres las cosas ordenadas, fuera del ciclo, puedes usar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort). 
 
 A continuación vamos a crear un arreglo de nombre `chiquillada`; parte vacío pero corresponde agregar el paréntesis cuadrado para que el computador entienda que se trata de un arreglo. En `chiquillada` vamos a guardar cada `children` de `h`, mezclando Van Houten, Simpson y Nahasapeemapetilon, para luego ordenarlos alfabéticamente:
 
@@ -172,9 +180,9 @@ console.log(chiquillada);
 
 ¿Cómo puedo hacer para tener más datos, crear con amigos una variable `i` que contenga a todas las familias de Springfield y poder consultarla sin tener que copiar y pegarla en todas partes? 
 
-La respuesta que le vamos a dar a tal inquietud exige el último subtítulo de la clase de hoy.
+La respuesta que le vamos a dar a tal inquietud exige avanzar al último subtítulo de la clase de hoy.
 
-**Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve sobre al libro de "Introducción a P5.js"**: Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición"). 
+**Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve sobre al libro de "Introducción a P5.js"**: Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición").
 
 #### JSON
 
