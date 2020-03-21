@@ -50,9 +50,7 @@ A estos dos tipos de datos numéricos, podemos agregar otros tipos de datos:
 
 Podrán notar que en el tipo de dato numérico y booleano no se usaron comillas, pero en el caso del caracter sí se utiliza. 
 
-Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en C++ para **declarar que una variable que almacenará cierto tipo de dato**. 
-
-**En el contexto computacional, una variable debe entenderse como un espacio en la memoria del computador donde se almacenará un dato que puede variar en la ejecución del programa del que sea parte.**
+Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en lenguajes de programación clásicos para **declarar que una variable que almacenará cierto tipo de dato**. 
 
 #### Datos en JavaScript
 
@@ -83,7 +81,7 @@ var h = [
 
 **Lo que cambia viene después del signo igual, que en este caso está asignando valor a cada variable.** 
 
-Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre/valor. Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par que tiene un arreglo. Mientras que la variable `h` es un arreglo de tres objetos.
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas. La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre:valor. Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par que tiene un valor que es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos.
 
 Si necesito el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente; o sea, ustedes dicen `a` y ya tienen 18261884. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
@@ -172,7 +170,9 @@ chiquillada.sort();
 console.log(chiquillada);
 ```
 
-La inquietud a la que me gustaría empujarte es la siguiente: ¿Cómo puedo hacer para tener más datos, crear con conocidos una variable `i` que contenga a todas las familias de Los Simpson y poder consultarla sin tener que copiar y pegarla en todas partes? Y la respuesta que le vamos a dar a tal inquietud exige el último subtítulo de la clase de hoy.
+¿Cómo puedo hacer para tener más datos, crear con amigos una variable `i` que contenga a todas las familias de Springfield y poder consultarla sin tener que copiar y pegarla en todas partes? 
+
+La respuesta que le vamos a dar a tal inquietud exige el último subtítulo de la clase de hoy.
 
 **Te recomiendo pasar al siguiente subtítulo después de haber revisado todos las referencias vinculadas más arriba. Y si tales referencias no fueron suficientes para comprender lo que se ha presentado, favor vuelve sobre al libro de "Introducción a P5.js"**: Además de recomendarte revisar nuevamente los apéndices en páginas finales, podrías revisar el contenido entre páginas 56 y 66 (subtítulos "Un poco de matemáticas" y "Repetición"). 
 
