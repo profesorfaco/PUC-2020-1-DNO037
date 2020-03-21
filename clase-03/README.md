@@ -222,11 +222,11 @@ JSON está constituído por dos estructuras (1) Una colección de pares de nombr
 
 Así como podemos compartir datos en bruto usando JSON, también podemos encontrarlos, para después utilizarlos en nuestro sitios y aplicaciones. 
 
-Así nos podemos enterar de quiénes son los humanos más a salvo del COVID-19, porque están en este momento en la ISS (International Space Station): http://api.open-notify.org/astros.json - Y enterarnos por dónde va pasando por la misma ISS: http://api.open-notify.org/iss-now.json - Ahora dale actualizar a esta última página y ve cómo cambian los números (porque va avanzando en su rotación al planeta)
+Así nos podemos enterar de quiénes son los humanos más a salvo del COVID-19, porque están en este momento en la ISS (International Space Station): http://api.open-notify.org/astros.json - Y enterarnos por dónde va pasando la misma ISS: http://api.open-notify.org/iss-now.json - Ahora dale actualizar a esta última página y ve cómo cambian los números (porque va avanzando en su rotación al planeta)
 
 Si quieres ver de mejor manera los JSON recién referidos, te recomiendo instalar una extensión en tu navegador. En Chrome puedes instalar [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es), otra opciones son JSON View y JSON Viewer.
 
-Después de instalada la extensión, puedes volver a ver las páginas de arriba. Con ese cambio, puedes asomarte a datos en bruto con mayor extensión, como los que utilizaremos para el ejercicio de hoy: 
+Después de instalada la extensión, puedes volver a ver las páginas de arriba. Se hace aún más legible. Con ese cambio, puedes asomarte a datos en bruto con mayor extensión, como los que utilizaremos para el ejercicio de hoy: 
 
 - Los Casos confirmados de coronavirus alrededor del mundo: https://pomber.github.io/covid19/timeseries.json
 
@@ -234,7 +234,7 @@ Después de instalada la extensión, puedes volver a ver las páginas de arriba.
 
 Lo que hace simple leer un JSON es el par nombre:valor. En cada par tenemos algo muy parecido a aquello con lo que iniciamos la clase: Un número 18261884, por si solo, no sirve de mucho, sí nos sirve cuando sabemos que se trata de la población de Chile.
 
-**¿Ahora cómo tomo lo que está en un JSON para poder utilizarlo en programación con JavaScript?** ¡Hay comillas que sobran y ya tengo claro que basta un signo equivocado para que nada funcione!
+**¿Ahora cómo tomo lo que está en un JSON para poder utilizarlo en JavaScript?** ¡Hay comillas que sobran y ya tengo claro que basta un signo equivocado para que nada funcione!
 
 La respuesta: Hay que parsearlo. Y para no quedar en el mismo lugar, aprovechemos la explicación de [Iván Rico](https://groups.google.com/forum/#!topic/phplatinoamerica/nBe6PQm-VVY):
 
@@ -249,7 +249,7 @@ function preload(){
 	data = loadJSON("https://api.myjson.com/bins/p1zik");	
 }
 
-//Listo, a la variable global data se le asignaron los valores del JSON, al modo que corresponde a JavaScript.
+//A la variable global data se le asignaron los valores del JSON, al modo que corresponde a JavaScript.
 ```
 
 En el ejemplo de arriba estoy usando un servicio que permite a cualquiera dejar en línea sus propios JSON: http://myjson.com/
@@ -260,12 +260,11 @@ Si tienes dudas hasta este punto, puedes volver al libro de "Introducción a p5.
 
 #### Ejercicio
 
-Si llegaste hasta este punto es porque ya revisaste todo lo anterior, y ya puedes seleccionar un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
+Selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
 
-Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de https://pomber.github.io/covid19/timeseries.json - Por ejemplo, Japan - Deja que se cargue completamente antes de buscar el nombre (puede demorar). Prefiere usar cmd + F o Crtl + F para facilitarte la búsqueda.
+Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de https://pomber.github.io/covid19/timeseries.json y https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson -Prefiere usar `cmd` + `F` o `Crtl` + `F` para facilitarte la búsqueda.
 
-Anota el nombre del país tal y como aparezca en el JSON recién referido. Envía un correo indicando ese nombre y como respuesta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio para clase-03 antes de las 12.50 hrs. de hoy, miércoles 25 de marzo de 2020. 
-
+Anota el nombre del país tal y como aparezca en los JSON recién referidos. Envía un correo indicando ese nombre y como respuesta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio de clase-03.
 
 - - - - - - - 
 
