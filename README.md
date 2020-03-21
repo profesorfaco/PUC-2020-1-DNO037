@@ -32,9 +32,9 @@
 
 Se proyecta la siguiente organización de las clases durante el primer semestre del año 2020:
 
-[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding
+[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding ✓ 
 
-[Clase 02 → Miércoles 18 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02) → JS
+[Clase 02 → Miércoles 18 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02) → JS ✓
 
 [Clase 03 → Miércoles 25 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03) → JS
 
