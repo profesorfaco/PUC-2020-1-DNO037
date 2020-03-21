@@ -32,7 +32,7 @@ Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados; u
 
 - **En la mezcla de [p5.js](https://p5js.org/es/reference/) y [Leafleft.js](https://leafletjs.com/reference-1.6.0.html) obtendremos un mapamundi** donde se marcan los epicentros de los temblores de +4.5M de la última semana, según datos de https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
 
-¿Qué gracia tienen ese [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/) y ese mapamundi? Que se actualizarán en cada cambio en los datos (siempre y cuando la fuente de los datos mantenga su disponibilidad y estructura).
+¿Qué gracia tiene ese [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/) y ese mapamundi? Que se actualizarán en cada cambio en los datos (siempre y cuando la fuente de los datos mantenga su disponibilidad y estructura).
 
 #### Sin bibliotecas
 
