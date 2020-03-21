@@ -10,7 +10,7 @@ Esta clase parte considerando que ya han revisado:
 
 - los apéndices A, B y C en el libro "Introducción a p5.js". Estos apéndices están entre páginas 221 y 227.
 
-También se considera que, con ayuda de JavaScript para Gatos, pudieron explorar la Consola de JavaScript de sus navegadores (Chrome o Firefox); en lo que siga, si necesita acceder mediante atajo de teclado a tal consola, pueden usar: 
+También se considera que, con ayuda de JavaScript para Gatos, pudieron explorar la Consola de JavaScript de sus navegadores (Chrome o Firefox); en lo que siga, si necesitas acceder mediante atajo de teclado a tal consola, pueden usar: 
 
 - **Chrome**: `Ctrl` + `Shift` + `J` si están en PC o `cmd` + `alt` + `J` si están en Mac
 
