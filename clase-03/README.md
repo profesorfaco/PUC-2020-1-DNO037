@@ -226,7 +226,7 @@ Así nos podemos enterar de quiénes son los humanos más a salvo del COVID-19, 
 
 Si quieres ver de mejor manera los JSON recién referidos, te recomiendo instalar una extensión en tu navegador. En Chrome puedes instalar [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es), otra opciones son JSON View y JSON Viewer.
 
-Después de instalada la extensión, puedes volver a ver las páginas de arriba. Se hace aún más legible. Con ese cambio, puedes asomarte a datos en bruto con mayor extensión, como los que utilizaremos para el ejercicio de hoy: 
+Después de instalada la extensión, puedes volver a ver las páginas de arriba. Más amigable, ¿cierto? Con ese cambio, puedes asomarte a algo con mayor extensión: 
 
 - Los Casos confirmados de coronavirus alrededor del mundo: https://pomber.github.io/covid19/timeseries.json
 
