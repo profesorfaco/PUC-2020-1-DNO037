@@ -4,21 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--La siguiente línea va a buscar la biblioteca de p5.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-    <!--la siguiente línea va a buscar una segunda biblioteca de JavaScript-->
+    <!--La siguiente línea va a buscar la biblioteca de Chart.js-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
     <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        canvas {
-            display: block;
-        }
+        html, body { margin: 0; padding: 0; overflow: hidden; }
+        canvas { display: block; }
     </style>
-    <title>Casos confirmados · Marzo 2020 · p5.js + Chart.js</title>
+    <title>p5.js + Chart.js</title>
 </head>
 
 <body>
@@ -69,10 +63,6 @@
             console.log(marzo_brasil);
 
             /* 
-
-            En las líneas que siguen uso otra biblioteca de JavaScript - https://www.chartjs.org/ - una diseñada, específicamente, para la creación de gráficos en <canvas></canvas>.
-
-            No es lo más "purista" andar mezclando bibliotecas, pero dejemos el "purismo" para a programadoras/es (y este no es un opativo para ellas/os).
 
             Con p5.js vamos por el JSON, creamos el canvas y también algunos arreglos con datos para visualizar. Con chart.js dibujamos en el canvas creado, aprovechando los arreglos de marzo (labels), marzo_chile, marzo_argentina y marzo_brasil (data). 
 
