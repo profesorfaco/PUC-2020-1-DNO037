@@ -2,6 +2,28 @@
 
 ### Clase 3 → Miércoles 25 de marzo, 2020
 
+#### Primeras instrucciones
+
+Esta clase parte considerando que ya han revisado:
+
+- la [página JavaScript para Gatos](https://jsparagatos.com/), llegando hasta el subtítulo "Callbacks", sin incluirlo. O sea, llegando hasta: "…estás haciendo estructuras de datos, como legos!"; y
+
+- los apéndices A, B y C en el libro "Introducción a p5.js". Estos apéndices están entre páginas 221 y 227.
+
+También se considera que, con ayuda de JavaScript para Gatos, pudieron explorar la Consola de JavaScript de sus navegadores (Chrome o Firefox); en lo que siga, si necesita acceder mediante atajo de teclado a tal consola, pueden usar: 
+
+- **Chrome**: `Ctrl` + `Shift` + `J` si están en PC o `cmd` + `alt` + `J` si están en Mac
+
+- **Mozilla Firefox**: `Crtl + `Shift` + `K` si están en PC o `cmd` + `alt` + `K` si están en Mac 
+
+Para la clase de hoy se necesitará una lectura atenta, consultas a todos los vínculos que dejé entre el texto, y el uso de la Consola de JavaScript en sus navegadores. Después es esto tendrán que usar editor de código, para completar un ejercicio que se tendrá que publicar en GitHub Pages, tal como se ha hecho al finalizar las dos clases anteriores:
+
+- Clase 01 → https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio 
+
+- Clase 02 → https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02#ejercicio 
+
+- - - - - - - - - - - 
+
 #### Tipos de datos
 
 Si compartiera con ustedes el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
@@ -32,13 +54,9 @@ Mencionamos `int`, `bool`, `char` y `float` porque son palabras reservadas en [C
 
 **En el contexto computacional, una variable debe entenderse como un espacio en la memoria del computador donde se almacenará un dato que puede variar en la ejecución del programa del que sea parte.**
 
-- - - - - - - - - - - - - - - - -
-
 #### Datos en JS
 
-**En programación, los datos puede ser contenidos en las variables. En JS las variables se pueden crear con una única palabra reservada,`var`**.
-
-Y digo que se **pueden** crear con `var`, porque no necesariamente se deben crear con `var`. Para entender la diferencia, favor consulten el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable: 
+**En JavaScript las variables se pueden crear con una única palabra reservada,`var`**. Y digo que se **pueden** crear con `var` porque no necesariamente se deben crear con `var`. Para entender la diferencia, favor consulten el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable: 
 
 ```
 var a = 18261884;
