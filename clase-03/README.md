@@ -260,11 +260,15 @@ Si tienes dudas hasta este punto, puedes volver al libro de "Introducción a p5.
 
 #### Ejercicio
 
-Selecciona un país del cinturón del Fuego del Pacífico que NO sea Chile – https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico
+Selecciona un país del [cinturón del Fuego del Pacífico](https://es.wikipedia.org/wiki/Cinturón_de_Fuego_del_Pacífico) que NO sea Chile. Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de:
 
-Revisa si el país seleccionado está incluido, con su nombre en inglés, entre los registros de https://pomber.github.io/covid19/timeseries.json y https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson -Prefiere usar `cmd` + `F` o `Crtl` + `F` para facilitarte la búsqueda.
+- https://pomber.github.io/covid19/timeseries.json
 
-Anota el nombre del país tal y como aparezca en los JSON recién referidos. Envía un correo indicando ese nombre y como respuesta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio de clase-03.
+- https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson 
+
+Prefiere usar `cmd` + `F` o `Crtl` + `F` para facilitarte la búsqueda de tal país.
+
+Si el país figura en ambos JSON, envía un correo indicando su nombre y como respuesta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio de clase-03.
 
 - - - - - - - 
 
