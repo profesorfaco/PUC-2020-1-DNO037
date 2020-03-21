@@ -26,7 +26,7 @@ Lo que haremos en esta clase será explorar la posibilidad de mezclar [p5.js](ht
 
 - [Leaflet.js](https://leafletjs.com/): The leading open-source JavaScript library for mobile-friendly interactive maps.
 
-Si volvemos a la analogía cocinera: Será como mezclar platos preparados. Un programador con delirio de [Chef Gordon Ramsay](https://youtu.be/GMMRw3Ryki0) podría insultarnos por hacer esto. Pero sus insultos NO nos afectarán porque estamos comenzando a programar en la medida de lo útil para nuestra carrera (que no es ingeniería en programación, ni gastronomía internacional si queremos mantener la analogía).
+Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados. Un programador con delirio de [Chef Gordon Ramsay](https://youtu.be/GMMRw3Ryki0) podría insultarnos por hacer esto. Pero sus insultos NO nos afectarán porque estamos comenzando a programar en la medida de lo útil para nuestra carrera (que no es ingeniería en programación, ni gastronomía internacional si queremos mantener la analogía).
 
 - **En la mezcla de [p5.js](https://p5js.org/es/reference/) y [Chart.js](https://www.chartjs.org/docs/latest/) obtendremos un [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/)** que compara tres países en el aumento de casos confirmados de coronavirus durante el mes de marzo, según datos de https://pomber.github.io/covid19/timeseries.json  
 
@@ -34,9 +34,9 @@ Si volvemos a la analogía cocinera: Será como mezclar platos preparados. Un pr
 
 ¿Qué gracia tienen el gráfico lineal y el mapa? Que se actualizarán en cada cambio en los datos (siempre y cuando la fuente de los datos mantenga su disponibilidad y estructura).
 
-#### Recapitulando en JS
+#### Sin bibliotecas
 
-JavaScript (en lo que siga JS; nunca Java) es un lenguaje de programación. Con este lenguaje se pueden escribir programas que serán ejecutados en un navegador web. Estos programas pueden ser incluidos o vinculados a una página web a modo de script, entre etiquetas `<script>…</script>`. 
+Recapitulando, JavaScript es un lenguaje de programación. Con este lenguaje se pueden escribir programas que serán ejecutados en un navegador web. Estos programas pueden ser incluidos o vinculados a una página web a modo de script, entre etiquetas `<script>…</script>`. 
 
 En un programa de JS podemos encontrar dos elementos básicos: código y datos. La parte del código es la que permite redactar instrucciones. La parte de datos es la que permite almacenar información con la que podríamos condicionar las instrucciones. 
 
@@ -71,6 +71,7 @@ Ahora, como no estamos usando una biblioteca, corresponde ir a buscar referencia
 
 - [Cheatography JavaScript Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/javascript/pdf_bw/)
 
+Y con esas referencias se puede empezar a cocinar más allá del plato semipreparado.
 
 - - - - - - - 
 
