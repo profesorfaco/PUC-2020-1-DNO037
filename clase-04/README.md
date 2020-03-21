@@ -2,13 +2,35 @@
 
 ### Clase 4 → Miércoles 27 de marzo, 2020
 
+#### instrucciones iniciales
+
+Pendiente.
+
+#### p5.js & co.
+
+Existen muchas bibliotecas de JavaScript. Hemos estado introduciéndonos a este lenguaje de programación por la vía de p5.js. 
+
+Lo que haremos en esta clase será explorar la posibilidad de mezclar p5.js con otro par de bibliotecas de JavaScript:
+
+- [Chart.js](https://www.chartjs.org/): 
+
+- [Leaflet.js](https://leafletjs.com/): 
+
+Si volvemos a la analogía cocinera: Será como mezclar platos preparados. Un programador con delirio de [Chef Gordon Ramsay](https://youtu.be/GMMRw3Ryki0) podría insultarnos por hacer esto. Pero sus insultos NO nos afectarán porque estamos comenzando a programar en la medida de lo útil para nuestra carrera (que no es ingeniería en programación, ni gastronomía internacional si se que quiere mantener la analogía).
+
+- En la mezcla de [p5.js](https://p5js.org/es/reference/) y [Chart.js](https://www.chartjs.org/docs/latest/) obtendremos un [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/) que compara tres países en el aumento de casos confirmados de coronavirus durante el mes de marzo, habiendo tomado los datos de https://pomber.github.io/covid19/timeseries.json  
+
+- En la mezcla de [p5.js](https://p5js.org/es/reference/) y [Leafleft.js](https://leafletjs.com/reference-1.6.0.html) obtendremos un mapa donde se marcan los epicentros de los temblores de +4.5M de la última semana, habiendo tomados los datos de https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
+
+¿Qué gracia tienen el gráfico lineal y el mapa? Que se actualizarán en cada cambio en los datos (siempre y cuando la fuente de los datos mantenga su disponibilidad y estructura).
+
 #### Recapitulando en JS
 
 JavaScript (en lo que siga JS; nunca Java) es un lenguaje de programación. Con este lenguaje se pueden escribir programas que serán ejecutados en un navegador web. Estos programas pueden ser incluidos o vinculados a una página web a modo de script, entre etiquetas `<script>…</script>`. 
 
 En un programa de JS podemos encontrar dos elementos básicos: código y datos. La parte del código es la que permite redactar instrucciones. La parte de datos es la que permite almacenar información con la que podríamos condicionar las instrucciones. 
 
-Bien podemos trabajar con alguna biblioteca de JavaScript que nos simplifique la vida (y es lo que vinimos haciendo con p5.js) o podemos prescindir de ellas para que escribir, dentro del documento HTML lo siguiente: 
+Bien podemos trabajar con alguna biblioteca de JavaScript que nos simplifique la vida (y es lo que vinimos haciendo con p5.js, chart.js y leaflet) o podemos prescindir de ellas para que escribir, dentro del documento HTML lo siguiente: 
 
 ```
 <script>
