@@ -1,0 +1,40 @@
+[{
+      "pais": "Chile",
+      "coordenadas": [
+         -33.4724712, -70.9107139
+      ],
+      "casos": 632
+   },
+   {
+      "pais": "China",
+      "coordenadas": [
+         33.907131,
+         104.119673
+      ],
+      "casos": 81397
+   },
+   {
+      "pais": "EE.UU.",
+      "coordendas": [
+         39.7640004,
+         -105.1359902
+      ],
+      "casos": 30285
+   },
+   {
+      "pais": "España",
+      "coordendas": [
+         40.4378693,
+         -3.8199658
+      ],
+      "casos": 28603
+   },
+   {
+      "pais": "Italia",
+      "coordenadas": [
+         43.405253,
+         11.878462
+      ],
+      "casos": 53578
+   }
+]
