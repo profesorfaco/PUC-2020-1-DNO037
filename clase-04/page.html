@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--La siguiente línea va a buscar la biblioteca de p5.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-    <!--Leaflet.js necesita, además de su JS, un CSS que lo complementa-->
+    <!--Leaflet.js necesita, además de su JS, un CSS que la complementa-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
     <style>
         html, body { margin: 0; padding: 0; overflow: hidden; }
         canvas { display: block; }
+        p a{font-family:Helvetica, Arial, sans-serif; font-size:12px; padding:3px 5px; background:black; color:silver; text-decoration: none;}
+        p a:hover{text-decoration: underline; color:white;}
     </style>
     <title>p5.js + Leaflet.js</title>
 </head>
@@ -20,7 +22,8 @@
 
     <div id="mapamundi" style="width: 100vw; height: 100vh;"></div>
     <script>
-        var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson";
+        var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson"; //La estructura de este GeoJSON se explica en https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
         var temblores;
 
         function preload() {
@@ -28,6 +31,7 @@
         }
 
         function setup() {
+            createElement('p','<a href="index.html">ir a index.html</a>').position(windowWidth-100,0).style('z-index','9999');
             console.log(temblores);
 
             /* 
@@ -36,18 +40,19 @@
 
             */
 
-            var miMapa = L.map('mapamundi').setView([28, 0], 2);
+            var miMapa = L.map('mapamundi').setView([30, 0], 2);
 
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                 minZoom:2,
                 maxZoom: 10,
-                id: 'mapbox/streets-v11',
-                tileSize: 512,
-                zoomOffset: -1
+                id: 'mapbox/streets-v11'
             }).addTo(miMapa);
 
             for (let x = 0; x < temblores.features.length; x++) {
-                L.circle([temblores.features[x].geometry.coordinates[1], temblores.features[x].geometry.coordinates[0]], 25000 * temblores.features[x].properties.mag, { stroke: false, fillColor: '#f00', fillOpacity: 0.4 }).addTo(miMapa)
+            	let longitud = temblores.features[x].geometry.coordinates[0];
+            	let latitud = temblores.features[x].geometry.coordinates[1];
+            	let magnitud = temblores.features[x].properties.mag;
+                L.circle([latitud,longitud],{radius: Math.pow(10,magnitud),stroke:false,fillColor:'#ff0000',fillOpacity:0.4}).addTo(miMapa)
             }//acá se cierra el ciclo for que va agregando circulos a miMapa
 
         }//acá se cierra el function setup de p5.js

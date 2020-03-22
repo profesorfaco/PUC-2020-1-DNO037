@@ -11,6 +11,8 @@
     <style>
         html, body { margin: 0; padding: 0; overflow: hidden; }
         canvas { display: block; }
+        p a{font-family:Helvetica, Arial, sans-serif; font-size:12px; padding:3px 5px; background:black; color:silver; text-decoration: none;}
+        p a:hover{text-decoration: underline; color:white;}
     </style>
     <title>p5.js + Chart.js</title>
 </head>
@@ -30,6 +32,8 @@
         }
 
         function setup() {
+            createElement('p','<a href="page.html">ir a page.html</a>').position(windowWidth-100,0).style('z-index','9999');
+            
             createCanvas(windowWidth, windowHeight).id("chart");
 
             for (let x = 1; x <= 31; x++) {
@@ -99,6 +103,11 @@
                     }]
                 },
                 options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: 'Casos confirmados durante marzo 2020'
+                    },
                     scales: {
                         yAxes: [{
                             ticks: {
