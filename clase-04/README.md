@@ -63,44 +63,23 @@ El tamaño de cada círculos dependerá de la cantidad de casos confirmados de c
 
 Para validarlo en la medida que lo trabajan, pueden usar servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, y luego pueden subirlo en a http://myjson.com/ o al mismo GitHub, dentro de un repositorio, con atención de compartir la dirección de su versión "raw".
 
-#### Sin bibliotecas
+- - - - - - -
 
-Recapitulando, JavaScript es un lenguaje de programación. Con este lenguaje se pueden escribir programas que serán ejecutados en un navegador web. Estos programas pueden ser incluidos o vinculados a una página web a modo de script, entre etiquetas `<script>…</script>`. 
+#### Ejercicio
 
-En un programa de JS podemos encontrar dos elementos básicos: código y datos. La parte del código es la que permite redactar instrucciones. La parte de datos es la que permite almacenar información con la que podríamos condicionar las instrucciones. 
+Antes de enviar un correo electrónico solicitando las indicaciones para el ejercicio que corresponde publicar en tu repositorio de clase-04, debes resolver un pre-ejercicio:
 
-Bien podemos trabajar con alguna biblioteca de JavaScript que nos simplifique la vida (y es lo que vinimos haciendo con p5.js, chart.js y leaflet) o podemos prescindir de ellas para que escribir, dentro del documento HTML lo siguiente: 
+Siguiendo la estructura del JSON presentado más arriba, de arreglo [] con objetos {}, teniendo cada objeto 3 pares nombre:valor (pais, coordenadas y casos): 
 
-```
-<script>
-  var d = new Date();
-  var h = d.getHours();
-  var saludo;
-  if ((h >= 6) && (h < 12)) { 
-    saludo = "buenos días"
-  } else if ((h >= 12) && (h < 20)) {
-    saludo = "buenas tardes"
-  } else { 
-    saludo = "buenas noches"
-  }
-  document.write(saludo);
-  // Para otros despliegues del saludo, ver https://www.w3schools.com/js/js_output.asp  
-</script>
-```
+- arma tu propio JSON con 10 países
 
-En este ejemplo de JS se crea una variable `d`, a la que se le encarga almacenar [la fecha](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date) en la que una página web es visualizada. Luego, a una variable `h` se le encargar almacenar [solo la hora](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date/getHours) en tal fecha. Después se crea una variable con el nombre `saludo`, en la que no se almacenan datos de forma inmediata. Mediante [condiciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) (`if (…){…}`, `else if (…){…}`, `else{…}`) se le encargará a la variable `saludo` almacenar la cadena de caracteres que corresponda a la hora en que se visualiza la página web. Finalmente, se escribe el valor correspondiente del `saludo`.
+- valídalo en https://jsonformatter.curiousconcept.com/ 
 
-El mismo programa puede ser escrito en un documento aparte, con extensión `.js`. Si a este programa le llamamos `saludo.js` y lo dejamos en la misma carpeta que contiene una página web, podríamos vincularlo escribiendo: `<script src="saludo.js"></script>`. Dentro del documento no tenemos que incluir las etiquetas `<script>…</script>`. 
+- publícalo en http://myjson.com/ 
 
-Ahora, como no estamos usando una biblioteca, corresponde ir a buscar referencias más genéricas respecto de JS:
+Anota la dirección con la que quede publicado tu JSON (debería tener la estructura https:// api . myjson . com / bins / nombre de caracteres y números aleatoreos)
 
-- [JS CheatSheet](https://htmlcheatsheet.com/js/)
-
-- [WebsiteSetup JavaScript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/)
-
-- [Cheatography JavaScript Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/javascript/pdf_bw/)
-
-Y con esas referencias se puede empezar a cocinar más allá del plato semipreparado.
+Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio, porque tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de index.html y page.html ya compartidos.
 
 - - - - - - - 
 
