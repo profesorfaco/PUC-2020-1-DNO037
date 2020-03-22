@@ -58,7 +58,7 @@ Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los 
    },
    {
       "pais":"EE.UU.",
-      "coordendas":[
+      "coordenadas":[
          39.7618,
          -104.881
       ],
