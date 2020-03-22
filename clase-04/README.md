@@ -38,13 +38,13 @@ Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados; u
 
 Si te asomas al https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html (que mezcla [p5.js](https://p5js.org/es/reference/) y [Chart.js](https://www.chartjs.org/docs/latest/)) podrás ver que dentro del `<script></script>` hay declaraciones de variables además del uso de funciones `preload()` y `setup()`, pero se omite el uso de `function draw()`. Dentro del `function setup()` de p5.js te encontrarás con un `new Chart()` de Chart.js, que en línea 76  define el uso de un gráfico lineal para visualizar data según las indicaciones entre líneas 77 y 104, con ajustes más específicos entre líneas 105 y 120.
 
-Si te asomas a https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html (que mezcla [p5.js](https://p5js.org/es/reference/) y [Leafleft.js](https://leafletjs.com/reference-1.6.0.html)) podrás ver que dentro del <script></script> que también se omite el uso de function draw(), y que dentro de la `function setup()` de p5.js hay algunas definiciones que parten con `L` de Leafleft.js: `L.map` define el contexto, `L.tileLayer` define la capa del mapamundi y `L.circle`, dentro de un ciclo for, define cada círculo que corresponde marcar sobre el mapamundi. Y dentro del L.circle me aprovecho de [la función Math.pow()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/pow) porque es una operación más pertinente a la diferencia de [magnitudes](http://www.sismologia.cl/links/glosario.html#def24).
+Si te asomas a https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html (que mezcla [p5.js](https://p5js.org/es/reference/) y [Leafleft.js](https://leafletjs.com/reference-1.6.0.html)) podrás ver que dentro del `<script></script>` también se omite el uso de `function draw()`, y que dentro de la `function setup()` de p5.js hay algunas definiciones que parten con `L` de Leafleft.js: `L.map` define el contexto, `L.tileLayer` define la capa del mapamundi y `L.circle`, dentro de un ciclo for, define cada círculo que corresponde marcar sobre el mapamundi. Y dentro del L.circle podemos aprovechar [la función Math.pow()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/pow) porque hace más sentido a la diferencia de [magnitudes](http://www.sismologia.cl/links/glosario.html#def24).
 
 #### Mi JSON
 
-También ese posible que ustedes construyan sus propios JSON. Por ejemplo, podrían pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi, con el radio dependiente de números de casos confirmados de coronavirus en el país hasta el 31 de marzo de 2020. 
+En la clase pasada se adelantó la posibilidad de contruir nuestros propios JSON. Por ejemplo, podríamos pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi, con el radio dependiente de números de casos confirmados de coronavirus en cada país, hasta el 31 de marzo de 2020. 
 
-Lo que corresponde hacer en tal caso, además de conseguir los números oficiales, es buscar coordenadas geográficas del centro de sus capitales o ciudad más "céntrica". Una cosa es marcar el centro de Chile en Santiago, pero otra es marcar el centro de EE.UU. en Washington D.C. (podrían marcar el centro en Denver para el segundo caso); si consideramos los dos países mencionados, podría resultar en lo siguiente:
+Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los números oficiales, es buscar coordenadas geográficas del centro de sus capitales o ciudad más "céntrica". Una cosa es marcar el centro de Chile en Santiago, pero otra es marcar el centro de EE.UU. en Washington D.C. (podrían marcar el centro en Denver para el segundo caso); si consideramos los dos países mencionados, podría resultar en lo siguiente:
 
 ```
 [
@@ -67,13 +67,13 @@ Lo que corresponde hacer en tal caso, además de conseguir los números oficiale
 ]
 ```
 
-Copien y peguen este JSON en un nuevo documento de su editor de código fuente. Guárdenlo con el nombre `datos.json` y agreguen un tercer país. Cuando tengan ese país agregado, pueden copiar y pegar el código en servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, allí se les indicará si acaso lo escrito cumple o no con las reglas de JSON (si cumple las reglas indicará que es *valid*). 
+Copien y peguen este JSON en un nuevo documento de su editor de código fuente. Guárdenlo con el nombre `datos.json` y agreguen un tercer país, el que quieran. Cuando tengan ese país agregado, pueden copiar y pegar el código en servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, allí se les indicará si acaso lo escrito cumple o no con las reglas de JSON (si cumple las reglas indicará que es *valid*). 
 
 - - - - - - -
 
 #### Ejercicio
 
-Antes de enviar un correo electrónico solicitando las indicaciones para el ejercicio que corresponde publicar en tu repositorio de clase-04, debes resolver un pre-ejercicio:
+**Antes de enviar un correo electrónico** solicitando las indicaciones para el ejercicio que corresponde publicar en tu repositorio de `/clase-04`, **debes resolver un pre-ejercicio**:
 
 Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto 3 pares nombre:valor (`"pais"`, `"coordenadas"` y `"casos"`): 
 
@@ -85,7 +85,9 @@ Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con obj
 
 Anota la dirección con la que quede publicado tu JSON (debería tener la estructura https:// api . myjson . com / bins / nombre de caracteres y números aleatoreos)
 
-Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio, porque tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
+Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio. Tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
+
+Mientras estés resolviendo las modificaciones de tales archivos, yo estaré armando un único JSON con todos sus aportes, un JSON que usaremos la [próxima clase](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05)
 
 - - - - - - - 
 
