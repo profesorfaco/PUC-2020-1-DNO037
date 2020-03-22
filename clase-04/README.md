@@ -87,7 +87,7 @@ Anota la dirección con la que quede publicado tu JSON (debería tener la estruc
 
 Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio de la clase de hoy. Tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
 
-Mientras estés resolviendo las modificaciones de tales archivos, yo estaré armando un único JSON con todos sus aportes, un JSON que usaremos la [próxima clase](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05).
+Mientras tú sigues las instrucciones que serán enviadas, yo armaré un único JSON con todos sus aportes; un JSON que usaremos la [próxima clase](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05).
 
 - - - - - - - 
 
