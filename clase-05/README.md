@@ -1,6 +1,6 @@
 ## Diseño y Nuevos Medios v10 
 
-### Clase 05 → Miércoles 1 de abril, 2020
+### Clase 05 → Miércoles 8 de abril, 2020
 
 Hoy toca evaluación, así que no tengo mucho que explicar. Tengo que encargar algo para que desarrollen en horario de clases:
 
