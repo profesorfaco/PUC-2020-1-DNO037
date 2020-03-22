@@ -73,7 +73,7 @@ Copien y peguen este JSON en un nuevo documento de su editor de código fuente. 
 
 #### Ejercicio
 
-**Antes de enviar un correo electrónico** solicitando las indicaciones para el ejercicio que corresponde publicar en tu repositorio de `/clase-04`, **debes resolver un pre-ejercicio**:
+**Antes de enviar un correo electrónico** solicitando las instrucciones para el ejercicio que corresponde publicar en tu repositorio de `/clase-04`, **debes resolver un pre-ejercicio**:
 
 Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto 3 pares nombre:valor (`"pais"`, `"coordenadas"` y `"casos"`): 
 
@@ -85,7 +85,7 @@ Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con obj
 
 Anota la dirección con la que quede publicado tu JSON (debería tener la estructura https:// api . myjson . com / bins / nombre de caracteres y números aleatoreos)
 
-Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio. Tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
+Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio de la clase de hoy. Tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
 
 Mientras estés resolviendo las modificaciones de tales archivos, yo estaré armando un único JSON con todos sus aportes, un JSON que usaremos la [próxima clase](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05)
 
