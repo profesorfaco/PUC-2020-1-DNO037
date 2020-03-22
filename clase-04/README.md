@@ -4,9 +4,9 @@
 
 #### Primeras instrucciones
 
-El README.md de la clase de hoy está más enfocado en el trabajo directo con sus Editores de Código, por lo mismo los archivos `index.html` y `page.html` ya están disponibles en esta carpeta. 
+El README.md de la clase de hoy está más enfocado en el trabajo directo con sus Editores de Código, por lo mismo los archivos [`index.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [`page.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya están disponibles en esta carpeta. 
 
-En la clase-04, también tendrán que completar un ejercicio que se publicará en GitHub Pages, tal como se ha hecho al finalizar las tres clases anteriores: 
+**En la clase-04, también tendrán que completar un ejercicio que se publicará en GitHub Pages**, tal como se ha hecho al finalizar las tres clases anteriores: 
 
 - Clase 01 → https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio
 
