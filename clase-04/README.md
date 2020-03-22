@@ -79,7 +79,7 @@ Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con obj
 
 Anota la dirección con la que quede publicado tu JSON (debería tener la estructura https:// api . myjson . com / bins / nombre de caracteres y números aleatoreos)
 
-Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio, porque tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de index.html y page.html ya compartidos.
+Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio, porque tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
 
 - - - - - - - 
 
