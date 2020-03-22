@@ -34,7 +34,12 @@ Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados; u
 
 ¿Qué gracia tiene ese [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/) y ese [mapamundi](https://profesorfaco.github.io/dno037-2020/clase-04/page.html)? Que se actualizarán en cada cambio en los datos (siempre y cuando la fuente de los datos mantenga su disponibilidad y estructura), porque así quedaron programados.
 
-Si se asoman al https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html que mezcla [p5.js](https://p5js.org/es/reference/) y [Chart.js](https://www.chartjs.org/docs/latest/), podrán ver que dentro del `<script></script>` hay declaraciones de variables además del uso de funciones `preload()` y `setup()`, pero se omite el uso de `function draw()`. Dentro del `function setup()` de p5.js se encontrarán con un `new Chart()` de Chart.js, que en línea 76 se define como un gráfico lineal, que visualizará data según las indicaciones entre líneas 77 y 104, con ajustes más específicos entre líneas 105 y 120.
+**Ahora vamos al código:**
+
+Si te asomas al https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html (que mezcla [p5.js](https://p5js.org/es/reference/) y [Chart.js](https://www.chartjs.org/docs/latest/)) podrás ver que dentro del `<script></script>` hay declaraciones de variables además del uso de funciones `preload()` y `setup()`, pero se omite el uso de `function draw()`. Dentro del `function setup()` de p5.js se encontrarán con un `new Chart()` de Chart.js, que en línea 76 se define como un gráfico lineal, que visualizará data según las indicaciones entre líneas 77 y 104, con ajustes más específicos entre líneas 105 y 120.
+
+
+Si te asomas a https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html (que mezcla [p5.js](https://p5js.org/es/reference/) y [Leafleft.js](https://leafletjs.com/reference-1.6.0.html)) podrás ver que dentro del <script></script> que también se omite el uso de function draw(), y que dentro de la `function setup()` de p5.js hay algunas definiciones que parten con `L` de Leafleft.js: `L.map` define el contexto, `L.tileLayer` define la capa del mapamundi y `L.circle`, dentro de un ciclo for, define cada círculo que corresponde marcar sobre el mapamundi. Dentro del L.circle me aprovecho de [la función Math.pow()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/pow) porque la diferencia entre grados de magnitud es exponencia, no lineal. 
 
 #### Mi JSON
 
