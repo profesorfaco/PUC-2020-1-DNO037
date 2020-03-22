@@ -1,6 +1,6 @@
 # Diseño UC / Diseño y Nuevos Medios  
 
-### Clase 4 → Miércoles 27 de marzo, 2020
+### Clase 4 → Miércoles 1 de abril, 2020
 
 #### Primeras instrucciones
 
@@ -33,6 +33,35 @@ Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados; u
 - **En la mezcla de [p5.js](https://p5js.org/es/reference/) y [Leafleft.js](https://leafletjs.com/reference-1.6.0.html) obtendremos un [mapamundi](https://profesorfaco.github.io/dno037-2020/clase-04/page.html)** donde se marcan los epicentros de los temblores de +4.5M del último mes, según datos de https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson
 
 ¿Qué gracia tiene ese [gráfico lineal](https://profesorfaco.github.io/dno037-2020/clase-04/) y ese [mapamundi](https://profesorfaco.github.io/dno037-2020/clase-04/page.html)? Que se actualizarán en cada cambio en los datos (siempre y cuando la fuente de los datos mantenga su disponibilidad y estructura), porque así quedaron programados.
+
+#### Mi JSON
+
+También ese posible que ustedes construyan sus propios JSON. Por ejemplo, podrían pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi.
+
+El tamaño de cada círculos dependerá de la cantidad de casos confirmados de coronavirus en cada país hasta el 31 de marzo de 2020. Lo que corresponde hacer, además de conseguir los número de casos, es buscar coordenadas geográficas del centro de sus capitales o ciudad más "céntrica" (una cosa es marcar el centro de Chile en Santiago, pero otra es marcar el centro de EE.UU. en Washington D.C.; podrían marcar el centro en Denver para el último caso). Podría resultar algo mucho más extenso que:
+
+```
+[
+   {
+      "pais":"Chile",
+      "coordenadas":[
+         -33.4372,
+         -70.6506
+      ],
+      "casos":1234
+   },
+   {
+      "pais":"EE.UU.",
+      "coordendas":[
+         39.7618,
+         -104.881
+      ],
+      "casos":2345
+   }
+]
+```
+
+Para validarlo en la medida que lo trabajan, pueden usar servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, y luego pueden subirlo en a http://myjson.com/ o al mismo GitHub, dentro de un repositorio, con atención de compartir la dirección de su versión "raw".
 
 #### Sin bibliotecas
 
