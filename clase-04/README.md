@@ -61,7 +61,7 @@ Lo que corresponde hacer en tal caso, además de conseguir los números oficiale
 ]
 ```
 
-Copien y peguen este JSON en un nuevo docuento de su editor de código fuente. Guarden ese documento con el nombre `datos.json` y agreguen un tercer país. Cuando tengan ese país agregado, pueden copiar y pegar el código en servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, allí les dirá si lo que escribe está *validated* o no. Luego, cuando esté validado, pueden copiar y pegar el código en http://myjson.com/ o si prefieren, subirlo a un repositorio de GitHub.
+Copien y peguen este JSON en un nuevo documento de su editor de código fuente. Guárdenlo con el nombre `datos.json` y agreguen un tercer país. Cuando tengan ese país agregado, pueden copiar y pegar el código en servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, allí se les indicará si acaso lo escrito cumple o no con las reglas de JSON (si cumple las reglas indicará que es *valid*). 
 
 - - - - - - -
 
@@ -71,7 +71,7 @@ Antes de enviar un correo electrónico solicitando las indicaciones para el ejer
 
 Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto 3 pares nombre:valor (`"pais"`, `"coordenadas"` y `"casos"`): 
 
-- arma tu propio JSON con 10 países
+- arma tu propio JSON con 9 países
 
 - valídalo en https://jsonformatter.curiousconcept.com/ 
 
