@@ -2,7 +2,25 @@
 
 ### Clase 05 → Miércoles 1 de abril, 2020
 
-#### JavaScript sin bibliotecas
+Hoy toca evaluación, así que no tengo mucho que explicar. Tengo que encargar algo para que desarrollen en horario de clases:
+
+Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/
+
+- `index.html` Con un país distinto de Chile, preparar una portada con:
+
+	- tantas caritas tristes como casos confirmados, menos muertes y recuperados.
+	- tantas caritas tristes negras como muertes.
+	- tantas caritas contentas como casos recuperados.
+
+- `graph.html` Con cinco países vecinos (entre sí), un grafico lineal que compare número de recuperados.
+
+- `mapa.html` Un mapa donde se marquen los países sí y solo sí las cifras superaron los mil confirmados. 
+
+El resultado debe ponerse en línea, en repositorio `/clase-05`.
+
+- - - - - - - - - - - -
+
+#### Antes de pasar a siguiente asunto, y para que no quede en el tintero: JavaScript sin bibliotecas
 
 Recapitulando, JavaScript es un lenguaje de programación. Con este lenguaje se pueden escribir programas que serán ejecutados en un navegador web. Estos programas pueden ser incluidos o vinculados a una página web a modo de script, entre etiquetas `<script>…</script>`. 
 
