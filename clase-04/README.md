@@ -69,7 +69,7 @@ Para validarlo en la medida que lo trabajan, pueden usar servicios como https://
 
 Antes de enviar un correo electrónico solicitando las indicaciones para el ejercicio que corresponde publicar en tu repositorio de clase-04, debes resolver un pre-ejercicio:
 
-Siguiendo la estructura del JSON presentado más arriba, de arreglo [] con objetos {}, teniendo cada objeto 3 pares nombre:valor (pais, coordenadas y casos): 
+Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto 3 pares nombre:valor (`"pais"`, `"coordenadas"` y `"casos"`): 
 
 - arma tu propio JSON con 10 países
 
