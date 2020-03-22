@@ -36,9 +36,9 @@ Si volvemos a la analogía cocinera: Será como mezclar platos semipreparados; u
 
 #### Mi JSON
 
-También ese posible que ustedes construyan sus propios JSON. Por ejemplo, podrían pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi.
+También ese posible que ustedes construyan sus propios JSON. Por ejemplo, podrían pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi, con el radio dependiente de números de casos confirmados de coronavirus en el país hasta el 31 de marzo de 2020. 
 
-El tamaño de cada círculos dependerá de la cantidad de casos confirmados de coronavirus en cada país hasta el 31 de marzo de 2020. Lo que corresponde hacer, además de conseguir los número de casos, es buscar coordenadas geográficas del centro de sus capitales o ciudad más "céntrica" (una cosa es marcar el centro de Chile en Santiago, pero otra es marcar el centro de EE.UU. en Washington D.C.; podrían marcar el centro en Denver para el último caso). Podría resultar algo mucho más extenso que:
+Lo que corresponde hacer en tal caso, además de conseguir los números oficiales, es buscar coordenadas geográficas del centro de sus capitales o ciudad más "céntrica". Una cosa es marcar el centro de Chile en Santiago, pero otra es marcar el centro de EE.UU. en Washington D.C. (podrían marcar el centro en Denver para el segundo caso); si consideramos los dos países mencionados, podría resultar en lo siguiente:
 
 ```
 [
@@ -61,7 +61,7 @@ El tamaño de cada círculos dependerá de la cantidad de casos confirmados de c
 ]
 ```
 
-Para validarlo en la medida que lo trabajan, pueden usar servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, y luego pueden subirlo en a http://myjson.com/ o al mismo GitHub, dentro de un repositorio, con atención de compartir la dirección de su versión "raw".
+Copien y peguen este JSON en un nuevo docuento de su editor de código fuente. Guarden ese documento con el nombre `datos.json` y agreguen un tercer país. Cuando tengan ese país agregado, pueden copiar y pegar el código en servicios como https://jsonformatter.curiousconcept.com/ o https://jsonlint.com/, allí les dirá si lo que escribe está *validated* o no. Luego, cuando esté validado, pueden copiar y pegar el código en http://myjson.com/ o si prefieren, subirlo a un repositorio de GitHub.
 
 - - - - - - -
 
