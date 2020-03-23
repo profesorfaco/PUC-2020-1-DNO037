@@ -30,17 +30,17 @@
 
 #### Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
 
-Se proyecta la siguiente organización de las clases durante el primer semestre del año 2020:
+Se proyecta la siguiente organización de las clases durante el primer semestre del año 2020 (el ticket en el siguiente listado implica una adaptación de la clase a su versión en línea, con un README.md con instrucciones que pueden seguirse desde la cuarentena)
 
-[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding ✓ 
+[Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding 
 
 [Clase 02 → Miércoles 18 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02) → JS ✓
 
-[Clase 03 → Miércoles 25 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03) → JS
+[Clase 03 → Miércoles 25 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03) → JS ✓
 
-[Clase 04 → Miércoles 1 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04) → JS
+[Clase 04 → Miércoles 1 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04) → JS ✓
 
-**[Clase 05 → Miércoles 8 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05) → Evaluación**
+**[Clase 05 → Miércoles 8 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05) → Evaluación ✓**
 
 [Clase 06 → Miércoles 15 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) → HTML
 
