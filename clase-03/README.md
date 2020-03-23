@@ -280,4 +280,14 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 
 - - - - - - - 
 
+#### Referencias
+
+- https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php - *GeoJSON Summary Format*
+
+- https://github.com/pomber/covid19 - *JSON time-series of coronavirus cases (confirmed, deaths and recovered) per country - updated daily*
+
+- https://youtu.be/rJaXOFfwGVw - *This video introduces the idea of using external data in a p5.js sketch*
+
+- - - - - - - 
+
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04)
