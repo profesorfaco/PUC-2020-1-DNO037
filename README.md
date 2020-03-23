@@ -30,7 +30,7 @@
 
 #### Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
 
-Se proyecta la siguiente organización de las clases durante el primer semestre del año 2020 (el ticket en el siguiente listado implica una adaptación de la clase a su versión en línea, con un README.md con instrucciones que pueden seguirse desde la cuarentena)
+Se proyecta la siguiente organización de las clases durante el primer semestre del año 2020 (el ticket en el siguiente listado implica una adaptación de la clase a su versión en línea, con un README.md cuyas instrucciones pueden ser seguidas desde la cuarentena)
 
 [Clase 01 → Miércoles 11 de marzo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01) → GitHub + p5.js Web Editor + Coding 
 
