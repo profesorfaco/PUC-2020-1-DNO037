@@ -8,7 +8,7 @@ Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/
 
 - `index.html` Con un país distinto de Chile, preparar una portada con:
 
-	- tantas caritas tristes como casos confirmados, menos muertes y recuperados.
+	- tantas caritas tristes como casos confirmados, restando muertes y recuperados.
 	- tantas caritas tristes negras como muertes.
 	- tantas caritas contentas como casos recuperados.
 
