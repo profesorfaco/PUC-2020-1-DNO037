@@ -295,7 +295,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 |	13	| MARÍA TRINIDAD NORIEGA 	| …													|
 |	14	| ROSARIO OLIVARES			| …													|
 |	15	| AMPARO ORTÚZAR			| …													|
-|	16	| VALERIA PARRAGUEZ			| …													|
+|	16	| VALERIA PARRAGUEZ			| https://valeriaparraguezojeda.github.io/Clase-03/													|
 |	17	| FRANCISCO PEZOA			| https://panshios.github.io/clase-03/													|
 |	18	| FRANCISCA PURCELL			| https://fmpurcell.github.io/Clase_03/				|
 |	19	| MARTINA RIVAS				| …													|
