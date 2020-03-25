@@ -296,7 +296,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 |	14	| ROSARIO OLIVARES			| …													|
 |	15	| AMPARO ORTÚZAR			| …													|
 |	16	| VALERIA PARRAGUEZ			| …													|
-|	17	| FRANCISCO PEZOA			| …													|
+|	17	| FRANCISCO PEZOA			| https://panshios.github.io/clase-03/													|
 |	18	| FRANCISCA PURCELL			| https://fmpurcell.github.io/Clase_03/				|
 |	19	| MARTINA RIVAS				| …													|
 |	20	| PILAR SAAVEDRA			| …													|
