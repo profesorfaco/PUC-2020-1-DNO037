@@ -278,34 +278,34 @@ Prefiere usar `cmd` + `F` o `Crtl` + `F` para facilitarte la búsqueda de tal pa
 
 Si el país figura en ambos JSON, envía un correo indicando su nombre y como respuesta recibirás los archivos para completar el ejercicio que corresponde dejar en tu repositorio de clase-03.
 
-| No.   | Nombre				    | GitHub Page    	  		                		|
-|:-----:|:--------------------------|:--------------------------------------------------|
-|	1	| CAMILA AZÓCAR 			| …													|
-|	2	| MARÍA PAZ CONCHA			| …													|
-|	3	| OLGA F. VIO				| …													|
-|	4	| TRINIDAD GONZÁLEZ			| …													|
-|	5	| MATÍAS HAGEN				| https://matihagene.github.io/clase-03/			|
-|	6	| MARÍA FRANCISCA HEPP		| …													|
-|	7	| MARIA ELIANA INFANTE		| https://maritainfante.github.io/clase-03/			|
-|	8	| MAGDALENA LABARCA			| …													|
-|	9	| ELSA MORA					| …													|
-|	10	| VANESSA MÜLLER			| https://vymuller.github.io/clase-03/				|
-|	11	| JANA MÜLLER				| …													|
-|	12	| MURIEL MUÑOZ				| …													|
-|	13	| MARÍA TRINIDAD NORIEGA 	| …													|
-|	14	| ROSARIO OLIVARES			| …													|
-|	15	| AMPARO ORTÚZAR			| …													|
-|	16	| VALERIA PARRAGUEZ			| https://valeriaparraguezojeda.github.io/Clase-03/													|
-|	17	| FRANCISCO PEZOA			| https://panshios.github.io/clase-03/													|
-|	18	| FRANCISCA PURCELL			| https://fmpurcell.github.io/Clase_03/				|
-|	19	| MARTINA RIVAS				| …													|
-|	20	| PILAR SAAVEDRA			| …													|
-|	21	| LISA SAEZ 				| …													|
-|	22	| DAVID SÁNCHEZ				| …													|
-|	23	| CECILIA SOTO				| …													|
-|	24	| MARÍA ELISA VALDÉS		| …													|
-|	25	| FRANCISCA VIAL 			| …													|
-|	26	| MARIA JOSE VILLASANTE		| …													|
+| No.   | Nombre               | GitHub Page |
+|:-----:|:-----------------------|:--------------------------------------------------|
+| 1	| CAMILA AZÓCAR          | … |
+| 2	| MARÍA PAZ CONCHA       | … |
+| 3	| OLGA F. VIO            | https://caracolga.github.io/clase03/ |
+| 4	| TRINIDAD GONZÁLEZ      | … |
+| 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-03/ |
+| 6	| MARÍA FRANCISCA HEPP   | … |
+| 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-03/ |
+| 8	| MAGDALENA LABARCA      | … |
+| 9	| ELSA MORA              | … |
+| 10	| VANESSA MÜLLER         | https://vymuller.github.io/clase-03/ |
+| 11	| JANA MÜLLER            | … |
+| 12	| MURIEL MUÑOZ           | https://github.com/murimu/clase-03   |
+| 13	| MARÍA TRINIDAD NORIEGA | … |
+| 14	| ROSARIO OLIVARES       | … |
+| 15	| AMPARO ORTÚZAR         | … |
+| 16	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/Clase-03/ |
+| 17	| FRANCISCO PEZOA        | https://panshios.github.io/clase-03/ |
+| 18	| FRANCISCA PURCELL      | https://fmpurcell.github.io/Clase_03/ |
+| 19	| MARTINA RIVAS          | … |
+| 20	| PILAR SAAVEDRA         | … |
+| 21	| LISA SAEZ              | … |
+| 22	| DAVID SÁNCHEZ          | … |
+| 23	| CECILIA SOTO           | … |
+| 24	| MARÍA ELISA VALDÉS     | … |
+| 25	| FRANCISCA VIAL         | … |
+| 26	| MARIA JOSE VILLASANTE  | … |
 
 - - - - - - - 
 
