@@ -281,7 +281,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | No.   | Nombre               | GitHub Page |
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| CAMILA AZÓCAR          | … |
-| 2	| MARÍA PAZ CONCHA       | … |
+| 2	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-03/ |
 | 3	| OLGA F. VIO            | https://caracolga.github.io/clase03/ |
 | 4	| TRINIDAD GONZÁLEZ      | … |
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-03/ |
