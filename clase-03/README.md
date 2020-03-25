@@ -291,7 +291,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | 9	| ELSA MORA              | … |
 | 10	| VANESSA MÜLLER         | https://vymuller.github.io/clase-03/ |
 | 11	| JANA MÜLLER            | … |
-| 12	| MURIEL MUÑOZ           | https://github.com/murimu/clase-03   |
+| 12	| MURIEL MUÑOZ           | https://murimu.github.io/clase-03/   |
 | 13	| MARÍA TRINIDAD NORIEGA | … |
 | 14	| ROSARIO OLIVARES       | … |
 | 15	| AMPARO ORTÚZAR         | … |
