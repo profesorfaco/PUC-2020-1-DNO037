@@ -283,7 +283,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | 1	| CAMILA AZÓCAR          | … |
 | 2	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-03/ |
 | 3	| OLGA F. VIO            | https://caracolga.github.io/clase03/ |
-| 4	| TRINIDAD GONZÁLEZ      | … |
+| 4	| TRINIDAD GONZÁLEZ      | https://trinidadgonzlez.github.io/clase-03/ |
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-03/ |
 | 6	| MARÍA FRANCISCA HEPP   | … |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-03/ |
