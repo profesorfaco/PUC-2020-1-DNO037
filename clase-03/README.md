@@ -288,9 +288,9 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | 6	| MARÍA FRANCISCA HEPP   | … |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-03/ |
 | 8	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-03/ |
-| 9	| ELSA MORA              | … |
+| 9	| ELSA MORA              | https://etmora2.github.io/Clase_03/ |
 | 10	| VANESSA MÜLLER         | https://vymuller.github.io/clase-03/ |
-| 11	| JANA MÜLLER            | … |
+| 11	| JANA MÜLLER            | https://janakristin.github.io/clase-03/ |
 | 12	| MURIEL MUÑOZ           | https://murimu.github.io/clase-03/   |
 | 13	| MARÍA TRINIDAD NORIEGA | … |
 | 14	| ROSARIO OLIVARES       | … |
