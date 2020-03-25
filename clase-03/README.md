@@ -285,7 +285,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | 3	| OLGA F. VIO            | https://caracolga.github.io/clase03/ |
 | 4	| TRINIDAD GONZÁLEZ      | https://trinidadgonzlez.github.io/clase-03/ |
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-03/ |
-| 6	| MARÍA FRANCISCA HEPP   | … |
+| 6	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-03 |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-03/ |
 | 8	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-03/ |
 | 9	| ELSA MORA              | https://etmora2.github.io/Clase_03/ |
@@ -293,7 +293,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | 11	| JANA MÜLLER            | https://janakristin.github.io/clase-03/ |
 | 12	| MURIEL MUÑOZ           | https://murimu.github.io/clase-03/   |
 | 13	| MARÍA TRINIDAD NORIEGA | … |
-| 14	| ROSARIO OLIVARES       | … |
+| 14	| ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-03/ |
 | 15	| AMPARO ORTÚZAR         | … |
 | 16	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/Clase-03/ |
 | 17	| FRANCISCO PEZOA        | https://panshios.github.io/clase-03/ |
@@ -302,7 +302,7 @@ Si el país figura en ambos JSON, envía un correo indicando su nombre y como re
 | 20	| PILAR SAAVEDRA         | … |
 | 21	| LISA SAEZ              | … |
 | 22	| DAVID SÁNCHEZ          | … |
-| 23	| CECILIA SOTO           | … |
+| 23	| CECY SOTO              | https://cecysoto.github.io/clase-03/ |
 | 24	| MARÍA ELISA VALDÉS     | … |
 | 25	| FRANCISCA VIAL         | … |
 | 26	| MARIA JOSE VILLASANTE  | … |
