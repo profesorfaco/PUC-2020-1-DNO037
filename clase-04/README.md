@@ -42,7 +42,7 @@ Si te asomas a https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-0
 
 #### Mi JSON
 
-En la clase pasada se adelantó la posibilidad de contruir nuestros propios JSON. Por ejemplo, podríamos pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi, con el radio dependiente de números de casos confirmados de coronavirus en cada país, hasta el 31 de marzo de 2020. 
+En la clase pasada se adelantó la posibilidad de contruir nuestros propios JSON. Por ejemplo, podríamos pensar en uno que mezcle los ejemplos recién presentados: Un JSON para dibujar círculos en un mapamundi, con el radio dependiente de números de casos confirmados de coronavirus por millón de habitantes en cada país, hasta el 31 de marzo de 2020. 
 
 Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los números oficiales, es buscar coordenadas geográficas del centro de sus capitales o ciudad más "céntrica". Una cosa es marcar el centro de Chile en Santiago, pero otra es marcar el centro de EE.UU. en Washington D.C. (podrían marcar el centro en Denver para el segundo caso); si consideramos los dos países mencionados, podría resultar en lo siguiente:
 
@@ -54,7 +54,8 @@ Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los 
          -33.4372,
          -70.6506
       ],
-      "casos":1234
+      "casos":1909,
+      "poblacion":18050000
    },
    {
       "pais":"EE.UU.",
@@ -62,7 +63,8 @@ Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los 
          39.7618,
          -104.881
       ],
-      "casos":2345
+      "casos":116505,
+      "poblacion":327200000
    }
 ]
 ```
@@ -75,7 +77,7 @@ Copien y peguen este JSON en un nuevo documento de su editor de código fuente. 
 
 **Antes de enviar un correo electrónico** solicitando las instrucciones para el ejercicio que corresponde publicar en tu repositorio de `/clase-04`, **debes resolver un pre-ejercicio**:
 
-Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto 3 pares nombre:valor (`"pais"`, `"coordenadas"` y `"casos"`): 
+Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto cuatro pares nombre:valor (`"pais"`, `"coordenadas"`, `"casos"` y `"poblacion"`): 
 
 - arma tu propio JSON con 9 países
 
