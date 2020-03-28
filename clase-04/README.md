@@ -55,7 +55,7 @@ Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los 
          -70.6506
       ],
       "casos":1909,
-      "poblacion":18050000
+      "habitantes":18.05
    },
    {
       "pais":"EE.UU.",
@@ -64,7 +64,7 @@ Si nos abocamos a esa tarea, lo que corresponde hacer, además de conseguir los 
          -104.881
       ],
       "casos":116505,
-      "poblacion":327200000
+      "habitantes":327.2
    }
 ]
 ```
