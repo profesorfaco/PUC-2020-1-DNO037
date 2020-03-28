@@ -1,40 +1,56 @@
-[{
-      "pais": "Chile",
-      "coordenadas": [
-         -33.4724712, -70.9107139
+[
+   {
+      "pais":"Brasil",
+      "coordenadas":[
+         -33.4724712,
+         -70.9107139
       ],
-      "casos": 632
+      "casos":3477,
+      "habitantes":209.3
    },
    {
-      "pais": "China",
-      "coordenadas": [
+      "pais":"Chile",
+      "coordenadas":[
+         -33.4724712,
+         -70.9107139
+      ],
+      "casos":632,
+      "habitantes":18.05
+   },
+   {
+      "pais":"China",
+      "coordenadas":[
          33.907131,
          104.119673
       ],
-      "casos": 81397
+      "casos":81397,
+      "habitantes":1386000
    },
    {
-      "pais": "EE.UU.",
-      "coordenadas": [
+      "pais":"EE.UU.",
+      "coordenadas":[
          39.7640004,
          -105.1359902
       ],
-      "casos": 30285
+      "casos":30285,
+      "habitantes":327.2
    },
    {
-      "pais": "España",
-      "coordenadas": [
+      "pais":"España",
+      "coordenadas":[
          40.4378693,
          -3.8199658
       ],
-      "casos": 28603
+      "casos":28603,
+      "habitantes":46.66
    },
    {
-      "pais": "Italia",
-      "coordenadas": [
+      "pais":"Italia",
+      "coordenadas":[
          43.405253,
          11.878462
       ],
-      "casos": 53578
+      "casos":53578,
+      "habitantes":60.48
    }
 ]
