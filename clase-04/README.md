@@ -1,6 +1,6 @@
 # Diseño UC / Diseño y Nuevos Medios  
 
-### Clase 4 → Miércoles 1 de abril, 2020
+### Clase 04 → Miércoles 1 de abril, 2020
 
 #### Primeras instrucciones
 
