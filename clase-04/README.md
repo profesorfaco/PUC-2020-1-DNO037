@@ -100,8 +100,8 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 5	  | MATÍAS HAGEN           | https://api.myjson.com/bins/129y30 | https://matihagene.github.io/clase-04/ |
 | 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | … |
 | 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
-| 8	  | MAGDALENA LABARCA      | … | … |
-| 9	  | ELSA MORA              | … | … |
+| 8	  | MAGDALENA LABARCA      | https://api.myjson.com/bins/9fd9s | … |
+| 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | … |
 | 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
 | 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | … |
 | 12	  | MURIEL MUÑOZ           | … | … |
