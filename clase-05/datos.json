@@ -1,20 +1,74 @@
 [
    {
+      "pais":"Alemania",
+      "coordenadas":[
+         51.0899,
+         5.96835
+      ],
+      "casos":71808,
+      "habitantes":82.79
+   },
+   {
+      "pais":"Argentina",
+      "coordenadas":[
+         -34.6131,
+         -58.3772
+      ],
+      "casos":1054,
+      "habitantes":44.27
+   },
+   {
+      "pais":"Austria",
+      "coordenadas":[
+         48.2085,
+         16.3721
+      ],
+      "casos":10122,
+      "habitantes":8.822
+   },
+   {
+      "pais":"Bolivia",
+      "coordenadas":[
+         -16.2901535,
+         -63.5886536
+      ],
+      "casos":420,
+      "habitantes":11.39
+   },
+   {
       "pais":"Brasil",
       "coordenadas":[
-         -9.3024417,
-         -51.219621
+         -14.2350044,
+         -51.9252815
       ],
-      "casos":3477,
-      "habitantes":209.3
+      "casos":5717,
+      "habitantes":210.4
+   },
+   {
+      "pais":"Canada",
+      "coordenadas":[
+         56.1303673,
+         -106.3467712
+      ],
+      "casos":3.901,
+      "habitantes":37.34
+   },
+   {
+      "pais":"Colombia",
+      "coordenadas":[
+         4.58779,
+         -83.3863
+      ],
+      "casos":906,
+      "habitantes":43.07
    },
    {
       "pais":"Chile",
       "coordenadas":[
-         -33.4724712,
-         -70.9107139
+         -33.4372,
+         -70.6506
       ],
-      "casos":1909,
+      "casos":2738,
       "habitantes":18.05
    },
    {
@@ -23,34 +77,214 @@
          33.907131,
          104.119673
       ],
-      "casos":81999,
+      "casos":82279,
       "habitantes":1386000
+   },
+   {
+      "pais":"Dinamarca",
+      "coordenadas":[
+         56.2639198,
+         9.5017853
+      ],
+      "casos":3039,
+      "habitantes":5.81
+   },
+   {
+      "pais":"Ecuador",
+      "coordenadas":[
+         -0.225219,
+         -78.5248
+      ],
+      "casos":2240,
+      "habitantes":16.62
    },
    {
       "pais":"EE.UU.",
       "coordenadas":[
-         39.7640004,
-         -105.1359902
+         39.7618,
+         -104.881
       ],
-      "casos":116505,
+      "casos":189633,
       "habitantes":327.2
+   },
+   {
+      "pais":"Egipto",
+      "coordenadas":[
+         26.8205528,
+         30.8024979
+      ],
+      "casos":710,
+      "habitantes":99.14
    },
    {
       "pais":"España",
       "coordenadas":[
-         40.4378693,
-         -3.8199658
+         39.8596,
+         -12.7036
       ],
-      "casos":72248,
+      "casos":95923,
       "habitantes":46.66
+   },
+   {
+      "pais":"Filipinas",
+      "coordenadas":[
+         12.8797207,
+         121.7740173
+      ],
+      "casos":2084,
+      "habitantes":3107
+   },
+   {
+      "pais":"Francia",
+      "coordenadas":[
+         48.831563,
+         2.345988
+      ],
+      "casos":52827,
+      "habitantes":66.99
+   },
+   {
+      "pais":"Grecia",
+      "coordenadas":[
+         38.0688641,
+         19.9878596
+      ],
+      "casos":1314,
+      "habitantes":10.74
+   },
+   {
+      "pais":"Indonesia",
+      "coordenadas":[
+         -0.789275,
+         113.9213257
+      ],
+      "casos":1528,
+      "habitantes":266.6
+   },
+   {
+      "pais":"Irlanda",
+      "coordenadas":[
+         53.3057317,
+         -14.4541246
+      ],
+      "casos":3235,
+      "habitantes":4.83
+   },
+   {
+      "pais":"Islandia",
+      "coordenadas":[
+         64.801373,
+         -23.7305539
+      ],
+      "casos":1135,
+      "habitantes":0.36
    },
    {
       "pais":"Italia",
       "coordenadas":[
-         43.405253,
-         11.878462
+         40.9401,
+         3.72415
       ],
-      "casos":92472,
+      "casos":101739,
       "habitantes":60.48
+   },
+   {
+      "pais":"Japón",
+      "coordenadas":[
+         31.6819,
+         120.303
+      ],
+      "casos":1953,
+      "habitantes":126.8
+   },
+   {
+      "pais":"Países Bajos",
+      "coordenadas":[
+         52.3738,
+         4.89093
+      ],
+      "casos":1909,
+      "habitantes":17.18
+   },
+   {
+      "pais":"Paraguay",
+      "coordenadas":[
+         -25.2819,
+         -57.635
+      ],
+      "casos":65,
+      "habitantes":6.81
+   },
+   {
+      "pais":"Portugal",
+      "coordenadas":[
+         38.7071,
+         -9.13549
+      ],
+      "casos":7443,
+      "habitantes":10.29
+   },
+   {
+      "pais":"Rumanía",
+      "coordenadas":[
+         44.4353,
+         26.1028
+      ],
+      "casos":2245,
+      "habitantes":19.53
+   },
+   {
+      "pais":"Sudafrica",
+      "coordenadas":[
+         18.59418,
+         -33.89267
+      ],
+      "casos":1353,
+      "habitantes":56.72
+   },
+   {
+      "pais":"Suecia",
+      "coordenadas":[
+         59.3328,
+         18.0645
+      ],
+      "casos":4435,
+      "habitantes":10.12
+   },
+   {
+      "pais":"Suiza",
+      "coordenadas":[
+         46.9489,
+         7.40737
+      ],
+      "casos":16605,
+      "habitantes":8.57
+   },
+   {
+      "pais":"Taiwán",
+      "coordenadas":[
+         23.3915073,
+         120.3580988
+      ],
+      "casos":322,
+      "habitantes":23.78
+   },
+   {
+      "pais":"Turquía",
+      "coordenadas":[
+         39.9199,
+         32.8543
+      ],
+      "casos":13531,
+      "habitantes":80.81
+   },
+   {
+      "pais":"Uruguay",
+      "coordenadas":[
+         -34.8833,
+         -56.1667
+      ],
+      "casos":338,
+      "habitantes":3.45
    }
 ]
