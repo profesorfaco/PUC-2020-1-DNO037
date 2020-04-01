@@ -99,7 +99,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 4	  | TRINIDAD GONZÁLEZ      | https://api.myjson.com/bins/11j8qo | https://trinidadgonzlez.github.io/clase-o4/ |
 | 5	  | MATÍAS HAGEN           | https://api.myjson.com/bins/129y30 | https://matihagene.github.io/clase-04/ |
 | 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | https://franhepp.github.io/clase-04/ |
-| 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
+| 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | https://maritainfante.github.io/clase-04/ |
 | 8	  | MAGDALENA LABARCA      | https://api.myjson.com/bins/9fd9s | https://maidalw.github.io/clase-04/ |
 | 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | https://etmora2.github.io/clase_04/ |
 | 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
