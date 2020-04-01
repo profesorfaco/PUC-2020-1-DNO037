@@ -106,7 +106,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | … |
 | 12	  | MURIEL MUÑOZ           | https://api.myjson.com/bins/lxweo | … |
 | 13 	  | MARÍA TRINIDAD NORIEGA | … | … |
-| 14	  | ROSARIO OLIVARES       | … | … |
+| 14	  | ROSARIO OLIVARES       | https://api.myjson.com/bins/16b50g | … |
 | 15	  | AMPARO ORTÚZAR         | … | … |
 | 16	  | VALERIA PARRAGUEZ      | https://api.myjson.com/bins/xh2e8 | … |
 | 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | … |
