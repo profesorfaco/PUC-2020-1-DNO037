@@ -100,7 +100,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 5	  | MATÍAS HAGEN           | https://api.myjson.com/bins/129y30 | https://matihagene.github.io/clase-04/ |
 | 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | … |
 | 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
-| 8	  | MAGDALENA LABARCA      | https://api.myjson.com/bins/9fd9s | … |
+| 8	  | MAGDALENA LABARCA      | https://api.myjson.com/bins/9fd9s | https://maidalw.github.io/clase-04/ |
 | 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | … |
 | 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
 | 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | … |
@@ -109,7 +109,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 14	  | ROSARIO OLIVARES       | https://api.myjson.com/bins/16b50g | … |
 | 15	  | AMPARO ORTÚZAR         | … | … |
 | 16	  | VALERIA PARRAGUEZ      | https://api.myjson.com/bins/xh2e8 | https://valeriaparraguezojeda.github.io/Clase-04/ |
-| 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | … |
+| 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | https://panshios.github.io/clase-04/ |
 | 18	  | FRANCISCA PURCELL      | … | https://fmpurcell.github.io/Clase_04/ |
 | 19	  | MARTINA RIVAS          | https://api.myjson.com/bins/k2ta8 | … |
 | 20	  | PILAR SAAVEDRA         | … | … |
