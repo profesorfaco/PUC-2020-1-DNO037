@@ -81,7 +81,7 @@ Copien y peguen este JSON en un nuevo documento de su editor de código fuente. 
 
 Siguiendo la estructura del JSON presentado más arriba, de arreglo `[]` con objetos `{}`, teniendo cada objeto cuatro pares nombre:valor (`"pais"`, `"coordenadas"`, `"casos"` y `"poblacion"`): 
 
-- arma tu propio JSON con 9 países (toma la información de https://pomber.github.io/covid19/timeseries.json)
+- arma tu propio JSON con 7 países (toma la información de https://pomber.github.io/covid19/timeseries.json)
 
 - valídalo en https://jsonformatter.curiousconcept.com/ 
 
