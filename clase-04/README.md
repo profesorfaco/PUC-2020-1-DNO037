@@ -91,6 +91,35 @@ Anota la dirección con la que quede publicado tu JSON (debería tener la estruc
 
 Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucciones para el ejercicio de la clase de hoy. Tendrás que incluir en asunto o contenido la dirección de tu JSON; como respuesta recibirás las instrucciones para la modificación de [index.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/index.html) y [page.html](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-04/page.html) ya compartidos.
 
+| No.   | Nombre                 | Pre-ejercicio |   Ejercicio   |
+|:-----:|:-----------------------|:--------------|:--------------|
+| 1	  | CAMILA AZÓCAR          | … | … |
+| 2	  | MARÍA PAZ CONCHA       | https://api.myjson.com/bins/ajvls | … |
+| 3	  | OLGA F. VIO            | https://api.myjson.com/bins/1gl2ww  | … |
+| 4	  | TRINIDAD GONZÁLEZ      | https://api.myjson.com/bins/11j8qo | … |
+| 5	  | MATÍAS HAGEN           | https://api.myjson.com/bins/129y30 | https://matihagene.github.io/clase-04/ |
+| 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | … |
+| 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
+| 8	  | MAGDALENA LABARCA      | … | … |
+| 9	  | ELSA MORA              | … | … |
+| 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
+| 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | … |
+| 12	  | MURIEL MUÑOZ           | … | … |
+| 13 	  | MARÍA TRINIDAD NORIEGA | … | … |
+| 14	  | ROSARIO OLIVARES       | … | … |
+| 15	  | AMPARO ORTÚZAR         | … | … |
+| 16	  | VALERIA PARRAGUEZ      | https://api.myjson.com/bins/xh2e8 | … |
+| 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | … |
+| 18	  | FRANCISCA PURCELL      | … | … |
+| 19	  | MARTINA RIVAS          | https://api.myjson.com/bins/k2ta8 | … |
+| 20	  | PILAR SAAVEDRA         | … | … |
+| 21	  | LISA SAEZ              | … | … |
+| 22	  | DAVID SÁNCHEZ          | … | … |
+| 23	  | CECY SOTO              | … | … |
+| 24	  | MARÍA ELISA VALDÉS     | … | … |
+| 25	  | FRANCISCA VIAL         | … | … |
+| 26	  | MARIA JOSE VILLASANTE  | … | … |
+
 Mientras tú sigues las instrucciones que serán enviadas, yo armaré un único JSON con todos sus aportes; un JSON que usaremos la [próxima clase](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05).
 
 - - - - - - - 
