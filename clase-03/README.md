@@ -1,6 +1,6 @@
 ## Diseño y Nuevos Medios v10
 
-### Clase 3 → Miércoles 25 de marzo, 2020
+### Clase 03 → Miércoles 25 de marzo, 2020
 
 #### Primeras instrucciones
 
