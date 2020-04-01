@@ -98,27 +98,27 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 3	  | OLGA F. VIO            | https://api.myjson.com/bins/1gl2ww  | https://caracolga.github.io/clase04/ |
 | 4	  | TRINIDAD GONZÁLEZ      | https://api.myjson.com/bins/11j8qo | https://trinidadgonzlez.github.io/clase-o4/ |
 | 5	  | MATÍAS HAGEN           | https://api.myjson.com/bins/129y30 | https://matihagene.github.io/clase-04/ |
-| 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | … |
+| 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | https://franhepp.github.io/clase-04/ |
 | 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
 | 8	  | MAGDALENA LABARCA      | https://api.myjson.com/bins/9fd9s | https://maidalw.github.io/clase-04/ |
 | 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | … |
 | 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
-| 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | … |
+| 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | https://janakristin.github.io/clase-04/ |
 | 12	  | MURIEL MUÑOZ           | https://api.myjson.com/bins/lxweo | … |
-| 13 	  | MARÍA TRINIDAD NORIEGA | … | … |
+| 13 	  | MARÍA TRINIDAD NORIEGA | — | — |
 | 14	  | ROSARIO OLIVARES       | https://api.myjson.com/bins/16b50g | … |
-| 15	  | AMPARO ORTÚZAR         | … | … |
+| 15	  | AMPARO ORTÚZAR         | — | — |
 | 16	  | VALERIA PARRAGUEZ      | https://api.myjson.com/bins/xh2e8 | https://valeriaparraguezojeda.github.io/Clase-04/ |
 | 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | https://panshios.github.io/clase-04/ |
 | 18	  | FRANCISCA PURCELL      | … | https://fmpurcell.github.io/Clase_04/ |
 | 19	  | MARTINA RIVAS          | https://api.myjson.com/bins/k2ta8 | … |
-| 20	  | PILAR SAAVEDRA         | … | … |
-| 21	  | LISA SAEZ              | … | … |
+| 20	  | PILAR SAAVEDRA         | — | — |
+| 21	  | LISA SAEZ              | — | — |
 | 22	  | DAVID SÁNCHEZ          | … | … |
-| 23	  | CECY SOTO              | https://api.myjson.com/bins/d2yxc | … |
-| 24	  | MARÍA ELISA VALDÉS     | … | … |
-| 25	  | FRANCISCA VIAL         | … | … |
-| 26	  | MARIA JOSE VILLASANTE  | … | … |
+| 23	  | CECY SOTO              | https://api.myjson.com/bins/d2yxc | — |
+| 24	  | MARÍA ELISA VALDÉS     | — | — |
+| 25	  | FRANCISCA VIAL         | — | — |
+| 26	  | MARIA JOSE VILLASANTE  | — | — |
 
 Mientras tú sigues las instrucciones que serán enviadas, yo armaré un único JSON con todos sus aportes; un JSON que usaremos la [próxima clase](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05).
 
