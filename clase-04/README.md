@@ -110,7 +110,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 15	  | AMPARO ORTÚZAR         | … | … |
 | 16	  | VALERIA PARRAGUEZ      | https://api.myjson.com/bins/xh2e8 | … |
 | 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | … |
-| 18	  | FRANCISCA PURCELL      | … | … |
+| 18	  | FRANCISCA PURCELL      | … | https://fmpurcell.github.io/Clase_04/ |
 | 19	  | MARTINA RIVAS          | https://api.myjson.com/bins/k2ta8 | … |
 | 20	  | PILAR SAAVEDRA         | … | … |
 | 21	  | LISA SAEZ              | … | … |
