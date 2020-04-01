@@ -96,7 +96,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 1	  | CAMILA AZÓCAR          | https://api.myjson.com/bins/btqu8 | … |
 | 2	  | MARÍA PAZ CONCHA       | https://api.myjson.com/bins/ajvls | … |
 | 3	  | OLGA F. VIO            | https://api.myjson.com/bins/1gl2ww  | … |
-| 4	  | TRINIDAD GONZÁLEZ      | https://api.myjson.com/bins/11j8qo | … |
+| 4	  | TRINIDAD GONZÁLEZ      | https://api.myjson.com/bins/11j8qo | https://trinidadgonzlez.github.io/clase-o4/ |
 | 5	  | MATÍAS HAGEN           | https://api.myjson.com/bins/129y30 | https://matihagene.github.io/clase-04/ |
 | 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | … |
 | 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
