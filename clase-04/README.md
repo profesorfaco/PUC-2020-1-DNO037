@@ -115,7 +115,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 20	  | PILAR SAAVEDRA         | … | … |
 | 21	  | LISA SAEZ              | … | … |
 | 22	  | DAVID SÁNCHEZ          | … | … |
-| 23	  | CECY SOTO              | … | … |
+| 23	  | CECY SOTO              | https://api.myjson.com/bins/d2yxc | … |
 | 24	  | MARÍA ELISA VALDÉS     | … | … |
 | 25	  | FRANCISCA VIAL         | … | … |
 | 26	  | MARIA JOSE VILLASANTE  | … | … |
