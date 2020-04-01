@@ -93,7 +93,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 
 | No.   | Nombre                 | Pre-ejercicio |   Ejercicio   |
 |:-----:|:-----------------------|:--------------|:--------------|
-| 1	  | CAMILA AZÓCAR          | … | … |
+| 1	  | CAMILA AZÓCAR          | https://api.myjson.com/bins/btqu8 | … |
 | 2	  | MARÍA PAZ CONCHA       | https://api.myjson.com/bins/ajvls | … |
 | 3	  | OLGA F. VIO            | https://api.myjson.com/bins/1gl2ww  | … |
 | 4	  | TRINIDAD GONZÁLEZ      | https://api.myjson.com/bins/11j8qo | … |
