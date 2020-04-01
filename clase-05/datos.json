@@ -1,5 +1,23 @@
 [
    {
+      "pais":"Afganistán",
+      "coordenadas":[
+         33.9391098,
+         67.7099533
+      ],
+      "casos":174,
+      "habitantes":35.53
+   },
+   {
+      "pais":"Albania",
+      "coordenadas":[
+         41.1533,
+         20.1683
+      ],
+      "casos":243,
+      "habitantes":2.8
+   },
+   {
       "pais":"Alemania",
       "coordenadas":[
          51.0899,
@@ -18,6 +36,15 @@
       "habitantes":44.27
    },
    {
+      "pais":"Australia",
+      "coordenadas":[
+         -21.1663971,
+         95.3866265
+      ],
+      "casos":4559,
+      "habitantes":24.6
+   },
+   {
       "pais":"Austria",
       "coordenadas":[
          48.2085,
@@ -25,6 +52,24 @@
       ],
       "casos":10122,
       "habitantes":8.822
+   },
+   {
+      "pais":"Bélgica",
+      "coordenadas":[
+         -50.503,
+         -4.469
+      ],
+      "casos":12775,
+      "habitantes":11.4
+   },
+   {
+      "pais":"Bielorrusia",
+      "coordenadas":[
+         53.391554,
+         27.787079
+      ],
+      "casos":152,
+      "habitantes":9.508
    },
    {
       "pais":"Bolivia",
@@ -50,7 +95,7 @@
          56.1303673,
          -106.3467712
       ],
-      "casos":3.901,
+      "casos":3901,
       "habitantes":37.34
    },
    {
@@ -61,6 +106,15 @@
       ],
       "casos":906,
       "habitantes":43.07
+   },
+   {
+      "pais":"Costa Rica",
+      "coordenadas":[
+         9.9085,
+         -84.0958
+      ],
+      "casos":347,
+      "habitantes":4.5
    },
    {
       "pais":"Chile",
@@ -135,6 +189,15 @@
       "habitantes":3107
    },
    {
+      "pais":"Finlandia",
+      "coordenadas":[
+         64.657331,
+         27.152155
+      ],
+      "casos":1418,
+      "habitantes":5.51
+   },
+   {
       "pais":"Francia",
       "coordenadas":[
          48.831563,
@@ -151,6 +214,24 @@
       ],
       "casos":1314,
       "habitantes":10.74
+   },
+   {
+      "pais":"Honduras",
+      "coordenadas":[
+         14.1,
+         -87.2167
+      ],
+      "casos":141,
+      "habitantes":9.265
+   },
+   {
+      "pais":"India",
+      "coordenadas":[
+         28.6291,
+         77.2124
+      ],
+      "casos":1397,
+      "habitantes":1391.7
    },
    {
       "pais":"Indonesia",
@@ -198,6 +279,33 @@
       "habitantes":126.8
    },
    {
+      "pais":"México",
+      "coordenadas":[
+         19.428,
+         -99.128
+      ],
+      "casos":1094,
+      "habitantes":209.3
+   },
+   {
+      "pais":"Mongolia",
+      "coordenadas":[
+         47.2046503,
+         102.8168503
+      ],
+      "casos":12,
+      "habitantes":3.07
+   },
+   {
+      "pais":"Namibia",
+      "coordenadas":[
+         -22.052103,
+         17.103119
+      ],
+      "casos":11,
+      "habitantes":2.53
+   },
+   {
       "pais":"Países Bajos",
       "coordenadas":[
          52.3738,
@@ -216,6 +324,15 @@
       "habitantes":6.81
    },
    {
+      "pais":"Peru",
+      "coordenadas":[
+         -12.046,
+         -77043
+      ],
+      "casos":1065,
+      "habitantes":32.17
+   },
+   {
       "pais":"Portugal",
       "coordenadas":[
          38.7071,
@@ -225,6 +342,15 @@
       "habitantes":10.29
    },
    {
+      "pais":"Reino Unido",
+      "coordenadas":[
+         53.180569,
+         -1.570986
+      ],
+      "casos":25481,
+      "habitantes":66.44
+   },
+   {
       "pais":"Rumanía",
       "coordenadas":[
          44.4353,
@@ -232,6 +358,24 @@
       ],
       "casos":2245,
       "habitantes":19.53
+   },
+   {
+      "pais":"Rusia",
+      "coordenadas":[
+         55.7526,
+         37.6231
+      ],
+      "casos":2337,
+      "habitantes":146.8
+   },
+   {
+      "pais":"Sri Lanka",
+      "coordenadas":[
+         7.527612,
+         80.831642
+      ],
+      "casos":2084,
+      "habitantes":21.44
    },
    {
       "pais":"Sudafrica",
@@ -261,6 +405,15 @@
       "habitantes":8.57
    },
    {
+      "pais":"Tailandia",
+      "coordenadas":[
+         15.913618,
+         100.7015
+      ],
+      "casos":1651,
+      "habitantes":69.04
+   },
+   {
       "pais":"Taiwán",
       "coordenadas":[
          23.3915073,
@@ -286,5 +439,14 @@
       ],
       "casos":338,
       "habitantes":3.45
+   },
+   {
+      "pais":"Venezuela",
+      "coordenadas":[
+         10.481,
+         -66.904
+      ],
+      "casos":135,
+      "habitantes":31.98
    }
 ]
