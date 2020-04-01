@@ -101,10 +101,10 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 6	  | MARÍA FRANCISCA HEPP   | https://api.myjson.com/bins/67ew0 | https://franhepp.github.io/clase-04/ |
 | 7	  | MARIA ELIANA INFANTE   | https://api.myjson.com/bins/16ghww | … |
 | 8	  | MAGDALENA LABARCA      | https://api.myjson.com/bins/9fd9s | https://maidalw.github.io/clase-04/ |
-| 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | … |
+| 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | https://etmora2.github.io/clase_04/ |
 | 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
 | 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | https://janakristin.github.io/clase-04/ |
-| 12	  | MURIEL MUÑOZ           | https://api.myjson.com/bins/lxweo | … |
+| 12	  | MURIEL MUÑOZ           | https://api.myjson.com/bins/lxweo | https://murimu.github.io/clase-04/ |
 | 13 	  | MARÍA TRINIDAD NORIEGA | — | — |
 | 14	  | ROSARIO OLIVARES       | https://api.myjson.com/bins/16b50g | … |
 | 15	  | AMPARO ORTÚZAR         | — | — |
