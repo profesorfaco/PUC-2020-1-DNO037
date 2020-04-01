@@ -104,7 +104,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 9	  | ELSA MORA              | https://api.myjson.com/bins/1f3xc0 | … |
 | 10	  | VANESSA MÜLLER         | https://api.myjson.com/bins/ngzfk | … |
 | 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | … |
-| 12	  | MURIEL MUÑOZ           | … | … |
+| 12	  | MURIEL MUÑOZ           | https://api.myjson.com/bins/lxweo | … |
 | 13 	  | MARÍA TRINIDAD NORIEGA | … | … |
 | 14	  | ROSARIO OLIVARES       | … | … |
 | 15	  | AMPARO ORTÚZAR         | … | … |
