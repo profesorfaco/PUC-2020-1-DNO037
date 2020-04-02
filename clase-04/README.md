@@ -106,7 +106,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 11	  | JANA MÜLLER            | https://api.myjson.com/bins/1f3hwg | https://janakristin.github.io/clase-04/ |
 | 12	  | MURIEL MUÑOZ           | https://api.myjson.com/bins/lxweo | https://murimu.github.io/clase-04/ |
 | 13 	  | MARÍA TRINIDAD NORIEGA | — | — |
-| 14	  | ROSARIO OLIVARES       | https://api.myjson.com/bins/16b50g | … |
+| 14	  | ROSARIO OLIVARES       | https://api.myjson.com/bins/16b50g | https://rosarioof.github.io/clase-04/ |
 | 15	  | AMPARO ORTÚZAR         | — | — |
 | 16	  | VALERIA PARRAGUEZ      | https://api.myjson.com/bins/xh2e8 | https://valeriaparraguezojeda.github.io/Clase-04/ |
 | 17	  | FRANCISCO PEZOA        | https://api.myjson.com/bins/qg5gg | https://panshios.github.io/clase-04/ |
@@ -115,7 +115,7 @@ Cuando tengas tal dirección podrás enviarme el correo solicitando las instrucc
 | 20	  | PILAR SAAVEDRA         | — | — |
 | 21	  | LISA SAEZ              | — | — |
 | 22	  | DAVID SÁNCHEZ          | … | … |
-| 23	  | CECY SOTO              | https://api.myjson.com/bins/d2yxc | — |
+| 23	  | CECY SOTO              | https://api.myjson.com/bins/d2yxc | https://cecysoto.github.io/clase-04/ |
 | 24	  | MARÍA ELISA VALDÉS     | — | — |
 | 25	  | FRANCISCA VIAL         | — | — |
 | 26	  | MARIA JOSE VILLASANTE  | — | — |
