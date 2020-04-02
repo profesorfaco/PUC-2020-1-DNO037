@@ -38,7 +38,7 @@
         function setup() {
             console.log(data);
 
-            var miMapa = L.map('mapamundi').setView([30, 0], 2);
+            var miMapa = L.map('mapamundi').setView([20, 0], 2);
 
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                 minZoom:2,
@@ -46,11 +46,21 @@
                 id: 'mapbox/streets-v11'
             }).addTo(miMapa);
 
-            for (let x = 0; x < 32; x++) {
+            for (let x = 0; x < 50; x++) {
                 let latitud = data[x].coordenadas[0];
             	let longitud = data[x].coordenadas[1];
             	let cantidad = data[x].casos/data[x].habitantes;
-                L.circle([latitud,longitud],{radius:1000*cantidad,stroke:false,fillColor:'#ff0000',fillOpacity:0.4}).addTo(miMapa);
+
+                if(cantidad >= 1000){                   
+                    L.circle([latitud,longitud],{radius:100000,fillColor:'#d7301f',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");;
+                } else if(cantidad < 1000 && cantidad > 500){                   
+                    L.circle([latitud,longitud],{radius:100000,fillColor:'#fc8d59',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");;
+                } else {
+                    L.circle([latitud,longitud],{radius:100000,fillColor:'#fdcc8a',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");
+
+                }
+
+            
             }
 
         }
