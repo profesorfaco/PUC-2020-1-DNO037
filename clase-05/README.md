@@ -14,7 +14,7 @@ Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/
 
 - `graph.html` Con cinco países vecinos (entre sí), un grafico lineal que compare número de recuperados.
 
-- `mapa.html` Un mapa donde se marquen los países sí y solo sí las cifras superaron los mil confirmados. 
+- `mapa.html` Un mapa donde se marquen algunos países, con un color dependiente por cantidad de contagiados confirmados por millón de habitantes. 
 
 El resultado debe ponerse en línea, en repositorio `/clase-05`.
 
