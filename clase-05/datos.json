@@ -200,8 +200,8 @@
    {
       "pais":"Francia",
       "coordenadas":[
-         48.831563,
-         2.345988
+         47.078306,
+         2.4853123
       ],
       "casos":52827,
       "habitantes":66.99
@@ -317,8 +317,8 @@
    {
       "pais":"Paraguay",
       "coordenadas":[
-         -25.2819,
-         -57.635
+         -23.765536,
+         -58.0302157
       ],
       "casos":65,
       "habitantes":6.81
@@ -434,8 +434,8 @@
    {
       "pais":"Uruguay",
       "coordenadas":[
-         -34.8833,
-         -56.1667
+         -33.062127,
+         -55.9433197
       ],
       "casos":338,
       "habitantes":3.45
