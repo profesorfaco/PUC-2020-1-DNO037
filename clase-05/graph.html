@@ -5,12 +5,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
     <style>
-        html, body {margin: 0; padding: 0; overflow: hidden;}
-        body{font-family:Helvetica, Arial, sans-serif;}
-        select {position: absolute; right: 1%; top: 2%; z-index:99999;}       
-        canvas {display: block;}
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        select {
+            position: absolute;
+            right: 1%;
+            top: 2%;
+            z-index: 99999;
+        }
+        
+        canvas {
+            display: block;
+        }
     </style>
     <title>DNO037</title>
 </head>
@@ -19,134 +37,64 @@
 
     <select onchange="if (this.value) window.location.href=this.value">
         <option value="index.html">Portada &rarr; index.html</option>
-        <option value="graph.html" selected>Gráfico &rarr; graph.html</option>
-        <option value="mapa.html">Mundial &rarr; mapa.html</option>
+        <option value="graph.html">Gráfico &rarr; graph.html</option>
+        <option value="mapa.html" selected>Mundial &rarr; mapa.html</option>
     </select>
 
-    <script>
-        var url = "https://pomber.github.io/covid19/timeseries.json";
-        var casos, italia, austria, eslovenia, francia, suiza;
-        var marzo = [];
-        var marzo_italia = [];
-        var marzo_austria = [];
-        var marzo_eslovenia = [];
-        var marzo_francia = [];
-        var marzo_suiza = [];
+    <div id="mapamundi" style="width: 100vw; height: 100vh;"></div>
 
+    <script>
+        var url = "https://raw.githubusercontent.com/profesorfaco/dno037-2020/gh-pages/clase-05/datos.json"; //esto debe cambiarse
+
+        var data;
 
         function preload() {
-            casos = loadJSON(url);
+            data = loadJSON(url);
         }
 
-        function setup() {            
-            createCanvas(windowWidth, windowHeight).id("chart");
+        function setup() {
+            var miMapa = L.map('mapamundi').setView([20, 0], 2);
 
-            for (let x = 1; x <= 31; x++) {
-                marzo.push(x);
-            }
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                minZoom: 2,
+                maxZoom: 10,
+                id: 'mapbox/streets-v11' //por acá estaría el cambio para puntos extra
+            }).addTo(miMapa);
 
-            italia = casos.Italy; //los que siguen frontera con Italia
-            austria = casos.Austria;
-            eslovenia = casos.Slovenia;
-            francia = casos.France;
-            suiza = casos.Switzerland;
+            for (let x = 0; x < 50; x++) {
 
+                let latitud = data[x].coordenadas[0];
 
-            for (let x = 0; x < italia.length; x++) {
-                if (italia[x].date.includes("-3-")) {
-                    marzo_italia.push(italia[x].confirmed);
+                let longitud = data[x].coordenadas[1];
+
+                let porcentaje = (data[x].casos * 100) / (data[x].habitantes * 1000000); // porcentaje de afectados en el país
+
+                porcentaje = Math.round((porcentaje + Number.EPSILON) * 100000) / 100000; //redondeo el porcentaje a cinco decimales
+
+                let semaforo; //creo una variable a la que se le asignará un valor dependiendo del caso
+
+                if (porcentaje >= 0.1) {
+                    semaforo = '#d32f2f'; //rojo en caso porcentaje de confirmados sean igual o mayor a 0.1
+                } else if (porcentaje < 0.1 && porcentaje > 0.01) {
+                    semaforo = '#fbc02d'; //amarillo en caso los confirmados estén entre 0.1% y 0.01% de la población
+                } else {
+                    semaforo = '#388e3c'; //verde para los demás casos
                 }
-            }
 
-            for (let x = 0; x < austria.length; x++) {
-                if (austria[x].date.includes("-3-")) {
-                    marzo_austria.push(austria[x].confirmed);
-                }
-            }
+                L.circle([latitud, longitud], {
+                    radius: 100000,
+                    fillColor: semaforo,
+                    fillOpacity: 0.9,
+                    color: '#666666',
+                    weight: 1
+                }).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos + " casos confirmados" + "<br />" + data[x].habitantes + " millones de habitantes"); //todas los círculos tienen el mismo tamaño; que se vean distintos les muestra la "deformación" del mismo mapamundi
 
-            for (let x = 0; x < eslovenia.length; x++) {
-                if (eslovenia[x].date.includes("-3-")) {
-                    marzo_eslovenia.push(eslovenia[x].confirmed);
-                }
-            }
+                console.log((x + 1) + ". " + data[x].pais + ": " + porcentaje + "%"); //puedes asomarte a la Consola de Javascript
 
-            for (let x = 0; x < francia.length; x++) {
-                if (francia[x].date.includes("-3-")) {
-                    marzo_francia.push(francia[x].confirmed);
-                }
             }
-
-            for (let x = 0; x < suiza.length; x++) {
-                if (suiza[x].date.includes("-3-")) {
-                    marzo_suiza.push(suiza[x].confirmed);
-                }
-            }
-
-            new Chart(document.getElementById('chart').getContext('2d'), {
-                type: 'line',
-                data: {
-                    labels: marzo,
-                    datasets: [{
-                        label: 'Austria',
-                        backgroundColor: 'rgba(152,78,163,.1)',
-                        borderColor: 'rgb(152,78,163)',
-                        borderWidth: 2,
-                        pointRadius: 2,
-                        lineTension: 0,
-                        data: marzo_austria
-                    },{
-                        label: 'Eslovenia',
-                        backgroundColor: 'rgba(77,175,74,.1)',
-                        borderColor: 'rgb(77,175,74)',
-                        borderWidth: 2,
-                        pointRadius: 2,
-                        lineTension: 0,
-                        data: marzo_eslovenia
-                    },{
-                        label: 'Francia',
-                        backgroundColor: 'rgba(55,126,184,.1)',
-                        borderColor: 'rgb(55,126,184)',
-                        borderWidth: 2,
-                        pointRadius: 2,
-                        lineTension: 0,
-                        data: marzo_francia
-                    },{
-                        label: 'Italia',
-                        backgroundColor: 'rgba(228,26,28,.1)',
-                        borderColor: 'rgb(228,26,28)',
-                        borderWidth: 2,
-                        pointRadius: 2,
-                        lineTension: 0,
-                        data: marzo_italia
-                    },{
-                        label: 'Suiza',
-                        backgroundColor: 'rgba(255,127,0,.1)',
-                        borderColor: 'rgb(255,127,0)',
-                        borderWidth: 2,
-                        pointRadius: 2,
-                        lineTension: 0,
-                        data: marzo_suiza
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    title: {
-                        display: true,
-                        text: 'Casos confirmados de coronavirus durante marzo 2020'
-                    },
-                    scales: {
-                        yAxes: [{
-                            ticks: {
-                                callback: function(value, index, values) {
-                                    return value;
-                                }
-                            }
-                        }]
-                    }
-                }
-            }); //acá se cierra el new Chart de chart.js
-        } //acá se cierra el function setup de p5.js
+        }
     </script>
+
 </body>
 
 </html>
