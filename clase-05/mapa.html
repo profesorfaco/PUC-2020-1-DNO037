@@ -27,8 +27,8 @@
     <div id="mapamundi" style="width: 100vw; height: 100vh;"></div>
 
     <script>
-        var url = "https://raw.githubusercontent.com/profesorfaco/dno037-2020/gh-pages/clase-05/datos.json";
-
+        var url = "https://raw.githubusercontent.com/profesorfaco/dno037-2020/gh-pages/clase-05/datos.json"; //esto debe cambiarse
+        
         var data;
 
         function preload() {
@@ -41,28 +41,36 @@
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                 minZoom:2,
                 maxZoom: 10,
-                id: 'mapbox/streets-v11'
+                id: 'mapbox/streets-v11' //por acá estaría el cambio para puntos extra
             }).addTo(miMapa);
 
             for (let x = 0; x < 50; x++) {
+                
                 let latitud = data[x].coordenadas[0];
+                
                 let longitud = data[x].coordenadas[1];
-                let cantidad = (data[x].casos*100)/(data[x].habitantes*1000000); //porcentaje de afectados en el país
-                cantidad = Math.round((cantidad + Number.EPSILON) * 100000) / 100000 //redondeo el resultado a cinco decimales
+                
+                let porcentaje = (data[x].casos*100)/(data[x].habitantes*1000000); // porcentaje de afectados en el país
+                
+                porcentaje = Math.round((porcentaje + Number.EPSILON) * 100000) / 100000; //redondeo el porcentaje a cinco decimales
+                
+                let semaforo; //creo una variable a la que se le asignará un valor dependiendo del caso
 
-                if(cantidad >= 0.1){                   
-                    L.circle([latitud,longitud],{radius:100000,fillColor:'#d7301f',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");;
-                } else if(cantidad < 0.1 && cantidad > 0.01){                   
-                    L.circle([latitud,longitud],{radius:100000,fillColor:'#fc8d59',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");;
-                } else {
-                    L.circle([latitud,longitud],{radius:100000,fillColor:'#fdcc8a',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");
+                    if(porcentaje >= 0.1){ 
+                        semaforo = '#d32f2f'; //rojo en caso porcentaje de confirmados sean igual o mayor a 0.1
+                    }
+                    else if(porcentaje < 0.1 && porcentaje > 0.01) { 
+                        semaforo = '#fbc02d'; //amarillo en caso los confirmados estén entre 0.1% y 0.01% de la población
+                    }
+                    else { 
+                        semaforo = '#388e3c'; //verde para los demás casos
+                    }                   
 
-                }
+                L.circle([latitud,longitud],{radius:100000,fillColor:semaforo,fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes"); //todas los círculos tienen el mismo tamaño; que se vean distintos les muestra la "deformación" del mismo mapamundi
 
-                console.log((x+1) + ". " + data[x].pais + ": " + cantidad + "%"); //puedes asomarte a la Consola de Javascript
-            
+                console.log((x+1) + ". " + data[x].pais + ": " + porcentaje + "%"); //puedes asomarte a la Consola de Javascript
+
             }
-
         }
     </script>
 
