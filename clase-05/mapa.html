@@ -36,8 +36,6 @@
         }
 
         function setup() {
-            console.log(data);
-
             var miMapa = L.map('mapamundi').setView([20, 0], 2);
 
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -48,18 +46,20 @@
 
             for (let x = 0; x < 50; x++) {
                 let latitud = data[x].coordenadas[0];
-            	let longitud = data[x].coordenadas[1];
-            	let cantidad = data[x].casos/data[x].habitantes;
+                let longitud = data[x].coordenadas[1];
+                let cantidad = (data[x].casos*100)/(data[x].habitantes*1000000); //porcentaje de afectados en el país
+                cantidad = Math.round((cantidad + Number.EPSILON) * 100000) / 100000 //redondeo el resultado a cinco decimales
 
-                if(cantidad >= 1000){                   
+                if(cantidad >= 0.1){                   
                     L.circle([latitud,longitud],{radius:100000,fillColor:'#d7301f',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");;
-                } else if(cantidad < 1000 && cantidad > 500){                   
+                } else if(cantidad < 0.1 && cantidad > 0.01){                   
                     L.circle([latitud,longitud],{radius:100000,fillColor:'#fc8d59',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");;
                 } else {
                     L.circle([latitud,longitud],{radius:100000,fillColor:'#fdcc8a',fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes");
 
                 }
 
+                console.log((x+1) + ". " + data[x].pais + ": " + cantidad + "%"); //puedes asomarte a la Consola de Javascript
             
             }
 
