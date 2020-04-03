@@ -126,11 +126,7 @@ Mientras tú sigues las instrucciones que serán enviadas, yo armaré un único 
 
 #### Referencias
 
-- GeoJSON Summary Format - https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-
 - Graphing with Chart.js - Working With Data & APIs in JavaScript - https://youtu.be/5-ptp9tRApM
-
-- JSON time-series of coronavirus cases per country - https://github.com/pomber/covid19
 
 - Mapping Geolocation with Leaflet.js - Working with Data and APIs in JavaScript - https://youtu.be/nZaZ2dB6pow
 
