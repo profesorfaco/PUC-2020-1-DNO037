@@ -4,19 +4,42 @@
 
 Hoy toca evaluación, así que no tengo mucho que explicar. Tengo que encargar algo para que desarrollen en horario de clases:
 
-Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/
+Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/ siguiendo las indiaciones de pauta de evaluación
 
-- `index.html` Con un país distinto de Chile, preparar una portada con:
+> Encontrarán la pauta aquí, muy pronto. 
 
-	- tantas caritas tristes como casos confirmados, restando muertes y recuperados.
-	- tantas caritas tristes negras como muertes.
-	- tantas caritas contentas como casos recuperados.
+- - - - - - - - 
 
-- `graph.html` Con cinco países vecinos (entre sí), un grafico lineal que compare número de recuperados.
+#### Entregas
 
-- `mapa.html` Un mapa donde se marquen algunos países, con un color dependiente por cantidad de contagiados confirmados por millón de habitantes. 
-
-El resultado debe ponerse en línea, en repositorio `/clase-05`.
+| No.   | Nombre                | 10:30 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | 
+|:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
+|   1   | CAMILA AZÓCAR          | … | … | … | … | 
+|   2   | MARÍA PAZ CONCHA       | … | … | … | … |  
+|   3   | OLGA F. VIO            | … | … | … | … |  
+|   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
+|   5   | MATÍAS HAGEN           | … | … | … | … |  
+|   6   | MARÍA FRANCISCA HEPP   | … | … | … | … |  
+|   7   | MARIA ELIANA INFANTE   | … | … | … | … |  
+|   8   | MAGDALENA LABARCA      | … | … | … | … |  
+|   9   | ELSA MORA              | … | … | … | … |  
+|  10   | VANESSA MÜLLER         | … | … | … | … | 
+|  11   | JANA MÜLLER            | … | … | … | … | 
+|  12   | MURIEL MUÑOZ           | … | … | … | … | 
+|  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
+|  14   | ROSARIO OLIVARES       | … | … | … | … | 
+|  15   | AMPARO ORTÚZAR         | … | … | … | … | 
+|  16   | VALERIA PARRAGUEZ      | … | … | … | … | 
+|  17   | FRANCISCO PEZOA        | … | … | … | … | 
+|  18   | FRANCISCA PURCELL      | … | … | … | … | 
+|  19   | MARTINA RIVAS          | … | … | … | … | 
+|  20   | PILAR SAAVEDRA         | … | … | … | … | 
+|  21   | LISA SAEZ              | … | … | … | … | 
+|  22   | DAVID SÁNCHEZ          | … | … | … | … | 
+|  23   | CECY SOTO              | … | … | … | … | 
+|  24   | MARÍA ELISA VALDÉS     | … | … | … | … | 
+|  25   | FRANCISCA VIAL         | … | … | … | … | 
+|  26   | MARIA JOSE VILLASANTE  | … | … | … | … | 
 
 - - - - - - - - - - - -
 
