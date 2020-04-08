@@ -58,7 +58,6 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  22   | CECY SOTO              | … | … | … | … | 
 |  23   | MARÍA ELISA VALDÉS     | … | … | … | … | 
 |  24   | FRANCISCA VIAL         | … | … | … | … | 
-|  25   | MARIA JOSE VILLASANTE  | … | … | … | … | 
 
 - - - - - - - - - - - -
 
