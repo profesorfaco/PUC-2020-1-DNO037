@@ -34,7 +34,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 
 | No.   | Nombre                | 10:30 hrs. | 11.00 hrs. | Puntaje por pauta | Puntaje extra | 
 |:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
-|   1   | CAMILA AZÓCAR          | … | … | … | … | 
+|   1   | [CAMILA AZÓCAR](https://camiazocar.github.io/clase-05/) | 0.75 | … | … | … | 
 |   2   | MARÍA PAZ CONCHA       | P | P | P | P |  
 |   3   | OLGA F. VIO            | … | … | … | … |  
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
@@ -50,9 +50,9 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  14   | ROSARIO OLIVARES       | … | … | … | … | 
 |  15   | AMPARO ORTÚZAR         | … | … | … | … | 
 |  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | … | … | … | 
-|  17   | FRANCISCO PEZOA        | … | … | … | … | 
+|  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | … | … | … | 
 |  18   | FRANCISCA PURCELL      | … | … | … | … | 
-|  19   | MARTINA RIVAS          | … | … | … | … | 
+|  19   | [MARTINA RIVAS](https://mrivas29.github.io/clase-05/) | … | … | … | … | 
 |  20   | PILAR SAAVEDRA         | … | … | … | … | 
 |  21   | LISA SAEZ              | … | … | … | … | 
 |  22   | CECY SOTO              | … | … | … | … | 
