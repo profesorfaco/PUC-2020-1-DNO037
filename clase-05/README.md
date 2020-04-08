@@ -2,7 +2,7 @@
 
 ### Clase 05 → Miércoles 8 de abril, 2020
 
-Como cada clase, comenzamos con un correo que tiene algunas indicaciones. El día de hoy tenemos evaluación, y por este motivo, las indicaciones están contenidas en pautas:
+Como cada clase, comenzamos con un correo que tiene algunas indicaciones. El día de hoy tenemos evaluación. Por ello, las indicaciones están contenidas en pautas:
 
 #### PAUTA DE EVALUACIÓN
 
