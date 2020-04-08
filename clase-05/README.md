@@ -39,7 +39,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   3   | OLGA F. VIO            | … | … | … | … |  
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
 |   5   | [MATÍAS HAGEN](https://matihagene.github.io/clase-05/) | 1.0 | … | … | … |  
-|   6   | MARÍA FRANCISCA HEPP   | … | … | … | … |  
+|   6   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-05/) | … | … | … | … |  
 |   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-05/) | 1.0 | … | … | … |  
 |   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
