@@ -45,7 +45,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   9   | ELSA MORA              | … | … | … | … |  
 |  10   | VANESSA MÜLLER         | … | … | … | … | 
 |  11   | [JANA MÜLLER](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … | 
-|  12   | MURIEL MUÑOZ           | … | … | … | … | 
+|  12   | [MURIEL MUÑOZ](https://murimu.github.io/clase-05/) | 1.0 | … | … | … | 
 |  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
 |  14   | ROSARIO OLIVARES       | … | … | … | … | 
 |  15   | AMPARO ORTÚZAR         | … | … | … | … | 
