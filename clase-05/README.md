@@ -23,8 +23,8 @@ El día de hoy tenemos evaluación. Por ello, las indicaciones están contenidas
 
 | Documento    | Desafío            				        		   | Puntos |
 |:-------------|:------------------------------------------|:------:|
-| `graph.html` | En caso quieras asegurar medio punto extra, puedes cambiar el tipo de gráfico que se despliega en página, por ejemplo, cambiar *lineal* por *barras llenas* (que borde y contenido tengan mismo color) | 0.5 |
-| `mapa.html`  | En la parte superior de la página, en un nivel sobre Groenlandia y el archipiélago de Svalbard, intenta agregar título y simbología (qué significa cada color de círculo). Para darle algo de consistencia al sitio web, replica el estilo de la página de gráficos. | 0.5 |
+| `graph.html` | Podrías cambiar el tipo de gráfico que se despliega en página, por ejemplo, cambiar *lineal* por *barras llenas* (que borde y contenido tengan mismo color) | 0.5 |
+| `mapa.html`  | En la parte superior de la página, en un nivel sobre Groenlandia y el archipiélago de Svalbard, podrías agregar título y simbología (qué significa cada color de círculo). Para darle algo de consistencia al sitio web, replica el estilo de la página de gráficos. | 0.5 |
 
 **En caso se obtenga nota 7.0 sin uso del puntos extra, éstos se traspasan a los acumulados clase a clase.**
 
