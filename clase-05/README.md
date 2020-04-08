@@ -43,7 +43,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-05/) | 1.0 | … | … | … |  
 |   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | 1.0 | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
-|  10   | [VANESSA MÜLLER](https://vymuller.github.io/clase-05/) | 1.0 | … | … | … | 
+|  10   | [VANESSA MÜLLER](https://vymuller.github.io/clase-05/) | 1.0 | 1.0 | … | … | 
 |  11   | [JANA MÜLLER](https://janakristin.github.io/clase-05/) | 1.0 | 1.0 | … | … | 
 |  12   | [MURIEL MUÑOZ](https://murimu.github.io/clase-05/) | 1.0 | … | … | … | 
 |  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
