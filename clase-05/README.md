@@ -4,18 +4,18 @@
 
 Como cada clase, comenzamos con un correo que tiene algunas indicaciones. 
 
-El día de hoy tenemos evaluación. Por ello, las indicaciones están contenidas en pautas:
+[El día de hoy tenemos evaluación](https://profesorfaco.github.io/dno037-2020/clase-05/). Por ello, las indicaciones están contenidas en pautas:
 
 #### PAUTA DE EVALUACIÓN
 
 | Documento    | Desafío            				        		   | Puntos |
 |:-------------|:------------------------------------------|:------:|
-| `index.html` | Cambia a Chile por un país cuya cantidad de afectados permita diferenciar caras tristes claras (casos confirmados, sin muertos ni recuperados) de caras tristes oscuras (muertos) y caras contentas (recuperados) | 0.5 |
-| `index.html` | Agrega, sobre las caras y centrado a la página, el nombre de país cuyos datos están siendo desplegados en forma de caras | 0.5 |
-| `graph.html`| Cambia el asunto que se despliega en la visualización: En lugar de mostrar casos, muestra el número de recuperados durante marzo | 1.0 |
-| `graph.html`| Cambia dos de los cinco países que se despliegan en la visualización (recuerda evitar países con nombres compuestos o caracteres extraños, como Taiwan*) | 1.0 |
-| `graph.html`| Cambia la definición cromática del gráfico por cinco [matices](http://proyectacolor.cl/teoria-de-los-colores/propiedades-de-los-colores/) adyacentes (o vecinos) en la [Material Palette](https://material.io/resources/color/) o un *color scheme* recomendado por [colorbrewer 2.0](https://colorbrewer2.org/#type=qualitative&scheme=Set1&n=5) | 1.0 |
-| `mapa.html` | Cambia la fuente de los datos que alimentan el mapa. Ya no corresponde que se le asigne a la variable `url` un JSON que no está actualizado (si cumples con aquello que es solicitado en correo, ya tienes una fuente de datos actualizada) | 1.0 |
+| [`index.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/index.html) | Cambia a Chile por un país cuya cantidad de afectados permita diferenciar caras tristes claras (casos confirmados, sin muertos ni recuperados) de caras tristes oscuras (muertos) y caras contentas (recuperados) | 0.5 |
+| [`index.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/index.html) | Agrega, sobre las caras y centrado a la página, el nombre de país cuyos datos están siendo desplegados en forma de caras | 0.5 |
+| [`graph.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/graph.html) | Cambia el asunto que se despliega en la visualización: En lugar de mostrar casos, muestra el número de recuperados durante marzo | 1.0 |
+| [`graph.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/graph.html) | Cambia dos de los cinco países que se despliegan en la visualización (recuerda evitar países con nombres compuestos o caracteres extraños, como Taiwan*) | 1.0 |
+| [`graph.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/graph.html) | Cambia la definición cromática del gráfico por cinco [matices](http://proyectacolor.cl/teoria-de-los-colores/propiedades-de-los-colores/) adyacentes (o vecinos) en la [Material Palette](https://material.io/resources/color/) o un *color scheme* recomendado por [colorbrewer 2.0](https://colorbrewer2.org/#type=qualitative&scheme=Set1&n=5) | 1.0 |
+| [`mapa.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/mapa.html) | Cambia la fuente de los datos que alimentan el mapa. Ya no corresponde que se le asigne a la variable `url` un JSON que no está actualizado (si cumples con aquello que es solicitado en correo, ya tienes una fuente de datos actualizada) | 1.0 |
 
 **Importante insistir:** La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los 2.0 que faltan (para el 7.0) dependen de seguir instrucciones enviadas por correo al comienzo de la clase.
 
@@ -23,8 +23,8 @@ El día de hoy tenemos evaluación. Por ello, las indicaciones están contenidas
 
 | Documento    | Desafío            				        		   | Puntos |
 |:-------------|:------------------------------------------|:------:|
-| `graph.html` | Podrías cambiar el tipo de gráfico que se despliega en página, por ejemplo, cambiar *lineal* por *barras llenas* (que borde y contenido tengan mismo color) | 0.5 |
-| `mapa.html`  | En la parte superior de la página, en un nivel sobre Groenlandia y el archipiélago de Svalbard, podrías agregar título y simbología (qué significa cada color de círculo). Para darle algo de consistencia al sitio web, replica el estilo de la página de gráficos. | 0.5 |
+| [`graph.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/graph.html) | Podrías cambiar el tipo de gráfico que se despliega en página, por ejemplo, cambiar *lineal* por *barras llenas* (que borde y contenido tengan mismo color) | 0.5 |
+| [`mapa.html`](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/clase-05/mapa.html) | En la parte superior de la página, en un nivel sobre Groenlandia y el archipiélago de Svalbard, podrías agregar título y simbología (qué significa cada color de círculo). Para darle algo de consistencia al sitio web, replica el estilo de la página de gráficos. | 0.5 |
 
 **En caso se obtenga nota 7.0 sin uso del puntos extra, éstos se traspasan a los acumulados clase a clase.**
 
@@ -69,7 +69,7 @@ Recapitulando, JavaScript es un lenguaje de programación. Con este lenguaje se 
 
 En un programa de JS podemos encontrar dos elementos básicos: código y datos. La parte del código es la que permite redactar instrucciones. La parte de datos es la que permite almacenar información con la que podríamos condicionar las instrucciones. 
 
-Bien podemos trabajar con alguna biblioteca de JavaScript que nos simplifique la vida (y es lo que vinimos haciendo con p5.js, chart.js y leaflet) o podemos prescindir de ellas para que escribir, dentro del documento HTML lo siguiente: 
+Bien podemos trabajar con alguna biblioteca de JavaScript que nos simplifique la vida (y es lo que hicimos con [p5.js](https://p5js.org/es/), [chart.js](https://www.chartjs.org/) y [Leaflet](https://leafletjs.com/)) o podemos prescindir de ellas para que escribir, dentro del documento HTML lo siguiente: 
 
 ```
 <script>
