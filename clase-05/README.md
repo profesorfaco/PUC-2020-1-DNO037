@@ -40,7 +40,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
 |   5   | MATÍAS HAGEN           | … | … | … | … |  
 |   6   | MARÍA FRANCISCA HEPP   | … | … | … | … |  
-|   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase_05/)   | 1.0 | … | … | … |  
+|   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … |  
 |   8   | MAGDALENA LABARCA      | … | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
 |  10   | VANESSA MÜLLER         | … | … | … | … | 
@@ -55,11 +55,10 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  19   | MARTINA RIVAS          | … | … | … | … | 
 |  20   | PILAR SAAVEDRA         | … | … | … | … | 
 |  21   | LISA SAEZ              | … | … | … | … | 
-|  22   | DAVID SÁNCHEZ          | … | … | … | … | 
-|  23   | CECY SOTO              | … | … | … | … | 
-|  24   | MARÍA ELISA VALDÉS     | … | … | … | … | 
-|  25   | FRANCISCA VIAL         | … | … | … | … | 
-|  26   | MARIA JOSE VILLASANTE  | … | … | … | … | 
+|  22   | CECY SOTO              | … | … | … | … | 
+|  23   | MARÍA ELISA VALDÉS     | … | … | … | … | 
+|  24   | FRANCISCA VIAL         | … | … | … | … | 
+|  25   | MARIA JOSE VILLASANTE  | … | … | … | … | 
 
 - - - - - - - - - - - -
 
