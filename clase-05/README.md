@@ -34,7 +34,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 
 | No.   | Nombre                | 10:30 hrs. | 11.00 hrs. | Puntaje por pauta | Puntaje extra | 
 |:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
-|   1   | [CAMILA AZÓCAR](https://camiazocar.github.io/clase-05/) | 0.75 | … | … | … | 
+|   1   | [CAMILA AZÓCAR](https://camiazocar.github.io/clase-05/) | 0.75 | 0 | 4.0 | 0.25 | 
 |   2   | MARÍA PAZ CONCHA       | P | P | P | P |  
 |   3   | [OLGA F. VIO](https://caracolga.github.io/clase05/) | 1.0 | 1.0 | 4.75 | 0.5 |  
 |   4   | TRINIDAD GONZÁLEZ      | — | — | — | — |  
