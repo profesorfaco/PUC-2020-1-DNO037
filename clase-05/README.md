@@ -36,10 +36,10 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
 |   1   | [CAMILA AZÓCAR](https://camiazocar.github.io/clase-05/) | 0.75 | … | … | … | 
 |   2   | MARÍA PAZ CONCHA       | P | P | P | P |  
-|   3   | OLGA F. VIO            | … | … | … | … |  
+|   3   | [OLGA F. VIO](https://caracolga.github.io/clase05/) | … | … | … | … |  
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
-|   5   | [MATÍAS HAGEN](https://matihagene.github.io/clase-05/) | 1.0 | … | … | … |  
-|   6   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-05/) | 1.0 | … | … | … |  
+|   5   | [MATÍAS HAGEN](https://matihagene.github.io/clase-05/) | 1.0 | 1.0 | … | … |  
+|   6   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-05/) | 1.0 | 1.0 | … | … |  
 |   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-05/) | 1.0 | … | … | … |  
 |   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
