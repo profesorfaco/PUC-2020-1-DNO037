@@ -41,7 +41,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   5   | MATÍAS HAGEN           | … | … | … | … |  
 |   6   | MARÍA FRANCISCA HEPP   | … | … | … | … |  
 |   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … |  
-|   8   | MAGDALENA LABARCA      | … | … | … | … |  
+|   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | … | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
 |  10   | VANESSA MÜLLER         | … | … | … | … | 
 |  11   | [JANA MÜLLER](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … | 
