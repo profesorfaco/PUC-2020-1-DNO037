@@ -2,9 +2,7 @@
 
 ### Clase 05 → Miércoles 8 de abril, 2020
 
-Hoy toca evaluación, así que no tengo mucho que explicar. Tengo que encargar algo para que desarrollen en horario de clases:
-
-Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/ siguiendo las indiaciones de pauta de evaluación
+Como cada clase, comenzamos con un correo que tiene algunas indicaciones. En este caso, las indicaciones están enfocadas en la evaluación que se resuelve el día de hoy, partiendo desde el código de las páginas con las que se compone este sitio: https://profesorfaco.github.io/dno037-2020/clase-05/
 
 > Encontrarán la pauta aquí, muy pronto. 
 
