@@ -47,7 +47,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  11   | [JANA MÜLLER](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … | 
 |  12   | [MURIEL MUÑOZ](https://murimu.github.io/clase-05/) | 1.0 | … | … | … | 
 |  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
-|  14   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-05/) | 1.0 | … | … | … | 
+|  14   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-05/) | 1.0 | 1.0 | … | … | 
 |  15   | AMPARO ORTÚZAR         | … | … | … | … | 
 |  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | … | … | … | 
 |  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | … | … | … | 
