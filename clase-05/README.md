@@ -52,7 +52,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | … | … | … | 
 |  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | … | … | … | 
 |  18   | FRANCISCA PURCELL      | … | … | … | … | 
-|  19   | [MARTINA RIVAS](https://mrivas29.github.io/clase-05/) | … | … | … | … | 
+|  19   | [MARTINA RIVAS](https://mrivas29.github.io/clase-05/) | 1.0 | … | … | … | 
 |  20   | PILAR SAAVEDRA         | … | … | … | … | 
 |  21   | LISA SAEZ              | … | … | … | … | 
 |  22   | CECY SOTO              | … | … | … | … | 
