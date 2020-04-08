@@ -32,7 +32,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 
 #### ENTREGAS
 
-| No.   | Nombre                | 10:30 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | 
+| No.   | Nombre                | 10:30 hrs. | 11.00 hrs. | Puntaje por pauta | Puntaje extra | 
 |:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
 |   1   | CAMILA AZÓCAR          | … | … | … | … | 
 |   2   | MARÍA PAZ CONCHA       | P | P | P | P |  
