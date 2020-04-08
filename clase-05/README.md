@@ -49,7 +49,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
 |  14   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-05/) | 1.0 | 1.0 | … | … | 
 |  15   | AMPARO ORTÚZAR         | … | … | … | … | 
-|  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | … | … | … | 
+|  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | 1.0 | … | … | 
 |  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | 1.0 | … | … | 
 |  18   | [FRANCISCA PURCELL](https://github.com/fmpurcell/Clase-05/) | 1.0 | 1.0 | … | … | 
 |  19   | [MARTINA RIVAS](https://mrivas29.github.io/clase-05/) | 1.0 | … | … | … | 
