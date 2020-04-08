@@ -55,7 +55,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  19   | [MARTINA RIVAS](https://mrivas29.github.io/clase-05/) | 1.0 | … | … | … | 
 |  20   | PILAR SAAVEDRA         | … | … | … | … | 
 |  21   | LISA SAEZ              | … | … | … | … | 
-|  22   | [CECY SOTO](https://cecysoto.github.io/clase-05/) | P | 1.0 | … | … | 
+|  22   | [CECY SOTO](https://cecysoto.github.io/clase-05/) | 1.0 | 1.0 | … | … | 
 |  23   | MARÍA ELISA VALDÉS     | … | … | … | … | 
 |  24   | FRANCISCA VIAL         | … | … | … | … | 
 
