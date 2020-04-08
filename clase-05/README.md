@@ -39,7 +39,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   3   | OLGA F. VIO            | … | … | … | … |  
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
 |   5   | [MATÍAS HAGEN](https://matihagene.github.io/clase-05/) | 1.0 | … | … | … |  
-|   6   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-05/) | … | … | … | … |  
+|   6   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-05/) | 1.0 | … | … | … |  
 |   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-05/) | 1.0 | … | … | … |  
 |   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
@@ -47,7 +47,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  11   | [JANA MÜLLER](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … | 
 |  12   | [MURIEL MUÑOZ](https://murimu.github.io/clase-05/) | 1.0 | … | … | … | 
 |  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
-|  14   | ROSARIO OLIVARES       | … | … | … | … | 
+|  14   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-05/) | 1.0 | … | … | … | 
 |  15   | AMPARO ORTÚZAR         | … | … | … | … | 
 |  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | … | … | … | 
 |  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | … | … | … | 
