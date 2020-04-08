@@ -15,7 +15,7 @@ Hagan su propia versión de https://profesorfaco.github.io/dno037-2020/clase-05/
 | No.   | Nombre                | 10:30 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | 
 |:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
 |   1   | CAMILA AZÓCAR          | … | … | … | … | 
-|   2   | MARÍA PAZ CONCHA       | … | … | … | … |  
+|   2   | MARÍA PAZ CONCHA       | P | P | P | P |  
 |   3   | OLGA F. VIO            | … | … | … | … |  
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
 |   5   | MATÍAS HAGEN           | … | … | … | … |  
