@@ -40,7 +40,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   4   | TRINIDAD GONZÁLEZ      | … | … | … | … |  
 |   5   | MATÍAS HAGEN           | … | … | … | … |  
 |   6   | MARÍA FRANCISCA HEPP   | … | … | … | … |  
-|   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … |  
+|   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-05/) | 1.0 | … | … | … |  
 |   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
 |  10   | VANESSA MÜLLER         | … | … | … | … | 
