@@ -44,7 +44,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   8   | MAGDALENA LABARCA      | … | … | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
 |  10   | VANESSA MÜLLER         | … | … | … | … | 
-|  11   | JANA MÜLLER            | … | … | … | … | 
+|  11   | [JANA MÜLLER](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … | 
 |  12   | MURIEL MUÑOZ           | … | … | … | … | 
 |  13   | MARÍA TRINIDAD NORIEGA | … | … | … | … | 
 |  14   | ROSARIO OLIVARES       | … | … | … | … | 
