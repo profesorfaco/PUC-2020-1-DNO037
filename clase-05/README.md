@@ -30,7 +30,7 @@ El día de hoy tenemos evaluación. Por ello, las indicaciones están contenidas
 
 - - - - - - - - 
 
-#### Entregas
+#### ENTREGAS
 
 | No.   | Nombre                | 10:30 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | 
 |:-----:|:----------------------|:----------:|:----------:|:------------------:|:-------------:|
