@@ -41,7 +41,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |   5   | [MATÍAS HAGEN](https://matihagene.github.io/clase-05/) | 1.0 | 1.0 | … | … |  
 |   6   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-05/) | 1.0 | 1.0 | … | … |  
 |   7   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-05/) | 1.0 | … | … | … |  
-|   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | … | … | … |  
+|   8   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-05/) | 1.0 | 1.0 | … | … |  
 |   9   | ELSA MORA              | … | … | … | … |  
 |  10   | [VANESSA MÜLLER](https://vymuller.github.io/clase-05/) | 1.0 | … | … | … | 
 |  11   | [JANA MÜLLER](https://maritainfante.github.io/clase_05/) | 1.0 | … | … | … | 
@@ -50,7 +50,7 @@ Como cada clase, comenzamos con un correo que tiene algunas indicaciones.
 |  14   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-05/) | 1.0 | 1.0 | … | … | 
 |  15   | AMPARO ORTÚZAR         | … | … | … | … | 
 |  16   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-05/) | 1.0 | … | … | … | 
-|  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | … | … | … | 
+|  17   | [FRANCISCO PEZOA](https://panshios.github.io/clase-05/ ) | 1.0 | 1.0 | … | … | 
 |  18   | [FRANCISCA PURCELL](https://github.com/fmpurcell/Clase-05/) | 1.0 | 1.0 | … | … | 
 |  19   | [MARTINA RIVAS](https://mrivas29.github.io/clase-05/) | 1.0 | … | … | … | 
 |  20   | PILAR SAAVEDRA         | … | … | … | … | 
