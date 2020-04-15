@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+select {
+    position: absolute;
+    right: 3%;
+    top: 4%;
+}
+
+canvas {
+    display: block;
+}
+
+div {
+    padding: 0.5rem 3rem;
+}
+
+h1, p {
+    padding: 0.25rem;
+}
