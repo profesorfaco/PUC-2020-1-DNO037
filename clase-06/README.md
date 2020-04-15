@@ -204,7 +204,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 8	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-06/ |
 | 9	| VANESSA MÜLLER         | https://vymuller.github.io/clase-06/ |
 | 10	| JANA MÜLLER            | https://janakristin.github.io/clase-06/ |
-| 11	| MURIEL MUÑOZ           | … |
+| 11	| MURIEL MUÑOZ           | https://murimu.github.io/clase-06/ |
 | 12	| MARÍA TRINIDAD NORIEGA | … |
 | 13	| ROSARIO OLIVARES       | … |
 | 14	| AMPARO ORTÚZAR         | … |
