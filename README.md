@@ -42,7 +42,7 @@ Se proyecta la siguiente organización de las clases durante el primer semestre 
 
 **[Clase 05 → Miércoles 8 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05) → Evaluación ✓**
 
-[Clase 06 → Miércoles 15 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) → HTML + CSS
+[Clase 06 → Miércoles 15 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) → HTML + CSS ✓
 
 [Clase 07 → Miércoles 22 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-07) → HTML + CSS
 
