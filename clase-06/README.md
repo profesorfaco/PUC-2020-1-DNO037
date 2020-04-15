@@ -192,6 +192,27 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 
 #### Ejercicio
 
+En su repositorio de `clase-06` deben agregar un `index.html` como página de portada, además de un `estilo.css` que sirva para todas las páginas que componen su sitio: https://profesorfaco.github.io/dno037-2020/clase-06/
+
+En cada página `.html`corresponde agregar, entre las primeras líneas del `<body>…</body>` un elemento HTMl que nos permitira hacer la navegación: 
+
+```
+<select onchange="if (this.value) window.location.href=this.value">
+<option value="index.html" selected>Portada &rarr; index.html</option>
+<option value="index-1.html">Clase 01 &rarr; index-1.html</option>
+<option value="index-2.html">Clase 02 &rarr; index-2.html</option>
+<option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
+<option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
+<option value="index-4.html">Clase 04 - portada &rarr; index-4.html</option>
+<option value="page-4.html">Clase 04 - página &rarr; page-4.html</option>
+<option value="index-5.html">Clase 05 - portada &rarr; index-5.html</option>
+<option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
+<option value="mapa-5.html">Clase 05 - mapa &rarr; mapa-5.html</option>
+</select>
+```
+
+##### Resultados:
+
 | No.   | Nombre               | GitHub Page |
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| CAMILA AZÓCAR          | … |
