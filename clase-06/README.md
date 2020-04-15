@@ -196,7 +196,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| CAMILA AZÓCAR          | … |
 | 2	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-06/ |
-| 3	| OLGA F. VIO            | … |
+| 3	| OLGA F. VIO            | https://caracolga.github.io/clase06/ |
 | 4	| TRINIDAD GONZÁLEZ      | … |
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-06/ |
 | 6	| MARÍA FRANCISCA HEPP   | … |
