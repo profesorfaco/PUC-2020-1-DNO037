@@ -201,7 +201,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-06/ |
 | 6	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-06/ |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-06/ |
-| 8	| MAGDALENA LABARCA      | … |
+| 8	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-06/ |
 | 9	| VANESSA MÜLLER         | https://vymuller.github.io/clase-06/ |
 | 10	| JANA MÜLLER            | https://janakristin.github.io/clase-06/ |
 | 11	| MURIEL MUÑOZ           | … |
