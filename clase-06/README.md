@@ -199,16 +199,16 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 3	| OLGA F. VIO            | https://caracolga.github.io/clase06/ |
 | 4	| TRINIDAD GONZÁLEZ      | … |
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-06/ |
-| 6	| MARÍA FRANCISCA HEPP   | … |
+| 6	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-06/ |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-06/ |
 | 8	| MAGDALENA LABARCA      | … |
 | 9	| VANESSA MÜLLER         | https://vymuller.github.io/clase-06/ |
-| 10	| JANA MÜLLER            | … |
+| 10	| JANA MÜLLER            | https://janakristin.github.io/clase-06/ |
 | 11	| MURIEL MUÑOZ           | … |
 | 12	| MARÍA TRINIDAD NORIEGA | … |
 | 13	| ROSARIO OLIVARES       | … |
 | 14	| AMPARO ORTÚZAR         | … |
-| 15	| VALERIA PARRAGUEZ      | … |
+| 15	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-06/ |
 | 16	| FRANCISCO PEZOA        | https://panshios.github.io/clase-06/ |
 | 17	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-06/ |
 | 18	| MARTINA RIVAS          | https://mrivas29.github.io/Clase-06/ |
