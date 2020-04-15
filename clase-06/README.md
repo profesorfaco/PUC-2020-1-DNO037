@@ -197,7 +197,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 1	| CAMILA AZÓCAR          | … |
 | 2	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-06/ |
 | 3	| OLGA F. VIO            | https://caracolga.github.io/clase06/ |
-| 4	| TRINIDAD GONZÁLEZ      | … |
+| 4	| TRINIDAD GONZÁLEZ      | https://trinidadgonzlez.github.io/clase-06/ |
 | 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-06/ |
 | 6	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-06/ |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-06/ |
@@ -206,7 +206,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 10	| JANA MÜLLER            | https://janakristin.github.io/clase-06/ |
 | 11	| MURIEL MUÑOZ           | https://murimu.github.io/clase-06/ |
 | 12	| MARÍA TRINIDAD NORIEGA | … |
-| 13	| ROSARIO OLIVARES       | … |
+| 13	| ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-06/ |
 | 14	| AMPARO ORTÚZAR         | … |
 | 15	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-06/ |
 | 16	| FRANCISCO PEZOA        | https://panshios.github.io/clase-06/ |
@@ -215,7 +215,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 19	| PILAR SAAVEDRA         | … |
 | 20	| LISA SAEZ              | … |
 | 21	| DAVID SÁNCHEZ          | … |
-| 22	| CECY SOTO              | … |
+| 22	| CECY SOTO              | https://cecysoto.github.io/clase-06/ |
 | 23	| MARÍA ELISA VALDÉS     | … |
 | 24	| FRANCISCA VIAL         | … |
 | 25	| MARIA JOSE VILLASANTE  | … |
