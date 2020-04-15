@@ -6,7 +6,7 @@
 
 El presente README.md introduce a un par de lenguajes que ya veníamos aprovechando, pero aún no les prestábamos suficiente atención. 
 
-Si revisan los ejercicios de clase [01](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio), [02](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02#ejercicio), [03](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03#ejercicio) y [04](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04#ejercicio), además de la evaluación en [clase 05](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05#entregas), notarán que en todas hay HTML y CSS trabajando en conjunto, cada cual aportando desde su lugar. En algunos casos, ese lugar está bien definido, pero en otros casos, como el que sigue, parecen mezclarse un poco:
+Si revisan los ejercicios de clase [01](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-01#ejercicio), [02](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-02#ejercicio), [03](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-03#ejercicio) y [04](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-04#ejercicio), además de la evaluación en [clase 05](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05#entregas), notarán que en todas hay `HTML` y `CSS` trabajando en conjunto, cada cual aportando desde su lugar. En algunos casos, ese lugar está bien definido, pero en otros casos, como el que sigue, parecen mezclarse un poco:
 
 ```
 <div style="position:absolute; top:0; left:30vw; width:40vw; text-align:center; z-index:99999">
