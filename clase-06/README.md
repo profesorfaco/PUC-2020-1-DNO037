@@ -256,12 +256,12 @@ En cada página `.html`corresponde agregar, entre las primeras líneas del `<bod
 
 - [Element Index | HTML5 Doctor](http://html5doctor.com/element-index/)
 
-- [HTML5 Cheat Sheet](https://websitesetup.org/HTML5-cheat-sheet.pdf)
+- **[HTML5 Cheat Sheet](https://websitesetup.org/HTML5-cheat-sheet.pdf)**
 
 
 ##### CSS
 
-- [CSS3 Quick Referencia Guide](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf)
+- **[CSS3 Quick Referencia Guide](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf)**
 
 - [Guía Breve de CSS](https://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo)
 
