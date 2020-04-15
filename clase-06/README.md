@@ -202,7 +202,7 @@ Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl in
 | 6	| MARÍA FRANCISCA HEPP   | … |
 | 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-06/ |
 | 8	| MAGDALENA LABARCA      | … |
-| 9	| VANESSA MÜLLER         | https://github.com/vymuller/clase-06 |
+| 9	| VANESSA MÜLLER         | https://vymuller.github.io/clase-06/ |
 | 10	| JANA MÜLLER            | … |
 | 11	| MURIEL MUÑOZ           | … |
 | 12	| MARÍA TRINIDAD NORIEGA | … |
