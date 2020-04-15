@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--La siguiente línea va a buscar la biblioteca de p5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <!--Leaflet.js necesita, además de su JS, un CSS que la complementa-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>p5.js + Leaflet.js</title>
+</head>
+
+<body>
+
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Portada &rarr; index.html</option>
+            <option value="index-1.html">Clase 01 &rarr; index-1.html</option>
+            <option value="index-2.html">Clase 02 &rarr; index-2.html</option>
+            <option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
+            <option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
+            <option value="index-4.html">Clase 04 - portada &rarr; index-4.html</option>
+            <option value="page-4.html" selected>Clase 04 - página &rarr; page-4.html</option>
+            <option value="index-5.html">Clase 05 - portada &rarr; index-5.html</option>
+            <option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
+            <option value="mapa-5.html">Clase 05 - mapa &rarr; mapa-5.html</option>
+        </select>
+
+
+    <div id="mapamundi" style="width: 100vw; height: 100vh;"></div>
+    <script>
+        var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson"; //La estructura de este GeoJSON se explica en https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
+        var temblores;
+
+        function preload() {
+            temblores = loadJSON(url);
+        }
+
+        function setup() {
+            createElement('p','<a href="index.html">ir a index.html</a>').position(windowWidth-100,0).style('z-index','9999');
+            console.log(temblores);
+
+            /* 
+
+            Con p5.js vamos por los datos del JSON, imprimimos en la consola el contenido de la variable que recibe esos datos y lo que sigue se resuelve mediante Leaflet.js. Con un ciclo for() se marcan distintos círculos rojos semiopacos (cuando se ve más rojo es coincidencia de epicentro, porque es un círculo sobre otro), cuyo radio depende del epicentro multiplicándose por 25000 (que no es lo más adecuado porque las magnitudes no implican crecimiento lineal sino exponencial)
+
+            */
+
+            var miMapa = L.map('mapamundi').setView([30, 0], 2);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                minZoom:2,
+                maxZoom: 10,
+                id: 'mapbox/streets-v11'
+            }).addTo(miMapa);
+
+            for (let x = 0; x < temblores.features.length; x++) {
+            	let longitud = temblores.features[x].geometry.coordinates[0];
+            	let latitud = temblores.features[x].geometry.coordinates[1];
+            	let magnitud = temblores.features[x].properties.mag;
+                L.circle([latitud,longitud],{radius: Math.pow(10,magnitud),stroke:false,fillColor:'#ff0000',fillOpacity:0.4}).addTo(miMapa)
+            }//acá se cierra el ciclo for que va agregando circulos a miMapa
+
+        }//acá se cierra el function setup de p5.js
+    </script>
+
+</body>
+
+</html>

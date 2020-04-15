@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>DNO037</title>
+</head>
+
+<body>
+
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Portada &rarr; index.html</option>
+            <option value="index-1.html">Clase 01 &rarr; index-1.html</option>
+            <option value="index-2.html">Clase 02 &rarr; index-2.html</option>
+            <option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
+            <option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
+            <option value="index-4.html">Clase 04 - portada &rarr; index-4.html</option>
+            <option value="page-4.html">Clase 04 - página &rarr; page-4.html</option>
+            <option value="index-5.html" selected>Clase 05 - portada &rarr; index-5.html</option>
+            <option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
+            <option value="mapa-5.html">Clase 05 - mapa &rarr; mapa-5.html</option>
+        </select>
+
+    <script>
+        var url = "https://pomber.github.io/covid19/timeseries.json";
+
+        var casos, chile, confirmados, muertos, recuperados;
+
+        function preload() {
+            casos = loadJSON(url);
+        }
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight).position(0, 0).style('z-index', -1);
+            chile = casos.Chile;
+            console.log(chile);
+            confirmados = chile[chile.length - 1].confirmed;
+            muertos = chile[chile.length - 1].deaths;
+            recuperados = chile[chile.length - 1].recovered;
+            console.log(confirmados);
+            console.log(muertos);
+            console.log(recuperados);
+            noLoop();
+        }
+
+        function draw() {
+            colorMode(HSB, 360, 100, 100);
+            background(random(0, 360), 100, 75);
+            colorMode(RGB);
+            for (let x = 0; x <= confirmados - (muertos + recuperados); x++) {
+                fill(255, 175);
+                textSize(18);
+                text('☹', random(20, width - 30), random(30, height - 20));
+            }
+            for (let x = 0; x <= muertos; x++) {
+                fill(0, 175);
+                textSize(18);
+                text('☹', random(20, width - 30), random(30, height - 20));
+            }
+            for (let x = 0; x <= recuperados; x++) {
+                fill(255, 255);
+                textSize(18);
+                text('☺', random(20, width - 30), random(30, height - 20));
+            }
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, windowHeight);
+        }
+    </script>
+</body>
+
+</html>

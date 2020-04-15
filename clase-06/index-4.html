@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--La siguiente línea va a buscar la biblioteca de p5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <!--La siguiente línea va a buscar la biblioteca de Chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>p5.js + Chart.js</title>
+</head>
+
+<body>
+
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Portada &rarr; index.html</option>
+            <option value="index-1.html">Clase 01 &rarr; index-1.html</option>
+            <option value="index-2.html">Clase 02 &rarr; index-2.html</option>
+            <option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
+            <option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
+            <option value="index-4.html" selected>Clase 04 - portada &rarr; index-4.html</option>
+            <option value="page-4.html">Clase 04 - página &rarr; page-4.html</option>
+            <option value="index-5.html">Clase 05 - portada &rarr; index-5.html</option>
+            <option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
+            <option value="mapa-5.html">Clase 05 - mapa &rarr; mapa-5.html</option>
+        </select>
+
+    <script>
+        var url = "https://pomber.github.io/covid19/timeseries.json";
+        var casos, chile, argentina, brasil, peru;
+        var marzo = [];
+        var marzo_chile = [];
+        var marzo_argentina = [];
+        var marzo_brasil = [];
+
+        function preload() {
+            casos = loadJSON(url);
+        }
+
+        function setup() {
+            createElement('p','<a href="page.html">ir a page.html</a>').position(windowWidth-100,0).style('z-index','9999');
+            
+            createCanvas(windowWidth, windowHeight).id("chart");
+
+            for (let x = 1; x <= 31; x++) {
+                marzo.push(x);
+            }
+
+            chile = casos.Chile;
+            argentina = casos.Argentina;
+            brasil = casos.Brazil;
+
+            for (let x = 0; x < chile.length; x++) {
+                if (chile[x].date.includes("-3-")) {
+                    marzo_chile.push(chile[x].confirmed);
+                }
+            }
+
+            for (let x = 0; x < argentina.length; x++) {
+                if (argentina[x].date.includes("-3-")) {
+                    marzo_argentina.push(argentina[x].confirmed);
+                }
+            }
+
+            for (let x = 0; x < brasil.length; x++) {
+                if (brasil[x].date.includes("-3-")) {
+                    marzo_brasil.push(brasil[x].confirmed);
+                }
+            }
+
+            console.log(marzo_chile);
+            console.log(marzo_argentina);
+            console.log(marzo_brasil);
+
+            /* 
+
+            Con p5.js vamos por el JSON, creamos el canvas y también algunos arreglos con datos para visualizar. Con chart.js dibujamos en el canvas creado, aprovechando los arreglos de marzo (labels), marzo_chile, marzo_argentina y marzo_brasil (data). 
+
+            */
+
+            new Chart(document.getElementById('chart').getContext('2d'), {
+                type: 'line',
+                data: {
+                    labels: marzo,
+                    datasets: [{
+                        label: 'Chile',
+                        backgroundColor: 'rgba(255, 55, 0,.1)',
+                        borderColor: 'rgb(255, 55, 0)',
+                        borderWidth: 2,
+                        pointRadius: 2,
+                        lineTension: 0,
+                        data: marzo_chile
+                    }, {
+                        label: 'Argentina',
+                        backgroundColor: 'rgba(75,175,245,.1)',
+                        borderColor: 'rgb(75,175,245)',
+                        borderWidth: 2,
+                        pointRadius: 2,
+                        lineTension: 0,
+                        data: marzo_argentina
+                    }, {
+                        label: 'Brasil',
+                        backgroundColor: 'rgba(22, 184, 62,.1)',
+                        borderColor: 'rgb(22, 184, 62)',
+                        borderWidth: 2,
+                        pointRadius: 2,
+                        lineTension: 0,
+                        data: marzo_brasil
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: 'Casos confirmados durante marzo 2020'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                callback: function(value, index, values) {
+                                    return value;
+                                }
+                            }
+                        }]
+                    }
+                }
+            }); //acá se cierra el new Chart de chart.js
+        } //acá se cierra el function setup de p5.js
+    </script>
+</body>
+
+</html>

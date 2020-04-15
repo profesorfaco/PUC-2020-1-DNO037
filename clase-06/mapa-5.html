@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>DNO037</title>
+</head>
+
+<body>
+
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Portada &rarr; index.html</option>
+            <option value="index-1.html">Clase 01 &rarr; index-1.html</option>
+            <option value="index-2.html">Clase 02 &rarr; index-2.html</option>
+            <option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
+            <option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
+            <option value="index-4.html">Clase 04 - portada &rarr; index-4.html</option>
+            <option value="page-4.html">Clase 04 - página &rarr; page-4.html</option>
+            <option value="index-5.html">Clase 05 - portada &rarr; index-5.html</option>
+            <option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
+            <option value="mapa-5.html" selected>Clase 05 - mapa &rarr; mapa-5.html</option>
+        </select>
+    
+    <div style="position:absolute; top:0; left:30vw; width:40vw; text-align:center; z-index:99999">
+        <p><strong>porcentaje de la población con contagio confirmado<br/><small><span style="color:#d32f2f">&#11044;</span> sobre 0,1% <span style="color:#fbc02d">&#11044;</span> entre 0,1% y 0,01% <span style="color:#388e3c">&#11044;</span> menos del 0,01%</small></strong></p>
+    </div>
+
+    <div id="mapamundi" style="width: 100vw; height: 100vh;"></div>
+
+    <script>
+        var url = "https://raw.githubusercontent.com/profesorfaco/dno037-2020/gh-pages/clase-05/datos.json"; //esto debe cambiarse
+        
+        var data;
+
+        function preload() {
+            data = loadJSON(url);
+        }
+
+        function setup() {
+            var miMapa = L.map('mapamundi').setView([20, 0], 2);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                minZoom:2,
+                maxZoom: 10,
+                id: 'mapbox/streets-v11' //por acá estaría el cambio para puntos extra
+            }).addTo(miMapa);
+
+            for (let x = 0; x < 50; x++) {
+                
+                let latitud = data[x].coordenadas[0];
+                
+                let longitud = data[x].coordenadas[1];
+                
+                let porcentaje = (data[x].casos*100)/(data[x].habitantes*1000000); // porcentaje de afectados en el país
+                
+                porcentaje = Math.round((porcentaje + Number.EPSILON) * 100000) / 100000; //redondeo el porcentaje a cinco decimales
+                
+                let semaforo; //creo una variable a la que se le asignará un valor dependiendo del caso
+
+                    if(porcentaje >= 0.1){ 
+                        semaforo = '#d32f2f'; //rojo en caso porcentaje de confirmados sean igual o mayor a 0.1
+                    }
+                    else if(porcentaje < 0.1 && porcentaje > 0.01) { 
+                        semaforo = '#fbc02d'; //amarillo en caso los confirmados estén entre 0.1% y 0.01% de la población
+                    }
+                    else { 
+                        semaforo = '#388e3c'; //verde para los demás casos
+                    }                   
+
+                L.circle([latitud,longitud],{radius:100000,fillColor:semaforo,fillOpacity:0.9,color:'#666666',weight:1}).addTo(miMapa).bindPopup("<strong>" + data[x].pais + "</strong><br />" + data[x].casos  + " casos confirmados" + "<br />" + data[x].habitantes  + " millones de habitantes"); //todas los círculos tienen el mismo tamaño; que se vean distintos les muestra la "deformación" del mismo mapamundi
+
+                console.log((x+1) + ". " + data[x].pais + ": " + porcentaje + "%"); //puedes asomarte a la Consola de Javascript
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
+    overflow:hidden; /* esta es una */
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 select {
     position: absolute;
     right: 3%;
     top: 4%;
+    z-index:99999999999999999999; /* esta es otra */
 }
 
 canvas {
