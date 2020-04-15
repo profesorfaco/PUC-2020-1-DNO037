@@ -184,11 +184,43 @@ Habría una tercera posibilidad más de conectar un conjunto de reglas con un el
 
 Aunque "el qué" puede prescindir de una forma particular, para mostrarse tal como le corresponde por defecto, "el cómo" necesita de estar relacionado con algo que se muestra. Dicho de otro modo, pueden encontrar HTML sin definiciones de CSS, y funciona (viéndose mal), pero un CSS sin HTML es descripción perdida.
 
-Lo que haremos en esta clase será crear un repositorio `/clase-06` donde vamos a colocar todo lo que hemos hecho, o sea, cada archivo en repositorios (del 01 al 05) debe quedar en ella y al mismo nivel. 
+**Lo que haremos en esta clase será crear un repositorio `/clase-06` donde vamos a colocar todo lo que hemos hecho, o sea, cada archivo en repositorios (del 01 al 05) debe quedar en ella y al mismo nivel.** 
 
 Habrá un inconveniente: ¿Qué hacer con los archivos que se llaman igual? La respuesta: agrega un número que lo identifique. Por ejemplo, al `index.html` de la clase 1, cámbiale el nombre por `index-1.html`.
 
 Cuando tengas el repositorio listo, favor envía un correo a profesor@faco.cl indicando la url de tu Github Page. En principio no funcionará, porque no habrá un `index.html` a secas, sin número, pero eso lo resolveremos en un siguiente paso, que te será informado como respuesta a tu correo.
+
+#### Ejercicio
+
+| No.   | Nombre               | GitHub Page |
+|:-----:|:-----------------------|:--------------------------------------------------|
+| 1	| CAMILA AZÓCAR          | … |
+| 2	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-06/ |
+| 3	| OLGA F. VIO            | … |
+| 4	| TRINIDAD GONZÁLEZ      | … |
+| 5	| MATÍAS HAGEN           | https://matihagene.github.io/clase-06/ |
+| 6	| MARÍA FRANCISCA HEPP   | … |
+| 7	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-06/ |
+| 8	| MAGDALENA LABARCA      | … |
+| 9	| VANESSA MÜLLER         | https://github.com/vymuller/clase-06 |
+| 10	| JANA MÜLLER            | … |
+| 11	| MURIEL MUÑOZ           | … |
+| 12	| MARÍA TRINIDAD NORIEGA | … |
+| 13	| ROSARIO OLIVARES       | … |
+| 14	| AMPARO ORTÚZAR         | … |
+| 15	| VALERIA PARRAGUEZ      | … |
+| 16	| FRANCISCO PEZOA        | https://panshios.github.io/clase-06/ |
+| 17	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-06/ |
+| 18	| MARTINA RIVAS          | https://mrivas29.github.io/Clase-06/ |
+| 19	| PILAR SAAVEDRA         | … |
+| 20	| LISA SAEZ              | … |
+| 21	| DAVID SÁNCHEZ          | … |
+| 22	| CECY SOTO              | … |
+| 23	| MARÍA ELISA VALDÉS     | … |
+| 24	| FRANCISCA VIAL         | … |
+| 25	| MARIA JOSE VILLASANTE  | … |
+
+
 
 
 - - - - - 
