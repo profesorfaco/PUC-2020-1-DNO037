@@ -2,118 +2,74 @@
 
 ### Clase 07 → Miércoles 22 de abril, 2020
 
-#### CSS
+#### HTML + CSS, con énfasis en el primero
 
-CSS es Cascading Style Sheets (Hojas de Estilo en Cascada), un lenguaje utilizado para describir la presentación de documentos HTML. [CSS3](https://www.w3.org/TR/css-2018/#css-level-3) es la última evolución de este lenguaje.
+La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) organizamos todo lo trabajado hasta la fecha [en un único sitio web](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06#resultados), publicado en GitHub Pages. Para ello, tuvimos que poner atención especial a los lenguajes HTML y CSS. Notamos como NO da lo mismo donde abrimos y cerramos cada elemento HTML. También notamos que un mismo estilo CSS puede ayudarnos a definir cómo se deben ver varias páginas web. 
 
-Su bloque constructivo más básico es la regla. Cada regla se inicia con un(os) [selector(es)](https://developer.mozilla.org/es/docs/Web/CSS/Referencia_CSS#Selectores) y  luego contiene, entre paréntesis de llave `{…}`, un [bloque de declaraciones](https://developer.mozilla.org/es/docs/Web/CSS/Syntax#Bloques_de_declaraciones_en_CSS). Una [declaración](https://developer.mozilla.org/es/docs/Web/CSS/Syntax#Declaraciones_de_CSS) es separada de otra mediante punto y coma `;`. Cada declaración se compone de una [propiedad](https://www.w3.org/TR/css-2018/#properties) y su correspondiente valor, habiendo casos de [propiedades abreviadas](https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties) a las que corresponden varios valores:
+Hoy vamos a ponerle más atención a HTML, un lenguaje descriptivo, que es interpretado por los navegadores para mostrarnos sitios o aplicaciones Web, y de ese modo ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
 
-```
-selector{
-  propiedad:valor;
-  propiedad:valor;
-}
-```
+Favor revisen esta charla TED del año 2009 - https://www.ted.com/talks/tim_berners_lee_the_next_web - Terminarán de ver esa charla cerca de las 10.20 horas (hay dos charlas TED syyas, más recientes, que no es necesario revisar por ahora).
 
-Con CSS podemos establecer que el elemento HTML `<h1>hola mundo</h1>` se presente con [Helvetica](https://www.w3schools.com/cssref/css_websafe_fonts.asp), [cuerpo de 2 **em**](https://www.w3schools.com/cssref/css_units.asp), y en [rojo](https://www.w3schools.com/colors/default.asp):
+Después de vista la charla TED de Sir Timothy John Berners-Lee, podríamos pensar en datos. Un primer dato al que le vamos a poner atención, durante esta clase con énfasis en HTML, será el metadato de cada página web que construyamos, otro dato será la correscta descripción de las imágenes y el tercer dato será el mejor uso de los nuevos elementos estructurales introducidos en HTML5, que vienen a describir, de mejor manera, de qué trata cada elemento que compone una página web. 
 
-```
-h1{
-  font-family: Helvetica, sans-serif; 
-  font-size: 2em;
-  color: #FF0000;
-}
-```
+##### 1. Metadatos
 
-Si en el HTML queremos afectar a `<body>todo lo visible dentro de la ventana</body>`, en CSS escribimos:
+En la clase anterior, ya se adelantó cuáles son los datos que considera Google. A ellos podemos agregar una herramienta que te permite obtener los metadatos de manera más sencilla: https://megatags.co/ 
 
-```
-body{
-  font-family:Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  color: rgba(55,55,55,0.75);  
-}
-```
+Para comprender de qué se trata cada metadato de los generados automáticamente, pueden revisar en el mismo sitio web: 
 
-Pero una regla CSS también puede apuntar a [una parte de un elemento HTML (pseudoelemento)](https://developer.mozilla.org/es/docs/Web/CSS/Pseudoelementos). Por ejemplo, si en el HTML queremos afectar a la primera línea de un `<p>párrafo<p>`, en CSS escribimos:
+- https://megatags.co/reference/#tabs-facebook
 
-```
-p::first-line{
-  text-transform: uppercase;
-}
-```
+- https://megatags.co/reference/#tabs-twitter
 
-Incluso podemos apuntar a [un estado especial del elemento (pseudoclase)](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes). Por ejemplo, si en el HTML queremos afectar a un `<a>vínculo<a>` mientras el mouse se posa encima, en CSS escribimos:
+Además de sus respectivas referencias (vínculos en cada página recién referida). Favor tómate hasta las 10.40 horas para revisar este asunto.
 
-```
-a:hover{
-  text-decoration: underline;
-}
-```
+##### 2. Imágenes
 
-Y podemos seguir agregando posibilidades.
+Trabajando con p5.js, le sacamos mucho provecho al elemento [`<canvas></canvas>`](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial). Ahora corresponde aprender sobre elemento mucho más sencillo, que nos permite poner imágenes en las páginas web, el `<img>`. Favor revisar:  https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML
 
-Una regla CSS puede apuntar a cualquier elemento que tenga una clase (class) determinada. Así podemos afectar a un `<p class="estudiante">párrafo</p>`, una `<div class="estudiante">división</div>` o cualquier otro elemento:
+Ya podrían estar dando las 11.00 horas, pero no es necesario apurarse. Es necesario que revisen las referencias propuestas con calma, y vayan apuntando las preguntas que vayan surgiendo.
 
-```
-.estudiante{
-  border:5px solid rgba(255,255,255,1);
-}
-```
+##### 3. Nuevas elementos estructurales en HTML5
 
-También podemos apuntar a cualquier elemento que tenga una identidad (id) determinada. La diferencia con el caso anterior, es que se recomienda entregarle a un único elemento una identidad:
+Ahora vamos a poner la atención sobre los nuevos elementos estructurales que definen características específicas para páginas web con una semántica mucho más precisa que la disponible en HTML 4, para ellos corresponde consultar: 
+https://mosaic.uoc.edu/ac/le/es/m8/ud2/index.html
 
-```
-#francisca{
-  color:rgba(255,200,200,1);
-}
-```
+- - - - - - - - - -
 
-**Ahora bien, para que cada regla CSS afecte al elemento HTML correspondiente, nos falta mencionar algo más: Cómo conectar a un conjunto de reglas CSS con un determinado conjunto de elementos HTML (sea parte de una o varias páginas HTML).**
+Si llegan a este punto antes de las 11.30 horas, van a muy buen ritmo. Recomendaría estar muy cerca de esa hora para dar aviso vía correo (profesor@faco.cl) de que ya están listas/os para la segunda parte; en ese correo, favor envíen dirección del repositorio ya creado para la `clase-07`. Ese repositorio solo debe contener el `README.md` con el que se crea; yo les responderé a tal correo enviadno documentos e indicaciones para publicar un ejercicio en tal repositorio creado, además, les indicaré cómo contactarnos un rato para resolver dudas que podrían haber apuntado después de todo lo que se les solicitó revisar.
 
-La respuesta es doble, porque hay dos posibilidades: 
+#### Ejercicio
 
-1. Incluyéndolas en la cabeza del documento HTML:
+Pendiente. Se enviarán indicaciones como respuesta a correos que se espera recibir cerca de las 11.30 horas de hoy, miércoles 22 de abril, 2020.
 
-```
-<style>
-body{
-  color:white;
-  background:black;
-  font-family:Helvetica, Arial, sans-serif;
-  font-size:1em;
-}
-</style>
-```
-
-2. Vinculando un documento CSS independiente, dentro de la cabeza del documento HTML:
-
-```
-<link rel="stylesheet" href="estilo.css" type="text/css">
-```
- 
-Habría una tercera posibilidad más de conectar un conjunto de reglas con un elemnto HTML, pero es poco eficiente y poco pulcra. Esta posibilidad es la de meter lenguaje CSS como variable de un atributo **style** en un elemento HTML:
-
-```
-<p style="color:red;">esto es un párrafo en rojo</p>
-```
-
-- - - - - 
-
-#### Referencias:
-
-- [CSS3 Quick Referencia Guide](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf)
-
-- [Guía Breve de CSS](https://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo)
-
-- [Guía de desarrollo en CSS](https://developer.mozilla.org/es/docs/Web/Guide/CSS)
-
-- [HTML & CSS - W3C](https://www.w3.org/standards/webdesign/htmlcss)
-
-- [Starting with HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.en.html)
-
-- [The Elements of Typographic Style Applied to the Web](http://webtypography.net/)
-
+| No.   | Nombre               | GitHub Page |
+|:-----:|:-----------------------|:--------------------------------------------------|
+| 1	    | CAMILA AZÓCAR          | … |
+| 2	    | MARÍA PAZ CONCHA       | … |
+| 3    	| OLGA F. VIO            | … |
+| 4	    | TRINIDAD GONZÁLEZ      | … |
+| 5	    | MATÍAS HAGEN           | … |
+| 6	    | MARÍA FRANCISCA HEPP   | … |
+| 7	    | MARIA ELIANA INFANTE   | … |
+| 8	    | MAGDALENA LABARCA      | … |
+| 9	    | VANESSA MÜLLER         | …|
+| 10	  | JANA MÜLLER            | … |
+| 11	  | MURIEL MUÑOZ           | … |
+| 12	  | MARÍA TRINIDAD NORIEGA | … |
+| 13	  | ROSARIO OLIVARES       | … |
+| 14	  | AMPARO ORTÚZAR         | … |
+| 15	  | VALERIA PARRAGUEZ      | … |
+| 16	  | FRANCISCO PEZOA        | … |
+| 17	  | FRANCISCA PURCELL      | … |
+| 18	  | MARTINA RIVAS          | … |
+| 19	  | PILAR SAAVEDRA         | … |
+| 20	  | LISA SAEZ              | … |
+| 21	  | DAVID SÁNCHEZ          | … |
+| 22	  | CECY SOTO              | … |
+| 23	  | MARÍA ELISA VALDÉS     | … |
+| 24	  | FRANCISCA VIAL         | … |
+| 25	  | MARIA JOSE VILLASANTE  | … |
 
 - - - - - - - 
 
