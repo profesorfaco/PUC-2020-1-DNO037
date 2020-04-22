@@ -10,7 +10,7 @@ La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pa
 
 Hoy vamos a ponerle más atención a HTML (HyperText Markup Language; Lenguaje de Marcado de Hipertextos), un lenguaje descriptivo que es interpretado por los navegadores que nos muestran los sitios o las aplicaciones Web, al modo que ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
 
-Favor revisen esta charla TED del año 2009 - https://www.ted.com/talks/tim_berners_lee_the_next_web - Terminarán de ver esa charla cerca de las 10.20 horas (hay dos charlas TED suyas, más recientes, que no es necesario ver por ahora).
+Favor revisen esta charla TED del año 2009 - https://www.ted.com/talks/tim_berners_lee_the_next_web - Terminarán de ver esa charla cerca de las 10:20 AM (hay dos charlas TED suyas, más recientes, que no es necesario ver por ahora).
 
 Después de vista la charla TED del año 2009 de Sir Timothy John Berners-Lee, podrían quedar pensando en *data*. Un primer tipo de *data* al que le vamos a poner atención será el metadato que corresponde incorporar en cada página web; otro dato será la correscta descripción de las imágenes; y el tercer dato será el mejor uso de los nuevos elementos estructurales introducidos en HTML5. 
 
@@ -24,13 +24,13 @@ Para comprender de qué se trata cada metadato generado automáticamente, pueden
 
 - https://megatags.co/reference/#tabs-twitter
 
-Favor tómate hasta las 10.40 horas para revisar este asunto.
+Favor tómate hasta las 10:40 AM para revisar este asunto.
 
 ##### 2. Imágenes
 
 Trabajando con [p5.js](https://p5js.org/es/), le sacamos mucho provecho al elemento [`<canvas></canvas>`](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial). Ahora corresponde aprender sobre otros elemento mucho más sencillo que nos permite agregar imágenes a las páginas web. Para partir por `<img>` es necesario que revisen: https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML
 
-Ya podrían estar dando las 11.00 horas, pero no es necesario apurarse. Favor revisen las referencias propuestas con calma, y vayan apuntando las preguntas que vayan surgiendo.
+Ya podrían estar dando las 11:00 AM, pero no es necesario apurarse. Favor revisen las referencias propuestas con calma, y vayan apuntando las preguntas que vayan surgiendo.
 
 ##### 3. Nuevos elementos estructurales en HTML5
 
@@ -39,7 +39,7 @@ https://mosaic.uoc.edu/ac/le/es/m8/ud2/index.html
 
 - - - - - - - - - -
 
-Si llegan a este punto antes de las 11.30 horas, van a muy buen ritmo. Recomendaría estar muy cerca de esa hora para dar aviso, vía correo electrónico (a profesor@faco.cl), de que ya están listas/os para la parte práctica; en ese correo que coresponde enviar, favor envíen dirección del repositorio ya creado para la `clase-07`. Ese repositorio debe contener nada más que el `README.md` con el que se crea; yo les responderé a tal correo enviadno documentos e indicaciones para publicar un ejercicio en tal repositorio creado, además, les indicaré cómo contactarnos un rato para resolver dudas que podrían haber apuntado durante su revisión de los 3 puntos: metadatos, imágenes y nuevos elementos estructurales en HTML5.
+Si llegas a este punto antes de las 11:30 AM, vas a muy buen ritmo. Recomendaría estar muy cerca de la hora recién indicada para dar aviso, vía correo electrónico (a profesor@faco.cl), de que ya estás lista/o para la parte práctica de esta clase; en ese correo que coresponde enviar, favor envíen dirección del repositorio ya creado para la `clase-07`. Ese repositorio debe contener nada más que el `README.md` con el que se crea; yo responderé a cada correo enviando documentos e indicaciones para publicar un ejercicio en tal repositorio creado, además, les indicaré cómo contactarnos un rato para resolver dudas que podrían haber apuntado durante su revisión de los 3 puntos: metadatos, imágenes y nuevos elementos estructurales en HTML5.
 
 #### Ejercicio
 
