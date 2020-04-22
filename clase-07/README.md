@@ -14,7 +14,7 @@ Hoy vamos a ponerle más atención a HTML (HyperText Markup Language; Lenguaje d
 
 Después de vista la charla TED del año 2009 de Sir Timothy John Berners-Lee, podrían quedar pensando en *data*. Un primer tipo de *data* al que le vamos a poner atención será el metadato que corresponde incorporar en cada página web; otro dato será la correscta descripción de las imágenes; y el tercer dato será el mejor uso de los nuevos elementos estructurales introducidos en HTML5. 
 
-##### 1. Metadatos
+#### 1. Metadatos
 
 En la clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06), ya se adelantó cuáles son los [metadatos que Google entiende](https://support.google.com/webmasters/answer/79812?hl=es). A ello podemos **agregar una herramienta que permite obtener metadatos para redes sociales de manera más sencilla: https://megatags.co/** 
 
@@ -26,13 +26,13 @@ Para comprender de qué se trata cada metadato generado automáticamente, pueden
 
 Favor tómate hasta las 10:40 AM para revisar este asunto.
 
-##### 2. Imágenes
+#### 2. Imágenes
 
 Trabajando con [p5.js](https://p5js.org/es/), le sacamos mucho provecho al elemento [`<canvas></canvas>`](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial). Ahora corresponde aprender sobre otros elemento mucho más sencillo que nos permite agregar imágenes a las páginas web. **Para partir por `<img>` es necesario que revisen: https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML**
 
 Ya podrían estar dando las 11:00 AM, pero no es necesario apurarse. Favor revisen las referencias propuestas con calma, y vayan apuntando las preguntas que vayan surgiendo.
 
-##### 3. Nuevos elementos estructurales en HTML5
+#### 3. Nuevos elementos estructurales en HTML5
 
 Ahora vamos a poner la atención sobre los nuevos elementos estructurales que definen características específicas para páginas web con una semántica mucho más precisa que la disponible en HTML 4, para ellos **corresponde consultar: 
 https://mosaic.uoc.edu/ac/le/es/m8/ud2/index.html**
