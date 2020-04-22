@@ -39,7 +39,7 @@ https://mosaic.uoc.edu/ac/le/es/m8/ud2/index.html**
 
 - - - - - - - - - -
 
-Si llegas a este punto antes de las 11:30 AM, vas a muy buen ritmo. Recomendaría estar muy cerca de la hora recién indicada para dar aviso, vía correo electrónico (a profesor@faco.cl), de que ya estás lista/o para la parte práctica de esta clase; en ese correo que coresponde enviar, favor indica la dirección de tu repositorio ya creado para la `clase-07`. Ese repositorio debe contener nada más que el `README.md`; yo responderé a cada correo enviando documentos e indicaciones para publicar un ejercicio en tal repositorio. Además, les indicaré cómo contactarnos un rato para resolver dudas que podrían haber apuntado durante su revisión de los 3 puntos: metadatos, imágenes y nuevos elementos estructurales en HTML5.
+Si llegas a este punto antes de las 11:30 AM, vas a muy buen ritmo. Recomendaría estar muy cerca de la hora recién indicada para dar aviso, vía correo electrónico (a profesor@faco.cl), de que ya estás lista/o para la parte práctica de esta clase; en ese correo que coresponde enviar, favor indica la dirección de tu repositorio ya creado para la `clase-07`. Ese repositorio debe contener nada más que el `README.md` (podrías transcribir en el README tus preguntas o apuntes, para hacerlo conviene mirar estas referencias de [`.md` - Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)); yo responderé a cada correo enviando documentos e indicaciones para publicar un ejercicio en tal repositorio. Además, les indicaré cómo contactarnos un rato para resolver dudas que podrían haber apuntado durante su revisión de los 3 puntos: metadatos, imágenes y nuevos elementos estructurales en HTML5.
 
 #### Ejercicio
 
