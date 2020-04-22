@@ -43,33 +43,28 @@ Si llegan a este punto antes de las 11.30 horas, van a muy buen ritmo. Recomenda
 
 Pendiente. Se enviarán indicaciones como respuesta a correos que se espera recibir cerca de las 11.30 horas de hoy, miércoles 22 de abril, 2020.
 
-| No.   | Nombre               | GitHub Page |
-|:-----:|:-----------------------|:--------------------------------------------------|
-| 1	    | CAMILA AZÓCAR          | … |
-| 2	    | MARÍA PAZ CONCHA       | … |
-| 3    	| OLGA F. VIO            | … |
-| 4	    | TRINIDAD GONZÁLEZ      | … |
-| 5	    | MATÍAS HAGEN           | … |
-| 6	    | MARÍA FRANCISCA HEPP   | … |
-| 7	    | MARIA ELIANA INFANTE   | … |
-| 8	    | MAGDALENA LABARCA      | … |
-| 9	    | VANESSA MÜLLER         | …|
-| 10	  | JANA MÜLLER            | … |
-| 11	  | MURIEL MUÑOZ           | … |
-| 12	  | MARÍA TRINIDAD NORIEGA | … |
-| 13	  | ROSARIO OLIVARES       | … |
-| 14	  | AMPARO ORTÚZAR         | … |
-| 15	  | VALERIA PARRAGUEZ      | … |
-| 16	  | FRANCISCO PEZOA        | … |
-| 17	  | FRANCISCA PURCELL      | … |
-| 18	  | MARTINA RIVAS          | … |
-| 19	  | PILAR SAAVEDRA         | … |
-| 20	  | LISA SAEZ              | … |
-| 21	  | DAVID SÁNCHEZ          | … |
-| 22	  | CECY SOTO              | … |
-| 23	  | MARÍA ELISA VALDÉS     | … |
-| 24	  | FRANCISCA VIAL         | … |
-| 25	  | MARIA JOSE VILLASANTE  | … |
+| No.   | Nombre               | GitHub Page        |
+|:-----:|:---------------------|:-------------------|
+| 1	    | MARÍA PAZ CONCHA       | … |
+| 2    	| OLGA F. VIO            | … |
+| 3	    | TRINIDAD GONZÁLEZ      | … |
+| 4	    | MATÍAS HAGEN           | … |
+| 5	    | MARÍA FRANCISCA HEPP   | … |
+| 6	    | MARIA ELIANA INFANTE   | … |
+| 7	    | MAGDALENA LABARCA      | … |
+| 8	    | VANESSA MÜLLER         | …|
+| 9	    | JANA MÜLLER            | … |
+| 10	  | MURIEL MUÑOZ           | … |
+| 11	  | MARÍA TRINIDAD NORIEGA | … |
+| 12	  | ROSARIO OLIVARES       | … |
+| 13	  | AMPARO ORTÚZAR         | … |
+| 14	  | VALERIA PARRAGUEZ      | … |
+| 15	  | FRANCISCO PEZOA        | … |
+| 16	  | FRANCISCA PURCELL      | … |
+| 17	  | MARTINA RIVAS          | … |
+| 18	  | LISA SAEZ              | … |
+| 19	  | DAVID SÁNCHEZ          | … |
+| 20	  | CECY SOTO              | … |
 
 - - - - - - - 
 
