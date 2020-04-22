@@ -2,9 +2,9 @@
 
 ### Clase 07 → Miércoles 22 de abril, 2020
 
-#### HTML + CSS, con énfasis en el primero
-
 La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) organizamos todo lo trabajado hasta la fecha [en un único sitio web](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06#resultados), publicado en GitHub Pages. Para ello, tuvimos que poner atención especial a los lenguajes HTML y CSS. Notamos como NO da lo mismo donde abrimos y cerramos cada elemento HTML. También notamos que un mismo estilo CSS puede ayudarnos a definir cómo se deben ver varias páginas web. 
+
+#### HTML + CSS, con énfasis en el primero
 
 Hoy vamos a ponerle más atención a HTML, un lenguaje descriptivo, que es interpretado por los navegadores para mostrarnos sitios o aplicaciones Web, y de ese modo ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
 
