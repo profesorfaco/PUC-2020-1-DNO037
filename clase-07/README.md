@@ -43,7 +43,24 @@ Si llegas a este punto antes de las 11:30 AM, vas a muy buen ritmo. Recomendarí
 
 #### Ejercicio
 
-Pendiente. Se enviarán indicaciones como respuesta a correos que se espera recibir cerca de las 11.30 horas de hoy, miércoles 22 de abril, 2020.
+Vamos a modificar dos páginas web ya contenidas en la carpeta de esta clase (favor copia todos los archivos, menos el `README.md`)
+
+**Partamos por `page.html`**
+
+Para darle un sentido a tal página, vamos a copiar y pegar algunos datos reales. Utilicemos el resumen ejecutivo del Índice de Calidad de Vida Urbana (ICVU) 2019 - http://estudiosurbanos.uc.cl/images/publicaciones/documentos-de-trabajo/ICVU_2019_Resumen_Ejecutivo.pdf
+
+- Hay definiciones para 6 dimenesiones en la cuarta página del informe en PDF, y en el HTML hay unas etiquetas indicando el lugar de una lista de definiciones. 
+
+- Hay tablas en el informe (pp. 6-8). Entre los datos de la tabla, selecciona 10 comunas, considerando en cada una de las seleccionadas su nombre, región e índice ICVU 2019. Traspasa la selección al lugar que corresponda en el HTML.
+
+Habiendo hecho esto, favor cambia los textos simulados (Loren ipsum…) por texto real, que puedes copiar del mismo informe ya referido. **No cambies ni borres las etiquetas HTML, reemplaza su contenido**.
+
+**Y sigamos por `index.html`**
+
+Para darle un sentido a esta página de portada, tendrán que buscar una noticia, artículo o datos referidos a la manera en que el Coronavirus está afectando a las distintas comunas del país, sea que hayan o no tenido cuarentena total obligatoria; considera que `page.html` sirvió para ofrecer "más información".
+
+Copia y pega datos, reemplazando todo el texto simulado (Loren ipsum…) y otros contenidos que no tengan mucho sentido (los encabezados por ejemplo, cámbialos por el título que corresponda a lo que estás proponiendo; la imagen que es toda gris debería cambiar por una pertinente al texto). **Pero no modifiques ni borres las etiquetas HTML, aprovéchalas. Puedes agregar más etiquetas de las mismas si lo estimas conveniente.**
+
 
 | No.   | Nombre               | GitHub Page        |
 |:-----:|:---------------------|:-------------------|
