@@ -2,17 +2,17 @@
 
 ### Clase 07 → Miércoles 22 de abril, 2020
 
-La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) juntamos todo lo trabajado hasta la fecha [en un único sitio web](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06#resultados), publicado en GitHub Pages. Para hacerlo, tuvimos que poner atención especial a los lenguajes HTML y CSS. Notamos como NO da lo mismo donde abrimos y cerramos cada elemento HTML. También notamos que un mismo estilo CSS puede ayudarnos a definir cómo se deben ver varias páginas web.
+La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) juntamos todo lo trabajado hasta la fecha [en un único sitio web](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06#resultados), publicado en GitHub Pages. Para hacerlo, tuvimos que poner atención especial a los lenguajes [HTML](https://developer.mozilla.org/es/docs/Web/HTML) y [CSS](https://developer.mozilla.org/es/docs/Web/CSS). En el ejercicio, notamos como NO da lo mismo donde abrir y cerrar cada elemento HTML. También notamos que un mismo estilo CSS puede ayudarnos a definir cómo se deben ver varias páginas web.
 
 - - - - - - - - 
 
 #### HTML + CSS, con énfasis en el primero
 
-Hoy vamos a ponerle más atención a HTML, un lenguaje descriptivo que es interpretado por los navegadores para mostrarnos el contenido de sitios o aplicaciones Web, y de ese modo ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
+Hoy vamos a ponerle más atención a HTML (HyperText Markup Language; Lenguaje de Marcado de Hipertextos), un lenguaje descriptivo que es interpretado por los navegadores que nos muestran los sitios o las aplicaciones Web, al modo que ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
 
 Favor revisen esta charla TED del año 2009 - https://www.ted.com/talks/tim_berners_lee_the_next_web - Terminarán de ver esa charla cerca de las 10.20 horas (hay dos charlas TED suyas, más recientes, que no es necesario ver por ahora).
 
-Después de vista la charla TED del año 2009 de Sir Timothy John Berners-Lee, podríamos quedar pensando en *data*. Un primer tipo de dato al que le vamos a poner atención, durante esta clase con énfasis en HTML, será el metadato que corresponde incorporar en cada página web; otro dato será la correscta descripción de las imágenes; y el tercer dato será el mejor uso de los nuevos elementos estructurales introducidos en HTML5, que vienen a describir, de mejor manera, de qué trata cada elemento que compone una página web. 
+Después de vista la charla TED del año 2009 de Sir Timothy John Berners-Lee, podrían quedar pensando en *data*. Un primer tipo de *data* al que le vamos a poner atención será el metadato que corresponde incorporar en cada página web; otro dato será la correscta descripción de las imágenes; y el tercer dato será el mejor uso de los nuevos elementos estructurales introducidos en HTML5. 
 
 ##### 1. Metadatos
 
