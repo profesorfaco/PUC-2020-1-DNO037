@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Título más adecuado</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>Página portada</option>
+            <option value="page.html">Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Encabezado principal</a></h1>
+            <h3>Encabezado de tercer nivel para texto de bajada, una introducción corta a lo que viene abajo</h3>
+            <h5>Encabezado de quinto nivel para datos de autor</h5>
+            <hr>
+        </header>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. Ut sapien lacus, euismod ut condimentum eget, hendrerit non ligula. Cras vitae justo commodo, consequat risus eget, egestas lorem. Quisque consequat sagittis odio eget gravida. Integer dignissim diam sit amet finibus ullamcorper. Nulla semper consequat eros vel accumsan.</p>
+            <blockquote cite="https://psicologiaymente.com/reflexiones/frases-famosas">
+                <p>De todos los animales de la creación el hombre es el único que bebe sin tener sed, come sin tener hambre y habla sin tener nada que decir</p>
+                <footer><a href="https://psicologiaymente.com/reflexiones/frases-famosas">John Steinbeck</a></footer>
+            </blockquote>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor.</p>
+            <h2>Encabezado de segundo nivel para sección</h2>
+            <p>Cambia este párrafo por algo que sirva de descriptor a lo que sigue:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor.</p>
+            <figure>
+                <img src="imagen.png" alt="esto es un cuadro gris claro">
+                <figcaption>Descriptor de la imagen que está arriba.</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Nombre Apellido &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>

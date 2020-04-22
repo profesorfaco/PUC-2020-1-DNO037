@@ -1,0 +1,35 @@
+html, body { margin: 0; padding: 0;}
+
+body { font-family: Helvetica, Arial, sans-serif; }
+
+nav { position: absolute; right: 3%; top: 3%; z-index:999;}
+
+div.container{ padding:3% 18%; }
+
+@media screen and (orientation:portrait){
+    div.container{ padding:6%; }    
+}
+
+p{ line-height: 1.5; }
+
+blockquote p{ margin:0 0 .5rem 0; padding:0; }
+
+section{ padding:0.5rem 0 2rem 0;}
+
+figure{ margin:0.5rem 0; padding:0; border:1px solid #ccc;}
+
+figure img {max-width: 100%; height: auto;}
+
+figure figcaption {font-size:80%; letter-spacing: 0.05rem; padding:0.5rem; color:#777;}
+
+footer{ font-size:90%; }
+
+footer abbr{ font-variant: small-caps; font-size: 115%;}
+
+.derecha{float:right;}
+
+table { border-collapse: collapse; width: 100%;}
+
+td, th { border: 1px solid #ccc; text-align: left; padding: 8px;}
+
+tr:nth-child(even) { background-color: #eee; }
