@@ -64,26 +64,26 @@ Copia y pega datos, reemplazando todo el texto simulado (Loren ipsum…) y otros
 
 | No.   | Nombre               | GitHub Page        |
 |:-----:|:---------------------|:-------------------|
-| 1	    | MARÍA PAZ CONCHA       | … |
-| 2    	| OLGA F. VIO            | … |
-| 3	    | TRINIDAD GONZÁLEZ      | … |
-| 4	    | MATÍAS HAGEN           | … |
-| 5	    | MARÍA FRANCISCA HEPP   | … |
-| 6	    | MARIA ELIANA INFANTE   | … |
-| 7	    | MAGDALENA LABARCA      | … |
-| 8	    | VANESSA MÜLLER         | …|
-| 9	    | JANA MÜLLER            | … |
-| 10	  | MURIEL MUÑOZ           | … |
-| 11	  | MARÍA TRINIDAD NORIEGA | … |
-| 12	  | ROSARIO OLIVARES       | … |
-| 13	  | AMPARO ORTÚZAR         | … |
-| 14	  | VALERIA PARRAGUEZ      | … |
-| 15	  | FRANCISCO PEZOA        | … |
-| 16	  | FRANCISCA PURCELL      | … |
-| 17	  | MARTINA RIVAS          | … |
-| 18	  | LISA SAEZ              | … |
-| 19	  | DAVID SÁNCHEZ          | … |
-| 20	  | CECY SOTO              | … |
+| 1	    | MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-07/ |
+| 2    	| OLGA F. VIO            | https://caracolga.github.io/clase07/ |
+| 3	    | TRINIDAD GONZÁLEZ      | — |
+| 4	    | MATÍAS HAGEN           | https://matihagene.github.io/clase-07/ |
+| 5	    | MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-07/ |
+| 6	    | MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-07/ |
+| 7	    | MAGDALENA LABARCA      | https://maidalw.github.io/clase-07/ |
+| 8	    | VANESSA MÜLLER         | https://vymuller.github.io/clase-07/ |
+| 9	    | JANA MÜLLER            | https://janakristin.github.io/clase-07/ |
+| 10	  | MURIEL MUÑOZ           | https://murimu.github.io/clase-07/ |
+| 11	  | MARÍA TRINIDAD NORIEGA | — |
+| 12	  | ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-07/ |
+| 13	  | AMPARO ORTÚZAR         | — |
+| 14	  | VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-07/ |
+| 15	  | FRANCISCO PEZOA        | https://panshios.github.io/clase-07/ |
+| 16	  | FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-07/ |
+| 17	  | MARTINA RIVAS          | https://mrivas29.github.io/clase-07/ |
+| 18	  | LISA SAEZ              | — |
+| 19	  | DAVID SÁNCHEZ          | — |
+| 20	  | CECY SOTO              | https://cecysoto.github.io/clase-07/ |
 
 - - - - - - - 
 
