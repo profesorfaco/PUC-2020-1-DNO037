@@ -8,7 +8,7 @@ La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pa
 
 #### HTML + CSS, con énfasis en el primero
 
-Hoy vamos a ponerle más atención a HTML, un lenguaje descriptivo, que es interpretado por los navegadores para mostrarnos sitios o aplicaciones Web, y de ese modo ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
+Hoy vamos a ponerle más atención a HTML, un lenguaje descriptivo que es interpretado por los navegadores para mostrarnos el contenido de sitios o aplicaciones Web, y de ese modo ha sido desde el principio de la Web, una idea desarrollada en las horas extras de Tim Berners-Lee en el CERN (Organización Europea para la Investigación Nuclear). 
 
 Favor revisen esta charla TED del año 2009 - https://www.ted.com/talks/tim_berners_lee_the_next_web - Terminarán de ver esa charla cerca de las 10.20 horas (hay dos charlas TED suyas, más recientes, que no es necesario ver por ahora).
 
