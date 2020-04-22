@@ -16,7 +16,7 @@ Después de vista la charla TED del año 2009 de Sir Timothy John Berners-Lee, p
 
 ##### 1. Metadatos
 
-En la clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06), ya se adelantó cuáles son los [metadatos que Google entiende](https://support.google.com/webmasters/answer/79812?hl=es). A ellos podemos agregar una herramienta que permite obtener los metadatos de manera más sencilla: https://megatags.co/ 
+En la clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06), ya se adelantó cuáles son los [metadatos que Google entiende](https://support.google.com/webmasters/answer/79812?hl=es). A ello podemos agregar una herramienta que permite obtener metadatos para redes sociales de manera más sencilla: https://megatags.co/ 
 
 Para comprender de qué se trata cada metadato generado automáticamente, pueden revisar en el mismo sitio web: 
 
