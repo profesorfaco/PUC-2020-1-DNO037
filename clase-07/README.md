@@ -2,7 +2,7 @@
 
 ### Clase 07 → Miércoles 22 de abril, 2020
 
-La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) organizamos todo lo trabajado hasta la fecha [en un único sitio web](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06#resultados), publicado en GitHub Pages. Para ello, tuvimos que poner atención especial a los lenguajes HTML y CSS. Notamos como NO da lo mismo donde abrimos y cerramos cada elemento HTML. También notamos que un mismo estilo CSS puede ayudarnos a definir cómo se deben ver varias páginas web. 
+La clase [recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06) juntamos todo lo trabajado hasta la fecha [en un único sitio web](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-06#resultados), publicado en GitHub Pages. Para ello, tuvimos que poner atención especial a los lenguajes HTML y CSS. Notamos como NO da lo mismo donde abrimos y cerramos cada elemento HTML. También notamos que un mismo estilo CSS puede ayudarnos a definir cómo se deben ver varias páginas web. 
 
 #### HTML + CSS, con énfasis en el primero
 
