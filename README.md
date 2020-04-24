@@ -52,7 +52,7 @@ Se proyecta la siguiente organización de las clases durante el primer semestre 
 
 [Clase 10 → Miércoles 13 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-10) → Bootstrap
 
-[Clase 11 → Miércoles 20 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-11) → Bootstrap
+Clase 11 → Miércoles 20 de mayo → Diseño UC | Semana de ajuste
 
 [Clase 12 → Miércoles 27 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-12) → Bootstrap
 
