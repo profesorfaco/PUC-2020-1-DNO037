@@ -63,8 +63,6 @@ selector{ propiedad:valor; propiedad:valor valor valor;}
 
 - **[CSS3 Quick Referencia Guide](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf)**
 
-- [Guía Breve de CSS](https://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo)
-
 - [Guía de desarrollo en CSS](https://developer.mozilla.org/es/docs/Web/Guide/CSS)
 
 - [HTML & CSS - W3C](https://www.w3.org/standards/webdesign/htmlcss)
