@@ -14,7 +14,9 @@ En la carpeta dispuesta para la clase de hoy, y que debes descargar a la breveda
 
 Habiendo hecho el par de ajustes, y reuniendo todo dentro de una única carpeta, podrás revisar este sitio web con tu navegador y notar que hay textos simulados (Loren ipsum…) que corresponde reemplazar con lo más partinente a lo que no está simulado en `page-1.html`, `page-2.html` y `page-3.html`. También podrás notar que hay algunos "nuevos trucos" con los que se generan las tablas en la `page-2.html`  y el gráfico en `page-3.html`.
 
-Cuando los ajustes en `index.html` y reemplazos de contenido en `page-1.html`, `page-2.html` y `page-3.html` estén listos, y ya hayas encontrado los "nuevos trucos" que aprovechan algunas bibliotecas de JavaScript ([jQuery](https://jquery.com/), [Papa Parse](https://www.papaparse.com/), [Charts.js](https://www.chartjs.org/)), **favor sube todo a tu repositorio de la `/clase-08` y envía correo a profesor@faco.cl con indicación de la URL de la GitHub Page correspondiente. Tienes hasta las 11.00 horas para hacerlo**. Como respuesta a tu correo, se te indicará cómo continuar con la clase que se enfocará en CSS, e incluye una pequeña referencia a JavaScript (por hacer memoria de lo tratado hasta la [clase 05](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05)).
+Cuando los ajustes en `index.html` y reemplazos de contenido en `page-1.html`, `page-2.html` y `page-3.html` estén listos, y ya hayas encontrado los "nuevos trucos" que aprovechan algunas bibliotecas de JavaScript ([jQuery](https://jquery.com/), [Papa Parse](https://www.papaparse.com/), [Charts.js](https://www.chartjs.org/)), **favor sube todo a tu repositorio de la `/clase-08` y envía correo a profesor@faco.cl con indicación de la URL de la GitHub Page correspondiente. Tienes hasta las 11.00 horas para hacerlo**. 
+
+Como respuesta a tu correo, se te indicará cómo continuar con la clase que se enfocará en CSS, e incluye una pequeña referencia a JavaScript (por hacer memoria de lo tratado hasta la [clase 05](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05)).
 
 - - - - - - - - - - - - -
 
