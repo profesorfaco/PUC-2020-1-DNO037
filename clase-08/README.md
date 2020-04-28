@@ -2,7 +2,7 @@
 
 ### Clase 08 → Miércoles 29 de abril, 2020
 
-#### Primeras instrucciones
+#### Primeras instrucciones
 
 Esta es la tercera clase dedicada a HTML + CSS. Ya hemos realizado dos ejercicios para entender esta relación de ambos lenguajes de descripción: 
 
