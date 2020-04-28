@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;500&family=IBM+Plex+Serif:ital,wght@1,200&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(252, 252, 252, 1) 100%);
+    background-attachment: fixed;
+}
+
+:hover {
+    transition: all ease 1s;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #b71c1c;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: #c62828;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.0rem;
+}
+
+h6 {
+    font-size: 1.0rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+em {
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    z-index: 999;
+}
+
+div.container {
+    padding: 3% 18%;
+}
+
+@media screen and (orientation:portrait) {
+    div.container {
+        padding: 6%;
+    }
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+p sup a {
+    text-decoration: none;
+}
+
+blockquote {
+    padding-bottom: 0.5rem;
+}
+
+blockquote p {
+    margin: 0 0 .5rem 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 110%;
+    text-align: left;
+}
+
+blockquote footer {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+blockquote footer:before {
+    content: "— ";
+}
+
+section {
+    padding: 0.5rem 0 2rem 0;
+}
+
+dl dt {
+    float: left;
+    font-weight: 600;
+    font-size: 95%;
+}
+
+dl dd:before {
+    content: " — ";
+    padding-left: 0.25rem;
+}
+
+dl dd {
+    padding-bottom: 0.75rem;
+}
+
+ul li,
+ol li {
+    list-style-position: outside;
+    margin-bottom: 0.5rem;
+}
+
+ul li:last-of-type,
+ol li:last-of-type {
+    margin-bottom: 1rem;
+}
+
+
+/* para las figure */
+
+figure {
+    margin: 0.5rem 0;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(100, 100, 100, .1)
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    font-size: 80%;
+    letter-spacing: 0.05rem;
+    padding: 0.25rem 0.5rem 0.75rem 0.5rem;
+    color: #777;
+}
+
+
+/* para las tablas */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 90%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (orientation:portrait) {
+    table {
+        font-size: 80%;
+    }
+}
+
+td,
+th {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+thead th {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+thead th:first-child {
+    text-align: left;
+}
+
+tbody th {
+    text-align: left;
+}
+
+table:first-of-type tbody td span {
+    display: block;
+    margin: 0 auto;
+    width: 2.1rem;
+    text-align: right;
+}
+
+table:last-of-type tbody td span {
+    display: block;
+    margin: 0 auto;
+    width: 2.75rem;
+    text-align: right;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+tbody tr td:nth-child(5) {
+    color: #f00;
+}
+
+tfoot,
+figcaption {
+    font-size: 80%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    text-align: left;
+    color: #aaa;
+}
+
+tfoot a,
+figcaption a {
+    color: #999;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+tfoot a:hover,
+figcaption a:hover {
+    color: #888;
+    text-decoration: underline;
+}
+
+/* para el pie de página */
+
+footer {
+    font-size: 90%;
+}
+
+footer abbr {
+    font-variant: small-caps;
+    font-size: 115%;
+}
+
+.derecha {
+    float: right;
+}

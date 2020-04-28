@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Título más adecuado</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Página de portada</option>
+            <option value="page-1.html" selected>Primera página</option>
+            <option value="page-2.html">Segunda página</option>
+            <option value="page-3.html">Tercera página</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <h1><a href="index.html">Repite el encabezado principal de página de portada</a></h1>
+        </header>
+        <section>
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Hace 10 años que la <a href="https://www.cchc.cl/" target="_blank" rel="nofollow" title="CChC - Cámara Chilena de la Construcción">Cámara Chilena de la Construcción</a> junto con el <a href="http://estudiosurbanos.uc.cl/" target="_blank" rel="nofollow" title="Estudios Urbanos UC - Pontificia Universidad Católica de Chile">Instituto de Estudios Urbanos y Territoriales</a> de la <a href="https://www.uc.cl/" target="_blank" rel="nofollow" title="Inicio - Pontificia Universidad Católica de Chile">Pontificia Universidad Católica de Chile</a>, elaboran el <em>Índice de Calidad de Vida Urbana (ICVU)</em>.</p>
+            <p>El ICVU es un análisis a escala comunal que entrega una referencia sobre la provisión de bienes y servicios, públicos y privados, bajo seis dimensiones para 99 de las 346 comunas del país (aquellas con poblaciones cercanas o superiores a 50.000 habitantes).</p>
+            <p>Para <a href="http://estudiosurbanos.uc.cl/images/publicaciones/documentos-de-trabajo/ICVU_2019_Resumen_Ejecutivo.pdf" target="_blank" rel="nofollow" title="Resumen Ejecutivo ICVU 2019 (PDF)">la versión 2019</a>, las seis dimensiones del ICVU fueron:</p>
+            <dl>
+                <dt>CONDICIONES LABORALES</dt>
+                <dd>Condiciones laborales de la población residente en términos de ingreso, condiciones contractuales, costo de vida y nivel de endeudamiento.</dd>
+                <dt>AMBIENTE DE NEGOCIOS</dt>
+                <dd>Capacidad de atraer actividad económica y nuevos emprendimientos, desarrollos inmobiliarios y nuevos servicios públicos y privados.</dd>
+                <dt>CONDICIONES SOCIOCULTURALES</dt>
+                <dd>Aspectos relativos al desarrollo de capital social, conforme la oferta y resultados en educación, participación ciudadana y convivencia social.</dd>
+                <dt>CONECTIVIDAD Y MOVILIDAD</dt>
+                <dd>Acceso y proximidad a los servicios asociados al transporte público, nivel de exposición a accidentes de tránsito y conexión a internet.</dd>
+                <dt>SALUD Y MEDIO AMBIENTE</dt>
+                <dd>Acceso y proximidad a la red de salud, carencias en materia de salud y nivel de exposición ambiental en su entorno.</dd>
+                <dt>VIVIENDA Y ENTORNO</dt>
+                <dd>Estado de precariedad de la vivienda, así como condición del espacio público en términos de su mantenimiento y nivel de inseguridad en los barrios.</dd>
+            </dl>
+
+            <p><em>Con una ponderación determinada para cada dimensión, se obtuvieron índices que, ordenados de mayor a menor, dejaron en el primer lugar de calidad de vida urbana a Vitacura (ICVU 2019 de 75,59) y en el lugar 99 a <a href="https://twitter.com/aguirreseba/status/1254904464315727873" target="_blank" rel="nofollow" title="Sebastián Aguirre en Twitter · 6:45 p.m. · 27 abr. 2020">La Pintana</a> (ICVU 2019 de 38,08).</em></p>
+
+            <p>Para acotar la muestra de 99 comunas, podemos considerar <a href="https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile_por_poblaci%C3%B3n" target="_blank" rel="nofollow" title="Anexo:Comunas de Chile por población - Wikipedia, la enciclopedia libre">las más pobladas de Chile</a> y entre tales apartar <em>tres grupos de cinco comunas</em>:</p>
+
+            <ol>
+                <li><em>Comunas más pobladas, en rango ICVU2019 superior</em>: Santiago, Antofagasta, Viña del Mar, Las Condes y Concepción.</li>
+                <li><em>Comunas más pobladas, en rango ICVU2019 intermedio</em>: Maipú, La Florida, San Bernardo, Valparaíso y Temuco.</li>
+                <li><em>Comunas más pobladas, en rango ICVU2019 inferior</em>: Puente Alto, Chillán, La Pintana, El Bosque y Renca.</li>
+            </ol>
+
+            <p>A los datos de cada comuna, en esta muestra acotada, podemos agregar el <a href="https://github.com/jorgeperezrojas/covid19-data/blob/master/csv/confirmados_comunas.csv" target="_blank" rel="nofollow" title="covid19-data/confirmados_comunas.csv at master · jorgeperezrojas/covid19-data">total de pacientes confirmados como positivos de COVID19</a> (según Informe Epidemiológico oficial, del
+                <time datetime="2020-04-24">24 de abril de 2020</time>).</p>
+
+            <p>1. Si sumamos cifras de las cinco comunas de muestra <em>en rango superior</em>, tenemos un total de 1.859.094 habitantes contra 1.454 pacientes confirmados como positivos, lo que implica <em>un 0,08% de la población afectada por COVID19</em>.</p>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th scope="col">COMUNA</th>
+                        <th scope="col">RANKING
+                            <br/>ICVU2019</th>
+                        <th scope="col">POBLACIÓN
+                            <br/>TOTAL</th>
+                        <th scope="col">PACIENTES
+                            <br/>CONFIRMADOS</th>
+                        <th scope="col">POBLACIÓN
+                            <br/>AFECTADA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Las Condes</th>
+                        <td>2</td>
+                        <td>330.759</td>
+                        <td>346</td>
+                        <td>0,10 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Concepción</th>
+                        <td>11</td>
+                        <td>238.092</td>
+                        <td>136</td>
+                        <td>0,06 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Viña del Mar</th>
+                        <td>12</td>
+                        <td>361.371</td>
+                        <td>103</td>
+                        <td>0,03 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Antofagasta</th>
+                        <td>15</td>
+                        <td>425.725</td>
+                        <td>261</td>
+                        <td>0,06 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Santiago</th>
+                        <td>16</td>
+                        <td>503.147</td>
+                        <td>608</td>
+                        <td>0,12 %</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Fuentes: <a href="https://www.gob.cl/coronavirus/cifrasoficiales/#informes" target="_blank" rel="nofollow" title="Gob.cl - Cifras Oficiales">Informe Epidemiológico del 25/04/2020</a> y <a href="http://estudiosurbanos.uc.cl/images/publicaciones/documentos-de-trabajo/ICVU_2019_Resumen_Ejecutivo.pdf" target="_blank" rel="nofollow" title="Documento PDF">Resumen Ejecutivo ICVU2019</a></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+            <p>2. Si sumamos las poblaciones de las cinco comunas de muestra <em>en rango intermedio</em>, tenemos un total de 1.934.537 habitantes contra 1.675 pacientes confirmados como positivos, lo que implica un <em>0,09% de la población afectada por COVID19</em>.</p>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th scope="col">COMUNA</th>
+                        <th scope="col">RANKING
+                            <br/>ICVU2019</th>
+                        <th scope="col">POBLACIÓN
+                            <br/>TOTAL</th>
+                        <th scope="col">PACIENTES
+                            <br/>CONFIRMADOS</th>
+                        <th scope="col">POBLACIÓN
+                            <br/>AFECTADA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">La Florida</th>
+                        <td>22</td>
+                        <td>402.433</td>
+                        <td>282</td>
+                        <td>0,07 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Valparaíso</th>
+                        <td>24</td>
+                        <td>315.732</td>
+                        <td>67</td>
+                        <td>0,02 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Maipú</th>
+                        <td>30</td>
+                        <td>578.605</td>
+                        <td>364</td>
+                        <td>0,06 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Temuco</th>
+                        <td>47</td>
+                        <td>302.931</td>
+                        <td>644</td>
+                        <td>0,21 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">San Bernardo</th>
+                        <td>62</td>
+                        <td>334.836</td>
+                        <td>318</td>
+                        <td>0,09 %</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Fuentes: <a href="https://www.gob.cl/coronavirus/cifrasoficiales/#informes" target="_blank" rel="nofollow" title="Gob.cl - Cifras Oficiales">Informe Epidemiológico del 25/04/2020</a> y <a href="http://estudiosurbanos.uc.cl/images/publicaciones/documentos-de-trabajo/ICVU_2019_Resumen_Ejecutivo.pdf" target="_blank" rel="nofollow" title="Documento PDF">Resumen Ejecutivo ICVU2019</a></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+            <p>3. Si sumamos las poblaciones de las cinco comunas de muestra <em>en rango inferior</em>, tenemos un total de 1.366.715 habitantes contra 1.479 pacientes confirmados como positivos, lo que implica <em>un 0,11% de la población afectada por COVID19</em>. Este es el porcetaje más alto de los grupos presentados.</p>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th scope="col">COMUNA</th>
+                        <th scope="col">RANKING
+                            <br/>ICVU2019</th>
+                        <th scope="col">POBLACIÓN
+                            <br/>TOTAL</th>
+                        <th scope="col">PACIENTES
+                            <br/>CONFIRMADOS</th>
+                        <th scope="col">POBLACIÓN
+                            <br/>AFECTADA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Chillán</th>
+                        <td>65</td>
+                        <td>198.624</td>
+                        <td>411</td>
+                        <td>0,21 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puente Alto</th>
+                        <td>69</td>
+                        <td>645.909</td>
+                        <td>688</td>
+                        <td>0,11 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">El Bosque</th>
+                        <td>70</td>
+                        <td>172.000</td>
+                        <td>145</td>
+                        <td>0,08 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Renca</th>
+                        <td>82</td>
+                        <td>160.847</td>
+                        <td>107</td>
+                        <td>0,07 %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">La Pintana</th>
+                        <td>99</td>
+                        <td>189.335</td>
+                        <td>128</td>
+                        <td>0,07 %</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Fuentes: <a href="https://www.gob.cl/coronavirus/cifrasoficiales/#informes" target="_blank" rel="nofollow" title="Gob.cl - Cifras Oficiales">Informe Epidemiológico del 25/04/2020</a> y <a href="http://estudiosurbanos.uc.cl/images/publicaciones/documentos-de-trabajo/ICVU_2019_Resumen_Ejecutivo.pdf" target="_blank" rel="nofollow" title="Documento PDF">Resumen Ejecutivo ICVU2019</a></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+            <p>Es importante notar que dos de las situaciones más alarmantes (por porcentaje de población afectada) se dan entre la medianía y la parte baja de las comunas más pobladas consideradas en el ICVU2019: <em>Temuco se ubica en el lugar 47, mientras Chillán se ubica en el lugar 65, y ambas comunas superan el 0,2% de población afectada</em>. También se puede notar que <em>en la medida que se baja de rango, aumenta el porcentaje de la población afectada por COVID19</em>.</p>
+
+        </section>
+        <footer>
+            <hr>
+            <p>Nombre Apellido &copy; 2020 <span class="derecha">Octava clase, enfocada en <abbr title="Cascading Style Sheets">css</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>

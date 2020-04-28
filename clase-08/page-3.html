@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        figure {
+            padding: 0.5rem 1rem;
+            overflow: hidden;
+        }     
+
+        figure figcaption {
+            margin: 0rem -0.5em -0.5em -0.5em;
+            padding-top:0.5rem;
+        }
+    </style>
+    <title>Título más adecuado</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Página de portada</option>
+            <option value="page-1.html">Primera página</option>
+            <option value="page-2.html">Segunda página</option>
+            <option value="page-3.html" selected>Tercera página</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Repite el encabezado principal de página de portada</a></h1>
+        </header>
+        <section>
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. Ut sapien lacus, euismod ut condimentum eget, hendrerit non ligula. Cras vitae justo commodo, consequat risus eget, egestas lorem.</p>
+            <p>Ventiladores más o ventiladores menos, el hecho es que aumentan los pacientes en Unidades de Cuidados Intensivos (UCI) en todo el país. El mayor aumento se observó en la región Metropolitana de Santiago durante la primera semana de abril. Este aumento también lo podemos observar en cuatro de las regiones chilenas con mayor cantidad de habitantes, después de la capital<sup><a href="#nota_al_pie">*</a></sup></p>
+            <figure>
+                <canvas id="uci"></canvas>
+                <figcaption>Fuente: <a href="https://www.gob.cl/coronavirus/cifrasoficiales/#reportes" target="_blank" rel="nofollow" title="Gob.cl - Cifras Oficiales">Reportes diarios del Gobierno de Chile</a></figcaption>
+            </figure>
+            <p>El gráfico nos permite ocultar líneas, basta con presionar el recuadro correspondiente en la parte superior. Si ocultamos la línea de región Metropolitana, se ajusta automáticamente y se hacen más claras las diferencias entre las otras regiones consideradas en la muestra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. Ut sapien lacus, euismod ut condimentum eget, hendrerit non ligula. Cras vitae justo commodo, consequat risus eget, egestas lorem</p>
+            <p id="nota_al_pie"><small><sup>*</sup>La región Metropolitana de Santiago concentra un aproximado del 40,5% de la población nacional total. En una muestra con las 5 regiones más pobladas del país, le siguen Valparaíso con un 10,3%, luego Biobío con 8,9%, Maule con 5,9% y La Araucanía con 5,4%. Fuente: <a href="https://es.wikipedia.org/wiki/Anexo:Regiones_de_Chile_por_poblaci%C3%B3n" target="_blank" rel="nofollow" title="https://es.wikipedia.org/wiki/Anexo:Regiones_de_Chile_por_población">Anexo:Regiones de Chile por población - Wikipedia, la enciclopedia libre</a></small></p>
+        </section>
+        <footer>
+            <hr>
+            <p>Nombre Apellido &copy; 2020 <span class="derecha">Octava clase, enfocada en <abbr title="Cascading Style Sheets">css</abbr></span></p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script>
+        Papa.parse("https://raw.githubusercontent.com/jorgeperezrojas/covid19-data/master/csv/pacientes_en_uci.csv", {
+            download: true,
+            complete: function(results) {
+                console.log(results);
+
+                var metropolitana = results.data[7]
+                metropolitana.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
+
+                var valparaiso = results.data[6]
+                valparaiso.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
+
+                var biobio = results.data[11]
+                biobio.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
+
+                var maule = results.data[9]
+                maule.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
+
+                var araucania = results.data[12]
+                araucania.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
+
+                var long_labels = results.data[0]
+                long_labels.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar)        
+                var short_labels = []; // declaro un arreglo 
+                long_labels.forEach(e => short_labels.push(e.substring(0, 5))); // acá agrego elementos al arreglo
+
+                Chart.defaults.global.defaultFontFamily = "'IBM Plex Mono', 'monospace'";
+
+                new Chart(document.getElementById('uci').getContext('2d'), {
+                    type: 'line',
+                    data: {
+                        labels: short_labels,
+                        datasets: [{
+                            label: 'METROPOLITANA',
+                            borderColor: '#d50000',
+                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
+                            pointHoverBackgroundColor: '#d50000',
+                            borderWidth: 1,
+                            pointRadius: 2,
+                            lineTension: 0,
+                            data: metropolitana
+                        }, {
+                            label: 'VALPARAÍSO',
+                            borderColor: '#aa00ff',
+                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
+                            pointHoverBackgroundColor: '#aa00ff',
+                            borderWidth: 1,
+                            pointRadius: 2,
+                            lineTension: 0,
+                            data: valparaiso
+                        }, {
+                            label: 'BIOBÍO',
+                            borderColor: '#0091ea',
+                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
+                            pointHoverBackgroundColor: '#0091ea',
+                            borderWidth: 1,
+                            pointRadius: 2,
+                            lineTension: 0,
+                            data: biobio
+                        }, {
+                            label: 'MAULE',
+                            borderColor: '#00bfa5',
+                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
+                            pointHoverBackgroundColor: '#00bfa5',
+                            borderWidth: 1,
+                            pointRadius: 2,
+                            lineTension: 0,
+                            data: maule
+                        }, {
+                            label: 'LA ARAUCANÍA',
+                            borderColor: '#64dd17',
+                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
+                            pointHoverBackgroundColor: '#64dd17',
+                            borderWidth: 1,
+                            pointRadius: 2,
+                            lineTension: 0,
+                            data: araucania
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        tooltips: {
+                            position: 'nearest',
+                        },
+                        scales: {
+                            xAxes: [{
+                                ticks: {
+                                    minRotation: 90
+                                }
+                            }]
+                        }
+                    },
+
+                });
+
+            }
+        });
+    </script>
+</body>
+
+</html>

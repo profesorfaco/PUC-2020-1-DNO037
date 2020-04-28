@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Título más adecuado</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Página de portada</option>
+            <option value="page-1.html">Primera página</option>
+            <option value="page-2.html" selected>Segunda página</option>
+            <option value="page-3.html">Tercera página</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Repite el encabezado principal de página de portada</a></h1>
+        </header>
+        <section>
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. Ut sapien lacus, euismod ut condimentum eget, hendrerit non ligula. Cras vitae justo commodo, consequat risus eget, egestas lorem. Quisque consequat sagittis odio eget gravida. Integer dignissim diam sit amet finibus ullamcorper. Nulla semper consequat eros vel accumsan.</p>
+            <p>Pero pareciera que el golpe más fuerte que han recibo las publicaciones de cifras oficiales fue dado por un "meme": Por una idea que comenzó a viralizarse el 29 de marzo, y que apuntaba hacia aquellos días en donde <a href="https://www.biobiochile.cl/noticias/nacional/chile/2020/03/30/como-se-explica-que-cifra-de-sanados-coincida-con-primeros-casos-de-coronavirus-segun-posteo-viral.shtml" target="_blank" title="¿Cómo se explica que cifra de sanados coincida con primeros casos de coronavirus según posteo viral? | Nacional | BioBioChile">la cifra de recuperados no tenía diferencia con el total de pacientes confirmados como positivos de COVID19 hacía exactamente dos semanas</a>. Tales días pueden encontrarse en la siguiente tabla: </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">FECHA</th>
+                        <th scope="col">PACIENTES
+                            <br/>CONFIRMADOS</th>
+                        <th scope="col">PACIENTES
+                            <br/>RECUPERADOS</th>
+                        <th scope="col">CONFIRMADOS
+                            <br/>HACE 14 DÍAS</th>
+                        <th scope="col">DIFERENCIA</th>
+                    </tr>
+                </thead>
+                <tbody id="marzo">
+                    <!--ver línea 92-->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Fuente: <a href="hhttps://github.com/pomber/covid19/" target="_blank" rel="nofollow" title="JSON time-series of coronavirus cases (confirmed, deaths and recovered) per country - updated daily">https://github.com/pomber/covid19/</a> que se alimenta del <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="nofollow" title="CSSEGISandData/COVID-19: Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE">Data Repository by Johns Hopkins CSSE</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>En la tabla recién presentada se puede notar un importante ajuste para el 31 de marzo. Si revisamos el mes de abril, será otra la situación. Con la excepción del día 2 del mes y un salto en el día 12, se da un incremento pequeño, pero constante, en la diferencia entre recuperados a la fecha y total de pacientes confirmados como positivos de COVID19 hacía 14 días:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">FECHA</th>
+                        <th scope="col">PACIENTES
+                            <br/>CONFIRMADOS</th>
+                        <th scope="col">PACIENTES
+                            <br/>RECUPERADOS</th>
+                        <th scope="col">CONFIRMADOS
+                            <br/>HACE 14 DÍAS</th>
+                        <th scope="col">DIFERENCIA</th>
+                    </tr>
+                </thead>
+                <tbody id="abril">
+                    <!--ver línea 96-->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Fuente: <a href="hhttps://github.com/pomber/covid19/" target="_blank" rel="nofollow" title="JSON time-series of coronavirus cases (confirmed, deaths and recovered) per country - updated daily">https://github.com/pomber/covid19/</a> que se alimenta del <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="nofollow" title="CSSEGISandData/COVID-19: Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE">Data Repository by Johns Hopkins CSSE</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. Ut sapien lacus, euismod ut condimentum eget, hendrerit non ligula. Cras vitae justo commodo, consequat risus eget, egestas lorem. Quisque consequat sagittis odio eget gravida. Integer dignissim diam sit amet finibus ullamcorper. Nulla semper consequat eros vel accumsan.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Nombre Apellido &copy; 2020 <span class="derecha">Octava clase, enfocada en <abbr title="Cascading Style Sheets">css</abbr></span></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $.getJSON("https://pomber.github.io/covid19/timeseries.json", function(data) {
+
+            var cl = data.Chile;
+
+            for (let i = 0; i < cl.length; i++) {
+                //pregunto si acaso el mes es 3 y si los recuperados son más que 0.
+                if ((cl[i].date[5] == 3) && (cl[i].recovered > 0)) {
+                    $("#marzo").append("<tr><th scope='row'>" + cl[i].date + "</td><td><span>" + cl[i].confirmed + "</span></td><td><span>" + cl[i].recovered + "</span></td><td><span>" + cl[i - 14].confirmed + "</span></td><td><span>" + (cl[i - 14].confirmed - cl[i].recovered) + "</span></td></tr>");
+                }
+                //solo pregunto por los casos de abril.
+                if (cl[i].date[5] == 4) {
+                    $("#abril").append("<tr><th scope='row'>" + cl[i].date + "</td><td><span>" + cl[i].confirmed + "</span></td><td><span>" + cl[i].recovered + "</span></td><td><span>" + cl[i - 14].confirmed + "</span></td><td><span>" + (cl[i - 14].confirmed - cl[i].recovered) + "</span></td></tr>");
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
