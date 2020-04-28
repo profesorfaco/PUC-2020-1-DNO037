@@ -10,7 +10,7 @@ Esta es la tercera clase dedicada a HTML + CSS. Ya hemos realizado dos ejercicio
 
 - Clase 07 → https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-07#ejercicio
 
-En la carpeta dispuesta para la clase de hoy, y que debes descargar a la brevedad posible, no se incluye un `index.html`. Por favor reutiliza el `index.html` que preparaste para la clase recién pasada, haciéndole un par de ajustes: uno a nivel de navegación (`<nav></nav>`) y otro a nivel de pie de página (`<footer></footer`). Para los ajustes, guíate con tales elementos dentro de las páginas a descargar. 
+En la carpeta dispuesta para la clase de hoy, y que debes descargar a la brevedad posible, no se incluye un `index.html`. Por favor reutiliza el `index.html` que preparaste para la clase recién pasada, haciéndole un par de ajustes: uno a nivel de navegación (`<nav></nav>`) y otro a nivel de pie de página (`<footer></footer`). Para los ajustes, guíate por tales elementos HTML dentro de las páginas a descargar. 
 
 Habiendo hecho el par de ajustes, y reuniendo todo dentro de una única carpeta, podrás revisar este sitio web con tu navegador y notar que hay textos simulados (Loren ipsum…) que corresponde reemplazar con lo más partinente a lo que no está simulado en `page-1.html`, `page-2.html` y `page-3.html`. También podrás notar que hay algunos "nuevos trucos" con los que se generan las tablas en la `page-2.html`  y el gráfico en `page-3.html`.
 
