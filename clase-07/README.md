@@ -87,19 +87,15 @@ Copia y pega datos, reemplazando todo el texto simulado (Loren ipsum…) y otros
 
 - - - - - - - 
 
-####Referencias
+#### Referencias
 
-- **[CSS3 Quick Referencia Guide](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d7fb67af-5180-463d-b58a-bfd4a220d5d0/css3-cheat-sheet.pdf)**
+- [Introducción a HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML)
 
-- [Guía Breve de CSS](https://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo)
+- [HTML Tutorial | w3schools.com](https://www.w3schools.com/html/default.asp)
 
-- [Guía de desarrollo en CSS](https://developer.mozilla.org/es/docs/Web/Guide/CSS)
+- [Element Index | HTML5 Doctor](http://html5doctor.com/element-index/)
 
-- [HTML & CSS - W3C](https://www.w3.org/standards/webdesign/htmlcss)
-
-- [Starting with HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.en.html)
-
-- [The Elements of Typographic Style Applied to the Web](http://webtypography.net/)
+- **[HTML5 Cheat Sheet](https://websitesetup.org/HTML5-cheat-sheet.pdf)**
 
 - - - - - - - 
 
