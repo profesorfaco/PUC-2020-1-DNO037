@@ -18,9 +18,9 @@ Habiendo hecho el par de ajustes, y reuniendo todo dentro de una única carpeta,
 
 Cuando los ajustes en `index.html` y reemplazos de contenido en `page-1.html`, `page-2.html` y `page-3.html` estén listos, y ya hayas encontrado los "nuevos trucos" que aprovechan algunas bibliotecas de JavaScript ([jQuery](https://jquery.com/), [Papa Parse](https://www.papaparse.com/), [Charts.js](https://www.chartjs.org/)), **por favor sube todo a tu repositorio de la `/clase-08` y envía correo a profesor@faco.cl con indicación de la URL de la GitHub Page correspondiente**. 
 
-**Tienes hasta las 10.45 hrs. para hacerlo**. 
+**Tienes hasta las 11.00 hrs. para hacerlo**. 
 
-Como respuesta a tu correo, se te indicará cómo continuar con la clase que se enfocará en CSS, e incluye una pequeña referencia a JavaScript (por hacer memoria de lo tratado hasta la [clase 05](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-05)).
+Mientras esperas la repuesta del correo, con indicación para continuar con la clase, puedes revisar en detalle lo que sigue. Después de tal revisión, podrías buscar los tipos de selectores en uso en el `estilo.css` que se incluye en la carpeta.
 
 - - - - - - - - - - - - -
 
