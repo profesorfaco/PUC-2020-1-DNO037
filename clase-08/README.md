@@ -141,7 +141,7 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 | 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-08/             |
 | 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-08/              |
 | 16	| LISA SAEZ              | … |
-| 17	| CECY SOTO              | … |
+| 17	| CECY SOTO              | https://cecysoto.github.io/clase-08/              |
 
 - - - - - - - - - - - - -
 
