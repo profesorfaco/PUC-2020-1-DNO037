@@ -6,8 +6,8 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(252, 252, 252, 1) 100%);
-    background-attachment: fixed;
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 100px, rgba(245, 245, 245, 0.9) 200px, rgba(252, 252, 252, 1) 300px), url('https://www.paho.org/sites/default/files/styles/flexslider_full/public/hero/2020-03/covid-19-1190x574-2-full.jpg');
+    background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
 }
@@ -29,7 +29,7 @@ a:hover {
 h1 {
     font-family: Georgia, serif;
     font-weight: bold;
-    font-size: 2.25rem;
+    font-size: 2.75rem;
 }
 
 h1 a {
@@ -62,13 +62,18 @@ h6 {
     font-size: 1.0rem;
 }
 
-h2, h3, h4, h5, h6, em, strong, th{
+h2, h3, h4, h5, h6, em, strong {
     font-weight: 500;
     font-style: normal;
 }
 
+hr {
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
 nav {
-    position: absolute;
+    position: fixed;
     right: 3%;
     top: 3%;
     z-index: 999;
@@ -93,6 +98,10 @@ p sup a {
     text-decoration: none;
 }
 
+h2 + p{
+    font-size:112%;
+}
+
 blockquote {
     padding-bottom: 0.5rem;
 }
@@ -103,7 +112,7 @@ blockquote p {
     font-family: 'IBM Plex Serif', serif;
     font-style: italic;
     font-weight: 200;
-    font-size: 110%;
+    font-size: 125%;
     text-align: left;
 }
 
@@ -114,6 +123,14 @@ blockquote footer {
 
 blockquote footer:before {
     content: "— ";
+}
+
+abbr {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: 125%;
+    text-decoration: none;
+    letter-spacing: 0.01rem;
 }
 
 section {
@@ -141,18 +158,18 @@ ul li, ol li {
 }
 
 ul li:last-of-type, ol li:last-of-type {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 figure {
-    margin: 0.5rem 0;
+    margin: 1.5rem -0.25rem;
     padding: 0;
     background: #fff;
     box-shadow: 0 0 2px rgba(100, 100, 100, .1)
 }
 
 figure img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -179,31 +196,6 @@ table {
     }
 }
 
-table td, table th {
-    border-bottom: 1px solid #ccc;
-    padding: 0.5rem;
-}
-
-table thead th {
-    font-size: 90%;
-    font-weight: 500;
-}
-
-table thead th:first-child {
-    text-align: left;
-}
-
-table tbody th {
-    text-align: left;
-}
-
-table tbody td span {
-    display: block;
-    margin: 0 auto;
-    width: 2.5rem;
-    text-align: right;
-}
-
 table tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.75);
 }
@@ -212,11 +204,41 @@ table tbody tr td:nth-child(5) {
     color: #f00;
 }
 
+table tr td, table tr th {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+table thead tr th {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+table thead tr th:first-child {
+    text-align: left;
+}
+
+table tbody tr th {
+    text-align: left;
+    font-weight: 300;
+}
+
+table tbody tr td span {
+    display: block;
+    margin: 0 auto;
+    width: 2.75rem;
+    text-align: right;
+}
+
+table:first-of-type tbody tr td span {
+    width: 2.25rem;
+}
+
 table tfoot, figure figcaption {
     font-size: 80%;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    text-align: left;
+    text-align: center;
     color: #aaa;
 }
 
@@ -233,11 +255,6 @@ table tfoot a:hover, figure figcaption a:hover {
 
 footer {
     font-size: 90%;
-}
-
-footer abbr {
-    font-variant: small-caps;
-    font-size: 115%;
 }
 
 .derecha {
