@@ -6,10 +6,10 @@ html, body {
 }
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 300;
     background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(252, 252, 252, 1) 100%);
     background-attachment: fixed;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 
 :hover {
@@ -101,8 +101,8 @@ blockquote p {
     margin: 0 0 .5rem 0;
     padding: 0;
     font-family: 'IBM Plex Serif', serif;
-    font-weight: 200;
     font-style: italic;
+    font-weight: 200;
     font-size: 110%;
     text-align: left;
 }
@@ -167,8 +167,8 @@ table {
     border-collapse: collapse;
     width: 100%;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 90%;
     font-weight: 300;
+    font-size: 90%;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -179,47 +179,40 @@ table {
     }
 }
 
-td, th {
+table td, table th {
     border-bottom: 1px solid #ccc;
     padding: 0.5rem;
 }
 
-thead th {
+table thead th {
     font-size: 90%;
     font-weight: 500;
 }
 
-thead th:first-child {
+table thead th:first-child {
     text-align: left;
 }
 
-tbody th {
+table tbody th {
     text-align: left;
 }
 
-table:first-of-type tbody td span {
+table tbody td span {
     display: block;
     margin: 0 auto;
-    width: 2.1rem;
+    width: 2.5rem;
     text-align: right;
 }
 
-table:last-of-type tbody td span {
-    display: block;
-    margin: 0 auto;
-    width: 2.75rem;
-    text-align: right;
-}
-
-tbody tr:hover {
+table tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-tbody tr td:nth-child(5) {
+table tbody tr td:nth-child(5) {
     color: #f00;
 }
 
-tfoot, figcaption {
+table tfoot, figure figcaption {
     font-size: 80%;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
@@ -227,13 +220,13 @@ tfoot, figcaption {
     color: #aaa;
 }
 
-tfoot a, figcaption a {
+table tfoot a, figure figcaption a {
     color: #999;
     font-weight: 400;
     text-decoration: none;
 }
 
-tfoot a:hover, figcaption a:hover {
+table tfoot a:hover, figure figcaption a:hover {
     color: #888;
     text-decoration: underline;
 }
