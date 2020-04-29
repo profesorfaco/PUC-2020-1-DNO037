@@ -1,35 +1,262 @@
-html, body { margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;500&family=IBM+Plex+Serif:ital,wght@1,200&display=swap');
 
-body { font-family: Helvetica, Arial, sans-serif; }
-
-nav { position: absolute; right: 3%; top: 3%; z-index:999;}
-
-div.container{ padding:3% 18%; }
-
-@media screen and (orientation:portrait){
-    div.container{ padding:6%; }    
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-p{ line-height: 1.5; }
+body {
+    background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(252, 252, 252, 1) 100%);
+    background-attachment: fixed;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
 
-blockquote p{ margin:0 0 .5rem 0; padding:0; }
+:hover {
+    transition: all ease 0.5s;
+}
 
-section{ padding:0.5rem 0 2rem 0;}
+a {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #000;
+}
 
-figure{ margin:0.5rem 0; padding:0; border:1px solid #ccc;}
+a:hover {
+    text-decoration: none;
+}
 
-figure img {max-width: 100%; height: auto;}
+h1 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 2.75rem;
+}
 
-figure figcaption {font-size:80%; letter-spacing: 0.05rem; padding:0.5rem; color:#777;}
+h1 a {
+    text-decoration: none;
+    color: #b71c1c;
+}
 
-footer{ font-size:90%; }
+h1 a:hover {
+    text-decoration: none;
+    color: #c62828;
+}
 
-footer abbr{ font-variant: small-caps; font-size: 115%;}
+h2 {
+    font-size: 1.75rem;
+}
 
-.derecha{float:right;}
+h3 {
+    font-size: 1.5rem;
+}
 
-table { border-collapse: collapse; width: 100%;}
+h4 {
+    font-size: 1.25rem;
+}
 
-td, th { border: 1px solid #ccc; text-align: left; padding: 8px;}
+h5 {
+    font-size: 1.0rem;
+}
 
-tr:nth-child(even) { background-color: #eee; }
+h6 {
+    font-size: 1.0rem;
+}
+
+h2, h3, h4, h5, h6, em, strong {
+    font-weight: 500;
+    font-style: normal;
+}
+
+hr {
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+nav {
+    position: fixed;
+    right: 3%;
+    top: 3%;
+    z-index: 999;
+}
+
+div.container {
+    padding: 3% 18%;
+}
+
+@media screen and (orientation:portrait) {
+    div.container {
+        padding: 6%;
+    }
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+p sup a {
+    text-decoration: none;
+}
+
+h2 + p{
+    font-size:112%;
+}
+
+blockquote {
+    padding-bottom: 0.5rem;
+}
+
+blockquote p {
+    margin: 0 0 .5rem 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 125%;
+    text-align: left;
+}
+
+blockquote footer {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+blockquote footer:before {
+    content: "— ";
+}
+
+abbr {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: 125%;
+    text-decoration: none;
+    letter-spacing: 0.01rem;
+}
+
+section {
+    padding: 0.5rem 0 2rem 0;
+}
+
+dl dt {
+    float: left;
+    font-weight: 600;
+    font-size: 95%;
+}
+
+dl dd:before {
+    content: " — ";
+    padding-left: 0.25rem;
+}
+
+dl dd {
+    padding-bottom: 0.75rem;
+}
+
+ul li, ol li {
+    list-style-position: outside;
+    margin-bottom: 0.5rem;
+}
+
+ul li:last-of-type, ol li:last-of-type {
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 1.5rem -0.25rem;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(100, 100, 100, .1)
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    font-size: 80%;
+    letter-spacing: 0.05rem;
+    padding: 0.25rem 0.5rem 0.75rem 0.5rem;
+    color: #777;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 90%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (orientation:portrait) {
+    table {
+        font-size: 80%;
+    }
+}
+
+table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+table tbody tr td:nth-child(5) {
+    color: #f00;
+}
+
+table tr td, table tr th {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+table thead tr th {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+table thead tr th:first-child {
+    text-align: left;
+}
+
+table tbody tr th {
+    text-align: left;
+    font-weight: 300;
+}
+
+table tbody tr td span {
+    display: block;
+    margin: 0 auto;
+    width: 2.75rem;
+    text-align: right;
+}
+
+table:first-of-type tbody tr td span {
+    width: 2.25rem;
+}
+
+table tfoot, figure figcaption {
+    font-size: 80%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    text-align: center;
+    color: #aaa;
+}
+
+table tfoot a, figure figcaption a {
+    color: #999;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+table tfoot a:hover, figure figcaption a:hover {
+    color: #888;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 90%;
+}
+
+.derecha {
+    float: right;
+}
