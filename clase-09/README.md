@@ -4,7 +4,7 @@
 
 #### EVALUACIÓN
 
-El día de hoy tenemos evaluación. Por ello, las indicaciones estarán contenidas en pautas que serán publicadas el mismo miércoles en este espacio.
+[El día de hoy tenemos evaluación](https://profesorfaco.github.io/dno037-2020/clase-09/). Por ello, las indicaciones estarán contenidas en pautas que serán publicadas el mismo miércoles en este espacio.
 
 - - - - - - - 
 
