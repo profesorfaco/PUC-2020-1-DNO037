@@ -41,15 +41,15 @@ selector{ propiedad:valor; propiedad:valor valor valor;}
 
 #### 1. Selectores básicos
 
-Selectores de tipo o etiqueta: El nombre del selector en la regla CSS repite el nombre de las etiquetas del elemento HTML. Por ejemplo, la regla CSS `body{…}` se aplica al elemento HTML `<body>…</body>`
+**Selectores de tipo o etiqueta**: El nombre del selector en la regla CSS repite el nombre de las etiquetas del elemento HTML. Por ejemplo, la regla CSS `body{…}` se aplica al elemento HTML `<body>…</body>`
 
-Selectores de clase: El nombre del selector, distinto de un nombre de selector de tipo, es antecediento por un `.`; la regla con este tipo de selector se aplica en cualquier elemento HTML al que se le asigne la clase del mismo nombre. Por ejemplo, la regla CSS `.importante{…}` se podría aplicar a los elementos `<span class="importante">…</span>`, `<p class="importante">…</p>`, `<h3 class="importante">…</h3>` o cualquier otro que tenga tal clase. Ahora bien, este selector puede ser más específico si se escribe `p.importante{…}`; en tal caso se aplicaría a cualquier párrafo que tenga esa clase, descartando `<span class="importante">…</a>`, `<h3 class="importante"></h3>` o cualquier otro elemento que tenga este atributo de clase pero no sea párrafo `<p class="importante">…</p>`.
+**Selectores de clase**: El nombre del selector, distinto de un nombre de selector de tipo, es antecediento por un `.`; la regla con este tipo de selector se aplica en cualquier elemento HTML al que se le asigne la clase del mismo nombre. Por ejemplo, la regla CSS `.importante{…}` se podría aplicar a los elementos `<span class="importante">…</span>`, `<p class="importante">…</p>`, `<h3 class="importante">…</h3>` o cualquier otro que tenga tal clase. Ahora bien, este selector puede ser más específico si se escribe `p.importante{…}`; en tal caso se aplicaría a cualquier párrafo que tenga esa clase, descartando `<span class="importante">…</a>`, `<h3 class="importante"></h3>` o cualquier otro elemento que tenga este atributo de clase pero no sea párrafo `<p class="importante">…</p>`.
 
-Selectores de ID: El nombre del selector, distinto de un nombre de selector de tipo, es antecediento por un `#`. La regla de este tipo de selector se aplica a un elemento HTML al que se le asigne la identidad del mismo nombre. Así, por ejemplo, `#principal{…}` apunta al elemento que tenga tal atributo de identidad, como `<div id="principal">…</div>`. Una identidad debe usarse una única vez por documento HTML.
+**Selectores de ID**: El nombre del selector, distinto de un nombre de selector de tipo, es antecediento por un `#`. La regla de este tipo de selector se aplica a un elemento HTML al que se le asigne la identidad del mismo nombre. Así, por ejemplo, `#principal{…}` apunta al elemento que tenga tal atributo de identidad, como `<div id="principal">…</div>`. Una identidad debe usarse una única vez por documento HTML.
 
-Selectores universales: El nombre del selector es un `*`, para aputar a cualquier elemento HTML. O sea, `*{…}` puede afectar a un `<body>…</body>`, un `<span>…</span>`, un `<p>…</p>`, un `<p>…</p>`, un `<div>…</div>` o cualquier otro elemento.
+**Selectores universales**: El nombre del selector es un `*`, para aputar a cualquier elemento HTML. O sea, `*{…}` puede afectar a un `<body>…</body>`, un `<span>…</span>`, un `<p>…</p>`, un `<p>…</p>`, un `<div>…</div>` o cualquier otro elemento.
 
-Selectores de atributos: Donde se agregar al selector un `[atributo=valor]` para apuntar a cualquier elemento HTML que tenga tal atributo. Así, por ejemplo, `a[href$=".pdf"] {…}` puede apuntar a cualquier elemento de vínculo (a, de *anchor*) cuya referencia de hipertexto termine en .pdf `<a href="informe-final-final-final.pdf">…</a>`
+**Selectores de atributos**: Donde se agregar al selector un `[atributo=valor]` para apuntar a cualquier elemento HTML que tenga tal atributo. Así, por ejemplo, `a[href$=".pdf"] {…}` puede apuntar a cualquier elemento de vínculo (a, de *anchor*) cuya referencia de hipertexto termine en .pdf `<a href="informe-final-final-final.pdf">…</a>`
 
 Favor busca la definición de los selectores recién presentados en: 
 
@@ -63,19 +63,19 @@ Favor busca la definición de los selectores recién presentados en:
 
 #### 2. Selectores agrupados
 
-Lista de selectores (x, y): Se pueden usar varios selectores básicos juntos, para definir propiedades que efecten a todos. Para ello, corresponde separar con coma cada selector. Ejemplo: `h1, h2, h3, h4, h5, h6 {…}` será una regla que se aplicará a todos los encabezados posibles (que en HTML van del `<h1>…</h1>` al `<h6>…</h6>`).
+**Lista de selectores (x, y)**: Se pueden usar varios selectores básicos juntos, para definir propiedades que efecten a todos. Para ello, corresponde separar con coma cada selector. Ejemplo: `h1, h2, h3, h4, h5, h6 {…}` será una regla que se aplicará a todos los encabezados posibles (que en HTML van del `<h1>…</h1>` al `<h6>…</h6>`).
 
 No deben confundirse los selectores agrupados con la combinación descentente de selectores que veremos a continuación.
 
 #### 3. Selectores combinados
 
-Selector de descendentes (x y): A diferencia de los agrupados, acá se coloca uno después de otro, sin usar comas entre ellos (solo un espacio), para indicar que se quiere afectar al segundo elemento, que está dentro del primero. Ejemplo: `figure figcaption{}` apuntará al elemento `<figcaption></figcaption>` dentro del elemento `<figure></figure>`.
+**Combinador de descendentes (x y)**: A diferencia de los agrupados, acá se coloca uno después de otro, sin usar comas entre ellos (solo un espacio), para indicar que se quiere afectar al segundo elemento, que está dentro del primero. Ejemplo: `figure figcaption{}` apuntará al elemento `<figcaption>…</figcaption>` dentro del elemento `<figure>…</figure>`.
 
-Selectores hermanos adyacentes (x + y): El combinador `+` selecciona el segundo elemento si es que sigue directamente al primero. Ejemplo: `h2 + p{…}` apuntará al elemento `<p></p>` que sigue inmediatamente después del `<h2></h2>`, sin afectar a los `<p></p>` sucesivos. 
+**Combinador de hermanos adyacentes (x + y)**: El combinador `+` selecciona el segundo elemento si es que sigue directamente al primero. Ejemplo: `h2 + p{…}` apuntará al elemento `<p>…</p>` que sigue inmediatamente después del `<h2>…</h2>`, sin afectar a los `<p>…</p>` sucesivos. 
 
-Selector general de hermanos (x ~ y): El combinador `~` hace algo parecido a combinador de los hermanos adyacente, sin exigir que uno se encuentre inmediatemente después del otro. 
+**Combinador general de hermanos (x ~ y)**: El combinador `~` hace algo parecido a combinador de los hermanos adyacente, sin exigir que uno se encuentre inmediatemente después del otro. 
 
-Child selectors (x > y): El combinador `>` selecciona los elementos que son hijos directos del primero. Ejemplo: `ul > li {…}` apuntará a todos los elementos `<li></li>` que son hijos directos de un elemento `<ul>…</ul>`.
+**Combinador de hijos (x > y)**: El combinador `>` selecciona los elementos que son hijos directos del primero. Ejemplo: `ul > li {…}` apuntará a todos los elementos `<li>…</li>` que son hijos directos de un elemento `<ul>…</ul>`.
 
 Favor busca la definición y otros ejemplos de los selectores combinados en: 
 
@@ -87,11 +87,11 @@ Favor busca la definición y otros ejemplos de los selectores combinados en:
 
 #### 4. Pseudo selectores
 
-Selectores de estado: El nombre del selector es seguido por dos puntos y una palabra determinada. Así, por ejemplo, `a:hover{…}` apunta a un elemento de vínculo (a de *anchor*) cuando el mouse esté encima suyo. Otras posibilidades comunes, además del `:hover`, son `:active` y `:visited`
+**Selectores de estado**: El nombre del selector es seguido por dos puntos y una palabra determinada. Así, por ejemplo, `a:hover{…}` apunta a un elemento de vínculo (a de *anchor*) cuando el mouse esté encima suyo. Otras posibilidades comunes, además del `:hover`, son `:active` y `:visited`
 
-Pseudo clases: Son muy parecidos a los selectores de estado, tanto que se pueden incluir dentro de una misma categoría. Si aquí las separamos es por diferenciar estado de circunstancia, entendiendo que `:hover` puede ser el estado donde aplica una regla, pero `:last-of-type ` es la circunstancia del elemento de estar al final, donde se le aplica una regla.
+**Pseudo clases**: Son muy parecidos a los selectores de estado, tanto que se pueden incluir dentro de una misma categoría. Si aquí las separamos es por diferenciar estado de circunstancia, entendiendo que `:hover` puede ser el estado donde aplica una regla, pero `:last-of-type ` es la circunstancia del elemento de estar al final, donde se le aplica una regla.
 
-Pseudo elementos: El nombre del selector seguido de dos puntos (o doble dos puntos) y una palabra determinada permite apuntar entidades más allá de los elementos HTML, para poder asignarles reglas CSS. 
+**Pseudo elementos**: El nombre del selector seguido de dos puntos (o doble dos puntos) y una palabra determinada permite apuntar entidades más allá de los elementos HTML, para poder asignarles reglas CSS. 
 
 Favor buscar la definición y los pseudo selectores estándares en: 
 
@@ -115,9 +115,9 @@ body{ color:white; background-color:black; }
 	body{ color:black; background-color:white; }
 
 }
-``` 
+```
 
-Podemos establecer una descripción para todo lo que se ve en la ventana del navegador cuando muestra el cuerpo del html (`<body></body>`), y esa descripción la puedo cambiar según un subconjunto de declaraciones anidadas y condicionaldas. En este caso, la condición  es que la orientación de la pantalla del navegador sea vertical (como pasa en los dispositivos móviles, que ser observan, por lo general, en sentido contrario al apaisado).
+Podemos establecer una descripción para todo lo que se ve en la ventana del navegador cuando muestra el cuerpo del html (`<body>…</body>`), y esa descripción la puedo cambiar según un subconjunto de declaraciones anidadas y condicionaldas. En este caso, la condición  es que la orientación de la pantalla del navegador sea vertical (como pasa en los dispositivos móviles, que ser observan, por lo general, en sentido contrario al apaisado).
 
 - - - - - - - - - - - - -
 
