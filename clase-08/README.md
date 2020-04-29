@@ -123,23 +123,23 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 
 #### Ejercicio:
 
-| No.   | Nombre                 | GitHub Page                            |
-|:-----:|:-----------------------|:---------------------------------------|
+| No.   | Nombre                 | GitHub Page                                       |     
+|:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| MARÍA PAZ CONCHA       | … |
 | 2    	| OLGA F. VIO            | … |
-| 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-08/ |
-| 4	| MARÍA FRANCISCA HEPP   | … |
-| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-08 |
+| 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-08/            |
+| 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-08               |
+| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-08          |
 | 6	| MAGDALENA LABARCA      | … |
-| 7	| VANESSA MULLER         | … |
-| 8	| JANA MÜLLER            | … |
-| 9	| MURIEL MUÑOZ           | … |
+| 7	| VANESSA MULLER         | https://vymuller.github.io/clase-08/              |
+| 8	| JANA MÜLLER            | https://janakristin.github.io/clase-08/           |
+| 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-08/                |
 | 10	| ROSARIO OLIVARES       | … |
 | 11	| AMPARO ORTÚZAR         | … |
-| 12	| VALERIA PARRAGUEZ      | … |
-| 13	| FRANCISCO PEZOA        | … |
-| 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-08/ |
-| 15	| MARTINA RIVAS          | … |
+| 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-08/ |
+| 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-08/              |
+| 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-08/             |
+| 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-08/              |
 | 16	| LISA SAEZ              | … |
 | 17	| CECY SOTO              | … |
 
