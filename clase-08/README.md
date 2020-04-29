@@ -89,7 +89,7 @@ Favor busca la definición y otros ejemplos de los selectores combinados en:
 
 **Selectores de estado**: El nombre del selector es seguido por dos puntos y una palabra determinada. Así, por ejemplo, `a:hover{…}` apunta a un elemento de vínculo (a de *anchor*) cuando el mouse esté encima suyo. Otras posibilidades comunes, además del `:hover`, son `:active` y `:visited`
 
-**Pseudo clases**: Son muy parecidos a los selectores de estado, tanto que se pueden incluir dentro de una misma categoría. Si aquí las separamos es por diferenciar estado de circunstancia, entendiendo que `:hover` puede ser el estado donde aplica una regla, pero `:last-of-type ` es la circunstancia del elemento de estar al final, donde se le aplica una regla.
+**Pseudo clases**: Son muy parecidos a los selectores de estado, tanto que se pueden incluir dentro de una misma categoría. Si aquí las separamos es por diferenciar estado de circunstancia, entendiendo que `:hover` puede ser el estado (que responde a una interacción) donde aplica una regla, pero `:last-of-type ` es la circunstancia del elemento de estar al final, donde se le aplica una regla.
 
 **Pseudo elementos**: El nombre del selector seguido de dos puntos (o doble dos puntos) y una palabra determinada permite apuntar entidades más allá de los elementos HTML, para poder asignarles reglas CSS. 
 
