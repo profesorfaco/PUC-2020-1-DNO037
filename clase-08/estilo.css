@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;500&family=IBM+Plex+Serif:ital,wght@1,200&display=swap');
 
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -63,14 +62,7 @@ h6 {
     font-size: 1.0rem;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6,
-em,
-strong,
-th{
+h2, h3, h4, h5, h6, em, strong, th{
     font-weight: 500;
     font-style: normal;
 }
@@ -143,14 +135,12 @@ dl dd {
     padding-bottom: 0.75rem;
 }
 
-ul li,
-ol li {
+ul li, ol li {
     list-style-position: outside;
     margin-bottom: 0.5rem;
 }
 
-ul li:last-of-type,
-ol li:last-of-type {
+ul li:last-of-type, ol li:last-of-type {
     margin-bottom: 1rem;
 }
 
@@ -189,8 +179,7 @@ table {
     }
 }
 
-td,
-th {
+td, th {
     border-bottom: 1px solid #ccc;
     padding: 0.5rem;
 }
@@ -230,8 +219,7 @@ tbody tr td:nth-child(5) {
     color: #f00;
 }
 
-tfoot,
-figcaption {
+tfoot, figcaption {
     font-size: 80%;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
@@ -239,15 +227,13 @@ figcaption {
     color: #aaa;
 }
 
-tfoot a,
-figcaption a {
+tfoot a, figcaption a {
     color: #999;
     font-weight: 400;
     text-decoration: none;
 }
 
-tfoot a:hover,
-figcaption a:hover {
+tfoot a:hover, figcaption a:hover {
     color: #888;
     text-decoration: underline;
 }
