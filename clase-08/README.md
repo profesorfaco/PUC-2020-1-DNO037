@@ -129,7 +129,7 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 | 2    	| OLGA F. VIO            | … |
 | 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-08/ |
 | 4	| MARÍA FRANCISCA HEPP   | … |
-| 5	| MARIA ELIANA INFANTE   | … |
+| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/ |
 | 6	| MAGDALENA LABARCA      | … |
 | 7	| VANESSA MULLER         | … |
 | 8	| JANA MÜLLER            | … |
