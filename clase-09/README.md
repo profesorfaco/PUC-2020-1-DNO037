@@ -4,6 +4,8 @@
 
 #### EVALUACIÓN
 
+El día de hoy tenemos evaluación. Por ello, las indicaciones estarán contenidas en pautas que serán publicadas el mismo miércoles en este espacio.
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-10)
