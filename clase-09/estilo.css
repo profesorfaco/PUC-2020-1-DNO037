@@ -4,29 +4,23 @@ html, body {
 }
 
 body {
+    color: #000;
     background: linear-gradient(180deg, rgba(225, 228, 239, 0.8) 200px, rgba(225, 228, 239, 0.9) 300px, rgba(225, 228, 239, 1) 400px), url('image-bg.jpg');
     background-size: 100% auto;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    color: #000;
     line-height: 1.4;
 }
 
-:hover {
-    transition: all ease 0.5s;
+@media screen and (orientation:portrait) {
+    body {
+        background-size: cover;
+    }
 }
 
 a, em, strong {
     font-style: normal;
     font-weight: bold;
-}
-
-a {
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 h1 {
@@ -85,7 +79,7 @@ blockquote {
 blockquote p {
     margin: 0 0 .5rem 0;
     padding: 0;
-    font-family: Georgia, serif;
+    font-family: Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: 200;
     font-size: 125%;
@@ -101,38 +95,32 @@ blockquote footer:before {
     content: "— ";
 }
 
-abbr {
-    text-transform: lowercase;
-    font-variant: small-caps;
-    text-decoration: none;
-}
-
 dl dt {
     float: left;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 95%;
 }
 
 dl dd:before {
     content: " — ";
-    padding-left: 0.25rem;
+    padding-left: 0.3rem;
 }
 
 dl dd {
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.6rem;
 }
 
 ul li, ol li {
     list-style-position: outside;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 ul li:last-of-type, ol li:last-of-type {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.6rem;
 }
 
 figure {
-    margin: 1.5rem -0.25rem;
+    margin: 1.2rem -0.3rem;
     padding: 0;
     background: #fff;
     box-shadow: 0 0 2px rgba(100, 100, 100, .1)
@@ -146,8 +134,9 @@ figure img {
 figure figcaption {
     font-size: 80%;
     letter-spacing: 0.05rem;
+    text-align: center;
     padding: 0.25rem 0.5rem 0.75rem 0.5rem;
-    color: #777;
+    color: #aaa;  
 }
 
 table {
@@ -189,18 +178,8 @@ table tbody tr th {
     font-weight: 300;
 }
 
-table tbody tr td span {
-    display: block;
-    margin: 0 auto;
-    width: 2.75rem;
-    text-align: right;
-    background:red;
-}
-
-
-table tfoot, figure figcaption {
+table tfoot {
     font-size: 80%;
-    font-family: 'Lucida Console', Monaco, monospace;
     text-align: center;
     color: #aaa;
 }
