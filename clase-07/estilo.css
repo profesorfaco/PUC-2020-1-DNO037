@@ -6,8 +6,9 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(252, 252, 252, 1) 100%);
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.9) 15%, rgba(252, 252, 252, 1) 30%), url('https://www.paho.org/sites/default/files/styles/flexslider_full/public/hero/2020-03/covid-19-1190x574-2-full.jpg');
     background-attachment: fixed;
+    background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
 }
@@ -158,7 +159,7 @@ ul li, ol li {
 }
 
 ul li:last-of-type, ol li:last-of-type {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 figure {
