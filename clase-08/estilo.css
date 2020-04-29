@@ -153,9 +153,6 @@ ol li:last-of-type {
     margin-bottom: 1rem;
 }
 
-
-/* para las figure */
-
 figure {
     margin: 0.5rem 0;
     padding: 0;
@@ -174,9 +171,6 @@ figure figcaption {
     padding: 0.25rem 0.5rem 0.75rem 0.5rem;
     color: #777;
 }
-
-
-/* para las tablas */
 
 table {
     border-collapse: collapse;
@@ -256,8 +250,6 @@ figcaption a:hover {
     color: #888;
     text-decoration: underline;
 }
-
-/* para el pie de página */
 
 footer {
     font-size: 90%;
