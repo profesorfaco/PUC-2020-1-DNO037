@@ -125,7 +125,7 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
-| 1	| MARÍA PAZ CONCHA       | … |
+| 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-08/              |
 | 2    	| OLGA F. VIO            | … |
 | 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-08/            |
 | 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-08               |
