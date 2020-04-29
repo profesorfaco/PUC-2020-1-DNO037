@@ -39,7 +39,7 @@ selector{
 selector{ propiedad:valor; propiedad:valor valor valor;}
 ```
 
-##### 1. Selectores básicos
+#### 1. Selectores básicos
 
 Selectores de tipo o etiqueta: El nombre del selector en la regla CSS repite el nombre de las etiquetas del elemento HTML. Por ejemplo, la regla CSS `body{…}` se aplica al elemento HTML `<body>…</body>`
 
@@ -61,13 +61,13 @@ Favor busca la definición de los selectores recién presentados en:
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Basic_selectors
 
-##### 2. Selectores agrupados
+#### 2. Selectores agrupados
 
 Lista de selectores (x, y): Se pueden usar varios selectores básicos juntos, para definir propiedades que efecten a todos. Para ello, corresponde separar con coma cada selector. Ejemplo: `h1, h2, h3, h4, h5, h6 {…}` será una regla que se aplicará a todos los encabezados posibles (que en HTML van del `<h1>…</h1>` al `<h6>…</h6>`).
 
 No deben confundirse los selectores agrupados con la combinación descentente de selectores que veremos a continuación.
 
-##### 3. Selectores combinados
+#### 3. Selectores combinados
 
 Selector de descendentes (x y): A diferencia de los agrupados, acá se coloca uno después de otro, sin usar comas entre ellos (solo un espacio), para indicar que se quiere afectar al segundo elemento, que está dentro del primero. Ejemplo: `figure figcaption{}` apuntará al elemento `<figcaption></figcaption>` dentro del elemento `<figure></figure>`.
 
@@ -85,7 +85,7 @@ Favor busca la definición y otros ejemplos de los selectores combinados en:
 
 - https://uniwebsidad.com/libros/css/capitulo-2/selectores-avanzados
 
-##### 4. Pseudo selectores
+#### 4. Pseudo selectores
 
 Selectores de estado: El nombre del selector es seguido por dos puntos y una palabra determinada. Así, por ejemplo, `a:hover{…}` apunta a un elemento de vínculo (a de *anchor*) cuando el mouse esté encima suyo. Otras posibilidades comunes, además del `:hover`, son `:active` y `:visited`
 
@@ -103,7 +103,7 @@ Favor buscar la definición y los pseudo selectores estándares en:
 
 - https://developer.mozilla.org/es/docs/Web/CSS/Pseudoelementos
 
-#### 5. regla @media
+### 5. Regla @media
 
 Hay distintos tipos de [reglas-at (@)](https://developer.mozilla.org/es/docs/Web/CSS/At-rule). En el `estilo.css` de esta clase se están utilizando las reglas-at @import y [@media](https://developer.mozilla.org/es/docs/Web/CSS/@media#Media_features). Para explicar la segunda, observemos un ejemplo:   
 
