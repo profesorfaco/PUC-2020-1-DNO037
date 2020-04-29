@@ -130,7 +130,7 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 | 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-08/            |
 | 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-08               |
 | 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-08          |
-| 6	| MAGDALENA LABARCA      | … |
+| 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-08/               |
 | 7	| VANESSA MULLER         | https://vymuller.github.io/clase-08/              |
 | 8	| JANA MÜLLER            | https://janakristin.github.io/clase-08/           |
 | 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-08/                |
