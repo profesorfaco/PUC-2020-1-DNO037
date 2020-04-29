@@ -103,7 +103,7 @@ Favor buscar la definición y los pseudo selectores estándares en:
 
 - https://developer.mozilla.org/es/docs/Web/CSS/Pseudoelementos
 
-### 5. Regla @media
+#### 5. Regla @media
 
 Hay distintos tipos de [reglas-at (@)](https://developer.mozilla.org/es/docs/Web/CSS/At-rule). En el `estilo.css` de esta clase se están utilizando las reglas-at @import y [@media](https://developer.mozilla.org/es/docs/Web/CSS/@media#Media_features). Para explicar la segunda, observemos un ejemplo:   
 
