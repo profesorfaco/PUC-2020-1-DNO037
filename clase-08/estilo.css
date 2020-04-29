@@ -68,9 +68,9 @@ h3,
 h4,
 h5,
 h6,
+em,
 strong,
-th,
-em {
+th{
     font-weight: 500;
     font-style: normal;
 }
