@@ -65,7 +65,7 @@ div.container {
 p {
     line-height: 1.6;
     text-align: justify;
-    text-justify: inter-character;
+    text-justify: auto;
 }
 
 h2 + p{
