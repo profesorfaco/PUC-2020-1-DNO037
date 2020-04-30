@@ -123,6 +123,17 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 
 #### Ejercicio:
 
+Utiliza los archivos que se contienen en esta carpeta, y reutilizando el `index.html`, que desarrollaste la clase recién pasada. 
+
+En `estilo.css` agrega una regla que diferencie los vínculos que dirijan a un documento PDF.
+
+En `estilo.css` cambia la imagen de fondo y también las definiciones cromáticas con base en la misma imagen. Cambia, al menos, el linear-gradient para que se mantenga el efecto que mezcla imagen y fondo en la parte superior de cada página `*.html`
+
+En `index.html`, agregar un ajuste de estilo a la manera que se hace en `page-3.html`, para modificar sólo en la página de portada el combinador de hermanos adyacentes en uso, dejando en 100% el valor de la propiedad font-size.
+
+En cada página `*.html` agrega los mismos metadatos. Puedes usar https://megatags.co/ para obtenerlos. 
+
+
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-08/              |
