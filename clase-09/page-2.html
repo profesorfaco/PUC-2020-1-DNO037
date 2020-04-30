@@ -7,11 +7,11 @@
     <title>Lorem ipsum</title>
     <!-- Search Engine -->
     <meta name="description" content="Quisque volutpat ante aliquet, vulputate magna pellentesque, facilisis lorem.">
-    <meta name="image" content="https://profesorfaco.github.io/dno037-2020/clase-09/image-meta.jpg">
+    <meta name="image" content="http://profesorfaco.github.io/clase-09/image-meta.jpg">
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="Lorem ipsum">
     <meta itemprop="description" content="Quisque volutpat ante aliquet, vulputate magna pellentesque, facilisis lorem.">
-    <meta itemprop="image" content="https://profesorfaco.github.io/dno037-2020/clase-09/image-meta.jpg">
+    <meta itemprop="image" content="http://profesorfaco.github.io/clase-09/image-meta.jpg">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Lorem ipsum">
@@ -25,11 +25,11 @@
     <style>
         figure {
             padding: 0.5rem 1rem;
-        }     
-
+        }
+        
         figure figcaption {
             margin: 0rem -0.5em -0.5em -0.5em;
-            padding-top:0.5rem;
+            padding-top: 0.5rem;
         }
     </style>
     <title>CAMBIA EL TÍTULO</title>
@@ -60,83 +60,64 @@
         </section>
         <footer>
             <hr>
-            <p>Nombre Apellido <time datetime="2020-05-06" class="derecha">Miércoles, 6 de mayo de 2020</time></p>
+            <p>Nombre Apellido
+                <time datetime="2020-05-06" class="derecha">Miércoles, 6 de mayo de 2020</time>
+            </p>
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
     <script>
-        Papa.parse("https://raw.githubusercontent.com/jorgeperezrojas/covid19-data/master/csv/pacientes_en_uci.csv", {
-            download: true,
-            complete: function(results) {
-                console.log(results);
+        Chart.defaults.global.defaultFontFamily = "'Lucida Console', 'Monaco', 'monospace'";
 
-                var metropolitana = results.data[7]
-                metropolitana.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
-
-                var valparaiso = results.data[6]
-                valparaiso.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar) 
-
-                var biobio = results.data[11]
-                biobio.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar)  
-
-                var long_labels = results.data[0]
-                long_labels.splice(0, 2) // splice(donde empezar la operación, cuántos elementos eliminar)        
-                var short_labels = []; // declaro un arreglo 
-                long_labels.forEach(e => short_labels.push(e.substring(0, 5))); // acá agrego elementos al arreglo
-
-                Chart.defaults.global.defaultFontFamily = "'Lucida Console', 'Monaco', 'monospace'";
-
-                new Chart(document.getElementById('uci').getContext('2d'), {
-                    type: 'line',
-                    data: {
-                        labels: short_labels,
-                        datasets: [{
-                            label: 'METROPOLITANA',
-                            borderColor: '#d50000',
-                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
-                            pointHoverBackgroundColor: '#d50000',
-                            borderWidth: 1,
-                            pointRadius: 2,
-                            lineTension: 0,
-                            data: metropolitana
-                        }, {
-                            label: 'VALPARAÍSO',
-                            borderColor: '#aa00ff',
-                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
-                            pointHoverBackgroundColor: '#aa00ff',
-                            borderWidth: 1,
-                            pointRadius: 2,
-                            lineTension: 0,
-                            data: valparaiso
-                        }, {
-                            label: 'BIOBÍO',
-                            borderColor: '#0091ea',
-                            backgroundColor: 'rgba(200, 200, 200, 0.1)',
-                            pointHoverBackgroundColor: '#0091ea',
-                            borderWidth: 1,
-                            pointRadius: 2,
-                            lineTension: 0,
-                            data: biobio
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        tooltips: {
-                            position: 'nearest',
-                        },
-                        scales: {
-                            xAxes: [{
-                                ticks: {
-                                    minRotation: 90
-                                }
-                            }]
+        new Chart(document.getElementById('uci').getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: ["01/04", "02/04", "03/04", "04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04", "11/04", "12/04", "13/04", "14/04", "15/04", "16/04", "17/04", "18/04", "19/04", "20/04", "21/04", "22/04", "23/04", "24/04", "25/04", "26/04", "27/04", "28/04", "29/04", "30/04"],
+                datasets: [{
+                    label: 'CHILE',
+                    borderColor: '#cc2f59',
+                    backgroundColor: '#cc2f59',
+                    borderWidth: 1,
+                    pointRadius: 2,
+                    lineTension: 0,
+                    data: [16, 18, 22, 27, 34, 37, 43, 48, 57, 65, 73, 80, 82, 92, 94, 105, 116, 126, 133, 139, 147, 160, 168, 174, 181, 189, 198, 207]
+                }, {
+                    label: 'ARGENTINA',
+                    borderColor: '#2b89f5',
+                    backgroundColor: '#2b89f5',
+                    borderWidth: 1,
+                    pointRadius: 2,
+                    lineTension: 0,
+                    data: [28, 36, 39, 43, 44, 48, 56, 63, 72, 82, 83, 90, 97, 102, 111, 115, 123, 129, 132, 136, 147, 152, 165, 176, 185, 192, 197, 207]
+                }, {
+                    label: 'ECUADOR',
+                    borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
+                    backgroundColor: '#6d2b65', // esto para darle consistencia a los colores en uso
+                    borderWidth: 1,
+                    pointRadius: 2,
+                    lineTension: 0,
+                    data: [93, 120, 145, 172, 180, 191, 191, 242, 272, 297, 315, 333, 355, 369, 388, 403, 421, 456, 474, 507, 520, 537, 560, 576, 576, 576, 663, 871]
+                }]
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    text: 'MUERTES POR COVID19 DURANTE ABRIL, 2020'
+                },
+                tooltips: {
+                    position: 'nearest',
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            minRotation: 90
                         }
-                    },
+                    }]
+                }
+            },
 
-                });
-
-            }
         });
     </script>
 </body>
