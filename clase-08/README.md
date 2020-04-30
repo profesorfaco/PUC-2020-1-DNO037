@@ -123,7 +123,7 @@ Podemos establecer una descripción para todo lo que se ve en la ventana del nav
 
 #### Ejercicio:
 
-Utiliza los archivos que se contienen en esta carpeta, y reutilizando el `index.html`, que desarrollaste la clase recién pasada. 
+Utiliza los archivos que se contienen en esta carpeta, y reutiliza el `index.html` que desarrollaste la clase recién pasada. 
 
 En `estilo.css` agrega una regla que diferencie los vínculos que dirijan a un documento PDF.
 
