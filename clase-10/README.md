@@ -46,7 +46,7 @@ Con el documento HTML listo, podemos comenzar a utilizar la grilla de 12 columna
 </div>
 ```
 
-En cada elemento hay un atributo de clase (`class="…"`). Conviene ponerle mucha atención a los `"col-…"`, en tanto permiten indicar **cuántas de las 12 columnas de ancho corresponde tomar** según el [ancho, en pixeles, del viewport](https://getbootstrap.com/docs/4.4/layout/grid/#grid-options). Las opciones se explican en la página de documentación del sitio web de Bootstrap, en sección [Layout > Grid > Responsive classes](https://getbootstrap.com/docs/4.4/layout/grid/#responsive-classes)
+En cada elemento hay un atributo de clase (`class="…"`). Conviene ponerle mucha atención a los `"col-…"`, en tanto permiten indicar **cuántas de las 12 columnas de ancho del `row` corresponde tomar** dado determinado [ancho, en pixeles, del viewport](https://getbootstrap.com/docs/4.4/layout/grid/#grid-options). Las opciones se explican en la página de documentación del sitio web de Bootstrap, en sección [Layout > Grid > Responsive classes](https://getbootstrap.com/docs/4.4/layout/grid/#responsive-classes)
 
 - - - - - - - - - - - - 
 
