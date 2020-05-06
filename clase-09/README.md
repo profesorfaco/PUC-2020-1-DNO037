@@ -45,12 +45,12 @@ La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los puntos q
 |   8   | [JANA MÜLLER](https://janakristin.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |   9   | [MURIEL MUÑOZ](https://murimu.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |  10   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-09/) | 1.0 | 1.0 | … | … | … |
-|  11   | AMPARO ORTÚZAR          | 0 | … | … | … | … |
+|  11   | AMPARO ORTÚZAR          | 0 | 0 | — | — | 1.0 |
 |  12   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |  13   | [FRANCISCO PEZOA](https://panshios.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |  14   | [FRANCISCA PURCELL](https://fmpurcell.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |  15   | [MARTINA RIVAS](https://mrivas29.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
-|  16   | LISA SAEZ               | 0 | … | … | … | … |
+|  16   | LISA SAEZ               | 0 | 0 | — | — | 1.0 |
 |  17   | [CECY SOTO](https://cecysoto.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 
 - - - - - - - 
