@@ -48,9 +48,9 @@ Se proyecta la siguiente organización de las clases durante el primer semestre 
 
 [Clase 08 → Miércoles 29 de abril](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-08) → HTML + CSS ✓
 
-**[Clase 09 → Miércoles 6 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-09) → Evaluación**
+**[Clase 09 → Miércoles 6 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-09) → Evaluación ✓**
 
-[Clase 10 → Miércoles 13 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-10) → Bootstrap
+[Clase 10 → Miércoles 13 de mayo](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-10) → Bootstrap ✓
 
 Clase 11 → Miércoles 20 de mayo → Diseño UC | Semana de ajuste
 
