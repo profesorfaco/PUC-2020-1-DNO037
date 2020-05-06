@@ -46,13 +46,15 @@ Con el documento HTML listo, podemos comenzar a utilizar la grilla de 12 columna
 </div>
 ```
 
-En cada elemento hay un atributo de clase (`class=`). Conviene ponerle mucha atención a los `col-…"`, en tanto permiten indicar **cuántas de las 12 columnas de ancho corresponde tomar** según el [ancho, en pixeles, del viewport](https://getbootstrap.com/docs/4.4/layout/grid/#grid-options). Las opciones se explican en la página de documentación del sitio web de Bootstrap, en sección [Layout > Grid > Responsive classes](https://getbootstrap.com/docs/4.4/layout/grid/#responsive-classes)
+En cada elemento hay un atributo de clase (`class="…"`). Conviene ponerle mucha atención a los `"col-…"`, en tanto permiten indicar **cuántas de las 12 columnas de ancho corresponde tomar** según el [ancho, en pixeles, del viewport](https://getbootstrap.com/docs/4.4/layout/grid/#grid-options). Las opciones se explican en la página de documentación del sitio web de Bootstrap, en sección [Layout > Grid > Responsive classes](https://getbootstrap.com/docs/4.4/layout/grid/#responsive-classes)
+
+- - - - - - - - - - - - 
 
 #### Primeras instrucciones
 
 Antes de las 11.00 hrs. podrías resolver lo siguiente:
 
-**0. Guarda el index.html de esta carpeta en tu computador** y realiza los siguientes cambios de contenidos. 
+**0. Guarda el [index.html](https://profesorfaco.github.io/dno037-2020/clase-10/) de esta carpeta en tu computador** y realiza los siguientes cambios de contenidos. 
 
 **1. Cambia el video embebido**: Anda a Youtube y selecciona algún video. Entre las opciones que están debajo del video escogido, debes hacer clic en COMPARTIR y fijarte en la primera de las opciones en la ventana emergente; con un clic en "Insertar" se te entrega algo de código HTML que puedes copiar. De lo copiado, solo usaremos el atributo `src="https://www.youtube.com/embed/………"`. Una vez hecho el cambio del atributo, guarda y revisa el resultado (no todo video puede funcionar, prueba con videos que no dependan de grandes compañías de entretenimiento, ellas tienen de bloquear sus contenidos) 
 
