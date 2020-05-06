@@ -36,19 +36,19 @@ La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los puntos q
 | No.   | Nombre                  | 10:45 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | Nota     |
 |:-----:|:------------------------|:----------:|:----------:|:-----------------:|:-------------:|:--------:|
 |   1   | [MARÍA PAZ CONCHA](https://mpconcha.github.io/clase-09/) | 1.0 | … | … | … | … |
-|   2   | OLGA F. VIO             | … | … | … | … | … |
+|   2   | [OLGA F. VIO](https://caracolga.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   3   | [MATÍAS HAGEN](https://matihagene.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   4   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-09/) | 1.0 | … | … | … | … |
-|   5   | MARIA ELIANA INFANTE    | … | … | … | … | … |
+|   5   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-09/index.html) | 1.0 | … | … | … | … |
 |   6   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |   7   | [VANESSA MÜLLER](https://vymuller.github.io/clase-09/) | 1.0 | … | … | … | … |
-|   8   | JANA MÜLLER             | … | … | … | … | … |
+|   8   | [JANA MÜLLER](https://janakristin.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   9   | [MURIEL MUÑOZ](https://murimu.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  10   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-09/) | 1.0 | … | … | … | … |
 |  11   | AMPARO ORTÚZAR          | … | … | … | … | … |
 |  12   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  13   | FRANCISCO PEZOA         | … | … | … | … | … |
-|  14   | FRANCISCA PURCELL       | … | … | … | … | … |
+|  14   | [FRANCISCA PURCELL](https://fmpurcell.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  15   | [MARTINA RIVAS](https://mrivas29.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  16   | LISA SAEZ               | … | … | … | … | … |
 |  17   | [CECY SOTO](https://cecysoto.github.io/clase-09/) | 1.0 | … | … | … | … |
