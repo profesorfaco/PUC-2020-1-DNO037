@@ -28,7 +28,7 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Hay quienes parten en
 </html>
 ```
 
-Es importante notar que en las últimas líneas se va por tres bibliotecas de JavaScript, siendo la primera una versión `slim` y `min` de jQuery. La versión `slim` es suficiente para que funcionen las dos biblitecas que le siguen, pero podría ser insuficiente si es que queremos hacer otras cosas con jQuery. Por ello, sería recomendable reemplazar esa línea con:
+Es importante notar que en las últimas líneas se va por tres bibliotecas de JavaScript, siendo la primera una versión `slim` y `min` de jQuery. La versión `slim` es suficiente para que funcionen las dos biblitecas que le siguen, pero podría ser insuficiente si es que queremos hacer otras cosas con jQuery. Por ello, sería recomendable reemplazar la línea que va por tal jQuery, por esta otra:
 
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
