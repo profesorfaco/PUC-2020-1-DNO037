@@ -35,23 +35,23 @@ La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los puntos q
 
 | No.   | Nombre                  | 10:45 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | Nota     |
 |:-----:|:------------------------|:----------:|:----------:|:-----------------:|:-------------:|:--------:|
-|   1   | MARÍA PAZ CONCHA        | … | … | … | … | … |
+|   1   | [MARÍA PAZ CONCHA](https://mpconcha.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   2   | OLGA F. VIO             | … | … | … | … | … |
-|   3   | MATÍAS HAGEN            | … | … | … | … | … |
-|   4   | MARÍA FRANCISCA HEPP    | … | … | … | … | … |
+|   3   | [MATÍAS HAGEN](https://matihagene.github.io/clase-09/) | 1.0 | … | … | … | … |
+|   4   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   5   | MARIA ELIANA INFANTE    | … | … | … | … | … |
-|   6   | MAGDALENA LABARCA       | … | … | … | … | … |
-|   7   | VANESSA MÜLLER          | … | … | … | … | … |
+|   6   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
+|   7   | [VANESSA MÜLLER](https://vymuller.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   8   | JANA MÜLLER             | … | … | … | … | … |
-|   9   | MURIEL MUÑOZ            | … | … | … | … | … |
-|  10   | ROSARIO OLIVARES        | … | … | … | … | … |
+|   9   | [MURIEL MUÑOZ](https://murimu.github.io/clase-09/) | 1.0 | … | … | … | … |
+|  10   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-09/) | 1.0 | … | … | … | … |
 |  11   | AMPARO ORTÚZAR          | … | … | … | … | … |
-|  12   | VALERIA PARRAGUEZ       | … | … | … | … | … |
+|  12   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  13   | FRANCISCO PEZOA         | … | … | … | … | … |
 |  14   | FRANCISCA PURCELL       | … | … | … | … | … |
-|  15   | MARTINA RIVAS           | … | … | … | … | … |
+|  15   | [MARTINA RIVAS](https://mrivas29.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  16   | LISA SAEZ               | … | … | … | … | … |
-|  17   | CECY SOTO               | … | … | … | … | … |
+|  17   | [CECY SOTO](https://cecysoto.github.io/clase-09/) | 1.0 | … | … | … | … |
 
 - - - - - - - 
 
