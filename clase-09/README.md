@@ -47,7 +47,7 @@ La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los puntos q
 |  10   | [ROSARIO OLIVARES](https://rosarioof.github.io/Clase-09/) | 1.0 | … | … | … | … |
 |  11   | AMPARO ORTÚZAR          | … | … | … | … | … |
 |  12   | [VALERIA PARRAGUEZ](https://valeriaparraguezojeda.github.io/clase-09/) | 1.0 | … | … | … | … |
-|  13   | FRANCISCO PEZOA         | … | … | … | … | … |
+|  13   | [FRANCISCO PEZOA](https://panshios.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  14   | [FRANCISCA PURCELL](https://fmpurcell.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  15   | [MARTINA RIVAS](https://mrivas29.github.io/clase-09/) | 1.0 | … | … | … | … |
 |  16   | LISA SAEZ               | … | … | … | … | … |
