@@ -38,7 +38,7 @@ La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los puntos q
 |   1   | [MARÍA PAZ CONCHA](https://mpconcha.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   2   | [OLGA F. VIO](https://caracolga.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   3   | [MATÍAS HAGEN](https://matihagene.github.io/clase-09/) | 1.0 | … | … | … | … |
-|   4   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-09/) | 1.0 | … | … | … | … |
+|   4   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |   5   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-09/index.html) | 1.0 | … | … | … | … |
 |   6   | [MAGDALENA LABARCA](https://maidalw.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |   7   | [VANESSA MÜLLER](https://vymuller.github.io/clase-09/) | 1.0 | … | … | … | … |
