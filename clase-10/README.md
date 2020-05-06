@@ -56,7 +56,7 @@ Antes de las 11.00 hrs. podrías resolver lo siguiente:
 
 **0. Guarda el [index.html](https://profesorfaco.github.io/dno037-2020/clase-10/) de esta carpeta en tu computador** y realiza los siguientes cambios de contenidos. 
 
-**1. Cambia el video embebido**: Anda a Youtube y selecciona algún video. Entre las opciones que están debajo del video escogido, debes hacer clic en COMPARTIR y fijarte en la primera de las opciones en la ventana emergente; con un clic en "Insertar" se te entrega algo de código HTML que puedes copiar. De lo copiado, solo usaremos el atributo `src="https://www.youtube.com/embed/………"`. Una vez hecho el cambio del atributo, guarda y revisa el resultado (no todo video puede funcionar, prueba con videos que no dependan de grandes compañías de entretenimiento, ellas tienen de bloquear sus contenidos) 
+**1. Cambia el video embebido**: Anda a Youtube y selecciona algún video. Entre las opciones que están debajo del video escogido, debes hacer clic en COMPARTIR y fijarte en la primera de las opciones en la ventana emergente; con un clic en "Insertar" se te entrega algo de código HTML que puedes copiar. De lo copiado, solo usaremos el atributo `src="https://www.youtube.com/embed/………"`. Una vez hecho el cambio del atributo, guarda y revisa el resultado (no todo video puede funcionar, prueba con videos que no dependan de grandes compañías de entretenimiento, ellas tienden a bloquear sus contenidos) 
 
 **2. Cambia el título y los párrafos dentro de `<header></header>`**: Cambia ese título principal que dice "Bootstrap" y los párrafos que comienzan con "Lorem ipsum…" y "Cras rutrum lorem…" por algo que se pueda relacionar al video embebido. 
 
