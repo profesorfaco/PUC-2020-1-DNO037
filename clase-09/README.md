@@ -36,7 +36,7 @@ La suma de puntos en esta pauta de evaluación da como máximo 5.0. Los puntos q
 | No.   | Nombre                  | 10:45 hrs. | 11.30 hrs. | Puntaje por pauta | Puntaje extra | Nota     |
 |:-----:|:------------------------|:----------:|:----------:|:-----------------:|:-------------:|:--------:|
 |   1   | [MARÍA PAZ CONCHA](https://mpconcha.github.io/clase-09/) | 1.0 | … | … | … | … |
-|   2   | [OLGA F. VIO](https://caracolga.github.io/clase-09/) | 1.0 | … | … | … | … |
+|   2   | [OLGA F. VIO](https://caracolga.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |   3   | [MATÍAS HAGEN](https://matihagene.github.io/clase-09/) | 1.0 | … | … | … | … |
 |   4   | [MARÍA FRANCISCA HEPP](https://franhepp.github.io/clase-09/) | 1.0 | 1.0 | … | … | … |
 |   5   | [MARIA ELIANA INFANTE](https://maritainfante.github.io/clase-09/index.html) | 1.0 | … | … | … | … |
