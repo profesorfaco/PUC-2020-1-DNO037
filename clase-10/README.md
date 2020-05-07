@@ -74,7 +74,9 @@ Mientras esperas correo con indicaciones para continuar, favor revisa las siguie
 - https://getbootstrap.com/docs/4.4/utilities/spacing/
 - https://getbootstrap.com/docs/4.4/utilities/text/
 
-##### Ejercicio
+- - - - - - 
+
+#### Ejercicio
 
 Pendiente.
 
