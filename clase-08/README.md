@@ -133,7 +133,6 @@ En `index.html`, agregar un ajuste de estilo a la manera que se hace en `page-3.
 
 En cada página `*.html` agrega los mismos metadatos. Puedes usar https://megatags.co/ para obtenerlos. 
 
-
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-08/              |
