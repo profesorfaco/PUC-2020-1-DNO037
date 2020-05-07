@@ -54,7 +54,7 @@ En cada elemento hay un atributo de clase (`class="…"`). Conviene ponerle much
 
 Antes de las 11.00 hrs. podrías resolver lo siguiente:
 
-**1. Toma el [index.html](https://profesorfaco.github.io/dno037-2020/clase-10/) de esta carpeta** y realiza los siguientes cambios de contenidos. 
+**1. Toma el [index.html](https://profesorfaco.github.io/dno037-2020/clase-10/) que ya está en la carpeta de esta clase** y realiza los siguientes cambios de contenidos. 
 
 **2. Cambia el video embebido**: Selecciona algún video en [YouTube](https://www.youtube.com/). Entre las opciones que están debajo del video seleccionado, debes hacer clic en COMPARTIR y fijarte en la primera de las opciones en la ventana emergente; con un clic en INSERTAR se te entrega algo de código HTML que puedes copiar. De lo copiado, solo usaremos el atributo `src="https://www.youtube.com/embed/………"`. Una vez hecho el cambio del atributo, guarda y revisa el resultado, podría ser que obtengas un mensaje "El vídeo no está disponible", y te ofrezca otras opciones, eso significa que hiciste bien el cambio, pero tienes que intentar con otro video (las grandes compañías de entretenimiento tienden a bloquear los contenidos que publican). 
 
