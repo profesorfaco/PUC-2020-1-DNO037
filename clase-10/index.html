@@ -41,6 +41,16 @@
         $.each( texto, function( i, frase ) {
             $("#articulos").append("<div class='col-lg-6 col-xl-4 mb-4'><article class='bg-primary text-light p-3 shadow-sm rounded'>"+frase+"</article></div>");
         });
+        // Lo que sigue aprovecha Bootstrap y jQuery. Afecta a la proporción del video embebido, quitando/poniendo una clase
+        $(window).bind("load resize",function() {
+            var w = $(window).width();
+            console.log(w);
+            if (w <= 992) {
+                $( "div.embed-responsive" ).removeClass( "embed-responsive-21by9" ).addClass( "embed-responsive-4by3" );
+            } else {
+                $( "div.embed-responsive" ).removeClass( "embed-responsive-4by3" ).addClass( "embed-responsive-21by9" );
+            }
+        });
     </script>
     <!-- Lo JS de Bootstrap, que dependen de jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
