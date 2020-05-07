@@ -54,15 +54,15 @@ En cada elemento hay un atributo de clase (`class="…"`). Conviene ponerle much
 
 Antes de las 11.00 hrs. podrías resolver lo siguiente:
 
-**0. Guarda el [index.html](https://profesorfaco.github.io/dno037-2020/clase-10/) de esta carpeta en tu computador** y realiza los siguientes cambios de contenidos. 
+**1. Guarda el [index.html](https://profesorfaco.github.io/dno037-2020/clase-10/) de esta carpeta en tu computador** y realiza los siguientes cambios de contenidos. 
 
-**1. Cambia el video embebido**: Anda a Youtube y selecciona algún video. Entre las opciones que están debajo del video escogido, debes hacer clic en COMPARTIR y fijarte en la primera de las opciones en la ventana emergente; con un clic en "Insertar" se te entrega algo de código HTML que puedes copiar. De lo copiado, solo usaremos el atributo `src="https://www.youtube.com/embed/………"`. Una vez hecho el cambio del atributo, guarda y revisa el resultado (no todo video puede funcionar, prueba con videos que no dependan de grandes compañías de entretenimiento, ellas tienden a bloquear sus contenidos) 
+**2. Cambia el video embebido**: Anda a Youtube y selecciona algún video. Entre las opciones que están debajo del video escogido, debes hacer clic en COMPARTIR y fijarte en la primera de las opciones en la ventana emergente; con un clic en INSERTAR se te entrega algo de código HTML que puedes copiar. De lo copiado, solo usaremos el atributo `src="https://www.youtube.com/embed/………"`. Una vez hecho el cambio del atributo, guarda y revisa el resultado (no todo video puede funcionar, prueba con videos que no dependan de grandes compañías de entretenimiento, ellas tienden a bloquear sus contenidos) 
 
-**2. Cambia el título y los párrafos dentro de `<header></header>`**: Cambia ese título principal que dice "Bootstrap" y los párrafos que comienzan con "Lorem ipsum…" y "Cras rutrum lorem…" por algo que se pueda relacionar al video embebido. 
+**3. Cambia el título y los párrafos dentro de `<header></header>`**: Cambia ese título principal que dice "Bootstrap" y los párrafos que comienzan con "Lorem ipsum…" y "Cras rutrum lorem…" por algo que se pueda relacionar al video embebido. 
 
-**3. Cambia el contenido de la variable `texto` en línea 49**: La variable contiene seis frases, todas dicen `"Lorem ipsum dolor sit amet, consectetur adipiscing elit"`. Cámbialas por 6 frases distintas, que puedan relacionarse con el video embebido.
+**4. Cambia el contenido de la variable `texto` en línea 49**: La variable contiene seis frases, todas dicen `"Lorem ipsum dolor sit amet, consectetur adipiscing elit"`. Cámbialas por 6 frases distintas, que puedan relacionarse con el video embebido.
 
-**4. Cambia el texto simulado dentro de `<footer></footer>`**:  Replica lo hecho en las clases pasadas, donde a un lado escrbes tu Nombre Apellido y al otro escribes el número de clases correspondiente.
+**5. Cambia el texto simulado dentro de `<footer></footer>`**:  Replica lo hecho en las clases pasadas, donde a un lado escrbes tu Nombre Apellido y al otro escribes el número de clases correspondiente.
 
 Teniendo los cambios listos, crea tu repositorio para esta `/clase-10`. Coloca allí el `index.html` que acabas de modificar y envía correo a profesor@faco.cl con indicación de la dirección de la GitHub Page correspondiente.
 
@@ -77,7 +77,6 @@ Mientras esperas correo con indicaciones para continuar, favor revisa las siguie
 ##### Ejercicio
 
 Pendiente.
-
 
 - - - - - - 
 
