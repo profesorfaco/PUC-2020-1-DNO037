@@ -87,14 +87,14 @@ Pendiente.
 | 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-10/ |
 | 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-10/ |
 | 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-10/ |
-| 6	| MAGDALENA LABARCA      | …              |
+| 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-10/ |
 | 7	| VANESSA MULLER         | https://vymuller.github.io/clase-10/ |
 | 8	| JANA MÜLLER            | …              |
 | 9	| MURIEL MUÑOZ           | …              |
-| 10	| ROSARIO OLIVARES       | …              |
+| 10	| ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-10/ |
 | 11	| AMPARO ORTÚZAR         | …              |
 | 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-10/ |
-| 13	| FRANCISCO PEZOA        | …              |
+| 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-10/ |
 | 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-10/ |
 | 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-10/ |
 | 16	| LISA SAEZ              | …              |
