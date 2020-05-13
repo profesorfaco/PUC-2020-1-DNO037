@@ -96,7 +96,7 @@ Pendiente.
 | 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-10/ |
 | 13	| FRANCISCO PEZOA        | …              |
 | 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-10/ |
-| 15	| MARTINA RIVAS          | …              |
+| 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-10/ |
 | 16	| LISA SAEZ              | …              |
 | 17	| CECY SOTO              | …              |
 
