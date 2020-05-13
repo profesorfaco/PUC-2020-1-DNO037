@@ -90,7 +90,7 @@ Pendiente.
 | 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-10/ |
 | 7	| VANESSA MULLER         | https://vymuller.github.io/clase-10/ |
 | 8	| JANA MÜLLER            | …              |
-| 9	| MURIEL MUÑOZ           | …              |
+| 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-10/ |
 | 10	| ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-10/ |
 | 11	| AMPARO ORTÚZAR         | …              |
 | 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-10/ |
