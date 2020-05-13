@@ -83,7 +83,7 @@ Pendiente.
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-10/ |
-| 2    	| OLGA F. VIO            | …              |
+| 2    	| OLGA F. VIO            | https://caracolga.github.io/clase-10/ |
 | 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-10/ |
 | 4	| MARÍA FRANCISCA HEPP   | …              |
 | 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-10/ |
