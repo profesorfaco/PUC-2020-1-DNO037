@@ -60,7 +60,7 @@ Antes de las 11.00 hrs. podrías resolver lo siguiente:
 
 **3. Cambia el título y los párrafos dentro de `<header></header>`**: Cambia ese título principal que dice "Bootstrap", además de los párrafos que comienzan con "Lorem ipsum…" y "Cras rutrum lorem…", por algo que se pueda relacionar al video embebido. 
 
-**4. Cambia el contenido de la variable `texto` en línea 49**: La variable contiene seis frases, todas dicen `"Lorem ipsum dolor sit amet, consectetur adipiscing elit"`. Cámbialas por 6 frases distintas, que puedan relacionarse con el video embebido. No descuides las "comillas". 
+**4. Cambia el contenido de la variable `texto` en línea 39**: La variable contiene seis frases, todas dicen `"Lorem ipsum dolor sit amet, consectetur adipiscing elit"`. Cámbialas por 6 frases distintas, que puedan relacionarse con el video embebido. No descuides las "comillas". 
 
 **5. Cambia el texto simulado dentro de `<footer></footer>`**:  Puedes replicar lo hecho en las clases pasadas; a un lado puedes escribir Nombre Apellido y al otro lado puedes escribir el número de la clase o la fecha. 
 
