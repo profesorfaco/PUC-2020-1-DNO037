@@ -98,7 +98,7 @@ Pendiente.
 | 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-10/ |
 | 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-10/ |
 | 16	| LISA SAEZ              | …              |
-| 17	| CECY SOTO              | …              |
+| 17	| CECY SOTO              | https://cecysoto.github.io/clase-10/ |
 
 - - - - - - 
 
