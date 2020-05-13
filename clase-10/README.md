@@ -82,20 +82,20 @@ Pendiente.
 
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
-| 1	| MARÍA PAZ CONCHA       | …              |
+| 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-10/ |
 | 2    	| OLGA F. VIO            | …              |
-| 3	| MATÍAS HAGEN           | …              |
+| 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-10/ |
 | 4	| MARÍA FRANCISCA HEPP   | …              |
-| 5	| MARIA ELIANA INFANTE   | …              |
+| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-10/ |
 | 6	| MAGDALENA LABARCA      | …              |
-| 7	| VANESSA MULLER         | …              |
+| 7	| VANESSA MULLER         | https://vymuller.github.io/clase-10/ |
 | 8	| JANA MÜLLER            | …              |
 | 9	| MURIEL MUÑOZ           | …              |
 | 10	| ROSARIO OLIVARES       | …              |
 | 11	| AMPARO ORTÚZAR         | …              |
-| 12	| VALERIA PARRAGUEZ      | …              |
+| 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-10/ |
 | 13	| FRANCISCO PEZOA        | …              |
-| 14	| FRANCISCA PURCELL      | …              |
+| 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-10/ |
 | 15	| MARTINA RIVAS          | …              |
 | 16	| LISA SAEZ              | …              |
 | 17	| CECY SOTO              | …              |
