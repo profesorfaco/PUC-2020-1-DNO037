@@ -45,7 +45,7 @@ Con este material, podemos dar otro salto que nos deja a un paso de poder resolv
 
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
-| 1	| MARÍA PAZ CONCHA       | https://github.com/mpconcha/clase-133 |
+| 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-133/startbootstrap-creative-gh-pages/ |
 | 2    	| OLGA F. VIO            | https://caracolga.github.io/clase-13/ |
 | 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-13/ |
 | 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-13/ |
