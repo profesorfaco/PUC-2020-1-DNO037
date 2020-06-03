@@ -39,6 +39,38 @@ Y no solo en el sitio web oficial se encuentran tales Themes. También pueden en
 
 Con este material, podemos dar otro salto que nos deja a un paso de poder resolver un sitio web profesional o un prototipo avanzado de aplicación web. 
 
+- - - - - - 
+
+#### Ejercicio
+
+| No.   | Nombre                 | GitHub Page                                       |     
+|:-----:|:-----------------------|:--------------------------------------------------|
+| 1	| MARÍA PAZ CONCHA       | https://github.com/mpconcha/clase-133 |
+| 2    	| OLGA F. VIO            | https://caracolga.github.io/clase-13/ |
+| 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-13/ |
+| 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-13/ |
+| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-13/ |
+| 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-13/ |
+| 7	| VANESSA MULLER         | https://vymuller.github.io/clase-13/ |
+| 8	| JANA MÜLLER            | …              |
+| 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-13/ |
+| 10	| ROSARIO OLIVARES       | … |
+| 11	| AMPARO ORTÚZAR         | …              |
+| 12	| VALERIA PARRAGUEZ      | … |
+| 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-13/ |
+| 14	| FRANCISCA PURCELL      | … |
+| 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-13/ |
+| 16	| LISA SAEZ              | …              |
+| 17	| CECY SOTO              | … |
+
+- - - - - - 
+
+#### Referencias:
+
+- [Curso Gratuito de Bootstrap](https://codigofacilito.com/cursos/bootstrap)
+
+- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/default.asp)
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-14)
