@@ -3,7 +3,7 @@
 ### Clase 14 → Miércoles 10 de junio, 2020
 
 ### Bootstrap
-Ya nos hemos referido a los [ejemplos](https://getbootstrap.com/docs/4.5/examples/), [*themes*](https://startbootstrap.com/themes/landing-pages/) y [*templates*](https://startbootstrap.com/templates/landing-pages/), de [Bootstrap](https://getbootstrap.com/), nos permiten resolver de modo muy rápido un sitio web profesional o prototipo avanzado de aplicación web.
+Ya nos hemos referido a los [ejemplos](https://getbootstrap.com/docs/4.5/examples/), [*themes*](https://startbootstrap.com/themes/landing-pages/) y [*templates*](https://startbootstrap.com/templates/landing-pages/) de [Bootstrap](https://getbootstrap.com/), que nos permiten resolver de modo muy rápido un sitio web profesional o prototipo avanzado de aplicación web.
 
 Echando mano al [ejemplo “Album”](https://getbootstrap.com/docs/4.5/examples/album/), del sitio web oficial de [Bootstrap](https://getbootstrap.com/), vamos a explorar el uso del Modal de Bootstrap, además de la bibliotecas [jQuery](https://jquery.com/) y [PapaParse](https://www.papaparse.com/).
 
