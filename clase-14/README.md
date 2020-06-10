@@ -2,7 +2,7 @@
 
 ### Clase 14 → Miércoles 10 de junio, 2020
 
-#### Evaluación
+#### Bootstrap
 
 - - - - - - - 
 
