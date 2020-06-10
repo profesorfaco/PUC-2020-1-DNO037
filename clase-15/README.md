@@ -4,4 +4,6 @@
 
 #### Evaluación
 
-Preparar primera aproximación a su entrega final.
+Preparar primera aproximación a su entrega final, atendiendo a las indicaciones de la siguiente pauta de evaluación:
+
+PENDIENTE
