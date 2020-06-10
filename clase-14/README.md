@@ -24,7 +24,7 @@ Boostrap ofrece el [Modal](https://getbootstrap.com/docs/4.5/components/modal/) 
 — — — .modal-footer
 ```
 
-Para continuar, lo primero será solicitarles que revisen las indicaciones en la misma página de Bootstrap, donde encuentran más detalles sobre el uso de este componente: https://getbootstrap.com/docs/4.5/components/modal/ y luego descarguen lo contenido en esta carpeta. Al revisar el modo en que se construye cada Modal, en donde se despliega el detalle de los arquetipos provisorios de usuarios (protopersonas) que ustedes redactaron en [la clase recién pasada](https://github.com/profesorfaco/dno037-2020/clase-13), notarán que se está aprovechando la biblioteca https://www.papaparse.com/ para ir por un CSV que contiene todas sus respuestas a la encuesta de la semana recién pasada. 
+Para continuar, lo primero será solicitarles que revisen las indicaciones en la misma página de Bootstrap, donde encuentran más detalles sobre el uso de este componente: https://getbootstrap.com/docs/4.5/components/modal/ y luego descarguen lo contenido en esta carpeta. Al revisar el modo en que se construye cada Modal, en donde se despliega el detalle de los arquetipos provisorios de usuarios (protopersonas) que ustedes redactaron en [la clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-13), notarán que se está aprovechando la biblioteca https://www.papaparse.com/ para ir por un CSV que contiene todas sus respuestas a la encuesta de la semana recién pasada. 
 
 También se está aprovechando jQuery, para [esconder](https://api.jquery.com/hide/) y [mostrar](https://api.jquery.com/show/) algunos trabajos según se plantee fundamental el optimizarlos para smartphone, tablet o desktop.
 
