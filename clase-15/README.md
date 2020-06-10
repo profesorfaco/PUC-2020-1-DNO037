@@ -2,6 +2,6 @@
 
 ### Clase 14 → Miércoles 17 de junio, 2020
 
-#### Definir trabajo final, recordando que: 
+#### Evaluación
 
-> Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
+Preparar primera aproximación a su entrega final.
