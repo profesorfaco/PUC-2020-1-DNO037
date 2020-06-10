@@ -34,11 +34,13 @@ Habiendo revisado lo indicado hasta este punto, les solicito crear su repositori
 
 #### Referencias:
 
+- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/default.asp)
+
 - [¿Cuál es la diferencia entre un modal, un pop up, un pop over y un light box?](https://blog.ida.cl/diseno/ldiferencia-modal-pop-up-pop-over-light-box/)
 
 - [Curso Gratuito de Bootstrap](https://codigofacilito.com/cursos/bootstrap)
 
-- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/default.asp)
+- [HTML data-* Attributes](https://www.w3schools.com/tags/att_global_data.asp)
 
 - - - - - - - 
 
