@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Título</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link href="album.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4 class="text-white">Loren ipsum</h4>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum sapien ac risus lobortis, ut tincidunt ipsum iaculis. Praesent ullamcorper elit id elit viverra faucibus. Pellentesque molestie dui nec mattis tincidunt. Donec malesuada eget felis quis ornare. Cras sed enim placerat turpis auctor pharetra.
+                            </p>
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Contact</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                                <li><a href="#" class="text-white">Email me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container d-flex justify-content-between">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <strong>Título</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main role="main">
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1>Exámenes finales</h1>
+                    <p class="lead text-muted">El siguiente es un resumen de las opciones con la que las y los estudiantes demostrarán que pueden desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.</p>
+                    <select class="custom-select" id="dispositivo">
+                        <option value="all" selected>...</option>
+                        <option value="smartphone">Optimizado para smartphone</option>
+                        <option value="tablet">Optimizado para tablet</option>
+                        <option value="desktop">Optimizado para desktop</option>
+                    </select>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row" id="articulos">
+                        <!--acá se meten cosas por JS-->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-muted">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">Back to top</a>
+                </p>
+                <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+                <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.5/getting-started/introduction/">getting started guide</a>.</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+
+        <script>
+            Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2020/gh-pages/clase-14/examen.csv", {
+                download: true,
+                complete: function (results) {
+                    console.log(results.data);
+
+                    var estudiante = results.data;
+
+                    for (let i = 1; i < estudiante.length - 1; i++) {
+                        $("#articulos").append(
+                            '<div class="item col-sm-6 col-md-4" data-dispositivo="' + estudiante[i][6] + '"><div class="card mb-4 shadow-sm">  <img class="card-img-top" src="'+ estudiante[i][11] +'"><div class="card-body"><h5 class="card-text">' + estudiante[i][2] + " " + estudiante[i][0] + '</h5><p class="card-text">Ver <a href="#" data-toggle="modal" data-target=".detalle-' + i + '">Arquetipo provisorio</a> de usuario del ' + estudiante[i][5] + ', a desarrollar como ' + estudiante[i][8] + '. Ver <a href=" ' + estudiante[i][10] + ' " target="_blank">moodboard</a>.</p><div class="d-flex justify-content-between align-items-center"><small class="text-muted">' + estudiante[i][3] + '</small><small class="text-muted"><a href="' + estudiante[i][4] + '" target="_blank">GitHub</a></small></div></div></div></div>' 
+                            + 
+                            '<div class="modal fade detalle-' + i + '" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Arquetipo provisorio de ' + estudiante[i][2] + " " + estudiante[i][0] + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + estudiante[i][9] + '</div></div></div></div>'
+                        );
+                    }
+                },
+            });
+        </script>
+
+        <script>
+            $("#dispositivo").change(function () {
+                var dispositivoSelected = document.getElementById("dispositivo").value;
+                $(".item").hide();
+                if (dispositivoSelected != "all") {
+                    $(".item[data-dispositivo~='" + dispositivoSelected + "']").show();
+                } else {
+                    $(".item").show();
+                }
+            });
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
