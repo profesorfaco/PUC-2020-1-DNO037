@@ -30,6 +30,15 @@ También se está aprovechando jQuery, para [esconder](https://api.jquery.com/hi
 
 Habiendo revisado lo indicado hasta este punto, les solicito crear su repositorio de GitHub de la `/clase-14`, subir los contenidos sin modificaciones, y enviar correo a profesor@faco.cl, indicando la URL de su GitHub Page. La recepción de tales correos me dará la indicación para iniciar un nuevo [Meet](https://meet.google.com/).
 
+- - - - - - 
+
+#### Referencias:
+
+- [¿Cuál es la diferencia entre un modal, un pop up, un pop over y un light box?](https://blog.ida.cl/diseno/ldiferencia-modal-pop-up-pop-over-light-box/)
+
+- [Curso Gratuito de Bootstrap](https://codigofacilito.com/cursos/bootstrap)
+
+- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/default.asp)
 
 - - - - - - - 
 
