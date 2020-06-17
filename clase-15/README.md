@@ -4,6 +4,23 @@
 
 #### Evaluación
 
-Preparar primera aproximación a su entrega final, atendiendo a las indicaciones de la siguiente pauta de evaluación:
+Se evaluará su capacidad de presentar un avance en su sitio web final, **considerando:**
 
-PENDIENTE
+| PUNTOS | DESCRIPCIÓN   |
+|:------:|:--------------|
+| 1.0 | Punto base por informar la URL de repositorio de `/clase-15` dentro de la primera hora de comenzada la prueba, con correo a profesor@faco.cl | 
+| 1.0 | Uso de metadatos para esconder su avance en el sitio web. Ver: https://developers.google.com/search/reference/robots_meta_tag?hl=es |
+| 1.0 | Uso de Bootstrap para resolver un avance donde pueden quedar detalles por resolver, mientras se cumpla con la función de presentar una idea que podría mejorarse en tutorías de grupos pequeños (3 o 4 estudiantes máximo) en la siguiente clase | 
+| 1.0 | Uso de [Google Fonts](https://fonts.google.com/) para establecer una, dos o tres familias tipográficas que informen del carácter o [tono](https://www.nngroup.com/videos/tone-of-voice-dimensions/) de su sitio web | 
+| 1.0 | Uso de colores que se derivan de su recolección de referentes, compartidos vía correo la semana recién pasada |
+| 1.0 | Uso de imágenes de muestra, que puede repetirse varias veces, para dar indicación de esquemas de contraste de color predominante (ver http://proyectacolor.cl/percepcion-del-color/esquemas-de-contraste/) y relación de aspecto o ratio (1:1, 4:3, 3:2, 16:9, etc.)  |
+| 1.0 | Uso de texto simulado ([Loren ipsum](https://lipsum.com/)) con extensión cuidada y atenta a las recomendaciones para escribir en web (ver: [chunking](https://www.nngroup.com/videos/chunking/) y [Be Succinct!](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/)) |
+
+**Pauta de puntaje extra:**
+
+| PUNTOS | DESCRIPCIÓN | 
+|:------:|:------------|
+| 1.0 | Mediante una consulta a un CSV, con [Papa Parse](https://www.papaparse.com/) y la ayuda de [jQuery](https://jquery.com/), resuelve la repetición de artículos, sean *post*, noticias, trabajos en portafolio, etc. | 
+| 1.0 | Usa otra de las bibliotecas de JavaScript presentadas durante el semestre, para completar la presentación de datos  de su sitio web p5.js, charts.js, leaftleft.js |
+
+Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se convertirán en otra nota parcial de la que se obtiene su promedio final de asignatura.
