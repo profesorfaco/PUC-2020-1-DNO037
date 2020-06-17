@@ -33,14 +33,14 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-15/ |
 | 2    	| OLGA F. VIO            | https://caracolga.github.io/clase-15/ |
-| 3	| MATÍAS HAGEN           | … |
+| 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-15/ |
 | 4	| MARÍA FRANCISCA HEPP   | … |
 | 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-15/ |
 | 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-15/ |
 | 7	| VANESSA MULLER         | … |
 | 8	| JANA MÜLLER            | … |
 | 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-15/ |
-| 10	| ROSARIO OLIVARES       | … |
+| 10	| ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-15/ |
 | 11	| AMPARO ORTÚZAR         | … |
 | 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-15/ |
 | 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-15/ |
