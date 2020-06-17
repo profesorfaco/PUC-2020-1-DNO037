@@ -37,7 +37,7 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 | 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-15/ |
 | 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-15/ |
 | 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-15/ |
-| 7	| VANESSA MULLER         | … |
+| 7	| VANESSA MULLER         | https://vymuller.github.io/clase-15/ |
 | 8	| JANA MÜLLER            | … |
 | 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-15/ |
 | 10	| ROSARIO OLIVARES       | https://rosarioof.github.io/Clase-15/ |
