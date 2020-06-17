@@ -60,7 +60,7 @@ Se proyecta la siguiente organización de las clases durante el primer semestre 
 
 [Clase 14 → Miércoles 10 de junio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-14) → Bootstrap ✓
 
-**[Clase 15 → Miércoles 17 de junio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-15) → Evaluación Bootstrap/Trabajo final 1 de 3**
+**[Clase 15 → Miércoles 17 de junio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-15) → Evaluación Bootstrap/Trabajo final 1 de 3** ✓
 
 **Clase 16 → Miércoles 24 de junio → Trabajo final 2 de 3 → Tutorías**
 
