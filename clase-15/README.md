@@ -47,6 +47,6 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 | 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-15/ |
 | 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-15/ |
 | 16	| LISA SAEZ              | … |
-| 17	| CECY SOTO              | … |
+| 17	| CECY SOTO              | https://cecysoto.github.io/Clase-15/ |
 
 - - - - - - 
