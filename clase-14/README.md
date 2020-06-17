@@ -46,13 +46,12 @@ Habiendo revisado lo indicado hasta este punto, les solicito crear su repositori
 | 8	| JANA MÜLLER            | … |
 | 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-14/ |
 | 10	| ROSARIO OLIVARES       | … |
-| 11	| AMPARO ORTÚZAR         | … |
-| 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-14/ |
-| 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-14/ |
-| 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-14/ |
-| 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-14/ |
-| 16	| LISA SAEZ              | … |
-| 17	| CECY SOTO              | https://cecysoto.github.io/clase-14/ |
+| 11	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-14/ |
+| 12	| FRANCISCO PEZOA        | https://panshios.github.io/clase-14/ |
+| 13	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-14/ |
+| 14	| MARTINA RIVAS          | https://mrivas29.github.io/clase-14/ |
+| 15	| LISA SAEZ              | … |
+| 16	| CECY SOTO              | https://cecysoto.github.io/clase-14/ |
 
 - - - - - - 
 
