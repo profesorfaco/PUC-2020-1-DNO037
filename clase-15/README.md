@@ -12,8 +12,8 @@ Se evaluará su capacidad de presentar un avance en su sitio web final, **consid
 | 1.0 | Uso de metadatos para esconder su avance en el sitio web. Ver: https://developers.google.com/search/reference/robots_meta_tag?hl=es |
 | 1.0 | Uso de Bootstrap para resolver un avance donde pueden quedar detalles por resolver, mientras se cumpla con la función de presentar una estructura clara, que podría afinarse con más trabajo (dos clases más) | 
 | 1.0 | Uso de [Google Fonts](https://fonts.google.com/) para establecer una, dos o tres familias tipográficas que informen del carácter o [tono](https://www.nngroup.com/videos/tone-of-voice-dimensions/) de su sitio web | 
-| 1.0 | Uso de colores que se derivan de su recolección de referentes, compartidos vía correo la semana recién pasada |
-| 1.0 | Uso de imágenes de muestra, que puede repetirse varias veces, para dar indicación de esquemas de contraste de color predominante (ver http://proyectacolor.cl/percepcion-del-color/esquemas-de-contraste/) y relación de aspecto o ratio (1:1, 4:3, 3:2, 16:9, etc.)  |
+| 1.0 | Uso de colores que se derivan de su recolección de referentes, compartidos vía correo la semana recién pasada (si no envió su http://www.gomoodboard.com/ la semana pasada, puede enviarlo hoy, pero el puntaje será afectado)
+| 1.0 | Uso de imágenes de muestra, donde solo una puede repetirse varias veces, para dar indicación de esquemas de contraste de color predominante (ver http://proyectacolor.cl/percepcion-del-color/esquemas-de-contraste/) y relación de aspecto o ratio (1:1, 4:3, 3:2, 16:9, etc.)  |
 | 1.0 | Uso de texto simulado ([Loren ipsum](https://lipsum.com/)) con extensión cuidada y atenta a las recomendaciones para escribir en web (ver: [chunking](https://www.nngroup.com/videos/chunking/) y [Be Succinct!](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/)) |
 
 **Pauta de puntaje extra:**
