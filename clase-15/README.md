@@ -32,7 +32,7 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
 | 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-15/ |
-| 2    	| OLGA F. VIO            | … |
+| 2    	| OLGA F. VIO            | https://caracolga.github.io/clase-15/ |
 | 3	| MATÍAS HAGEN           | … |
 | 4	| MARÍA FRANCISCA HEPP   | … |
 | 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-15/ |
@@ -42,7 +42,7 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 | 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-15/ |
 | 10	| ROSARIO OLIVARES       | … |
 | 11	| AMPARO ORTÚZAR         | … |
-| 12	| VALERIA PARRAGUEZ      | … |
+| 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-15/ |
 | 13	| FRANCISCO PEZOA        | … |
 | 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-15/ |
 | 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-15/ |
