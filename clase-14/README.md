@@ -32,6 +32,30 @@ Habiendo revisado lo indicado hasta este punto, les solicito crear su repositori
 
 - - - - - - 
 
+#### Ejercicio
+
+| No.   | Nombre                 | GitHub Page                                       |     
+|:-----:|:-----------------------|:--------------------------------------------------|
+| 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-14-/ |
+| 2    	| OLGA F. VIO            | https://caracolga.github.io/clase-14/ |
+| 3	| MATÍAS HAGEN           | https://matihagene.github.io/clase-14/ |
+| 4	| MARÍA FRANCISCA HEPP   | https://franhepp.github.io/clase-14/ |
+| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-14/ |
+| 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-14/ |
+| 7	| VANESSA MULLER         | https://github.com/vymuller/clase-14 |
+| 8	| JANA MÜLLER            | … |
+| 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-14/ |
+| 10	| ROSARIO OLIVARES       | … |
+| 11	| AMPARO ORTÚZAR         | … |
+| 12	| VALERIA PARRAGUEZ      | https://valeriaparraguezojeda.github.io/clase-14/ |
+| 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-14/ |
+| 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-14/ |
+| 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-14/ |
+| 16	| LISA SAEZ              | … |
+| 17	| CECY SOTO              | https://cecysoto.github.io/clase-14/ |
+
+- - - - - - 
+
 #### Referencias:
 
 - [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/default.asp)
