@@ -24,3 +24,29 @@ Se evaluará su capacidad de presentar un avance en su sitio web final, **consid
 | 1.0 | Usa otra de las bibliotecas de JavaScript presentadas durante el semestre, para completar la presentación de datos  de su sitio web: [p5.js](https://p5js.org/es), [leaftleft.js](https://leafletjs.com/), [charts.js](https://www.chartjs.org/) |
 
 Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se convertirán en otra nota parcial de la que se obtiene su promedio final de asignatura.
+
+- - - - - - 
+
+#### ENTREGAS DE AVANCE
+
+| No.   | Nombre                 | GitHub Page                                       |     
+|:-----:|:-----------------------|:--------------------------------------------------|
+| 1	| MARÍA PAZ CONCHA       | … |
+| 2    	| OLGA F. VIO            | … |
+| 3	| MATÍAS HAGEN           | … |
+| 4	| MARÍA FRANCISCA HEPP   | … |
+| 5	| MARIA ELIANA INFANTE   | https://maritainfante.github.io/clase-15/ |
+| 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-15/ |
+| 7	| VANESSA MULLER         | … |
+| 8	| JANA MÜLLER            | … |
+| 9	| MURIEL MUÑOZ           | … |
+| 10	| ROSARIO OLIVARES       | … |
+| 11	| AMPARO ORTÚZAR         | … |
+| 12	| VALERIA PARRAGUEZ      | … |
+| 13	| FRANCISCO PEZOA        | … |
+| 14	| FRANCISCA PURCELL      | https://fmpurcell.github.io/clase-15/ |
+| 15	| MARTINA RIVAS          | … |
+| 16	| LISA SAEZ              | … |
+| 17	| CECY SOTO              | … |
+
+- - - - - - 
