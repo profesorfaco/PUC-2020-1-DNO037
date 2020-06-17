@@ -21,6 +21,6 @@ Se evaluará su capacidad de presentar un avance en su sitio web final, **consid
 | PUNTOS | DESCRIPCIÓN | 
 |:------:|:------------|
 | 1.0 | Mediante una consulta a un CSV, con [Papa Parse](https://www.papaparse.com/) y la ayuda de [jQuery](https://jquery.com/), resuelve la repetición de artículos, sean *post*, noticias, trabajos en portafolio, etc. | 
-| 1.0 | Usa otra de las bibliotecas de JavaScript presentadas durante el semestre, para completar la presentación de datos  de su sitio web p5.js, charts.js, leaftleft.js |
+| 1.0 | Usa otra de las bibliotecas de JavaScript presentadas durante el semestre, para completar la presentación de datos  de su sitio web: [p5.js](https://p5js.org/es), [leaftleft.js](https://leafletjs.com/), [charts.js](https://www.chartjs.org/) |
 
 Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se convertirán en otra nota parcial de la que se obtiene su promedio final de asignatura.
