@@ -39,7 +39,7 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 | 6	| MAGDALENA LABARCA      | https://maidalw.github.io/clase-15/ |
 | 7	| VANESSA MULLER         | … |
 | 8	| JANA MÜLLER            | … |
-| 9	| MURIEL MUÑOZ           | … |
+| 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-15/ |
 | 10	| ROSARIO OLIVARES       | … |
 | 11	| AMPARO ORTÚZAR         | … |
 | 12	| VALERIA PARRAGUEZ      | … |
