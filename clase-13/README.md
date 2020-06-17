@@ -55,13 +55,12 @@ Con este material, podemos dar otro salto que nos deja a un paso de poder resolv
 | 8	| JANA MÜLLER            | …              |
 | 9	| MURIEL MUÑOZ           | https://murimu.github.io/clase-13/ |
 | 10	| ROSARIO OLIVARES       | … |
-| 11	| AMPARO ORTÚZAR         | …              |
-| 12	| VALERIA PARRAGUEZ      | … |
-| 13	| FRANCISCO PEZOA        | https://panshios.github.io/clase-13/ |
-| 14	| FRANCISCA PURCELL      | … |
-| 15	| MARTINA RIVAS          | https://mrivas29.github.io/clase-13/ |
-| 16	| LISA SAEZ              | …              |
-| 17	| CECY SOTO              | … |
+| 11	| VALERIA PARRAGUEZ      | … |
+| 12	| FRANCISCO PEZOA        | https://panshios.github.io/clase-13/ |
+| 13	| FRANCISCA PURCELL      | … |
+| 14	| MARTINA RIVAS          | https://mrivas29.github.io/clase-13/ |
+| 15	| LISA SAEZ              | …              |
+| 16	| CECY SOTO              | … |
 
 - - - - - - 
 
