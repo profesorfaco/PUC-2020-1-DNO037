@@ -31,7 +31,7 @@ Si sobran puntos extra, se agregan a los ejercicios clase a clase, que se conver
 
 | No.   | Nombre                 | GitHub Page                                       |     
 |:-----:|:-----------------------|:--------------------------------------------------|
-| 1	| MARÍA PAZ CONCHA       | … |
+| 1	| MARÍA PAZ CONCHA       | https://mpconcha.github.io/clase-15/ |
 | 2    	| OLGA F. VIO            | … |
 | 3	| MATÍAS HAGEN           | … |
 | 4	| MARÍA FRANCISCA HEPP   | … |
