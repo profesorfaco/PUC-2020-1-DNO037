@@ -22,7 +22,7 @@ Antes de escribir la primera línea de código del MPV, bien podemos usar alguna
 
 - Style Guide - http://styleguides.io/examples
 
-(* Tales técnicas son examinadas en detalle en el OPR de [Usabilidad y Nuevos Medios](http://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=dno046))
+(* Estas técnicas son examinadas en detalle en el OPR de [Usabilidad y Nuevos Medios](http://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=dno046))
 - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 #### TIPS
