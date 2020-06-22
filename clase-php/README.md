@@ -2,7 +2,7 @@
 
 ### Breve intro a PHP → Miércoles 24 de junio, 2020
 
-[PHP](https://www.php.net/manual/es/getting-started.php) es un lenguaje de programación de código abierto que puede incrustarse en el HTML para ser ejecutado en el servidor que luego envía el resultado de su ejecución al cliente. 
+[PHP](https://www.php.net/manual/es/getting-started.php) es un lenguaje de programación de código abierto que puede incrustarse en el HTML para ser ejecutado en el [servidor web](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) que luego envía el resultado de su ejecución al cliente. 
 
 Por ejemplo, en su editor de código fuente pueden escribir un documento HTML típico, que entre sus líneas contenga:
 
