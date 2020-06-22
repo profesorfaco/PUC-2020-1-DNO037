@@ -31,4 +31,34 @@ Como se puede notar en el ejemplo:
 
 Como PHP fue por muchos años la opción más popular para la [programación de páginas web dinámicas](https://developer.mozilla.org/es/docs/Learn/Server-side), el número de funciones que ofrece es amplísimo y el modo en que se escribe podría verse un poco anticuado (si se compara con [Ruby](https://www.ruby-lang.org/es/documentation/) o [Python](https://www.python.org/about/))
 
+- - - - - - - - - - - - - - - 
 
+Para comenzar a hacer algunas pruebas con el lenguaje, pueden usar algunos servicios en línea:
+
+- http://www.writephponline.com/
+
+- http://phptester.net/
+
+Para hacer desarrollo y pruebas en sus computadores, conviene contar con uno de los siguientes:
+
+- https://www.mamp.info/en/downloads/ 
+
+- https://www.apachefriends.org/es/index.html
+
+- https://www.wampserver.com/en/
+
+Si instalan la primera de las opciones, podrán buscar entre los archivos de programas la carpeta de MAMP, al abrirla encontrarán la carpeta `htdocs` y allí dentro podrían colocar los archivos que se contienen dentro de esta carpeta para poder hacer las siguientes pruebas: 
+
+1. Armar una página incluyendo distintas partes. 
+
+2. Hacer consulta a documento CSV en línea. 
+
+3. Generar distintas página con despliegue de detalles desde una única estructura.
+
+4. Crear un documento que despliegue, automáticamente, las imágenes que se encuentren en una carpeta.
+
+5. Enviar un correo desde un formulario de contacto.
+
+- - - - - - - - - - - - - - - 
+
+###### [IR A CLASE 16 →](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-16)
