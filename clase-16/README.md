@@ -30,6 +30,10 @@ Pero, antes de escribir la primera línea de código del MPV, aún podemos usar 
 
 Complementando lo enviado a sus correos, corresponde considerar:
 
+**Para el uso de imágenes** - Sean cuidadosas/os con la relación tamaño-calidad-peso de cada imagen que utilicen. La diversidad de dispositivos hace difícil establecer un tamaño único, pero antes de ello conviene considerar otra diversidad: La de conexiones a Internet, para la que conviene ponerse en el peor de los casos. Simplificando mucho: X tiene una velocidad de bajada de 100kb/s. O sea, cada segundo apenas puede descargar 100kb… si ustedes meten una imagen de 1MB (1000 kb), les exigirán a X una espera de 10 segundos por ella. 
+
+Ideal sería ajustar el ancho y alto de cada imagen según el [ratio](https://es.wikipedia.org/wiki/Relaci%C3%B3n_de_aspecto) que convenga a su diseño desplegado en la pantalla en la que esperan el resultado óptimo –http://screensiz.es/—. Prefieran formatos PNG o JPG, comprobando "al ojo" su calidad (si lo hacen en pantalla retina, mucho mejor), y cuiden que el peso de la imagen se indique en kb, porque cuando se indica en MB hablamos de miles de kb.
+
 **Para el uso de Google Fonts** - Por razones de optimización en el despliegue (velocidad), no es tan recomendable usar el `@import ('…')`; pero, por ahora, que trabajamos con páginas estáticas, que no se preparan del lado del servidor (de modo dinámico, sea con [PHP](https://www.php.net/manual/es/intro-whatis.php), [Ruby](https://www.ruby-lang.org/es/documentation/) o [Python](https://www.python.org/about/)), resulta útil para evitarnos repetir en cada pagina ese `<link href="…" rel="stylesheet">` que tendría que ir por ellas. Nos evita fallas derivadas del olvidar repetirlo.
 
 Si se quiere revisar aquello que nos permiten el trabajo con programación del lado del servidor, puedes revisar una breve intro a PHP.
