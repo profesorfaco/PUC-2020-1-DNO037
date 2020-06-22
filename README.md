@@ -22,11 +22,11 @@
 
 - una nota por evaluación parcial del miércoles 6 de mayo, 2020;
 
-- una nota por evaluación parcial del miércoles 10 de junio, 2020;
+- una nota por evaluación parcial del miércoles 17 de junio, 2020;
 
-- una nota por avance en trabajo final; y
+- una nota por avance en trabajo final del miércoles 24 de junio, 2020; y
 
-- una nota por resultado de trabajo final.
+- una nota por resultado de trabajo final, a entergar el miércoles 1 de julio.
 
 #### Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web.
 
@@ -62,7 +62,7 @@ Se proyecta la siguiente organización de las clases durante el primer semestre 
 
 **[Clase 15 → Miércoles 17 de junio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-15) → Evaluación Bootstrap/Trabajo final 1 de 3** ✓
 
-**Clase 16 → Miércoles 24 de junio → Trabajo final 2 de 3 → Tutorías**
+**[Clase 16 → Miércoles 24 de junio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-16) → Trabajo final 2 de 3 → Tutorías** ✓
 
 **Clase 17 → Miércoles 1 de julio → Trabajo final 3 de 3 → Evaluación final**
 
