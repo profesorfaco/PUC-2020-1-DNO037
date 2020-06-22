@@ -20,7 +20,7 @@ Pero, antes de escribir la primera línea de código del MPV, aún podemos usar 
 
 - **Wireflow** - https://www.nngroup.com/articles/wireflows/
 
-- **Style Guide** - http://styleguides.io/examples
+- **Style Guide** - https://www.nngroup.com/articles/front-end-style-guides/ + http://styleguides.io/examples
 
 (Estas y otras técnicas son examinadas en detalle en el OPR de [Usabilidad y Nuevos Medios](http://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=dno046); así como [Diseño y Nuevos Medios](https://github.com/profesorfaco/dno037-2020/blob/gh-pages/README.md), tal OPR es parte del [Certificado Académico Interdisciplinario en Desarrollo de Productos y Servicios Digitales](http://formaciongeneral.uc.cl/certificados-academicos/interdisciplinarios/arquitectura-diseno-y-estudios-urbanos/escuela-de-diseno/desarrollo-de-productos-y-servicios-digitales))
 
