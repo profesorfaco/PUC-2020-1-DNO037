@@ -29,6 +29,6 @@ Como se puede notar en el ejemplo:
 
 - El lenguaje ofrece una [serie de funciones](https://www.php.net/manual/es/funcref.php) que se organizan en tipos tales como [Funciones de strings](https://www.php.net/manual/es/ref.strings.php), donde se encuentra el [`print`](https://www.php.net/manual/es/function.print.php).
 
-Como PHP lleva muchos años desarrollándose como opción popular para la programación de sitios web dinámicos, el número de funciones que ofrece es amplísimo, y el modo en que se escribe podría verse un poco anticuado (si se compara con [Ruby](https://www.ruby-lang.org/es/documentation/) o [Python](https://www.python.org/about/))
+Como PHP fue por muchos años la opción más popular para la [programación de páginas web dinámicas](https://developer.mozilla.org/es/docs/Learn/Server-side), el número de funciones que ofrece es amplísimo y el modo en que se escribe podría verse un poco anticuado (si se compara con [Ruby](https://www.ruby-lang.org/es/documentation/) o [Python](https://www.python.org/about/))
 
 
