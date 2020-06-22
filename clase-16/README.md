@@ -10,7 +10,7 @@
 
 Por tal sacudida, y la propagación del uso del software, se han incorporado conceptos tales como "Mínimo Producto Viable" (MPV; en inglés MVP de [Minimum Viable Product](https://www.youtube.com/watch?v=ixpphYTDiOM)); concepto que implica el trabajo justo y necesario para obtener el máximo de *feedback* en cada iteración, y no corresponde confundir con prototipo.
 
-Antes de escribir la primera línea de código del MPV, bien podemos usar **algunas técnicas que permiten alinear la toma de decisiones en contextos más o menos alejados del computador**:
+Pero, antes de escribir la primera línea de código del MPV, aún podemos usar **algunas técnicas que permiten alinear la toma de decisiones en contextos más o menos alejados del computador**:
 
 - **Proto-persona** - https://www.dtelepathy.com/blog/philosophy/how-to-make-proto-pesonas
 
