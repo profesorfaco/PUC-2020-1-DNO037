@@ -8,7 +8,7 @@
 
 [La clase recién pasada](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-15) se evaluó una entrega temprana para el desarrollo continuo de un sitio web, cuyo éxito dependerá de iteraciones que, a su vez, dependerán de colaboración, diálogo y capacidad de respuesta ante el cambio; este modo de trabajo se alinea con [los principios del manifiesto ágil](https://agilemanifesto.org/iso/es/principles.html). Manifiesto en el que confluyen distintas alternativas de desarrollo de software que, por resolver [una crisis](https://es.wikipedia.org/wiki/Crisis_del_software), sacudieron el [desarrollo en cascada](https://es.wikipedia.org/wiki/Desarrollo_en_cascada) que echaba mano a documentos, planos, modelos, moldes, materias primas, líneas de producción, vistos buenos, supervisiones de implementación, evaluación, etc.
 
-Por tal sacudida, y la propagación del uso del software, se han incorporado conceptos tales como "Mínimo Producto Viable" (MPV; en inglés MVP de [Minimum Viable Product](https://www.youtube.com/watch?v=ixpphYTDiOM)); concepto que implica el trabajo justo y necesario para obtener el máximo de *feedback* en cada iteración.
+Por tal sacudida, y la propagación del uso del software, se han incorporado conceptos tales como "Mínimo Producto Viable" (MPV; en inglés MVP de [Minimum Viable Product](https://www.youtube.com/watch?v=ixpphYTDiOM)); concepto que implica el trabajo justo y necesario para obtener el máximo de *feedback* en cada iteración, y no corresponde confundir con prototipo.
 
 Antes de escribir la primera línea de código del MPV, bien podemos usar **algunas técnicas que permiten alinear la toma de decisiones en contextos más o menos alejados del computador**:
 
