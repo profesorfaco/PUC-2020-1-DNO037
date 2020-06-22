@@ -36,7 +36,7 @@ Ideal sería ajustar el ancho y alto de cada imagen según el [ratio](https://es
 
 **Para el uso de Google Fonts** - Por razones de optimización en el despliegue (velocidad), no es tan recomendable usar el `@import ('…')`; pero, por ahora, que trabajamos con páginas estáticas, que no se preparan del lado del servidor (de modo dinámico, sea con [PHP](https://www.php.net/manual/es/intro-whatis.php), [Ruby](https://www.ruby-lang.org/es/documentation/) o [Python](https://www.python.org/about/)), resulta útil para evitarnos repetir en cada pagina ese `<link href="…" rel="stylesheet">` que tendría que ir por ellas. Nos evita fallas derivadas del olvidar repetirlo.
 
-Si quisieras revisar aquello que nos permite la programación del lado del servidor, puedes revisar una [breve intro a PHP](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-php).
+**Si quisieras revisar aquello que nos permite la programación del lado del servidor, puedes revisar una [breve intro a PHP](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-php)**.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - -
 
