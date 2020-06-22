@@ -10,7 +10,7 @@
 
 Por tal sacudida, y la propagación del uso del software, se han incorporado conceptos tales como "Mínimo Producto Viable" (MPV; en inglés MVP de [Minimum Viable Product](https://www.youtube.com/watch?v=ixpphYTDiOM)); concepto que implica el trabajo justo y necesario para obtener el máximo de *feedback* en cada iteración.
 
-Antes de escribir la primera línea de código del MPV, bien podemos usar **algunas técnicas* que permiten alinear la toma de decisiones en contextos más o menos alejados del computador**:
+Antes de escribir la primera línea de código del MPV, bien podemos usar **algunas técnicas que permiten alinear la toma de decisiones en contextos más o menos alejados del computador**:
 
 - **Proto-persona** - https://www.dtelepathy.com/blog/philosophy/how-to-make-proto-pesonas
 
@@ -22,7 +22,7 @@ Antes de escribir la primera línea de código del MPV, bien podemos usar **algu
 
 - **Style Guide** - http://styleguides.io/examples
 
-(* Estas técnicas son examinadas en detalle en el OPR de [Usabilidad y Nuevos Medios](http://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=dno046); como este, tal OPR es parte del [Certificado Académico Interdisciplinario en Desarrollo de Productos y Servicios Digitales](http://formaciongeneral.uc.cl/certificados-academicos/interdisciplinarios/arquitectura-diseno-y-estudios-urbanos/escuela-de-diseno/desarrollo-de-productos-y-servicios-digitales))
+(Estas y otras técnicas son examinadas en detalle en el OPR de [Usabilidad y Nuevos Medios](http://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=dno046); como Diseño y Nuevos Medios, tal OPR es parte del [Certificado Académico Interdisciplinario en Desarrollo de Productos y Servicios Digitales](http://formaciongeneral.uc.cl/certificados-academicos/interdisciplinarios/arquitectura-diseno-y-estudios-urbanos/escuela-de-diseno/desarrollo-de-productos-y-servicios-digitales))
 
 - - - - - - - - - - - - - - - - - - - - - - - - - -
 
