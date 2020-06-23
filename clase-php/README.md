@@ -51,13 +51,11 @@ Si instalan la primera de las opciones, podrán buscar entre los archivos de pro
 
 1. Armar una página incluyendo distintas partes. 
 
-2. Hacer consulta a documento CSV en línea. 
+2. Crear un documento que despliegue, automáticamente, las imágenes que se encuentren en una carpeta.
 
-3. Generar distintas página con despliegue de detalles desde una única estructura.
+3. Hacer consulta a documento CSV en línea. 
 
-4. Crear un documento que despliegue, automáticamente, las imágenes que se encuentren en una carpeta.
-
-5. Enviar un correo desde un formulario de contacto.
+4. Generar distintas página con despliegue de detalles desde una única estructura.
 
 - - - - - - - - - - - - - - - 
 
