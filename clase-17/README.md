@@ -2,19 +2,19 @@
 
 ### Clase 17 → Miércoles 1 de julio, 2020
 
-##### Entrega de examen
+**Entrega de examen**
 
 Hasta las 12.50 hrs. del día, debes enviar correo a profesor@faco.cl, con copia a felipe.cortez@uc.cl, con el asunto: DNOO37-2020-COVID19
 
-En el cuerpo del correo debes indicar la URL de tu sitio web profesional, además de ello, debes indicar una de las siguientes: 
+En el cuerpo del correo debes indicar la URL definitiva de tu sitio web profesional, además de ello, debes indicar una de las siguientes: 
 
-- copiar/pegar correo de entrega a contraparte, donde se le indique que ya está listo lo que hiciste. 
+- copiar/pegar correo de entrega a contraparte, donde se le indique que ya está listo lo que hiciste (si trabajaste con contraparte).
 
-- copiar/pegar url de una publicación en redes sociales donde se indique que tu sitio web ya puede ser visitado. 
+- copiar/pegar url de una publicación en redes sociales donde se indique que tu sitio web ya puede ser visitado (si fue autoencargo).
 
 Puedes aprovechar el correo para agregar *feedback* para esta décima versión del OPR.
 
-La dirección de su entrega será publicada a continuación, con la comparación del inicio y el final:
+La dirección de cada entrega será agregada a continuación, con la comparación del inicio y el final:
 
 
 | No.   | Nombre        | Partida                   | Llegada              |
