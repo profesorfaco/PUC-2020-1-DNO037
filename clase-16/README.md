@@ -28,7 +28,19 @@ Pero, antes de escribir la primera línea de código del MPV, aún podemos usar 
 
 #### TIPS DE CIERRE
 
-Complementando lo enviado a sus correos, corresponde considerar:
+Complementando lo enviado a sus correos y comentado en las tutorías, corresponde considerar:
+
+**Para ordenar el código** - Pueden buscar herramientas en línea con los conceptos *beautifier*  o *formatter*. Un par de resultados son https://codebeautify.org/ o https://webformatter.com/ - La ventaja de la segunda herramienta mencionada es que, además de ordenarles el código HTML, puede ayudarles a encontrar [*bugs*](https://es.wikipedia.org/wiki/Error_de_software).
+
+**Para el uso de color** - Conviene tener a la base un *moodboard* con elementos coloreados que, en cada contexto cultural, se relacionen con el [*tone voice*](https://www.nngroup.com/videos/establishing-tone-voice/) pertinente. Desde aquello elementos pueden extraer colores, sea de modo:
+
+- automático: usando https://color.adobe.com/es/create/image
+
+- controlado: usando el efecto gaussian blur (desenfoque gaussiano) de Photoshop para convertir las imágenes en manchones de colores, cuyos niveles pueden ajustar, y luego convertir tales manchones, con efecto pixelar, en recuadros grandes (donde cada recuadro será un color para usar). 
+
+- comparado: buscando los colores en https://material.io/resources/color/
+
+Luego, al aplicar los colores seleccionados, conviene cuidar su [interacción](http://proyectacolor.cl/percepcion-del-color/interaccion-del-color/) y [contraste](http://www.proyectacolor.cl/percepcion-del-color/visibilidad-y-legibilidad/) para la legibilidad.
 
 **Para el uso de imágenes** - Sean cuidadosas/os con la relación tamaño-calidad-peso de cada imagen que utilicen. La diversidad de dispositivos hace difícil establecer un tamaño único, pero antes de ello conviene considerar otra diversidad: La de conexiones a Internet, para la que conviene ponerse en el peor de los casos. Simplificando mucho: X tiene una velocidad de bajada de 100kb/s. O sea, cada segundo apenas puede descargar 100kb… si ustedes meten una imagen de 1MB (1000 kb), les exigirán a X una espera de 10 segundos por ella. 
 
