@@ -17,24 +17,24 @@ Puedes aprovechar el correo para agregar *feedback* para esta décima versión d
 La dirección de cada entrega será agregada a continuación, con la comparación del inicio y el final:
 
 
-| No.   | Nombre        | Partida                   | Llegada              |
-|:-----:|:--------------|:--------------------------|:---------------------|
-| 1 | MARÍA PAZ CONCHA  | https://mpconcha.github.io/clase-01/    | Pendiente |
-| 2 | OLGA F. VIO       | https://caracolga.github.io/holap/  | Pendiente |
-| 3 | MATÍAS HAGEN      | —                     | Pendiente |
-| 4 | MARÍA FRANCISCA HEPP  | https://franhepp.github.io/clase-01/    | Pendiente |
-| 5 | MARIA ELIANA INFANTE  | https://maritainfante.github.io/clase-01/ | Pendiente |  
-| 6 | MAGDALENA LABARCA   | https://maidalw.github.io/clase-01/   | Pendiente |
-| 7  | VANESSA MÜLLER    | https://vymuller.github.io/clase-01/    | Pendiente |
-| 8  | JANA MÜLLER     | —                     | Pendiente |
-| 9  | MURIEL MUÑOZ      | https://murimu.github.io/clase-01/    | Pendiente |
-| 10  | ROSARIO OLIVARES    | https://rosarioof.github.io/clase-01/   | Pendiente |
-| 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | Pendiente |
-| 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | Pendiente |
-| 13  | FRANCISCA PURCELL   | https://fmpurcell.github.io/clase-01/   | Pendiente |
-| 14  | MARTINA RIVAS     | https://mrivas29.github.io/clase-01/    | Pendiente |
-| 15  | LISA SAEZ       | https://lisandrea5.github.io/Clase-01/      | Pendiente |
-| 16  | CECILIA SOTO      | https://cecysoto.github.io/clase-01/    | Pendiente |
+| No.   | Nombre        | Partida                   | Llegada              | NOTA  |
+|:-----:|:--------------|:--------------------------|:---------------------|:-----:|
+| 1 | MARÍA PAZ CONCHA  | https://mpconcha.github.io/clase-01/    | Pendiente | Pendiente |
+| 2 | OLGA F. VIO       | https://caracolga.github.io/holap/  | Pendiente | Pendiente |
+| 3 | MATÍAS HAGEN      | —                     | Pendiente | Pendiente |
+| 4 | MARÍA FRANCISCA HEPP  | https://franhepp.github.io/clase-01/    | Pendiente | Pendiente |
+| 5 | MARIA ELIANA INFANTE  | https://maritainfante.github.io/clase-01/ | Pendiente | Pendiente |  
+| 6 | MAGDALENA LABARCA   | https://maidalw.github.io/clase-01/   | Pendiente | Pendiente |
+| 7  | VANESSA MÜLLER    | https://vymuller.github.io/clase-01/    | Pendiente | Pendiente |
+| 8  | JANA MÜLLER     | —                     | Pendiente | Pendiente |
+| 9  | MURIEL MUÑOZ      | https://murimu.github.io/clase-01/    | Pendiente | Pendiente |
+| 10  | ROSARIO OLIVARES    | https://rosarioof.github.io/clase-01/   | Pendiente | Pendiente |
+| 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | Pendiente | Pendiente |
+| 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | Pendiente | Pendiente |
+| 13  | FRANCISCA PURCELL   | https://fmpurcell.github.io/clase-01/   | Pendiente | Pendiente |
+| 14  | MARTINA RIVAS     | https://mrivas29.github.io/clase-01/    | Pendiente | Pendiente |
+| 15  | LISA SAEZ       | https://lisandrea5.github.io/Clase-01/      | Pendiente | Pendiente |
+| 16  | CECILIA SOTO      | https://cecysoto.github.io/clase-01/    | Pendiente | Pendiente |
 
 - - - - - - - - - - - - - - 
 
