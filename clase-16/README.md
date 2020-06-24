@@ -36,11 +36,11 @@ Complementando lo enviado a sus correos y comentado en las tutorías, correspond
 
 - automático: usando https://color.adobe.com/es/create/image
 
-- controlado: usando el efecto gaussian blur (desenfoque gaussiano) de Photoshop para convertir las imágenes en manchones de colores, cuyos niveles pueden ajustar, y luego convertir tales manchones, con efecto pixelar, en recuadros grandes (donde cada recuadro será un color para usar). 
+- controlado: usando el efecto gaussian blur (desenfoque gaussiano) de Photoshop, pueden convertir las imágenes de su *moodboard* en manchones de colores (cuyos niveles pueden ajustar) y luego convertir tales manchones, con efecto pixelar, en recuadros grandes (donde cada recuadro será un color para usar). 
 
-- comparado: buscando los colores en https://material.io/resources/color/
+- comparado: buscando los colores [dominantes, tónicos y de mediación](http://proyectacolor.cl/percepcion-del-color/armonias-de-color/) del *moodboard* en https://material.io/resources/color/
 
-Luego, al aplicar los colores seleccionados, conviene cuidar su [interacción](http://proyectacolor.cl/percepcion-del-color/interaccion-del-color/) y [contraste](http://www.proyectacolor.cl/percepcion-del-color/visibilidad-y-legibilidad/) para la legibilidad.
+Luego, al aplicar los colores seleccionados, conviene cuidar su [interacción](http://proyectacolor.cl/percepcion-del-color/interaccion-del-color/) y [contraste](http://www.proyectacolor.cl/percepcion-del-color/visibilidad-y-legibilidad/) para asegurar la [accesibilidad](https://webdesign.tutsplus.com/es/articles/accessibility-basics-designing-for-visual-impairment--cms-27634).
 
 **Para el uso de imágenes** - Sean cuidadosas/os con la relación tamaño-calidad-peso de cada imagen que utilicen. La diversidad de dispositivos hace difícil establecer un tamaño único, pero antes de ello conviene considerar otra diversidad: La de conexiones a Internet, para la que conviene ponerse en el peor de los casos. Simplificando mucho: X tiene una velocidad de bajada de 100kb/s. O sea, cada segundo apenas puede descargar 100kb… si ustedes meten una imagen de 1MB (1000 kb), les exigirán a X una espera de 10 segundos por ella. 
 
