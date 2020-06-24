@@ -64,7 +64,7 @@ Se proyecta la siguiente organización de las clases durante el primer semestre 
 
 **[Clase 16 → Miércoles 24 de junio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-16) → Trabajo final 2 de 3 → Tutorías** ✓
 
-**Clase 17 → Miércoles 1 de julio → Trabajo final 3 de 3 → Evaluación final**
+**[Clase 17 → Miércoles 1 de julio](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-17) → Trabajo final 3 de 3 → Evaluación final**
 
 #### Bibliografía
 
