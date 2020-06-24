@@ -52,5 +52,6 @@ Ideal sería ajustar el ancho y alto de cada imagen según el [ratio](https://es
 
 - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+[Clase final &rarr;](https://github.com/profesorfaco/dno037-2020/tree/gh-pages/clase-17)
 
 
