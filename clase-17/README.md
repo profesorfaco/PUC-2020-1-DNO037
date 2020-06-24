@@ -49,3 +49,6 @@ La calificación se establecerá de la siguiente manera:
 | 1.5 | Metadatos (ahora no hay que esconder, hay que visibilizar) |
 | 1.5 | Resultado final con criterio comparativo; ordenaré la calidad de resolución en un ranking donde top 1 obtendrá los 1.5, y en cada puesto que siga se perderá 0.1; no descarto la posibilidad de poner a varios resultado en un mismo puesto, o sea, podría haber más de un top 1, 2, 3, etc. |
 
+- - - - - - - - - - - - - - 
+
+MUCHAS GRACIAS
