@@ -36,3 +36,16 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 | 15  | LISA SAEZ       | https://lisandrea5.github.io/Clase-01/      | Pendiente |
 | 16  | CECILIA SOTO      | https://cecysoto.github.io/clase-01/    | Pendiente |
 
+- - - - - - - - - - - - - - 
+
+La calificación se establecerá de la siguiente manera: 
+
+| Puntaje | Criterio  |
+|:-------:|:----------|
+| 1.0 | Punto base    |
+| 1.0 | Enviar correo antes de las 12.50 hrs. (si lo envía durante el día, pero más tarde, pierde este punto, pero si ni lo envía durante el día: obtiene nota mínima 1.0) |
+| 1.0 | Indicar URL definitiva (no puede entregar con Github Pages ni menos adjuntando la versión definitiva en un ZIP; debe resolver los asuntos de dominio y hosting) |
+| 1.0 | Copiar/Pegar correo de entrega o vínculo de publicación en red social |
+| 1.5 | Metadatos (ahora no hay que esconder, hay que visibilizar) |
+| 1.5 | Resultado final con criterio comparativo; ordenaré la calidad de resolución en un ranking donde top 1 obtendrá los 1.5, y en cada puesto que siga se perderá 0.1; no descarto la posibilidad de poner a varios resultado en un mismo puesto, o sea, podría haber más de un top 1, 2, 3, etc. |
+
