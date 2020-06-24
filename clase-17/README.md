@@ -2,7 +2,7 @@
 
 ### Clase 17 → Miércoles 1 de julio, 2020
 
-**Entrega de examen**
+**Entrega final**
 
 Hasta las 12.50 hrs. del día, debes enviar correo a profesor@faco.cl, con copia a felipe.cortez@uc.cl, con el asunto: DNOO37-2020-COVID19
 
