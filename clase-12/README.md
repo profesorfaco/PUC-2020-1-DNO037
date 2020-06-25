@@ -2,7 +2,7 @@
 
 ### Clase 12 → Miércoles 27 de mayo, 2020
 
-#### Bootstrap
+#### Receso universitario
 
 - - - - - - - 
 
