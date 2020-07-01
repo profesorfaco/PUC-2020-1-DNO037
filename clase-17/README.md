@@ -21,7 +21,7 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 |:-----:|:--------------|:--------------------------|:---------------------|:-----:|
 | 1 | MARÍA PAZ CONCHA  | https://mpconcha.github.io/clase-01/    | https://www.mpcdiseño.cl/ | P |
 | 2 | OLGA F. VIO       | https://caracolga.github.io/holap/  | Pendiente | P |
-| 3 | MATÍAS HAGEN      | —                     | Pendiente | P |
+| 3 | MATÍAS HAGEN      | —                     | https://www.stefanobruzzo.cl/ | P |
 | 4 | MARÍA FRANCISCA HEPP  | https://franhepp.github.io/clase-01/    | Pendiente | P |
 | 5 | MARIA ELIANA INFANTE  | https://maritainfante.github.io/clase-01/ | Pendiente | P |  
 | 6 | MAGDALENA LABARCA   | https://maidalw.github.io/clase-01/   | Pendiente | P |
