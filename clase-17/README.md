@@ -19,7 +19,7 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 
 | No.   | Nombre        | Partida                   | Llegada              | NOTA  |
 |:-----:|:--------------|:--------------------------|:---------------------|:-----:|
-| 1 | MARÍA PAZ CONCHA  | https://mpconcha.github.io/clase-01/    | Pendiente | P |
+| 1 | MARÍA PAZ CONCHA  | https://mpconcha.github.io/clase-01/    | https://www.mpcdiseño.cl/ | P |
 | 2 | OLGA F. VIO       | https://caracolga.github.io/holap/  | Pendiente | P |
 | 3 | MATÍAS HAGEN      | —                     | Pendiente | P |
 | 4 | MARÍA FRANCISCA HEPP  | https://franhepp.github.io/clase-01/    | Pendiente | P |
@@ -31,7 +31,7 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 | 10  | ROSARIO OLIVARES    | https://rosarioof.github.io/clase-01/   | Pendiente | P |
 | 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | Pendiente | P |
 | 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | Pendiente | P |
-| 13  | FRANCISCA PURCELL   | https://fmpurcell.github.io/clase-01/   | Pendiente | P |
+| 13  | FRANCISCA PURCELL   | https://fmpurcell.github.io/clase-01/   | http://franciscapurcell.cl/ | P |
 | 14  | MARTINA RIVAS     | https://mrivas29.github.io/clase-01/    | Pendiente | P |
 | 15  | LISA SAEZ       | https://lisandrea5.github.io/Clase-01/      | Pendiente | P |
 | 16  | CECILIA SOTO      | https://cecysoto.github.io/clase-01/    | Pendiente | P |
