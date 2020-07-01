@@ -26,8 +26,8 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 | 5 | MARIA ELIANA INFANTE  | https://maritainfante.github.io/clase-01/ | Pendiente | P |  
 | 6 | MAGDALENA LABARCA   | https://maidalw.github.io/clase-01/   | Pendiente | P |
 | 7  | VANESSA MÜLLER    | https://vymuller.github.io/clase-01/    | Pendiente | P |
-| 8  | JANA MÜLLER     | —                     | http://murielmunoz.cl/dno037/ | P |
-| 9  | MURIEL MUÑOZ      | https://murimu.github.io/clase-01/    | Pendiente | P |
+| 8  | JANA MÜLLER     | —                     | Pendiente | P |
+| 9  | MURIEL MUÑOZ      | https://murimu.github.io/clase-01/    | http://murielmunoz.cl/dno037/ | P |
 | 10  | ROSARIO OLIVARES    | https://rosarioof.github.io/clase-01/   | Pendiente | P |
 | 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | Pendiente | P |
 | 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | Pendiente | P |
