@@ -23,14 +23,14 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 | 2 | OLGA F. VIO       | https://caracolga.github.io/holap/  | https://olga.cl/ | P |
 | 3 | MATÍAS HAGEN      | —                     | https://www.stefanobruzzo.cl/ | P |
 | 4 | MARÍA FRANCISCA HEPP  | https://franhepp.github.io/clase-01/    | https://www.franhepp.cl/ | P |
-| 5 | MARIA ELIANA INFANTE  | https://maritainfante.github.io/clase-01/ | Pendiente | P |  
+| 5 | MARIA ELIANA INFANTE  | https://maritainfante.github.io/clase-01/ | http://www.bordandoentrebastidores.com/ | P |  
 | 6 | MAGDALENA LABARCA   | https://maidalw.github.io/clase-01/   | Pendiente | P |
-| 7  | VANESSA MÜLLER    | https://vymuller.github.io/clase-01/    | Pendiente | P |
+| 7  | VANESSA MÜLLER    | https://vymuller.github.io/clase-01/    | https://vmuller.cl/ | P |
 | 8  | JANA MÜLLER     | —                     | Pendiente | P |
 | 9  | MURIEL MUÑOZ      | https://murimu.github.io/clase-01/    | http://murielmunoz.cl/dno037/ | P |
 | 10  | ROSARIO OLIVARES    | https://rosarioof.github.io/clase-01/   | Pendiente | P |
-| 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | Pendiente | P |
-| 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | Pendiente | P |
+| 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | http://valerionskii.cl/ | P |
+| 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | https://panshios.cl/ | P |
 | 13  | FRANCISCA PURCELL   | https://fmpurcell.github.io/clase-01/   | http://franciscapurcell.cl/ | P |
 | 14  | MARTINA RIVAS     | https://mrivas29.github.io/clase-01/    | http://www.mrivasgodoy.cl/ | P |
 | 15  | LISA SAEZ       | https://lisandrea5.github.io/Clase-01/      | Pendiente | P |
