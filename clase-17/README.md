@@ -46,8 +46,8 @@ La calificación se establecerá de la siguiente manera:
 | 1.0 | Enviar correo antes de las 12.50 hrs. (pierde este punto si lo envía más tarde, pero obtiene nota mínima si no lo entrega durante el día)
 | 1.0 | Indicar URL definitiva (no puede entregar con Github Pages ni menos adjuntando al correo la versión definitiva en un ZIP; debe resolver los asuntos de dominio y hosting, caso contrario obtiene nota mínima) |
 | 1.0 | Copiar/Pegar correo de entrega o vínculo de publicación en red social |
-| 1.5 | Metadatos (ahora no hay que esconder, hay que visibilizar) |
-| 1.5 | Resultado final con criterio comparativo; ordenaré la calidad de resolución en un ranking donde top 1 obtendrá los 1.5, y en cada puesto que siga se perderá 0.1; no descarto la posibilidad de poner a varios resultado en un mismo puesto, o sea, podría haber más de un top 1, 2, 3, etc. |
+| 1.5 | Metadatos (ahora no hay que esconder, hay que visibilizar; con metadatos bien resueltos habrá una buena publicación en red social) |
+| 1.5 | Resultado final con criterio comparativo; ordenaré la calidad de resolución en un ranking donde top 1 obtendrá los 1.5, y en cada puesto que siga se perderá 0.1; no descarto la posibilidad de poner varios resultado en un mismo puesto, o sea, podría haber más de un top 1, 2, 3, etc. |
 
 - - - - - - - - - - - - - - 
 
