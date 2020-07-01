@@ -32,7 +32,7 @@ La dirección de cada entrega será agregada a continuación, con la comparació
 | 11  | VALERIA PARRAGUEZ   | https://valeriaparraguezojeda.github.io/clase1/ | Pendiente | P |
 | 12  | FRANCISCO PEZOA   | https://panshios.github.io/clase-01/    | Pendiente | P |
 | 13  | FRANCISCA PURCELL   | https://fmpurcell.github.io/clase-01/   | http://franciscapurcell.cl/ | P |
-| 14  | MARTINA RIVAS     | https://mrivas29.github.io/clase-01/    | Pendiente | P |
+| 14  | MARTINA RIVAS     | https://mrivas29.github.io/clase-01/    | http://www.mrivasgodoy.cl/ | P |
 | 15  | LISA SAEZ       | https://lisandrea5.github.io/Clase-01/      | Pendiente | P |
 | 16  | CECILIA SOTO      | https://cecysoto.github.io/clase-01/    | Pendiente | P |
 
