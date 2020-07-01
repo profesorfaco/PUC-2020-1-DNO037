@@ -4,7 +4,7 @@
 
 **Entrega final**
 
-Hasta las 12.50 hrs. del día, debes enviar correo a profesor@faco.cl, con copia a felipe.cortez@uc.cl, con el asunto: DNOO37-2020-COVID19
+Hasta las 12.50 hrs. del día, debes enviar correo a profesor@faco.cl, con copia a felipe.cortez@uc.cl, con el asunto: DNOO37-2020
 
 En el cuerpo del correo debes indicar la URL definitiva de tu sitio web profesional, a lo que debes sumar una de las siguientes: 
 
